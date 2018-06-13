@@ -24,7 +24,11 @@ if has_feature(account, feature_mysql):
 
     steps = [
         python(
-            "Tools/" + wipe_script
+            "Tools/" + wipe_script,
+            "../Matrices/wp-config.php.matrix",
+            "../Content/wp-config.php",
+            config_matrix_db_host, mysql_host_full,
+            # httpd_conf_matrix_port_placeholder, str(system_configuration[account][key_configuration_port]),
         )
     ]
 
