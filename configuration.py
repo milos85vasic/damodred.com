@@ -1,5 +1,6 @@
 from Tools.configuration import *
 
+db_name = "mvasic_maja"
 mysql_host = "127.0.0.1"
 
 config_matrix_db = "CONFIG_MATRIX_DB"

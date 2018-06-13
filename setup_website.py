@@ -23,7 +23,13 @@ if has_feature(account, feature_mysql):
 
     # TODO: Execute SQL.
 
+    mysql_password = "undefined"
     mysql_host_full = mysql_host + ":" + str(mysql_port)
+    if account in system_configuration:
+        if key_services in system_configuration[account]:
+            if key_credentials in system_configuration[account][key_services]:
+                if feature_mysql in system_configuration[account][key_services][key_credentials]:
+                    mysql_password = system_configuration[account][key_services][key_credentials][feature_mysql]
 
     steps = [
         python(
@@ -31,7 +37,9 @@ if has_feature(account, feature_mysql):
             content_dir_path(home) + "/" + url + "/Matrices/wp-config.php.matrix",
             content_dir_path(home) + "/" + url + "/Content/wp-config.php",
             config_matrix_db_host, mysql_host_full,
-            # httpd_conf_matrix_port_placeholder, str(system_configuration[account][key_configuration_port]),
+            config_matrix_db, db_name,
+            config_matrix_db_user, account,
+            config_matrix_db_password, mysql_password
         )
     ]
 
