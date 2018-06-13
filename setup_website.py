@@ -9,6 +9,7 @@ from os.path import expanduser
 # Create and clone uploads
 #
 
+url = sys.argv[2]
 account = sys.argv[1]
 home = expanduser("~")
 mysql_port = default_port_mysql
@@ -27,8 +28,8 @@ if has_feature(account, feature_mysql):
     steps = [
         python(
             "Tools/" + wipe_script,
-            "../Matrices/wp-config.php.matrix",
-            "../Content/wp-config.php",
+            content_dir_path(home) + "/" + url + "/Matrices/wp-config.php.matrix",
+            content_dir_path(home) + "/" + url + "/Content/wp-config.php",
             config_matrix_db_host, mysql_host_full,
             # httpd_conf_matrix_port_placeholder, str(system_configuration[account][key_configuration_port]),
         )
