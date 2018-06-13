@@ -23,7 +23,9 @@ if has_feature(account, feature_mysql):
     mysql_host_full = mysql_host + ":" + str(mysql_port)
 
     steps = [
-
+        python(
+            "Tools/" + wipe_script
+        )
     ]
 
     run(steps)
