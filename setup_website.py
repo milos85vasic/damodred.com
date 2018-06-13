@@ -1,8 +1,9 @@
 import sys
 
-from configuration import *
 from Tools.system_configuration import *
 from Tools.commands import *
+from Tools.mysql_common import *
+from configuration import *
 from os.path import expanduser
 
 url = sys.argv[2]
@@ -17,13 +18,15 @@ if has_feature(account, feature_mysql):
         if key_configuration_port_mysql in system_configuration[account]:
             mysql_port = system_configuration[account][key_configuration_port_mysql]
 
-    steps = [
+    mysql_password = "undefined"
 
+    steps = [
+        get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + mysql_port + " --user=" + account +
+        " --password=" + mysql_password + " < "
     ]
 
     run(steps)
 
-    mysql_password = "undefined"
     mysql_host_full = mysql_host + ":" + str(mysql_port)
     if account in system_configuration:
         if key_services in system_configuration[account]:
