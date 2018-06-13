@@ -11,6 +11,7 @@ from os.path import expanduser
 
 account = sys.argv[1]
 home = expanduser("~")
+mysql_port = default_port_mysql
 
 system_configuration = get_system_configuration()
 
@@ -19,4 +20,10 @@ if has_feature(account, feature_mysql):
         if key_configuration_port_mysql in system_configuration[account]:
             mysql_port = system_configuration[account][key_configuration_port_mysql]
 
+    mysql_host_full = mysql_host + ":" + str(mysql_port)
 
+    steps = [
+
+    ]
+
+    run(steps)

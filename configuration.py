@@ -1,7 +1,6 @@
 from Tools.configuration import *
 
 mysql_host = "127.0.0.1"
-mysql_port = default_port_mysql
 
 config_matrix_db = "CONFIG_MATRIX_DB"
 config_matrix_db_user = "CONFIG_MATRIX_DB_USER"
