@@ -5,10 +5,6 @@ from Tools.system_configuration import *
 from Tools.commands import *
 from os.path import expanduser
 
-# Clone & run SQLs
-# Create and clone uploads
-#
-
 url = sys.argv[2]
 account = sys.argv[1]
 home = expanduser("~")
@@ -21,7 +17,11 @@ if has_feature(account, feature_mysql):
         if key_configuration_port_mysql in system_configuration[account]:
             mysql_port = system_configuration[account][key_configuration_port_mysql]
 
-    # TODO: Execute SQL.
+    steps = [
+
+    ]
+
+    run(steps)
 
     mysql_password = "undefined"
     mysql_host_full = mysql_host + ":" + str(mysql_port)
