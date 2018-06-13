@@ -22,7 +22,7 @@ if has_feature(account, feature_mysql):
 
     steps = [
         get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + mysql_port + " --user=" + account +
-        " --password=" + mysql_password + " < "
+        " --password=" + mysql_password + " < " + content_dir_path(home) + "/" + url + "/SQL/init.sql"
     ]
 
     run(steps)
