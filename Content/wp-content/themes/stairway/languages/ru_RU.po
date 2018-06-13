@@ -1,0 +1,1229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StairWay v1.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-29 08:27+0100\n"
+"PO-Revision-Date: 2014-04-27 08:48+0100\n"
+"Last-Translator: andew <andew@andew.ru>\n"
+"Language-Team: \n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+
+# @ stairway
+#: 404.php:12 search.php:38
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ stairway
+#: 404.php:20
+msgid ""
+"Apologies, but no results were found for your request. Perhaps searching "
+"will help you to find a related content."
+msgstr ""
+"К сожалению ничего не найдено по Вашему запросу. Попробуйте воспользоваться "
+"поиском."
+
+# @ stairway
+#: archive.php:15
+#, php-format
+msgid "Daily Archive: %s"
+msgstr "Дневной архив: %s"
+
+# @ stairway
+#: archive.php:17
+#, php-format
+msgid "Monthly Archive: %s"
+msgstr "Месячный архив: %s"
+
+# @ stairway
+#: archive.php:19
+#, php-format
+msgid "Yearly Archive: %s"
+msgstr "Годовой архив: %s"
+
+# @ stairway
+#: archive.php:21
+msgid "Archive"
+msgstr "Архив"
+
+# @ stairway
+#: author.php:14
+#, php-format
+msgid "Author Archive: %s"
+msgstr "Архив автора: %s"
+
+# @ stairway
+#: author.php:25
+#, php-format
+msgid "About %s"
+msgstr "О %s"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:156 functions.php:394
+msgid "Install Required Plugins"
+msgstr "Установить необходимые плагины"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:157 functions.php:395
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:158 functions.php:399
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:159
+msgid "Something went wrong."
+msgstr "Что то пошло не так."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:170 functions.php:405
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к установщику необходимых плагинов"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:171
+msgid "Return to the dashboard"
+msgstr "Вернуться к панели инструментов"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:172 class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr "Плагин активирован успешно."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:173 class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgstr "Следующий плагин был активирован успешно:"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:174
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины установлены и активированы успешно. %1$s"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:175
+msgid "Dismiss this notice"
+msgstr "Игнорировать это уведомление"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr "Внешняя ссылка"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr "Личное Хранилище"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr "Предварительно упакованные"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr "WordPress репозитория"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr "Необходимый"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr "Рекомендованный"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr "Не установленный"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr "Установленный но не активированный"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Нет плагинов для инсталляции или активации. <a href=\"%1$s\" title="
+"\"Вернуться к панели инструментов\">Вернуться к панели инструментов</a>"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr "Плагин"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr "Источник"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr "Тип"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr "Статус"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr "Установить"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr "Активировать"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr "Установочный пакет не доступен."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Загрузка установочного пакета с <span class=\"code\">%s</span>&#8230;"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr "Распаковка пакета&#8230;"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr "Установка плагина&#8230;"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr "Неудачная установка плагина."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr "Плагин установлен успешно."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr "Неудачная активация плагина."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Процесс установки и активации начался. Этот процесс может занять некоторое "
+"время, поэтому, пожалуйста, будьте терпеливы."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s установлен и активирован успешно."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr "Показать детали"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr "Скрыть детали"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации завершены."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Процесс инсталляции запущен. Этот процесс может занять некоторое время, "
+"пожалуйста, будьте терпеливы."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Произошла ошибка при установке %1$s: <strong>%2$s</strong>."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Установка %1$s не удалась."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s установлен успешно."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr "Все установки завершены."
+
+# @ stairway
+#: class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина %1$s (%2$d/%3$d)"
+
+# @ stairway
+#: class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr "Вернуться к панели инструментов."
+
+# @ stairway
+#: comments.php:14 content-archives.php:22 single.php:26
+#: functions/fe/widget-posts-column.php:114
+#: functions/fe/widget-posts-column.php:132
+#: functions/fe/widget-posts-grid.php:108
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Комментарий"
+msgstr[1] "%1$s Комментарии"
+
+# @ stairway
+#: comments.php:23
+msgid "&larr; Older Comments"
+msgstr "&larr; старые комментарии"
+
+# @ stairway
+#: comments.php:24
+msgid "Newer Comments &rarr;"
+msgstr "Новые Комментарии &rarr;"
+
+# @ stairway
+#: comments.php:30
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+# @ stairway
+#: comments.php:35
+msgid "Your name"
+msgstr "Ваше имя"
+
+# @ stairway
+#: comments.php:36
+msgid "Website"
+msgstr "Веб сайт"
+
+# @ stairway
+#: comments.php:37
+msgid "Comment..."
+msgstr "Комментарий..."
+
+# @ stairway
+#: comments.php:41
+msgid "Leave a Comment"
+msgstr "Оставить комментарий"
+
+# @ stairway
+#: content-archives.php:19 single.php:23
+msgid "Author: "
+msgstr "автор: "
+
+# @ stairway
+#: functions.php:133
+msgid "Main Header Menu"
+msgstr "Основное меню шапки"
+
+# @ stairway
+#: functions.php:134
+msgid "Top Header Menu"
+msgstr "Верхнее меню шапки"
+
+# @ stairway
+#: functions.php:146
+msgid "Right Sidebar"
+msgstr "Правый Sidebar"
+
+# @ stairway
+#: functions.php:148
+msgid "Right sidebar which appears on all posts and pages."
+msgstr "Правый Sidebar с отображением всех записей и страниц."
+
+# @ stairway
+#: functions.php:155
+msgid "Footer left widget area"
+msgstr "Футера левая область"
+
+# @ stairway
+#: functions.php:157
+msgid "Left column with widgets in footer."
+msgstr "Виджет - левый столбец футера."
+
+# @ stairway
+#: functions.php:164
+msgid "Footer middle widget area"
+msgstr "Футера средняя область"
+
+# @ stairway
+#: functions.php:166
+msgid "Middle column with widgets in footer."
+msgstr "Виджет - средний столбец футера"
+
+# @ stairway
+#: functions.php:173
+msgid "Footer right widget area"
+msgstr "Футера правая область"
+
+# @ stairway
+#: functions.php:175
+msgid "Right column with widgets in footer."
+msgstr "Виджет - правый столбец футера."
+
+# @ stairway
+#: functions.php:182
+msgid "Footer notices"
+msgstr "Футера заметок область"
+
+# @ stairway
+#: functions.php:184
+msgid ""
+"The line for copyright and other notices below the footer widget areas. "
+"Insert here one Text widget. The \"Title\" field at this widget should stay "
+"empty."
+msgstr ""
+"Место для авторского права и других уведомлений в нижней области виджета "
+"колонтитула. Вставьте здесь один текстовый виджет. Поле название для этого "
+"виджета нужно оставить пустым."
+
+# @ stairway
+#: functions.php:191
+msgid "Latest Posts Homepage widget area"
+msgstr "Последние записи домашней страницы"
+
+# @ stairway
+#: functions.php:193
+msgid ""
+"The area for any StairWay Posts Widgets, which display latest posts from a "
+"specific category below the default Latest Posts area."
+msgstr ""
+"Место для любых виджетов с записями, которые отображают последние сообщения "
+"из определенной категории. Расположено в записи под областью вывода "
+"последних сообщений."
+
+# @ stairway
+#: functions.php:240
+msgid "Post navigation"
+msgstr "Навигация записи"
+
+# @ stairway
+#: functions.php:242
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Старее записи"
+
+# @ stairway
+#: functions.php:243
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Новее записи <span class=\"meta-nav\">&rarr;</span>"
+
+# @ stairway
+#: functions.php:257
+msgid "&larr; Previous post"
+msgstr "&larr; Предыдущая запись"
+
+# @ stairway
+#: functions.php:258
+msgid "Next post &rarr;"
+msgstr "Следующая запись &rarr;"
+
+# @ stairway
+#: functions.php:275
+msgid "Pingback:"
+msgstr "Pingback:"
+
+# @ stairway
+#: functions.php:275
+msgid "(Edit)"
+msgstr "(Изменить)"
+
+# @ stairway
+#: functions.php:288
+msgid "(Post author)"
+msgstr "(Автор записи)"
+
+# @ stairway
+#: functions.php:294
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+# @ stairway
+#: functions.php:300
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+# @ stairway
+#: functions.php:306
+msgid "Reply"
+msgstr "Ответить"
+
+# @ stairway
+#: functions.php:308
+msgid "Edit"
+msgstr "Изменить"
+
+# @ stairway
+#: functions.php:396
+#, php-format
+msgid ""
+"The %1$s plugin is required for this theme. Click on the big blue button "
+"below to install and activate %1$s."
+msgstr ""
+"%1$s плагин необходим для этой темы. Нажмите на большую голубую кнопку ниже "
+"для инсталляции и активации плагина. %1$s."
+
+# @ stairway
+#: functions.php:397
+#, php-format
+msgid ""
+"The %1$s is installed but currently inactive. Please go to the <a href=\"%2$s"
+"\">plugin administration page</a> page to activate it."
+msgstr ""
+"%1$s установлен но не активирован. Перейдите <a href=\"%2$s\">страница "
+"управления плагином</a> для его активации."
+
+# @ stairway
+#: functions.php:398
+#, php-format
+msgid "Install %s Now"
+msgstr "Установить %s сейчас"
+
+# @ stairway
+#: functions.php:400
+msgid "Something went wrong with the plugin API."
+msgstr "Что пошло не так с API плагина."
+
+# @ stairway
+#: functions.php:401
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. <a href=\"%2$s\"><strong>Click here to "
+"begin the installation process</strong></a>. You may be asked for FTP "
+"credentials based on your server setup."
+msgstr ""
+"Для этой темы необходим %1$s плагин. <a href=\"%2$s\"><strong>Нажмите здесь "
+"для начала процесс установки</strong></a>. От вас могут потребоваться "
+"учетные записи FTP от вашего сервера."
+
+# @ stairway
+#: functions.php:402
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"Извините, но вы не имеете текущих полномочий устанавливать %s плагин. "
+"Свяжитесь с администратором сайта для получения помощи в установке этого "
+"плагина."
+
+# @ stairway
+#: functions.php:403
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. That plugin is currently inactive, so "
+"please go to the <a href=\"%2$s\">plugin administration page</a> to activate "
+"it."
+msgstr ""
+"Для этой темы необходим %1$s плагин. Этот плагин сейчас неактивен, перейдите "
+"на <a href=\"%2$s\">страницу управления плагинами</a> для активации "
+"требуемого плагина."
+
+# @ stairway
+#: functions.php:404
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"Извините, но Вы не имеете текущих полномочий активировать %s плагин. "
+"Свяжитесь с администратором сайта для получения помощи в активации этого "
+"плагина."
+
+# @ stairway
+#: functions.php:416
+msgid "StairWay"
+msgstr "StairWay"
+
+#: functions.php:417
+msgid "StairWay - full screen"
+msgstr "StairWay - full screen"
+
+# @ stairway
+#: header.php:92 functions/fe/widget-posts-grid.php:111
+#: functions/fe/widget-posts-list.php:111
+msgid "Read more &gt;"
+msgstr "ДАЛЕЕ &gt;"
+
+# @ stairway
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+# @ stairway
+#: search.php:20
+msgid "<strong>Number of Results</strong>: "
+msgstr "<strong>Количество результатов</strong>: "
+
+# @ stairway
+#: search.php:27
+msgid "Search results navigation"
+msgstr "Навигация по результатам поиска"
+
+# @ stairway
+#: search.php:29
+msgid "<span class=\"meta-nav\">&larr;</span> Previous results"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие результаты"
+
+# @ stairway
+#: search.php:30
+msgid "Next results <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующие результаты <span class=\"meta-nav\">&rarr;</span>"
+
+# @ stairway
+#: search.php:45
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, но ничего не соответствуют критериям поиска. Пожалуйста, "
+"попробуйте еще раз с использованием других ключевых слов."
+
+# @ stairway
+#: searchform.php:9
+msgid "Search here..."
+msgstr "Искать здесь..."
+
+# @ stairway
+#: single.php:36
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ stairway
+#: tag.php:13
+#, php-format
+msgid "Tag Archive: %s"
+msgstr "Архив тегов: %s"
+
+#: cycloneslider/dark/slider.php:43
+msgid "View Larger Image"
+msgstr "Просмотреть увеличенное изображение"
+
+#: cycloneslider/dark/slider.php:46 cycloneslider/dark/slider.php:48
+msgid "Learn More"
+msgstr "Узнать подробнее"
+
+#: cycloneslider/dark/slider.php:64 cycloneslider/default/slider.php:62
+#: cycloneslider/default/slider.php:66 cycloneslider/default/slider.php:70
+#: cycloneslider/standard/slider.php:70 cycloneslider/thumbnails/slider.php:70
+msgid "Slide type not supported."
+msgstr "Тип Презентация не поддерживается."
+
+# @ stairway
+#: functions/be/fw-options.php:1344
+msgid "settings reset."
+msgstr "сброса настроек."
+
+# @ stairway
+#: functions/be/fw-setup.php:41
+msgid "Theme Options"
+msgstr "Опции темы"
+
+# @ stairway
+#: functions/fe/google-map-shortcode.php:100
+msgid "No location found for the entered address."
+msgstr "Не найдено расположение для введенного адреса."
+
+# @ stairway
+#: functions/fe/google-map-shortcode.php:102
+msgid "Invalid request. Did you enter an address?"
+msgstr "Неверный запрос. Вы ввели адрес?"
+
+# @ stairway
+#: functions/fe/google-map-shortcode.php:104
+msgid ""
+"Something went wrong while retrieving your map, please ensure you have "
+"entered the short code correctly."
+msgstr ""
+"Что-то пошло не так при получении Вашей карты, пожалуйста, убедитесь, что вы "
+"правильно ввели короткий код."
+
+# @ stairway
+#: functions/fe/google-map-shortcode.php:107
+msgid "Unable to contact Google API service."
+msgstr "Невозможно связаться со службой API Google."
+
+# @ stairway
+#: functions/fe/widget-facebook.php:12
+msgid "Displays Facebook Like Box."
+msgstr "Отображает Facebook как Box."
+
+# @ stairway
+#: functions/fe/widget-facebook.php:14
+msgid "StairWay Facebook Like Box Widget"
+msgstr "StairWay Facebook как Box Widget"
+
+# @ stairway
+#: functions/fe/widget-facebook.php:56 functions/fe/widget-image-box.php:116
+#: functions/fe/widget-info-box.php:74 functions/fe/widget-posts-column.php:41
+#: functions/fe/widget-posts-default.php:41
+#: functions/fe/widget-posts-grid.php:41 functions/fe/widget-posts-list.php:41
+#: functions/fe/widget-posts-slider.php:41
+#: functions/fe/widget-posts-thumbnail.php:41
+#: functions/fe/widget-presentation-box.php:58
+#: functions/fe/widget-social.php:86 functions/fe/widget-twitter.php:39
+msgid "Title:"
+msgstr "Заголовок:"
+
+# @ stairway
+#: functions/fe/widget-facebook.php:63
+msgid "Facebook Page URL:"
+msgstr "Facebook Page URL:"
+
+# @ stairway
+#: functions/fe/widget-facebook.php:67
+msgid ""
+"Insert here the full URL of your Facebook Page that will be liked (example: "
+"http://www.facebook.com/FacebookDevelopers)."
+msgstr ""
+"Вставьте здесь полный адрес вашей странице Facebook  (пример: http://www."
+"facebook.com/FacebookDevelopers)."
+
+# @ stairway
+#: functions/fe/widget-facebook.php:73
+msgid "Like Box Height: (optional)"
+msgstr "Like Box Высота: (необязательно)"
+
+# @ stairway
+#: functions/fe/widget-facebook.php:77
+msgid ""
+"Insert here the height of Like Box. The value is in pixels, but in the field "
+"please write ONLY NUMBERS (without symbol \"px\")!"
+msgstr ""
+"Сюда вставляем высоту для Like Box. Значение в пикселях, но и в области "
+"пишите только цифры (без символа \\ \\\"PX \")!"
+
+# @ stairway
+#: functions/fe/widget-facebook.php:83
+msgid "Show Faces:"
+msgstr "Показать Лица:"
+
+# @ stairway
+#: functions/fe/widget-facebook.php:90
+msgid "Specify whether to display profile photos of people who like the page."
+msgstr ""
+"Укажите, следует ли отображать фотографии людей, которым нравиться страница."
+
+# @ stairway
+#: functions/fe/widget-facebook.php:96
+msgid "Show Stream:"
+msgstr "Показывать направления:"
+
+# @ stairway
+#: functions/fe/widget-facebook.php:103
+msgid "Specify whether to display a stream of the latest posts by the Page."
+msgstr ""
+"Укажите, следует ли отображать направления последних сообщений на странице."
+
+# @ stairway
+#: functions/fe/widget-image-box.php:12
+msgid ""
+"Displays a full screen box with your custom background image, text and link."
+msgstr "Отображает ящик с вашей таможней фоновое изображение, текст и ссылку."
+
+# @ stairway
+#: functions/fe/widget-image-box.php:14
+msgid "StairWay Box-Image"
+msgstr "StairWay Box-Image"
+
+#: functions/fe/widget-image-box.php:76
+#: functions/fe/widget-presentation-box.php:48
+msgid "Image:"
+msgstr "картинка:"
+
+# @ stairway
+#: functions/fe/widget-image-box.php:80
+#: functions/fe/widget-presentation-box.php:52
+msgid "Insert here the full URL address of your image."
+msgstr "Вставьте полный URL Вашей образ."
+
+#: functions/fe/widget-image-box.php:86
+msgid "Height:"
+msgstr "высота:"
+
+#: functions/fe/widget-image-box.php:90
+msgid "Set here the height of the image box (in pixels)."
+msgstr "Установите здесь высоту окна изображения (в пикселях)."
+
+#: functions/fe/widget-image-box.php:96
+msgid "Background image size:"
+msgstr "Фон размер изображения:"
+
+#: functions/fe/widget-image-box.php:99
+msgid "Auto"
+msgstr "автоматический"
+
+#: functions/fe/widget-image-box.php:100
+msgid "Cover"
+msgstr "покрытие"
+
+#: functions/fe/widget-image-box.php:106
+msgid "Scrolling:"
+msgstr "Прокрутка:"
+
+#: functions/fe/widget-image-box.php:109
+msgid "Fixed"
+msgstr "фиксированный"
+
+#: functions/fe/widget-image-box.php:110
+msgid "Scrolled"
+msgstr "прокрутки"
+
+# @ stairway
+#: functions/fe/widget-image-box.php:123
+#: functions/fe/widget-presentation-box.php:65
+msgid "Subtitle:"
+msgstr "подзаголовок:"
+
+#: functions/fe/widget-image-box.php:130
+msgid "Button link:"
+msgstr "Кнопка ссылки:"
+
+# @ stairway
+#: functions/fe/widget-image-box.php:134
+msgid "Insert here the full URL address of your custom link."
+msgstr "Вставьте полный URL Вашей пользовательские ссылка."
+
+#: functions/fe/widget-image-box.php:140
+msgid "Button text:"
+msgstr "Кнопка текст:"
+
+# @ stairway
+#: functions/fe/widget-image-box.php:144
+msgid "Insert here a text which will be displayed in the button."
+msgstr "Текст, отображаемый на кнопке."
+
+# @ stairway
+#: functions/fe/widget-info-box.php:12
+msgid "Displays a box with your custom text and link."
+msgstr "Отображает окно с Вашими текстом и ссылкой."
+
+# @ stairway
+#: functions/fe/widget-info-box.php:14
+msgid "StairWay Box-Info"
+msgstr "StairWay Box-Info"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:48
+msgid "Icon:"
+msgstr "Иконка:"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:51
+msgid "Basket"
+msgstr "Корзина"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:52
+msgid "Book"
+msgstr "Книга"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:53
+msgid "Calendar"
+msgstr "Календарь"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:54
+msgid "Comments"
+msgstr "Комментарии"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:55
+msgid "Download"
+msgstr "Скачать"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:56
+msgid "Envelope"
+msgstr "Конверт"
+
+#: functions/fe/widget-info-box.php:57
+msgid "Globe"
+msgstr "глобус"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:58
+msgid "Heart"
+msgstr "Сердце"
+
+#: functions/fe/widget-info-box.php:59
+msgid "Home"
+msgstr "домой"
+
+#: functions/fe/widget-info-box.php:60
+msgid "Notepad"
+msgstr "блокнот"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:61
+msgid "Pin"
+msgstr "штифт"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:62
+msgid "Star"
+msgstr "Звезда"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:63
+msgid "Tick"
+msgstr "Отметка"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:64
+msgid "User"
+msgstr "Пользователь"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:65
+msgid "none"
+msgstr "ни один"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:68
+msgid "Select an icon which will be displayed beside the title."
+msgstr "Выберите значок, который будет отображаться в заголовке окна."
+
+# @ stairway
+#: functions/fe/widget-info-box.php:81
+#: functions/fe/widget-presentation-box.php:72
+msgid "Text:"
+msgstr "Текст:"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:88
+msgid "Link:"
+msgstr "Ссылка:"
+
+# @ stairway
+#: functions/fe/widget-info-box.php:92
+msgid "Insert here the full URL which will be displayed as a link (optional)."
+msgstr ""
+"Здесь следует вставить полный URL, который будет отображаться в виде кнопки "
+"(опция)."
+
+# @ stairway
+#: functions/fe/widget-info-box.php:124
+msgid "Read More &gt;"
+msgstr "ДАЛЕЕ &gt;"
+
+# @ stairway
+#: functions/fe/widget-posts-column.php:12
+msgid ""
+"Displays the latest posts from the selected category as a column with "
+"highlighted first post."
+msgstr ""
+"Отображает последние записи из выбранной категории как колонка с выделением "
+"первой записи."
+
+# @ stairway
+#: functions/fe/widget-posts-column.php:14
+msgid "StairWay Posts-Column"
+msgstr "StairWay Posts-Column"
+
+# @ stairway
+#: functions/fe/widget-posts-column.php:48
+#: functions/fe/widget-posts-default.php:48
+#: functions/fe/widget-posts-grid.php:48 functions/fe/widget-posts-list.php:48
+#: functions/fe/widget-posts-slider.php:48
+#: functions/fe/widget-posts-thumbnail.php:48
+msgid "Category:"
+msgstr "Рубрика:"
+
+# @ stairway
+#: functions/fe/widget-posts-column.php:58
+#: functions/fe/widget-posts-default.php:58
+#: functions/fe/widget-posts-grid.php:58 functions/fe/widget-posts-list.php:58
+#: functions/fe/widget-posts-slider.php:58
+#: functions/fe/widget-posts-thumbnail.php:58
+msgid "Select a category of posts."
+msgstr "Выберите рубрику записей."
+
+# @ stairway
+#: functions/fe/widget-posts-column.php:64
+#: functions/fe/widget-posts-default.php:64
+#: functions/fe/widget-posts-grid.php:64 functions/fe/widget-posts-list.php:64
+#: functions/fe/widget-posts-slider.php:64
+#: functions/fe/widget-posts-thumbnail.php:64
+msgid "Number of posts:"
+msgstr "Номера записей:"
+
+# @ stairway
+#: functions/fe/widget-posts-column.php:68
+#: functions/fe/widget-posts-default.php:68
+#: functions/fe/widget-posts-grid.php:68 functions/fe/widget-posts-list.php:68
+#: functions/fe/widget-posts-slider.php:68
+#: functions/fe/widget-posts-thumbnail.php:68
+msgid ""
+"Insert here the number of latest posts from the selected category which you "
+"want to display."
+msgstr ""
+"Здесь следует вставить номера последних записей из выбранной рубрики, "
+"которые вы хотите показать."
+
+# @ stairway
+#: functions/fe/widget-posts-default.php:12
+msgid ""
+"Displays the latest posts from the selected category in the default manner."
+msgstr "Отображает последние записи из выбранной категории."
+
+# @ stairway
+#: functions/fe/widget-posts-default.php:14
+msgid "StairWay Posts-Default"
+msgstr "StairWay Posts-Default"
+
+# @ stairway
+#: functions/fe/widget-posts-grid.php:12
+msgid "Displays the latest posts from the selected category as a grid."
+msgstr "Отображает последние записи из выбранной категории как таблицу."
+
+# @ stairway
+#: functions/fe/widget-posts-grid.php:14
+msgid "StairWay Posts-Grid"
+msgstr "StairWay Posts-Grid"
+
+# @ stairway
+#: functions/fe/widget-posts-list.php:12
+msgid ""
+"Displays the latest posts from the selected category as an unordered list "
+"with highlighted first post."
+msgstr ""
+"Отображает последние записи из выбранной категории как список с выделением "
+"первой записи."
+
+# @ stairway
+#: functions/fe/widget-posts-list.php:14
+msgid "StairWay Posts-List"
+msgstr "StairWay Posts-List"
+
+# @ stairway
+#: functions/fe/widget-posts-slider.php:12
+msgid "Displays the latest posts from the selected category as a slider."
+msgstr "Отображает последние записи из выбранной категории как слайдер."
+
+# @ stairway
+#: functions/fe/widget-posts-slider.php:14
+msgid "StairWay Posts-Slider"
+msgstr "StairWay Posts-Slider"
+
+# @ stairway
+#: functions/fe/widget-posts-thumbnail.php:12
+msgid "Displays the latest posts from the selected category as the thumbnails."
+msgstr "Отображает последние записи из выбранной категории как эскизы."
+
+# @ stairway
+#: functions/fe/widget-posts-thumbnail.php:14
+msgid "StairWay Posts-Thumbnail"
+msgstr "StairWay Posts-Thumbnail"
+
+# @ stairway
+#: functions/fe/widget-presentation-box.php:12
+msgid "Displays a box with your custom image and text."
+msgstr "Отображает окно с Вашими текстом и изображение."
+
+#: functions/fe/widget-presentation-box.php:14
+msgid "StairWay Box-Presentation"
+msgstr "StairWay Box-Presentation"
+
+#: functions/fe/widget-section-headline.php:12
+msgid "Displays a headline of a section created with the Page Builder."
+msgstr "Отображает заголовок раздела, созданного с помощью Page Builder."
+
+# @ stairway
+#: functions/fe/widget-section-headline.php:14
+msgid "StairWay Section-Headline"
+msgstr "StairWay Section-Headline"
+
+#: functions/fe/widget-section-headline.php:28
+msgid "Headline:"
+msgstr "название:"
+
+# @ stairway
+#: functions/fe/widget-social.php:12
+msgid "A Social widget by StairWay"
+msgstr "Соц сети виджет от StairWay."
+
+# @ stairway
+#: functions/fe/widget-social.php:14
+msgid "StairWay Social Widget"
+msgstr "StairWay Social Widget"
+
+# @ stairway
+#: functions/fe/widget-social.php:93
+msgid "Twitter:"
+msgstr "Twitter:"
+
+# @ stairway
+#: functions/fe/widget-social.php:97
+msgid "Insert the full URL of your Twitter profile."
+msgstr "Вставьте полный URL Вашей Twitter страницы."
+
+# @ stairway
+#: functions/fe/widget-social.php:103
+msgid "Facebook:"
+msgstr "Facebook:"
+
+# @ stairway
+#: functions/fe/widget-social.php:107
+msgid "Insert the full URL of your Facebook profile, page or group."
+msgstr "Вставьте полный URL Ваших Facebook страницы или группы."
+
+# @ stairway
+#: functions/fe/widget-social.php:113
+msgid "RSS:"
+msgstr "RSS:"
+
+# @ stairway
+#: functions/fe/widget-social.php:117
+msgid "Insert the Url of your RSS. You may include your RSS from Feedburner."
+msgstr ""
+"Вставьте URL Вашей RSS ленты. Вы можете включить Вашу RSS ленту от "
+"Feedburner."
+
+# @ stairway
+#: functions/fe/widget-social.php:123
+msgid "Google Plus:"
+msgstr "Google Plus:"
+
+# @ stairway
+#: functions/fe/widget-social.php:127
+msgid "Insert the full URL of your Google Plus profile"
+msgstr "Вставьте полный URL Вашей Google Plus страницы"
+
+# @ stairway
+#: functions/fe/widget-social.php:133
+msgid "You Tube:"
+msgstr "You Tube:"
+
+# @ stairway
+#: functions/fe/widget-social.php:137
+msgid "Insert the full URL of your YouTube profile."
+msgstr "Вставьте полный URL Вашей You Tube страницы."
+
+# @ stairway
+#: functions/fe/widget-social.php:143
+msgid "Linkedin:"
+msgstr "Linkedin:"
+
+# @ stairway
+#: functions/fe/widget-social.php:147
+msgid "Insert the full URL of your Linkedin profile."
+msgstr "Вставьте полный URL Вашей Linkedin страницы."
+
+# @ stairway
+#: functions/fe/widget-social.php:153
+msgid "Delicious:"
+msgstr "Delicious:"
+
+# @ stairway
+#: functions/fe/widget-social.php:157
+msgid "Insert the full URL of your Delicious profile."
+msgstr "Вставьте полный URL Вашей Delicious  страницы."
+
+# @ stairway
+#: functions/fe/widget-social.php:163
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+# @ stairway
+#: functions/fe/widget-social.php:167
+msgid "Insert the full URL of your Pinterest profile."
+msgstr "Вставьте полный URL Вашей Pinterest страницы."
+
+# @ stairway
+#: functions/fe/widget-social.php:173
+msgid "Flickr:"
+msgstr "Flickr:"
+
+# @ stairway
+#: functions/fe/widget-social.php:177
+msgid "Insert the full URL of your Flickr profile."
+msgstr "Вставьте полный URL Вашей Flickr страницы."
+
+# @ stairway
+#: functions/fe/widget-twitter.php:13
+msgid "Twitter widget by StairWay"
+msgstr "Twitter виджет от StairWay"
+
+# @ stairway
+#: functions/fe/widget-twitter.php:15
+msgid "StairWay Twitter Widget"
+msgstr "StairWay Twitter Widget"
+
+# @ stairway
+#: functions/fe/widget-twitter.php:25
+msgid "Join us on Twitter"
+msgstr "Присоединяйтесь к нам на Twitter"
+
+# @ stairway
+#: functions/fe/widget-twitter.php:46
+msgid "Twitter Username:"
+msgstr "Twitter Имя пользователя:"
+
+# @ stairway
+#: functions/fe/widget-twitter.php:50
+msgid "Insert your Twitter username. (ex: stairway)."
+msgstr "Вставьте Ваше Twitter имя пользователя. (пр: stairway)."
+
+# @ stairway
+#: functions.php:247 search.php:28
+msgid "&larr; Previous"
+msgstr "&larr; Предыдущая"
+
+# @ stairway
+#: functions.php:248 search.php:29
+msgid "Next &rarr;"
+msgstr "Следующая &rarr;"

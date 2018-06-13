@@ -1,0 +1,32 @@
+/************************* EXCELLENT CUSTOMIZER CUSTOM CSS **************************************/
+#about_excellent {
+	background-color: #fb876b;
+	border: 1px solid #fb876b;
+	box-shadow: none;
+	color: #fff;
+	margin-top: 10px;
+	border-radius: 0;
+		-ms-transition: all 0.3s ease 0s;
+		-moz-transition: all 0.3s ease 0s;
+		-webkit-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+#about_excellent:hover,
+#about_excellent:focus  {
+	background-color: #bbb;
+	border: 1px solid #bbb;
+	box-shadow: none;
+	color: #fff;
+}
+#excellent_upgrade{
+	display: block;
+	float: left;
+	width: 100%;
+}
+#about_excellent{
+	display: block;
+	padding: 10px 0px 10px 0;
+	text-align: center;
+	margin: -5px;
+}

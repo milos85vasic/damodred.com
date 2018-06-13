@@ -1,0 +1,1171 @@
+# Translation of the WordPress theme StairWay 1.0 by Tomas Toman.
+# This file is distributed under the same license as the StairWay package.
+# Tomas Toman <webdesign@tomastoman.cz>, 2014.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StairWay 1.0\n"
+"POT-Creation-Date: 2014-03-29 08:27+0100\n"
+"PO-Revision-Date: 2014-11-13 15:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: Tomas Toman <webdesign@tomastoman.cz>\n"
+"Language: Deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:12 search.php:38
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: 404.php:20
+msgid ""
+"Apologies, but no results were found for your request. Perhaps searching "
+"will help you to find a related content."
+msgstr ""
+"Entschuldigen Sie bitte, aber keine Ergebnisse wurden für Ihre Anfrage "
+"gefunden. Vielleicht suchen helfen Sie zu finden verwandten Inhalten."
+
+#: archive.php:15
+#, php-format
+msgid "Daily Archive: %s"
+msgstr "Tägliches Archiv: %s"
+
+#: archive.php:17
+#, php-format
+msgid "Monthly Archive: %s"
+msgstr "Monatliches Archiv: %s"
+
+#: archive.php:19
+#, php-format
+msgid "Yearly Archive: %s"
+msgstr "Jährliche Archiv: %s"
+
+#: archive.php:21
+msgid "Archive"
+msgstr "Archiv"
+
+#: author.php:14
+#, php-format
+msgid "Author Archive: %s"
+msgstr "Archiv des Autor: %s"
+
+#: author.php:25
+#, php-format
+msgid "About %s"
+msgstr "Über %s"
+
+#: class-tgm-plugin-activation.php:156 functions.php:394
+msgid "Install Required Plugins"
+msgstr "Installieren Sie die erforderlichen Plugins"
+
+#: class-tgm-plugin-activation.php:157 functions.php:395
+msgid "Install Plugins"
+msgstr "Installieren Plugins"
+
+#: class-tgm-plugin-activation.php:158 functions.php:399
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installieren Plugin: %s"
+
+#: class-tgm-plugin-activation.php:159
+msgid "Something went wrong."
+msgstr "Irgendetwas ist schiefgegangen."
+
+#: class-tgm-plugin-activation.php:170 functions.php:405
+msgid "Return to Required Plugins Installer"
+msgstr "Zurück zur Erforderliche Plugins Installer"
+
+#: class-tgm-plugin-activation.php:171
+msgid "Return to the dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: class-tgm-plugin-activation.php:172 class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr "Plugin erfolgreich aktiviert."
+
+#: class-tgm-plugin-activation.php:173 class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgstr "Das folgende Plugin wurde erfolgreich aktiviert:"
+
+#: class-tgm-plugin-activation.php:174
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle Plugins installiert und erfolgreich aktiviert. %1$s"
+
+#: class-tgm-plugin-activation.php:175
+msgid "Dismiss this notice"
+msgstr "Entlassen diese Mitteilung"
+
+#: class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr "Externer Link"
+
+#: class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr "Privat Projektarchiv"
+
+#: class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr "Abgepackten"
+
+#: class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr "WordPress Projektarchiv"
+
+#: class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr "Erforderlich"
+
+#: class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+#: class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr "Installiert, aber nicht aktiviert"
+
+#: class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Keine Plugins zu installieren oder zu aktivieren. <a href=\"%1$s\" title="
+"\"Zurück zum Dashboard\">Zurück zum Dashboard</a>"
+
+#: class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr "Plugin"
+
+#: class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr "Quelle"
+
+#: class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr "Typ"
+
+#: class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr "Status"
+
+#: class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr "Installieren"
+
+#: class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr "Installationspaket ist nicht verfügbar."
+
+#: class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Download Installationspaket aus <span class=\"code\">%s</span>&#8230;"
+
+#: class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr "Auspacken des Pakets&#8230;"
+
+#: class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr "Installation des Plugin&#8230;"
+
+#: class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr "Plugin-Installation ist fehlgeschlagen."
+
+#: class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr "Plugin erfolgreich installiert."
+
+#: class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr "Plugin Aktivierung fehlgeschlagen."
+
+#: class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Die Installation und Aktivierung beginnt. Dieser Vorgang kann eine Weile auf "
+"einigen Hosts dauern, bitte haben sie Geduld."
+
+#: class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s erfolgreich installiert und aktiviert."
+
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr "Zeige Details"
+
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr "Details ausblenden"
+
+#: class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr "Alle Installationen und Aktivierungen abgeschlossen sind."
+
+#: class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation und Aktivierung Plugin %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Der Installationsvorgang wird gestartet. Dieser Vorgang kann eine Weile auf "
+"einigen Hosts dauern, bitte haben sie Geduld."
+
+#: class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Ein Fehler ist aufgetreten während der Installation %1$s: <strong>%2$s</"
+"strong>."
+
+#: class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Die Installation von %1$s fehlgeschlagen."
+
+#: class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s erfolgreich installiert."
+
+#: class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr "Alle Installationen sind abgeschlossen."
+
+#: class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installieren Plugin %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: comments.php:14 content-archives.php:22 single.php:26
+#: functions/fe/widget-posts-column.php:114
+#: functions/fe/widget-posts-column.php:132
+#: functions/fe/widget-posts-grid.php:108
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Kommentar"
+msgstr[1] "%1$s Kommentare"
+
+#: comments.php:23
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:24
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: comments.php:30
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: comments.php:35
+msgid "Your name"
+msgstr "Ihr Name"
+
+#: comments.php:36
+msgid "Website"
+msgstr "Webseite"
+
+#: comments.php:37
+msgid "Comment..."
+msgstr "Kommentar..."
+
+#: comments.php:41
+msgid "Leave a Comment"
+msgstr "Schreibe einen Kommentar"
+
+#: content-archives.php:19 single.php:23
+msgid "Author: "
+msgstr "Autor: "
+
+#: functions.php:133
+msgid "Main Header Menu"
+msgstr "Haupt Header Menü"
+
+#: functions.php:134
+msgid "Top Header Menu"
+msgstr "Top Header Menü"
+
+#: functions.php:146
+msgid "Right Sidebar"
+msgstr "Haupt Sidebar"
+
+#: functions.php:148
+msgid "Right sidebar which appears on all posts and pages."
+msgstr "Rechten Sidebar, auf der Seiten und Beiträge angezeigt."
+
+#: functions.php:155
+msgid "Footer left widget area"
+msgstr "Footer Linken Widget Bereich"
+
+#: functions.php:157
+msgid "Left column with widgets in footer."
+msgstr "Linke Spalte mit Widgets in footer."
+
+#: functions.php:164
+msgid "Footer middle widget area"
+msgstr "Footer Mitte Widget Bereich"
+
+#: functions.php:166
+msgid "Middle column with widgets in footer."
+msgstr "Mitte Spalte mit Widgets in footer."
+
+#: functions.php:173
+msgid "Footer right widget area"
+msgstr "Footer Rechten Widget Bereich"
+
+#: functions.php:175
+msgid "Right column with widgets in footer."
+msgstr "Rechte Spalte mit Widgets in footer."
+
+#: functions.php:182
+msgid "Footer notices"
+msgstr "Footer Bekanntmachungen"
+
+#: functions.php:184
+msgid ""
+"The line for copyright and other notices below the footer widget areas. "
+"Insert here one Text widget. The \"Title\" field at this widget should stay "
+"empty."
+msgstr ""
+"Die Linie des Urheberrechts und andere Mitteilungen unter Footer Widget "
+"Bereich. Geben Sie nur ein Text Widget zu diesem Bereich. Die \"Titel\"-Feld "
+"in diesem Widget sollte leer bleiben."
+
+#: functions.php:191
+msgid "Latest Posts Homepage widget area"
+msgstr "Letzte Beiträge Homepage Widget Bereich"
+
+#: functions.php:193
+msgid ""
+"The area for any StairWay Posts Widgets, which display latest posts from a "
+"specific category below the default Latest Posts area."
+msgstr ""
+"Der Bereich für StairWay Posts Widgets, das Letzte Beiträge aus einer "
+"bestimmten Kategorie zeigt auf Ihrer Startseite."
+
+#: functions.php:240
+msgid "Post navigation"
+msgstr "Beiträge Navigation"
+
+#: functions.php:242
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Beiträge"
+
+#: functions.php:243
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Beiträge <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:257
+msgid "&larr; Previous post"
+msgstr "&larr; Vorheriger Beitrag"
+
+#: functions.php:258
+msgid "Next post &rarr;"
+msgstr "Nächster Beitrag &rarr;"
+
+#: functions.php:275
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:275
+msgid "(Edit)"
+msgstr "(Editieren)"
+
+#: functions.php:288
+msgid "(Post author)"
+msgstr "(Beitrag Autor)"
+
+#: functions.php:294
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: functions.php:300
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wartet auf Moderation."
+
+#: functions.php:306
+msgid "Reply"
+msgstr "Antworten"
+
+#: functions.php:308
+msgid "Edit"
+msgstr "Editieren"
+
+#: functions.php:396
+#, php-format
+msgid ""
+"The %1$s plugin is required for this theme. Click on the big blue button "
+"below to install and activate %1$s."
+msgstr ""
+"%1$s Plugin ist für dieses Theme erforderlich. Klicken Sie auf den großen "
+"blauen Button unten zu installieren und zu aktivieren %1$s."
+
+#: functions.php:397
+#, php-format
+msgid ""
+"The %1$s is installed but currently inactive. Please go to the <a href=\"%2$s"
+"\">plugin administration page</a> page to activate it."
+msgstr ""
+"Die %1$s ist installiert, aber derzeit inaktiv. Bitte gehen Sie zur <a href="
+"\"%2$s\"> Plugin Administrations-Seite </a>, um es zu aktivieren."
+
+#: functions.php:398
+#, php-format
+msgid "Install %s Now"
+msgstr "%s jetzt installieren"
+
+#: functions.php:400
+msgid "Something went wrong with the plugin API."
+msgstr "Etwas ging mit dem Plugin API falsch."
+
+#: functions.php:401
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. <a href=\"%2$s\"><strong>Click here to "
+"begin the installation process</strong></a>. You may be asked for FTP "
+"credentials based on your server setup."
+msgstr ""
+"Dieses Theme bedarf der %1$s Plugin. <a href=\"%2$s\"><strong> Klicken Sie "
+"hier, um die Installation zu beginnen</strong></a>. Sie können für FTP-"
+"Zugangsdaten auf Ihrem Server Setup basierend gefragt."
+
+#: functions.php:402
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"Es tut uns leid, aber Sie haben nicht die richtigen Berechtigungen für %s "
+"Plugin installieren. Kontaktieren Sie den Administrator dieser Seite, um "
+"Hilfe zu bekommen das Plugin installiert."
+
+#: functions.php:403
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. That plugin is currently inactive, so "
+"please go to the <a href=\"%2$s\">plugin administration page</a> to activate "
+"it."
+msgstr ""
+"Dieses Theme bedarf der %1$s Plugin. Das Plugin ist derzeit inaktiv, so "
+"gehen Sie bitte zum <a href=\"%2$s\">Plugin Administrations-Seite</a>, um es "
+"zu aktivieren."
+
+#: functions.php:404
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"Es tut uns leid, aber Sie haben nicht die richtigen Berechtigungen für %s "
+"Plugin aktivieren. Kontaktieren Sie den Administrator dieser Seite, um Hilfe "
+"zu bekommen das Plugin aktiviert."
+
+#: functions.php:416
+msgid "StairWay"
+msgstr "StairWay"
+
+#: functions.php:417
+msgid "StairWay - full screen"
+msgstr "StairWay -Vollbild"
+
+#: header.php:92 functions/fe/widget-posts-grid.php:111
+#: functions/fe/widget-posts-list.php:111
+msgid "Read more &gt;"
+msgstr "Mehr Lesen &gt;"
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: search.php:20
+msgid "<strong>Number of Results</strong>: "
+msgstr "<strong>Anzahl der Ergebnisse</strong>: "
+
+#: search.php:27
+msgid "Search results navigation"
+msgstr "Suchergebnisse Navigation"
+
+#: search.php:29
+msgid "<span class=\"meta-nav\">&larr;</span> Previous results"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vorherige Ergebnisse"
+
+#: search.php:30
+msgid "Next results <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nächste Ergebnisse <span class=\"meta-nav\">&rarr;</span>"
+
+#: search.php:45
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Es tut uns leid, aber nichts Ihren Suchkriterien entsprechen. Bitte "
+"versuchen Sie es erneut mit einigen anderen Suchbegriffen."
+
+#: searchform.php:9
+msgid "Search here..."
+msgstr "Suchen..."
+
+#: single.php:36
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: tag.php:13
+#, php-format
+msgid "Tag Archive: %s"
+msgstr "Schlagwort Archiv: %s"
+
+#: cycloneslider/dark/slider.php:43
+msgid "View Larger Image"
+msgstr "Bild vergrößern"
+
+#: cycloneslider/dark/slider.php:46 cycloneslider/dark/slider.php:48
+msgid "Learn More"
+msgstr "Erfahren Sie mehr"
+
+#: cycloneslider/dark/slider.php:64 cycloneslider/default/slider.php:62
+#: cycloneslider/default/slider.php:66 cycloneslider/default/slider.php:70
+#: cycloneslider/standard/slider.php:70 cycloneslider/thumbnails/slider.php:70
+msgid "Slide type not supported."
+msgstr "Slide Typ nicht unterstützt."
+
+#: functions/be/fw-options.php:1344
+msgid "settings reset."
+msgstr "Einstellungen zurückzusetzen."
+
+#: functions/be/fw-setup.php:41
+msgid "Theme Options"
+msgstr "Theme Optionen"
+
+#: functions/fe/google-map-shortcode.php:100
+msgid "No location found for the entered address."
+msgstr "Kein Ort für die eingegebene Adresse gefunden."
+
+#: functions/fe/google-map-shortcode.php:102
+msgid "Invalid request. Did you enter an address?"
+msgstr "Ungültige Anforderung. Haben Sie eine Adresse eingeben?"
+
+#: functions/fe/google-map-shortcode.php:104
+msgid ""
+"Something went wrong while retrieving your map, please ensure you have "
+"entered the short code correctly."
+msgstr ""
+"Ein Fehler ist beim Abrufen Ihrer Karte, bitte stellen Sie sicher, den "
+"Kurzcode korrekt eingegeben haben."
+
+#: functions/fe/google-map-shortcode.php:107
+msgid "Unable to contact Google API service."
+msgstr "Kann nicht Google-API-Service kontaktieren."
+
+#: functions/fe/widget-facebook.php:12
+msgid "Displays Facebook Like Box."
+msgstr "Facebook Like Box anzeigen."
+
+#: functions/fe/widget-facebook.php:14
+msgid "StairWay Facebook Like Box Widget"
+msgstr "StairWay Facebook Like Box Widget"
+
+#: functions/fe/widget-facebook.php:56 functions/fe/widget-image-box.php:116
+#: functions/fe/widget-info-box.php:74 functions/fe/widget-posts-column.php:41
+#: functions/fe/widget-posts-default.php:41
+#: functions/fe/widget-posts-grid.php:41 functions/fe/widget-posts-list.php:41
+#: functions/fe/widget-posts-slider.php:41
+#: functions/fe/widget-posts-thumbnail.php:41
+#: functions/fe/widget-presentation-box.php:58
+#: functions/fe/widget-social.php:86 functions/fe/widget-twitter.php:39
+msgid "Title:"
+msgstr "Titel:"
+
+#: functions/fe/widget-facebook.php:63
+msgid "Facebook Page URL:"
+msgstr "Facebook Seite URL:"
+
+#: functions/fe/widget-facebook.php:67
+msgid ""
+"Insert here the full URL of your Facebook Page that will be liked (example: "
+"http://www.facebook.com/FacebookDevelopers)."
+msgstr ""
+"Geben Sie hier die vollständige URL Ihre Facebook-Seite (Beispiel: http://"
+"www.facebook.com/FacebookDevelopers)."
+
+#: functions/fe/widget-facebook.php:73
+msgid "Like Box Height: (optional)"
+msgstr "Like Box Höhe: (Optional)"
+
+#: functions/fe/widget-facebook.php:77
+msgid ""
+"Insert here the height of Like Box. The value is in pixels, but in the field "
+"please write ONLY NUMBERS (without symbol \"px\")!"
+msgstr ""
+"Geben Sie hier die Höhe von Like Box. Der Wert wird in Pixel, aber im "
+"Bereich schreiben Sie bitte NUR ZAHLEN (ohne Symbol \"px\")!"
+
+#: functions/fe/widget-facebook.php:83
+msgid "Show Faces:"
+msgstr "Zeigen Faces:"
+
+#: functions/fe/widget-facebook.php:90
+msgid "Specify whether to display profile photos of people who like the page."
+msgstr ""
+"Anzuzeigen oder auszublenden Profil-Fotos von Menschen, die Seite gefällt."
+
+#: functions/fe/widget-facebook.php:96
+msgid "Show Stream:"
+msgstr "Beiträge Zeigen:"
+
+#: functions/fe/widget-facebook.php:103
+msgid "Specify whether to display a stream of the latest posts by the Page."
+msgstr "Anzuzeigen oder auszublenden die neusten Beiträge von der Seite."
+
+#: functions/fe/widget-image-box.php:12
+msgid ""
+"Displays a full screen box with your custom background image, text and link."
+msgstr ""
+"Zeigt eine Vollbild-box mit Ihren eigenen Hintergrund Bild, Text und Link."
+
+#: functions/fe/widget-image-box.php:14
+msgid "StairWay Box-Image"
+msgstr "StairWay Box-Image"
+
+#: functions/fe/widget-image-box.php:76
+#: functions/fe/widget-presentation-box.php:48
+msgid "Image:"
+msgstr "Bild:"
+
+#: functions/fe/widget-image-box.php:80
+#: functions/fe/widget-presentation-box.php:52
+msgid "Insert here the full URL address of your image."
+msgstr "Legen Sie die vollständige URL des Bildes."
+
+#: functions/fe/widget-image-box.php:86
+msgid "Height:"
+msgstr "Höhe:"
+
+#: functions/fe/widget-image-box.php:90
+msgid "Set here the height of the image box (in pixels)."
+msgstr "Legen Sie die Höhe des Bild-Box (in Pixeln)."
+
+#: functions/fe/widget-image-box.php:96
+msgid "Background image size:"
+msgstr "Hintergrund Größe:"
+
+#: functions/fe/widget-image-box.php:99
+msgid "Auto"
+msgstr "Auto"
+
+#: functions/fe/widget-image-box.php:100
+msgid "Cover"
+msgstr "Abdeckung"
+
+#: functions/fe/widget-image-box.php:106
+msgid "Scrolling:"
+msgstr "Scrollen:"
+
+#: functions/fe/widget-image-box.php:109
+msgid "Fixed"
+msgstr "Fixiert"
+
+#: functions/fe/widget-image-box.php:110
+msgid "Scrolled"
+msgstr "Scrollen"
+
+#: functions/fe/widget-image-box.php:123
+#: functions/fe/widget-presentation-box.php:65
+msgid "Subtitle:"
+msgstr "Untertitel:"
+
+#: functions/fe/widget-image-box.php:130
+msgid "Button link:"
+msgstr "Taste-Link:"
+
+#: functions/fe/widget-image-box.php:134
+msgid "Insert here the full URL address of your custom link."
+msgstr "Legen Sie die vollständige URL Ihre Link."
+
+#: functions/fe/widget-image-box.php:140
+msgid "Button text:"
+msgstr "Taste-Text:"
+
+#: functions/fe/widget-image-box.php:144
+msgid "Insert here a text which will be displayed in the button."
+msgstr "Legen Sie ein Text, der in der Taste angezeigt wird."
+
+#: functions/fe/widget-info-box.php:12
+msgid "Displays a box with your custom text and link."
+msgstr "Zeigt eine Textbox mit einem Link."
+
+#: functions/fe/widget-info-box.php:14
+msgid "StairWay Box-Info"
+msgstr "StairWay Box-Info"
+
+#: functions/fe/widget-info-box.php:48
+msgid "Icon:"
+msgstr "Symbol:"
+
+#: functions/fe/widget-info-box.php:51
+msgid "Basket"
+msgstr "Korb"
+
+#: functions/fe/widget-info-box.php:52
+msgid "Book"
+msgstr "Buch"
+
+#: functions/fe/widget-info-box.php:53
+msgid "Calendar"
+msgstr "Kalender"
+
+#: functions/fe/widget-info-box.php:54
+msgid "Comments"
+msgstr "Kommentare"
+
+#: functions/fe/widget-info-box.php:55
+msgid "Download"
+msgstr "Herunterladen"
+
+#: functions/fe/widget-info-box.php:56
+msgid "Envelope"
+msgstr "Briefumschlag"
+
+#: functions/fe/widget-info-box.php:57
+msgid "Globe"
+msgstr "Globus"
+
+#: functions/fe/widget-info-box.php:58
+msgid "Heart"
+msgstr "Herz"
+
+#: functions/fe/widget-info-box.php:59
+msgid "Home"
+msgstr "Haus"
+
+#: functions/fe/widget-info-box.php:60
+msgid "Notepad"
+msgstr "Notizblock"
+
+#: functions/fe/widget-info-box.php:61
+msgid "Pin"
+msgstr "Stift"
+
+#: functions/fe/widget-info-box.php:62
+msgid "Star"
+msgstr "Stern"
+
+#: functions/fe/widget-info-box.php:63
+msgid "Tick"
+msgstr "Checkbox"
+
+#: functions/fe/widget-info-box.php:64
+msgid "User"
+msgstr "Benutzer"
+
+#: functions/fe/widget-info-box.php:65
+msgid "none"
+msgstr "kein"
+
+#: functions/fe/widget-info-box.php:68
+msgid "Select an icon which will be displayed beside the title."
+msgstr "Wählen Sie ein Symbol, das neben dem Titel erscheint."
+
+#: functions/fe/widget-info-box.php:81
+#: functions/fe/widget-presentation-box.php:72
+msgid "Text:"
+msgstr "Text:"
+
+#: functions/fe/widget-info-box.php:88
+msgid "Link:"
+msgstr "Link:"
+
+#: functions/fe/widget-info-box.php:92
+msgid "Insert here the full URL which will be displayed as a link (optional)."
+msgstr "Legen Sie die vollständige Link URL (optional)."
+
+#: functions/fe/widget-info-box.php:124
+msgid "Read More &gt;"
+msgstr "Mehr Lesen &gt;"
+
+#: functions/fe/widget-posts-column.php:12
+msgid ""
+"Displays the latest posts from the selected category as a column with "
+"highlighted first post."
+msgstr ""
+"Zeigt die neuesten Beiträge aus der gewählten Kategorie als eine Spalte mit "
+"der erste Artikel markiert."
+
+#: functions/fe/widget-posts-column.php:14
+msgid "StairWay Posts-Column"
+msgstr "StairWay Posts-Column"
+
+#: functions/fe/widget-posts-column.php:48
+#: functions/fe/widget-posts-default.php:48
+#: functions/fe/widget-posts-grid.php:48 functions/fe/widget-posts-list.php:48
+#: functions/fe/widget-posts-slider.php:48
+#: functions/fe/widget-posts-thumbnail.php:48
+msgid "Category:"
+msgstr "Kategorie:"
+
+#: functions/fe/widget-posts-column.php:58
+#: functions/fe/widget-posts-default.php:58
+#: functions/fe/widget-posts-grid.php:58 functions/fe/widget-posts-list.php:58
+#: functions/fe/widget-posts-slider.php:58
+#: functions/fe/widget-posts-thumbnail.php:58
+msgid "Select a category of posts."
+msgstr "Wählen Sie eine Kategorie der Beiträge."
+
+#: functions/fe/widget-posts-column.php:64
+#: functions/fe/widget-posts-default.php:64
+#: functions/fe/widget-posts-grid.php:64 functions/fe/widget-posts-list.php:64
+#: functions/fe/widget-posts-slider.php:64
+#: functions/fe/widget-posts-thumbnail.php:64
+msgid "Number of posts:"
+msgstr "Anzahl der Beiträge: "
+
+#: functions/fe/widget-posts-column.php:68
+#: functions/fe/widget-posts-default.php:68
+#: functions/fe/widget-posts-grid.php:68 functions/fe/widget-posts-list.php:68
+#: functions/fe/widget-posts-slider.php:68
+#: functions/fe/widget-posts-thumbnail.php:68
+msgid ""
+"Insert here the number of latest posts from the selected category which you "
+"want to display."
+msgstr ""
+"Geben Sie hier die Anzahl der neuesten Beiträge aus der gewählten Kategorie, "
+"die Sie anzeigen möchten."
+
+#: functions/fe/widget-posts-default.php:12
+msgid ""
+"Displays the latest posts from the selected category in the default manner."
+msgstr "Zeigt die neuesten Beiträge aus der gewählten Kategorie als Standard."
+
+#: functions/fe/widget-posts-default.php:14
+msgid "StairWay Posts-Default"
+msgstr "StairWay Posts-Default"
+
+#: functions/fe/widget-posts-grid.php:12
+msgid "Displays the latest posts from the selected category as a grid."
+msgstr "Zeigt die neuesten Beiträge aus der gewählten Kategorie als Gitter."
+
+#: functions/fe/widget-posts-grid.php:14
+msgid "StairWay Posts-Grid"
+msgstr "StairWay Posts-Grid"
+
+#: functions/fe/widget-posts-list.php:12
+msgid ""
+"Displays the latest posts from the selected category as an unordered list "
+"with highlighted first post."
+msgstr ""
+"Zeigt die neuesten Beiträge aus der gewählten Kategorie als ungeordnete "
+"Liste mit der erste Artikel markiert."
+
+#: functions/fe/widget-posts-list.php:14
+msgid "StairWay Posts-List"
+msgstr "StairWay Posts-List"
+
+#: functions/fe/widget-posts-slider.php:12
+msgid "Displays the latest posts from the selected category as a slider."
+msgstr "Zeigt die neuesten Beiträge aus der gewählten Kategorie als Slider."
+
+#: functions/fe/widget-posts-slider.php:14
+msgid "StairWay Posts-Slider"
+msgstr "StairWay Posts-Slider"
+
+#: functions/fe/widget-posts-thumbnail.php:12
+msgid "Displays the latest posts from the selected category as the thumbnails."
+msgstr ""
+"Zeigt die neuesten Beiträge aus der gewählten Kategorie als Vorschaubildern."
+
+#: functions/fe/widget-posts-thumbnail.php:14
+msgid "StairWay Posts-Thumbnail"
+msgstr "StairWay Posts-Thumbnail"
+
+#: functions/fe/widget-presentation-box.php:12
+msgid "Displays a box with your custom image and text."
+msgstr "Zeigt eine Box mit Ihrem eigenen Bild und Text."
+
+#: functions/fe/widget-presentation-box.php:14
+msgid "StairWay Box-Presentation"
+msgstr "StairWay Box-Presentation"
+
+#: functions/fe/widget-section-headline.php:12
+msgid "Displays a headline of a section created with the Page Builder."
+msgstr "Zeigt eine Überschrift eines Abschnitts erstellt mit dem Page Builder."
+
+#: functions/fe/widget-section-headline.php:14
+msgid "StairWay Section-Headline"
+msgstr "StairWay Section-Headline"
+
+#: functions/fe/widget-section-headline.php:28
+msgid "Headline:"
+msgstr "Überschrift:"
+
+#: functions/fe/widget-social.php:12
+msgid "A Social widget by StairWay"
+msgstr "Ein Social-Widget von StairWay"
+
+#: functions/fe/widget-social.php:14
+msgid "StairWay Social Widget"
+msgstr "StairWay Social Widget"
+
+#: functions/fe/widget-social.php:93
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: functions/fe/widget-social.php:97
+msgid "Insert the full URL of your Twitter profile."
+msgstr "Legen Sie die vollständige URL Ihrem Twitter-Profil."
+
+#: functions/fe/widget-social.php:103
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: functions/fe/widget-social.php:107
+msgid "Insert the full URL of your Facebook profile, page or group."
+msgstr ""
+"Legen Sie die vollständige URL Ihrem Facebook-Profil, Seite oder Gruppe."
+
+#: functions/fe/widget-social.php:113
+msgid "RSS:"
+msgstr "RSS:"
+
+#: functions/fe/widget-social.php:117
+msgid "Insert the Url of your RSS. You may include your RSS from Feedburner."
+msgstr "Legen Sie die URL Ihres RSS. Sie können Ihren RSS Feedburner aus."
+
+#: functions/fe/widget-social.php:123
+msgid "Google Plus:"
+msgstr "Google Plus:"
+
+#: functions/fe/widget-social.php:127
+msgid "Insert the full URL of your Google Plus profile"
+msgstr "Legen Sie die vollständige URL Ihrem Google Plus-Profil."
+
+#: functions/fe/widget-social.php:133
+msgid "You Tube:"
+msgstr "You Tube:"
+
+#: functions/fe/widget-social.php:137
+msgid "Insert the full URL of your YouTube profile."
+msgstr "Legen Sie die vollständige URL Ihrem YouTube-Profil."
+
+#: functions/fe/widget-social.php:143
+msgid "Linkedin:"
+msgstr "Linkedin:"
+
+#: functions/fe/widget-social.php:147
+msgid "Insert the full URL of your Linkedin profile."
+msgstr "Legen Sie die vollständige URL Ihrem Linkedin-Profil."
+
+#: functions/fe/widget-social.php:153
+msgid "Delicious:"
+msgstr "Delicious:"
+
+#: functions/fe/widget-social.php:157
+msgid "Insert the full URL of your Delicious profile."
+msgstr "Legen Sie die vollständige URL Ihrem Delicious-Profil."
+
+#: functions/fe/widget-social.php:163
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+#: functions/fe/widget-social.php:167
+msgid "Insert the full URL of your Pinterest profile."
+msgstr "Legen Sie die vollständige URL Ihrem Pinterest-Profil."
+
+#: functions/fe/widget-social.php:173
+msgid "Flickr:"
+msgstr "Flickr:"
+
+#: functions/fe/widget-social.php:177
+msgid "Insert the full URL of your Flickr profile."
+msgstr "Legen Sie die vollständige URL Ihrem Flickr-Profil."
+
+#: functions/fe/widget-twitter.php:13
+msgid "Twitter widget by StairWay"
+msgstr "Twitter-Widget von StairWay"
+
+#: functions/fe/widget-twitter.php:15
+msgid "StairWay Twitter Widget"
+msgstr "StairWay Twitter Widget"
+
+#: functions/fe/widget-twitter.php:25
+msgid "Join us on Twitter"
+msgstr "Begleiten Sie uns auf Twitter"
+
+#: functions/fe/widget-twitter.php:46
+msgid "Twitter Username:"
+msgstr "Twitter Benutzername:"
+
+#: functions/fe/widget-twitter.php:50
+msgid "Insert your Twitter username. (ex: stairway)."
+msgstr "Legen Sie Ihre Twitter-Benutzernamen ein. (Beispiel: stairway)."
+
+#: functions.php:247 search.php:28
+msgid "&larr; Previous"
+msgstr "&larr; Vorherige"
+
+#: functions.php:248 search.php:29
+msgid "Next &rarr;"
+msgstr "Nächste &rarr;"
+
+#~ msgid "Comment (1)"
+#~ msgid_plural "Comments (%1$s)"
+#~ msgstr[0] "Kommentar (1)"
+#~ msgstr[1] "Kommentare (%1$s)"
+
+#~ msgid "Computer"
+#~ msgstr "Computer"
+
+#~ msgid "Gift"
+#~ msgstr "Geschenk"
+
+#~ msgid "Hand"
+#~ msgstr "Hand"
+
+#~ msgid "Music"
+#~ msgstr "Musik"
+
+#~ msgid "READ MORE"
+#~ msgstr "MEHR LESEN"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Kommentare Navigation"
+
+#~ msgid "Homepage slideshow"
+#~ msgstr "Startseite Slideshow"
+
+#~ msgid ""
+#~ "The area for Cyclone Slider Widget which displays a slideshow on your "
+#~ "homepage."
+#~ msgstr ""
+#~ "Der Bereich für Cyclone Slider Widget, das eine Slideshow zeigt auf Ihrer "
+#~ "Startseite."
+
+#~ msgid "Homepage posts"
+#~ msgstr "Homepage Beiträge"
+
+#~ msgid "StairWay Homepage Column-Posts"
+#~ msgstr "StairWay Homepage Column-Posts"
+
+#~ msgid "StairWay Homepage Slider-Posts"
+#~ msgstr "StairWay Homepage Slider-Posts"
+
+#~ msgid "Related Posts"
+#~ msgstr "Verwandten Beiträge"
+
+#~ msgid ""
+#~ "Displays the latest posts from the selected category as a grid with "
+#~ "highlighted first post."
+#~ msgstr ""
+#~ "Zeigt die neuesten Beiträge aus der gewählten Kategorie als einer Gitter "
+#~ "mit der erste Artikel markiert."
+
+#~ msgid "StairWay Homepage Grid-Posts"
+#~ msgstr "StairWay Homepage Grid-Posts"
+
+#~ msgid "About Section on homepage"
+#~ msgstr "About Section auf der Homepage"
+
+#~ msgid ""
+#~ "Insert here as many Text widgets as you want for displaying information "
+#~ "in About Section on your homepage."
+#~ msgstr ""
+#~ "Geben Sie hier so viele Text Widgets, wie Sie in About Section auf Ihre "
+#~ "Startseite anzeigen möchten."
+
+#~ msgid "Informational Section on homepage"
+#~ msgstr "Informational Section auf der Homepage"
+
+#~ msgid ""
+#~ "Insert here as many Text widgets as you want for displaying information "
+#~ "in Informational Section on your homepage."
+#~ msgstr ""
+#~ "Geben Sie hier so viele Text Widgets, wie Sie in Informational Section "
+#~ "auf Ihre Startseite anzeigen möchten."
+
+#~ msgid ""
+#~ "For editing this area, please go to the <strong>Appearance > Widgets</"
+#~ "strong> panel in your WordPress administration and insert as many Text "
+#~ "widgets as you like into \"<strong>About Section on homepage</strong>\" "
+#~ "widget area. You also can insert into the Text widgets the custom "
+#~ "shortcodes (for displaying images, specific post listings, etc. - see "
+#~ "Theme documentation)."
+#~ msgstr ""
+#~ "Dieser Bereich können Sie in <strong>Design > Widgets</strong> Menü "
+#~ "bearbeiten. Legen Sie eine beliebige Anzahl von Text Widgets auf dem "
+#~ "Panel \"<strong>About Section auf der Homepage</strong>\"."
+
+#~ msgid ""
+#~ "If you do not want to display this area, go to the \"Theme Options\" "
+#~ "panel. In \"Homepage Settings\", you can hide this area."
+#~ msgstr ""
+#~ "Zu diese Bereich ausblenden, gehen Sie um den \"Theme Optionen\". In "
+#~ "\"Homepage Settings\" können Sie verstecken diese Bereich."
+
+#~ msgid "Portfolio Item 1"
+#~ msgstr "Portfolio Stück 1"
+
+#~ msgid "Portfolio Item 2"
+#~ msgstr "Portfolio Stück 2"
+
+#~ msgid "Portfolio Item 3"
+#~ msgstr "Portfolio Stück 3"
+
+#~ msgid "Portfolio Item 4"
+#~ msgstr "Portfolio Stück 4"
+
+#~ msgid "Portfolio Item 5"
+#~ msgstr "Portfolio Stück 5"
+
+#~ msgid "Portfolio Item 6"
+#~ msgstr "Portfolio Stück 6"
+
+#~ msgid ""
+#~ "For editing this area, please go to the <strong>Appearance > Widgets</"
+#~ "strong> panel in your WordPress administration and insert as many Text "
+#~ "widgets as you like into \"<strong>Informational Section on homepage</"
+#~ "strong>\" widget area. You also can insert into the Text widgets the "
+#~ "custom shortcodes (for displaying images, specific post listings, etc. - "
+#~ "see Theme documentation)."
+#~ msgstr ""
+#~ "Dieser Bereich können Sie in <strong>Design > Widgets</strong> Menü "
+#~ "bearbeiten. Legen Sie eine beliebige Anzahl von Text Widgets auf dem "
+#~ "Panel \"<strong>Informational Section auf der Homepage</strong>\"."
+
+#~ msgid ""
+#~ "For editing this text, go to Theme Options > Homepage Settings > Image "
+#~ "Section."
+#~ msgstr ""
+#~ "Dieser Text können Sie in Theme Optionen > Homepage Settings > Image "
+#~ "Section bearbeiten."
+
+#~ msgid "Menu"
+#~ msgstr "Menü"

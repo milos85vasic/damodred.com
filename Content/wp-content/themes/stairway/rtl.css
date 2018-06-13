@@ -1,0 +1,230 @@
+/*
+Theme Name: StairWay
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+*/
+
+p, ul, ol, li, dl, address {
+  text-align: right;
+}
+ul {
+  margin-left: 0;
+  margin-right: 16px;   
+}
+ol {
+	margin-left: 0;
+  margin-right: 20px;
+}
+table, td, th {
+  text-align: right;
+}
+blockquote, q { 
+  border-left: none;
+  border-right: 1px solid #e3e3e3;
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+
+/* basic structure
+-------------------------------------------------------------- */
+
+#main-content {
+  float: right;         
+}
+#sidebar {
+  float: left;
+  margin-left: 0px;
+  margin-right: 40px;      
+}
+.scroll-top {
+  left: 10px;
+  right: auto;            
+}
+
+
+/* header
+-------------------------------------------------------------- */
+
+.site-title,
+.header-logo {
+  float: right;             
+}
+.header-icons {
+  left: 0;
+  right: auto;              
+}
+.social-icon {
+  margin-left: 0;
+  margin-right: 5px;            
+}
+.title-box {
+  float: right;           
+}
+.menu-box {
+  float: left;         
+}
+
+/* menus */
+.menu-box ul {
+  float: left;
+}
+.menu-box ul li {
+  float: right;
+  margin-right: 37px;
+  margin-left: 0;
+}
+.menu-box a,
+.menu-box a:visited {
+  float: right;
+}
+.menu-box ul ul {
+  left: 0;
+  right: auto;
+}
+.menu-box ul ul ul {
+  left: auto;
+  right: -212px;
+} 
+.top-navigation ul {
+  border-left: none;
+  border-right: 1px solid #ededed;
+  float: right;
+}
+.top-navigation ul ul {
+  border-right: none;
+}
+.top-navigation ul li {
+  float: right;
+}
+.top-navigation ul .last-menu-item {
+  margin-left: 0;                                   
+}
+.top-navigation a,
+.top-navigation a:visited {
+  border-left: 1px solid #ededed;
+  border-right: none;
+  float: right;
+}
+#wrapper #wrapper-header .top-navigation ul ul a,
+#wrapper #wrapper-header .top-navigation ul ul a:visited { 
+  text-align: right;
+}
+.top-navigation ul ul {
+  left: auto;
+  right: 0;
+}
+.top-navigation ul ul ul {
+  left: auto;
+  right: 250px;
+}
+
+/* main content
+-------------------------------------------------------------- */
+
+.content-headline h1 {
+  float: right;                     
+}
+.content-headline .breadcrumb-navigation {
+  float: left;
+  text-align: left;                                         
+}
+.post-info .post-info-category,
+.post-info .post-info-tags {
+  background-position: right top;              
+}
+.post-info span { 
+  padding: 0 22px 0 0;
+}
+#main-content .nav-previous {
+  float: right;                            
+}
+#main-content .nav-next {
+  float: left;
+  text-align: left;                            
+}
+
+/* default post entry */
+.attachment-post-thumbnail { 
+  float: right;
+  margin-left: 25px;
+  margin-right: 0;
+}
+
+
+/* sidebar
+-------------------------------------------------------------- */
+
+.sidebar-widget ul li {
+  background: right top no-repeat url(images/sidebar-li-rtl.png);
+  padding-left: 0;
+  padding-right: 14px;                       
+} 
+
+
+/* footer
+-------------------------------------------------------------- */  
+
+.footer-widget-area {
+  float: right;
+  margin-left: 35px;
+  margin-right: 0;               
+}
+#footer .footer-widget-area-3 {
+  margin-left: 0;                              
+}                                 
+
+
+/* default widgets
+-------------------------------------------------------------- */
+
+#wp-calendar #prev {
+  text-align: right;                   
+}
+#wp-calendar #next {
+  text-align: left;                   
+}
+
+
+/* form fields
+-------------------------------------------------------------- */
+
+#searchform .searchform-wrapper #s {
+  padding: 5px 3% 5px 0;
+  left: auto;
+  right: 0;              
+}
+#searchform .searchform-wrapper .send {
+  left: 0;
+  right: auto;
+}
+
+
+/* comments area
+-------------------------------------------------------------- */
+
+#comments ol {
+  margin-left: auto;
+  margin-right: 0;             
+}
+#comments .avatar,
+#comments .fn {
+  float: right;
+  margin: 0 0 0 6px
+}
+#comments time,
+#comments .edit-link {
+  float: left;             
+}
+
+
+/* media queries
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 1000px) {
+  .js .selectnav {
+    float: right;
+}
+  #wrapper .content-headline .breadcrumb-navigation {
+    text-align: right;                                                    
+}
+}

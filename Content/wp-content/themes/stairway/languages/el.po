@@ -1,0 +1,1056 @@
+# Translation of the WordPress theme StairWay 1.0 by Tomas Toman.
+# This file is distributed under the same license as the StairWay package.
+# Tomas Toman <webdesign@tomastoman.cz>, 2014.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StairWay 1.0\n"
+"POT-Creation-Date: 2014-03-29 08:27+0100\n"
+"PO-Revision-Date: 2014-05-24 09:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: Tomas Toman\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: 404.php:12 search.php:38
+msgid "Nothing Found"
+msgstr "Δε βρέθηκε κάτι"
+
+#: 404.php:20
+msgid ""
+"Apologies, but no results were found for your request. Perhaps searching "
+"will help you to find a related content."
+msgstr ""
+"Συγγνώμη, αλλά κανένα αποτέλεσμα δε βρέθηκε για το αίτημά σας. Ίσως μία νέα "
+"αναζήτηση σας βοηθήσει να βρείτε κάτι σχετικό."
+
+#: archive.php:15
+#, php-format
+msgid "Daily Archive: %s"
+msgstr "Αρχείο ημέρας: %s"
+
+#: archive.php:17
+#, php-format
+msgid "Monthly Archive: %s"
+msgstr "Μηνιαίο αρχείο: %s"
+
+#: archive.php:19
+#, php-format
+msgid "Yearly Archive: %s"
+msgstr "Ετήσιο αρχείο: %s"
+
+#: archive.php:21
+msgid "Archive"
+msgstr "Αρχείο"
+
+#: author.php:14
+#, php-format
+msgid "Author Archive: %s"
+msgstr "Αρχείο συγγραφέα: %s"
+
+#: author.php:25
+#, php-format
+msgid "About %s"
+msgstr "περίπου %s"
+
+#: class-tgm-plugin-activation.php:156 functions.php:394
+msgid "Install Required Plugins"
+msgstr "Εγκαταστήστε τα απαιτούμενα Plugins"
+
+#: class-tgm-plugin-activation.php:157 functions.php:395
+msgid "Install Plugins"
+msgstr "Εγκαταστήστε τα Plugins"
+
+#: class-tgm-plugin-activation.php:158 functions.php:399
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Εγκατάσταση Plugin: %s"
+
+#: class-tgm-plugin-activation.php:159
+msgid "Something went wrong."
+msgstr "Κάτι πήγε λάθος."
+
+#: class-tgm-plugin-activation.php:170 functions.php:405
+msgid "Return to Required Plugins Installer"
+msgstr "Επέστρεψε στα απαραίτητα για εγκατάσταση  Plugins"
+
+#: class-tgm-plugin-activation.php:171
+msgid "Return to the dashboard"
+msgstr "Επέστρεψε στον πίνακα ελέγχου"
+
+#: class-tgm-plugin-activation.php:172 class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr "Το Plugin ενεργοποιήθηκε σωστά."
+
+#: class-tgm-plugin-activation.php:173 class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgstr "Το παρακάτω Plugin ενεργοποιήθηκε σωστά:"
+
+#: class-tgm-plugin-activation.php:174
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Όλα τα Plugins εγκαταστάθηκαν και ενεργοποιήθηκαν με επιτυχία. %1$s"
+
+#: class-tgm-plugin-activation.php:175
+msgid "Dismiss this notice"
+msgstr "Αγνόησε αυτό το μήνυμα"
+
+#: class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr "Εξωτερικός σύνδεσμος"
+
+#: class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr "Προσωπική αποθήκευση"
+
+#: class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr "Προσυσκευασμένα"
+
+#: class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr "WordPress αποθήκευση"
+
+#: class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr "Απαιτούμενα"
+
+#: class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr "Συνιστάται"
+
+#: class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr "Δεν εγκαταστάθηκε"
+
+#: class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr "Εγκαταστάθηκε, αλλά δεν ενεργοποιήθηκε"
+
+#: class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Κανένα plugin για εγκατάσταση ή ενργοποίηση. <a href=\"%1$s\" title="
+"\"Επιστροφή στον πίνακα ελέγχου\">Επιστροφή στον πίνακα ελέγχου</a>"
+
+#: class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr "Plugin - Πρόσθετο"
+
+#: class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr "Πηγή"
+
+#: class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr "Τύπος"
+
+#: class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+#: class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr "Το απαιτούμενο πακέτο προς εγκατάσταση δεν είναι διαθέσιμο."
+
+#: class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"Κατεβάστε το απαιτούμενο πακέτο για εγκατάσταση από <span class=\"code\">%s</"
+"span>&#8230;"
+
+#: class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr "Αποσυμπιέστε το πακέτο&#8230;"
+
+#: class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr "Εγκαθιστώντας το Plugin&#8230;"
+
+#: class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr "Η εγκατάσταση του Plugin απέτυχε."
+
+#: class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr "Το Plugin εγκαταστάθηκε επιτυχώς."
+
+#: class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr "Η ενεργοποίηση του Plugin απέτυχε."
+
+#: class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Η εγκατάσταση και η ενεργοποίηση ξεκίνησε. Αυτή η διαδικασία μπορεί να "
+"διαρκέσει αρκετή ώρα σε ορισμένους κεντρικούς υπολογιστές, γι 'αυτό παρακαλώ "
+"να περιμένετε."
+
+#: class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s εγκαταστάθηκε και ενεργοποιήθηκε επιτυχώς."
+
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr "Δείξε μου λεπτομέρειες"
+
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr "Απόκρυψη λεπτομέρειας"
+
+#: class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr "Όλες οι εγκαταστάσεις και ενεργοποιήσεις ολοκληρώθηκαν."
+
+#: class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Εγκαθιστώντας και ενεργοποιώντας το Plugin %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Η εγκατάσταση ξεκίνησε. Αυτή η διαδικασία μπορεί να διαρκέσει αρκετή ώρα σε "
+"ορισμένους κεντρικούς υπολογιστές, γι' αυτό παρακαλώ περιμένετε."
+
+#: class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Παρουσιάστηκε σφάλμα κατά την εγκατάσταση %1$s: <strong>%2$s</strong>."
+
+#: class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Η εγκατάσταση από %1$s απέτυχε."
+
+#: class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s εγκαταστάθηκε σωστά."
+
+#: class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr "Όλες οι εγκαταστάσεις έχουν ολοκληρωθεί."
+
+#: class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Εγκατάσταση Plugin %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr "Επιστρέψτε στον πίνακα ελέγχου."
+
+#: comments.php:14 content-archives.php:22 single.php:26
+#: functions/fe/widget-posts-column.php:114
+#: functions/fe/widget-posts-column.php:132
+#: functions/fe/widget-posts-grid.php:108
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 σχόλιο"
+msgstr[1] "%1$s σχόλια"
+
+#: comments.php:23
+msgid "&larr; Older Comments"
+msgstr "&larr; Παλαιότερα σχόλια"
+
+#: comments.php:24
+msgid "Newer Comments &rarr;"
+msgstr "Νεότερα σχόλια &rarr;"
+
+#: comments.php:30
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι κλειστά. Δεν μπορείτε να αφήσετε άλλα σχόλια."
+
+#: comments.php:35
+msgid "Your name"
+msgstr "Το όνομά σου"
+
+#: comments.php:36
+msgid "Website"
+msgstr "Ιστοσελίδα - Ιστότοπος"
+
+#: comments.php:37
+msgid "Comment..."
+msgstr "Σχόλιο..."
+
+#: comments.php:41
+msgid "Leave a Comment"
+msgstr "Αφήστε το σχόλιό σας"
+
+#: content-archives.php:19 single.php:23
+msgid "Author: "
+msgstr "Συντάχθηκε από: "
+
+#: functions.php:133
+msgid "Main Header Menu"
+msgstr "Μενού Βασικής Επικεφαλίδας"
+
+#: functions.php:134
+msgid "Top Header Menu"
+msgstr "Μενού πάνω Επικεφαλίδας"
+
+#: functions.php:146
+msgid "Right Sidebar"
+msgstr "Δεξιά μπάρα"
+
+#: functions.php:148
+msgid "Right sidebar which appears on all posts and pages."
+msgstr ""
+"Δεξιά πλαϊνή μπάρα που εμφανίζεται σε όλες τις αναρτήσεις και τις σελίδες."
+
+#: functions.php:155
+msgid "Footer left widget area"
+msgstr "Κάτω αριστερή περιοχή με widgets"
+
+#: functions.php:157
+msgid "Left column with widgets in footer."
+msgstr "Αριστερή στήλη με widgets στην κάτω πλευρά."
+
+#: functions.php:164
+msgid "Footer middle widget area"
+msgstr "Κάτω μεσαία περιοχή με widgets"
+
+#: functions.php:166
+msgid "Middle column with widgets in footer."
+msgstr "Μεσαία στήλη με widgets στο κάτω μέρος."
+
+#: functions.php:173
+msgid "Footer right widget area"
+msgstr "Κάτω δεξιά περιοχή με widgets"
+
+#: functions.php:175
+msgid "Right column with widgets in footer."
+msgstr "Δεξιά στήλη με widgets στην κάτω μπάρα."
+
+#: functions.php:182
+msgid "Footer notices"
+msgstr "Κάτω μπάρα ανακοινώσεων"
+
+#: functions.php:184
+msgid ""
+"The line for copyright and other notices below the footer widget areas. "
+"Insert here one Text widget. The \"Title\" field at this widget should stay "
+"empty."
+msgstr ""
+"Η γραμμή που περιέχει χώρο για τα δικαιώματα πνευματικής ιδιοκτησίας και "
+"άλλες ανακοινώσεις και βρίσκεται κάτω από τις περιοχές των widgets στο "
+"υποσέλιδο. Εισάγετε εδώ ένα widget κειμένου. Το πεδίο με ονομασία \"τίτλος "
+"\" σε αυτό το widget πρέπει να μείνει κενό."
+
+#: functions.php:191
+msgid "Latest Posts Homepage widget area"
+msgstr ""
+"Τελευταίες αναρτήσεις των περιεχομένων των widgets της Κεντρικής Σελίδας"
+
+#: functions.php:193
+msgid ""
+"The area for any StairWay Posts Widgets, which display latest posts from a "
+"specific category below the default Latest Posts area."
+msgstr ""
+"Η περιοχή που είναι για αναρτήσεις  widgets από StairWay, που εμφανίζουν τις "
+"τελευταίες δημοσιεύσεις από μια συγκεκριμένη κατηγορία κάτω από την "
+"προεπιλεγμένη περιοχή των τελευταίων / πιο πρόσφατων αναρτήσεων/ "
+"δημοσιεύσεων."
+
+#: functions.php:240
+msgid "Post navigation"
+msgstr "Πλοήγηση στις αναρτήσεις / δημοσιεύσεις"
+
+#: functions.php:242
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> παλαιότερες δημοσιεύσεις"
+
+#: functions.php:243
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Πιο πρόσφατες δημοσιεύσεις <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:257
+msgid "&larr; Previous post"
+msgstr "&larr; Προηγούμενη δημοσίευση"
+
+#: functions.php:258
+msgid "Next post &rarr;"
+msgstr "Επόμενη δημοσίευση &rarr;"
+
+#: functions.php:275
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:275
+msgid "(Edit)"
+msgstr "(Επεξεργασία)"
+
+#: functions.php:288
+msgid "(Post author)"
+msgstr "(Δημοσίευση συγγραφέα)"
+
+#: functions.php:294
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s στο %2$s"
+
+#: functions.php:300
+msgid "Your comment is awaiting moderation."
+msgstr "Το σχόλιό σας αναμένει έγκριση."
+
+#: functions.php:306
+msgid "Reply"
+msgstr "Απάντηση"
+
+#: functions.php:308
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: functions.php:396
+#, php-format
+msgid ""
+"The %1$s plugin is required for this theme. Click on the big blue button "
+"below to install and activate %1$s."
+msgstr ""
+"Το %1$s plugin απαιτείται για αυτό το θέμα. Κάντε κλικ στο μεγάλο γαλάζιο "
+"κουμπί παρακάτω για να το εγκαταστήσετε και να το  ενεργοποιήσετε %1$s."
+
+#: functions.php:397
+#, php-format
+msgid ""
+"The %1$s is installed but currently inactive. Please go to the <a href=\"%2$s"
+"\">plugin administration page</a> page to activate it."
+msgstr ""
+"Το %1$s εγκαταστάθηκε, αλλά είναι προσωριν) ανενεργό. Πηγαίνεται στη <a href="
+"\"%2$s\">plugin administration page </a>, σελίδα πρόσθετων και ενεργοποιήστε "
+"το."
+
+#: functions.php:398
+#, php-format
+msgid "Install %s Now"
+msgstr "Εγκαταστήστε το %s  τώρα"
+
+#: functions.php:400
+msgid "Something went wrong with the plugin API."
+msgstr "Κάτι πήγε λάθος με το Plugin API."
+
+#: functions.php:401
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. <a href=\"%2$s\"><strong>Click here to "
+"begin the installation process</strong></a>. You may be asked for FTP "
+"credentials based on your server setup."
+msgstr ""
+"Το θέμα αυτό απαιτεί το %1$s Plugin. <a href=\"%2$s\"><strong> Κάνε κλικ "
+"(εδώ) για να ξεκινήσει η διαδικασία εγκατάστασης </strong></a>. Μπορεί να "
+"ζητηθούν τα διαπιστευτήρια με βάση τις ρυθμίσεις του διακομιστή σας. "
+
+#: functions.php:402
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"Λυπάμαι, αλλά δεν έχετε την έγκριση να εγκαταστήστε το %s Plugin.,"
+"Επικοινωνήστε με τον administrator (Διαχειριστή) της σελίδας και ζητήστε τη "
+"βοήθειά του για την εγκατάσταση του Plugin."
+
+#: functions.php:403
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. That plugin is currently inactive, so "
+"please go to the <a href=\"%2$s\">plugin administration page</a> to activate "
+"it."
+msgstr ""
+"Αυτό το Θέμα απαιτεί το %1$s Plugin. Το Plugin είναι προσωρινά ανενεργό, "
+"έτσι παρακαλούμε να μεταβείτε στην  <a href=\"%2$s\">σελίδα διαχείρισης των "
+"Plugins</a> για να το ενεργοποιήσετε."
+
+#: functions.php:404
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"Συγγνώμη, αλλά δεν έχετε την άδεια για να ενεργοποιήσετε το %s Plugin. "
+"Επικοινωνήστε με τον Διαχειριστή αυτής της σελίδας, για να ενεργοποιήσετε το "
+"Plugin."
+
+#: functions.php:416
+msgid "StairWay"
+msgstr "StairWay"
+
+#: functions.php:417
+msgid "StairWay - full screen"
+msgstr "StairWay - πλήρη οθόνη"
+
+#: header.php:92 functions/fe/widget-posts-grid.php:111
+#: functions/fe/widget-posts-list.php:111
+msgid "Read more &gt;"
+msgstr "Περισσότερα &gt;"
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Αποτελέσματα αναζήτησης για: %s"
+
+#: search.php:20
+msgid "<strong>Number of Results</strong>: "
+msgstr "<strong>Αριθμός αποτελεσμάτων:</strong>: "
+
+#: search.php:27
+msgid "Search results navigation"
+msgstr "Πλοήγηση στα αποτελέσματα αναζήτησης"
+
+#: search.php:29
+msgid "<span class=\"meta-nav\">&larr;</span> Previous results"
+msgstr "<span class=\"meta-nav\">&larr;</span> Προηγούμενα αποτελέσματα"
+
+#: search.php:30
+msgid "Next results <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Επόμενα αποτελέσματα <span class=\"meta-nav\">&rarr;</span>"
+
+#: search.php:45
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Λυπούμαστε, αλλά τίποτα δεν ταιριάζει με τα κριτήρια αναζήτησής σας. "
+"Παρακαλώ δοκιμάστε ξανά με κάποιες διαφορετικές λέξεις-κλειδιά."
+
+#: searchform.php:9
+msgid "Search here..."
+msgstr "Αναζήτηση εδώ..."
+
+#: single.php:36
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: tag.php:13
+#, php-format
+msgid "Tag Archive: %s"
+msgstr "Λέξεις κλειδιά για την αναζήτηση: %s"
+
+#: cycloneslider/dark/slider.php:43
+msgid "View Larger Image"
+msgstr "Μεγέθυνση εικόνας"
+
+#: cycloneslider/dark/slider.php:46 cycloneslider/dark/slider.php:48
+msgid "Learn More"
+msgstr "Μάθετε περισσότερα"
+
+#: cycloneslider/dark/slider.php:64 cycloneslider/default/slider.php:62
+#: cycloneslider/default/slider.php:66 cycloneslider/default/slider.php:70
+#: cycloneslider/standard/slider.php:70 cycloneslider/thumbnails/slider.php:70
+msgid "Slide type not supported."
+msgstr "Slide Τύπος δεν υποστηρίζεται."
+
+#: functions/be/fw-options.php:1344
+msgid "settings reset."
+msgstr "επαναφορά ρυθμίσεων."
+
+#: functions/be/fw-setup.php:41
+msgid "Theme Options"
+msgstr "Επιλογή θέματος"
+
+#: functions/fe/google-map-shortcode.php:100
+msgid "No location found for the entered address."
+msgstr "Η σχετική τοποθεσία για τη διεύθυνση που εισάγατε δεν βρέθηκε."
+
+#: functions/fe/google-map-shortcode.php:102
+msgid "Invalid request. Did you enter an address?"
+msgstr "Μη έγκυρο αίτημα. Εισάγατε τη διεύθυνση σωστά;"
+
+#: functions/fe/google-map-shortcode.php:104
+msgid ""
+"Something went wrong while retrieving your map, please ensure you have "
+"entered the short code correctly."
+msgstr ""
+"Κάτι πήγε στραβά κατά την ανάκτηση του χάρτη σας, παρακαλούμε βεβαιωθείτε "
+"ότι έχετε εισάγει τον κώδικα σωστά."
+
+#: functions/fe/google-map-shortcode.php:107
+msgid "Unable to contact Google API service."
+msgstr "Αδύνατη η σύνδεση με την υπηρεσία Google API."
+
+#: functions/fe/widget-facebook.php:12
+msgid "Displays Facebook Like Box."
+msgstr "Εμφάνιση εικονιδίου Facebook Like."
+
+#: functions/fe/widget-facebook.php:14
+msgid "StairWay Facebook Like Box Widget"
+msgstr "StairWay Facebook Like Box Widget"
+
+#: functions/fe/widget-facebook.php:56 functions/fe/widget-image-box.php:116
+#: functions/fe/widget-info-box.php:74 functions/fe/widget-posts-column.php:41
+#: functions/fe/widget-posts-default.php:41
+#: functions/fe/widget-posts-grid.php:41 functions/fe/widget-posts-list.php:41
+#: functions/fe/widget-posts-slider.php:41
+#: functions/fe/widget-posts-thumbnail.php:41
+#: functions/fe/widget-presentation-box.php:58
+#: functions/fe/widget-social.php:86 functions/fe/widget-twitter.php:39
+msgid "Title:"
+msgstr "Τίτλος:"
+
+#: functions/fe/widget-facebook.php:63
+msgid "Facebook Page URL:"
+msgstr "URL της σελίδας του Facebook:"
+
+#: functions/fe/widget-facebook.php:67
+msgid ""
+"Insert here the full URL of your Facebook Page that will be liked (example: "
+"http://www.facebook.com/FacebookDevelopers)."
+msgstr ""
+"Εισάγετε την πλήρη URL διεύθυνση του Facebook (παράδειγμα: http://www."
+"facebook.com/FacebookDevelopers)."
+
+#: functions/fe/widget-facebook.php:73
+msgid "Like Box Height: (optional)"
+msgstr "Διαστάσεις του εικονιδίου που κάνει Like): (προαιρετικό)"
+
+#: functions/fe/widget-facebook.php:77
+msgid ""
+"Insert here the height of Like Box. The value is in pixels, but in the field "
+"please write ONLY NUMBERS (without symbol \"px\")!"
+msgstr ""
+"Βάλτε εδώ το ύψος του εικονιδίου Like. Η τιμή είναι σε pixels, αλλά και στον "
+"τομέα γράψτε ΜΟΝΟ ΑΡΙΘΜΟΥΣ (όχι σύμβολα\"px\")!"
+
+#: functions/fe/widget-facebook.php:83
+msgid "Show Faces:"
+msgstr "Εμφάνιση προσώπων:"
+
+#: functions/fe/widget-facebook.php:90
+msgid "Specify whether to display profile photos of people who like the page."
+msgstr ""
+"Καθορίστε εάν επιθυμείτε την εμφάνιση φωτογραφιών με τα προφίλ των ανθρώπων "
+"που τους αρέσει η σελίδα."
+
+#: functions/fe/widget-facebook.php:96
+msgid "Show Stream:"
+msgstr "Εμφάνιση Stream:"
+
+#: functions/fe/widget-facebook.php:103
+msgid "Specify whether to display a stream of the latest posts by the Page."
+msgstr ""
+"Καθορίστε εάν επιθυμείτε την εμφάνιση μίας ροής των τελευταίων αναρτήσεων / "
+"δημοσιεύσεων από τη Σελίδα."
+
+#: functions/fe/widget-image-box.php:12
+msgid ""
+"Displays a full screen box with your custom background image, text and link."
+msgstr ""
+"Εμφανίζει ένα πλήρες κουτί οθόνη με το έθιμο το υπόβαθρό σας εικόνα, κείμενο "
+"και σύνδεσμο."
+
+#: functions/fe/widget-image-box.php:14
+msgid "StairWay Box-Image"
+msgstr "StairWay Box-Image"
+
+#: functions/fe/widget-image-box.php:76
+#: functions/fe/widget-presentation-box.php:48
+msgid "Image:"
+msgstr "εικόνα:"
+
+#: functions/fe/widget-image-box.php:80
+#: functions/fe/widget-presentation-box.php:52
+msgid "Insert here the full URL address of your image."
+msgstr "Εισάγετε το URL από το εικόνα."
+
+#: functions/fe/widget-image-box.php:86
+msgid "Height:"
+msgstr "ύψος:"
+
+#: functions/fe/widget-image-box.php:90
+msgid "Set here the height of the image box (in pixels)."
+msgstr "Ορίστε εδώ το ύψος του πλαισίου της εικόνας (σε εικονοστοιχεία)."
+
+#: functions/fe/widget-image-box.php:96
+msgid "Background image size:"
+msgstr "Υπόβαθρο μέγεθος εικόνας:"
+
+#: functions/fe/widget-image-box.php:99
+msgid "Auto"
+msgstr "Αυτόματη"
+
+#: functions/fe/widget-image-box.php:100
+msgid "Cover"
+msgstr "κάλυμμα"
+
+#: functions/fe/widget-image-box.php:106
+msgid "Scrolling:"
+msgstr "κύλιση:"
+
+#: functions/fe/widget-image-box.php:109
+msgid "Fixed"
+msgstr "σταθερός"
+
+#: functions/fe/widget-image-box.php:110
+msgid "Scrolled"
+msgstr "κύλιση"
+
+#: functions/fe/widget-image-box.php:123
+#: functions/fe/widget-presentation-box.php:65
+msgid "Subtitle:"
+msgstr "υπότιτλος:"
+
+#: functions/fe/widget-image-box.php:130
+msgid "Button link:"
+msgstr "Κουμπί συνδέσμου:"
+
+#: functions/fe/widget-image-box.php:134
+msgid "Insert here the full URL address of your custom link."
+msgstr "Εισάγετε το URL από το προσαρμοσμένο σύνδεσμο."
+
+#: functions/fe/widget-image-box.php:140
+msgid "Button text:"
+msgstr "Κείμενο κουμπιού:"
+
+#: functions/fe/widget-image-box.php:144
+msgid "Insert here a text which will be displayed in the button."
+msgstr "Εισάγετε εδώ ένα κείμενο που θα εμφανίζεται στο κουμπί."
+
+#: functions/fe/widget-info-box.php:12
+msgid "Displays a box with your custom text and link."
+msgstr "Εμφανίζει ένα παράθυρο με προσαρμοσμένο κείμενο και το σύνδεσμο σας."
+
+#: functions/fe/widget-info-box.php:14
+msgid "StairWay Box-Info"
+msgstr "StairWay Box-Info"
+
+#: functions/fe/widget-info-box.php:48
+msgid "Icon:"
+msgstr "εικόνα:"
+
+#: functions/fe/widget-info-box.php:51
+msgid "Basket"
+msgstr "καλάθι αγορών"
+
+#: functions/fe/widget-info-box.php:52
+msgid "Book"
+msgstr "βιβλίο"
+
+#: functions/fe/widget-info-box.php:53
+msgid "Calendar"
+msgstr "ημερολόγιο"
+
+#: functions/fe/widget-info-box.php:54
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: functions/fe/widget-info-box.php:55
+msgid "Download"
+msgstr "Κατεβάστε"
+
+#: functions/fe/widget-info-box.php:56
+msgid "Envelope"
+msgstr "φάκελος"
+
+#: functions/fe/widget-info-box.php:57
+msgid "Globe"
+msgstr "κόσμο"
+
+#: functions/fe/widget-info-box.php:58
+msgid "Heart"
+msgstr "καρδιά"
+
+#: functions/fe/widget-info-box.php:59
+msgid "Home"
+msgstr "σπίτι"
+
+#: functions/fe/widget-info-box.php:60
+msgid "Notepad"
+msgstr "σημειωματάριο"
+
+#: functions/fe/widget-info-box.php:61
+msgid "Pin"
+msgstr "καρφίτσα"
+
+#: functions/fe/widget-info-box.php:62
+msgid "Star"
+msgstr "αστέρι"
+
+#: functions/fe/widget-info-box.php:63
+msgid "Tick"
+msgstr "ελέγξετε"
+
+#: functions/fe/widget-info-box.php:64
+msgid "User"
+msgstr "Χρήστης"
+
+#: functions/fe/widget-info-box.php:65
+msgid "none"
+msgstr "κανένας"
+
+#: functions/fe/widget-info-box.php:68
+msgid "Select an icon which will be displayed beside the title."
+msgstr "Επιλέξτε ένα εικονίδιο που θα εμφανίζεται στην κεφαλίδα του κουτιού."
+
+#: functions/fe/widget-info-box.php:81
+#: functions/fe/widget-presentation-box.php:72
+msgid "Text:"
+msgstr "κείμενο:"
+
+#: functions/fe/widget-info-box.php:88
+msgid "Link:"
+msgstr "σύνδεσμος:"
+
+#: functions/fe/widget-info-box.php:92
+msgid "Insert here the full URL which will be displayed as a link (optional)."
+msgstr ""
+"Εισάγετε εδώ τον πλήρη διεύθυνση URL που θα εμφανίζεται ως σύνδεσμος "
+"(προαιρετικό)."
+
+#: functions/fe/widget-info-box.php:124
+msgid "Read More &gt;"
+msgstr "Περισσότερα &gt;"
+
+#: functions/fe/widget-posts-column.php:12
+msgid ""
+"Displays the latest posts from the selected category as a column with "
+"highlighted first post."
+msgstr ""
+"Εμφανίζει τις τελευταίες δημοσιεύσεις από την επιλεγμένη κατηγορία ως μία "
+"στήλη η οποία τονίζει την πρώτη δημοσίευση."
+
+#: functions/fe/widget-posts-column.php:14
+msgid "StairWay Posts-Column"
+msgstr "StairWay Posts-Column"
+
+#: functions/fe/widget-posts-column.php:48
+#: functions/fe/widget-posts-default.php:48
+#: functions/fe/widget-posts-grid.php:48 functions/fe/widget-posts-list.php:48
+#: functions/fe/widget-posts-slider.php:48
+#: functions/fe/widget-posts-thumbnail.php:48
+msgid "Category:"
+msgstr "Κατηγορία:"
+
+#: functions/fe/widget-posts-column.php:58
+#: functions/fe/widget-posts-default.php:58
+#: functions/fe/widget-posts-grid.php:58 functions/fe/widget-posts-list.php:58
+#: functions/fe/widget-posts-slider.php:58
+#: functions/fe/widget-posts-thumbnail.php:58
+msgid "Select a category of posts."
+msgstr "Διάλεξε την κατηγορία μηνυμάτων (Δημοσιεύσεων / αναρτήσεων)."
+
+#: functions/fe/widget-posts-column.php:64
+#: functions/fe/widget-posts-default.php:64
+#: functions/fe/widget-posts-grid.php:64 functions/fe/widget-posts-list.php:64
+#: functions/fe/widget-posts-slider.php:64
+#: functions/fe/widget-posts-thumbnail.php:64
+msgid "Number of posts:"
+msgstr "Αριθμός μηνυμάτων (Δημοσιεύσεων / αναρτήσεων)."
+
+#: functions/fe/widget-posts-column.php:68
+#: functions/fe/widget-posts-default.php:68
+#: functions/fe/widget-posts-grid.php:68 functions/fe/widget-posts-list.php:68
+#: functions/fe/widget-posts-slider.php:68
+#: functions/fe/widget-posts-thumbnail.php:68
+msgid ""
+"Insert here the number of latest posts from the selected category which you "
+"want to display."
+msgstr ""
+"Εισάγετε εδώ τον αριθμό των τελευταίων δημοσιεύσεων από την επιλεγμένη "
+"κατηγορία που θέλετε να εμφανίσετε."
+
+#: functions/fe/widget-posts-default.php:12
+msgid ""
+"Displays the latest posts from the selected category in the default manner."
+msgstr ""
+"Εμφανίζει τις τελευταίες δημοσιεύσεις από την επιλεγμένη κατηγορία ως "
+"προεπιλογή."
+
+#: functions/fe/widget-posts-default.php:14
+msgid "StairWay Posts-Default"
+msgstr "StairWay Posts-Default"
+
+#: functions/fe/widget-posts-grid.php:12
+msgid "Displays the latest posts from the selected category as a grid."
+msgstr ""
+"Εμφανίζει τις τελευταίες δημοσιεύσεις από την επιλεγμένη κατηγορία ως πλέγμα."
+
+#: functions/fe/widget-posts-grid.php:14
+msgid "StairWay Posts-Grid"
+msgstr "StairWay Posts-Grid"
+
+#: functions/fe/widget-posts-list.php:12
+msgid ""
+"Displays the latest posts from the selected category as an unordered list "
+"with highlighted first post."
+msgstr ""
+"Εμφανίζει τις τελευταίες δημοσιεύσεις από την επιλεγμένη κατηγορία ως μία μη "
+"διατεταγμένη λίστα με τονισμένη την πρώτη δημοσίευση."
+
+#: functions/fe/widget-posts-list.php:14
+msgid "StairWay Posts-List"
+msgstr "StairWay Posts-List"
+
+#: functions/fe/widget-posts-slider.php:12
+msgid "Displays the latest posts from the selected category as a slider."
+msgstr ""
+"Εμφανίζει τις τελευταίες δημοσιεύσεις από την επιλεγμένη κατηγορία ως μπάρα."
+
+#: functions/fe/widget-posts-slider.php:14
+msgid "StairWay Posts-Slider"
+msgstr "StairWay Posts-Slider"
+
+#: functions/fe/widget-posts-thumbnail.php:12
+msgid "Displays the latest posts from the selected category as the thumbnails."
+msgstr ""
+"Εμφανίζει τις τελευταίες δημοσιεύσεις από την επιλεγμένη κατηγορία ως "
+"μικρογραφίες."
+
+#: functions/fe/widget-posts-thumbnail.php:14
+msgid "StairWay Posts-Thumbnail"
+msgstr "StairWay Posts-Thumbnail"
+
+#: functions/fe/widget-presentation-box.php:12
+msgid "Displays a box with your custom image and text."
+msgstr "Εμφανίζει ένα παράθυρο με προσαρμοσμένο εικόνα και το κείμενο."
+
+#: functions/fe/widget-presentation-box.php:14
+msgid "StairWay Box-Presentation"
+msgstr "StairWay Box-Presentation"
+
+#: functions/fe/widget-section-headline.php:12
+msgid "Displays a headline of a section created with the Page Builder."
+msgstr ""
+"Εμφανίζει έναν τίτλο από ένα τμήμα που δημιουργήθηκε με την Page Builder."
+
+#: functions/fe/widget-section-headline.php:14
+msgid "StairWay Section-Headline"
+msgstr "StairWay Section-Headline"
+
+#: functions/fe/widget-section-headline.php:28
+msgid "Headline:"
+msgstr "Τίτλος:"
+
+#: functions/fe/widget-social.php:12
+msgid "A Social widget by StairWay"
+msgstr "Τα Κοινωνικά δίκτυα από StairWay"
+
+#: functions/fe/widget-social.php:14
+msgid "StairWay Social Widget"
+msgstr "StairWay Social Widget"
+
+#: functions/fe/widget-social.php:93
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: functions/fe/widget-social.php:97
+msgid "Insert the full URL of your Twitter profile."
+msgstr "Εισάγετε όλο το URL από το προφίλ σας στο Twitter."
+
+#: functions/fe/widget-social.php:103
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: functions/fe/widget-social.php:107
+msgid "Insert the full URL of your Facebook profile, page or group."
+msgstr "Εισάγετε το URL από το προφίλ σας στο Facebook, προσωπικό ή ομαδικό."
+
+#: functions/fe/widget-social.php:113
+msgid "RSS:"
+msgstr "RSS:"
+
+#: functions/fe/widget-social.php:117
+msgid "Insert the Url of your RSS. You may include your RSS from Feedburner."
+msgstr ""
+"Εισάγετε το URL από τα RSS.  Μπορείτε να συμπεριλάβετε RSS σας από το "
+"Feedburner."
+
+#: functions/fe/widget-social.php:123
+msgid "Google Plus:"
+msgstr "Google Plus:"
+
+#: functions/fe/widget-social.php:127
+msgid "Insert the full URL of your Google Plus profile"
+msgstr "Εισάγετε το URL από το προφίλ σας στο Google Plus."
+
+#: functions/fe/widget-social.php:133
+msgid "You Tube:"
+msgstr "You Tube:"
+
+#: functions/fe/widget-social.php:137
+msgid "Insert the full URL of your YouTube profile."
+msgstr "Εισάγετε το URL από το προφίλ σας στο YouTube."
+
+#: functions/fe/widget-social.php:143
+msgid "Linkedin:"
+msgstr "Linkedin:"
+
+#: functions/fe/widget-social.php:147
+msgid "Insert the full URL of your Linkedin profile."
+msgstr "Εισάγετε το URL από το προφίλ σας στο Linkedin."
+
+#: functions/fe/widget-social.php:153
+msgid "Delicious:"
+msgstr "Delicious:"
+
+#: functions/fe/widget-social.php:157
+msgid "Insert the full URL of your Delicious profile."
+msgstr "Εισάγετε το URL από το προφίλ σας στο Delicious."
+
+#: functions/fe/widget-social.php:163
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+#: functions/fe/widget-social.php:167
+msgid "Insert the full URL of your Pinterest profile."
+msgstr "Εισάγετε το URL από το προφίλ σας στο Pinterest."
+
+#: functions/fe/widget-social.php:173
+msgid "Flickr:"
+msgstr "Flickr:"
+
+#: functions/fe/widget-social.php:177
+msgid "Insert the full URL of your Flickr profile."
+msgstr "Εισάγετε το URL από το προφίλ σας στο Flickr."
+
+#: functions/fe/widget-twitter.php:13
+msgid "Twitter widget by StairWay"
+msgstr "Widget του Twitter από StairWay"
+
+#: functions/fe/widget-twitter.php:15
+msgid "StairWay Twitter Widget"
+msgstr "StairWay Twitter Widget"
+
+#: functions/fe/widget-twitter.php:25
+msgid "Join us on Twitter"
+msgstr "Ακολουθήστε μας στο Twitter"
+
+#: functions/fe/widget-twitter.php:46
+msgid "Twitter Username:"
+msgstr "Twitter Username:"
+
+#: functions/fe/widget-twitter.php:50
+msgid "Insert your Twitter username. (ex: stairway)."
+msgstr "Εισάγετε το όνομα χρήστη στο Twitter. Πχ: stairway."
+
+#: functions.php:247 search.php:28
+msgid "&larr; Previous"
+msgstr "&larr; Προηγούμενη"
+
+#: functions.php:248 search.php:29
+msgid "Next &rarr;"
+msgstr "Επόμενη &rarr;"

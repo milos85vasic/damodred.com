@@ -1,0 +1,1114 @@
+# Translation of the WordPress theme StairWay 1.1 by Tomas Toman.
+# This file is distributed under the same license as the StairWay package.
+# Tomas Toman <webdesign@tomastoman.cz>, 2014.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StairWay 1.1\n"
+"POT-Creation-Date: 2014-03-29 08:27+0100\n"
+"PO-Revision-Date: 2014-09-27 09:08+0100\n"
+"Last-Translator: Tomas Toman\n"
+"Language-Team: Tomas Toman\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: 404.php:12 search.php:38
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#: 404.php:20
+msgid ""
+"Apologies, but no results were found for your request. Perhaps searching "
+"will help you to find a related content."
+msgstr ""
+"Sorry, er zijn geen resultaten gevonden voor uw verzoek. Misschien helpt het "
+"om gerelateerde zoektermen te gebruiken."
+
+#: archive.php:15
+#, php-format
+msgid "Daily Archive: %s"
+msgstr "Archief per Dag: %s"
+
+#: archive.php:17
+#, php-format
+msgid "Monthly Archive: %s"
+msgstr "Archief per Maand: %s"
+
+#: archive.php:19
+#, php-format
+msgid "Yearly Archive: %s"
+msgstr "Archief per Jaar: %s"
+
+#: archive.php:21
+msgid "Archive"
+msgstr "Archief"
+
+#: author.php:14
+#, php-format
+msgid "Author Archive: %s"
+msgstr "Archief voor Auteur: %s"
+
+#: author.php:25
+#, php-format
+msgid "About %s"
+msgstr "Over %s"
+
+#: class-tgm-plugin-activation.php:156 functions.php:394
+msgid "Install Required Plugins"
+msgstr "Installeer de benodigde plugins"
+
+#: class-tgm-plugin-activation.php:157 functions.php:395
+msgid "Install Plugins"
+msgstr "Installeer Plugins"
+
+#: class-tgm-plugin-activation.php:158 functions.php:399
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Plugin wordt geïnstalleerd: %s"
+
+#: class-tgm-plugin-activation.php:159
+msgid "Something went wrong."
+msgstr "Oeps, er is iets fout gegaan."
+
+#: class-tgm-plugin-activation.php:170 functions.php:405
+msgid "Return to Required Plugins Installer"
+msgstr "Ga terug naar de Benodigde Plugins Installer"
+
+#: class-tgm-plugin-activation.php:171
+msgid "Return to the dashboard"
+msgstr "Ga terug naar het dashboard"
+
+#: class-tgm-plugin-activation.php:172 class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr "Plugin succesvol geactiveerd."
+
+#: class-tgm-plugin-activation.php:173 class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgstr "De volgende plugin is succesvol geactiveerd:"
+
+#: class-tgm-plugin-activation.php:174
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle plugins zijn succesvol geïnstalleerd en geactiveerd. %1$s"
+
+#: class-tgm-plugin-activation.php:175
+msgid "Dismiss this notice"
+msgstr "Negeer deze melding"
+
+#: class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr "Externe Link"
+
+#: class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr "Prive Archief"
+
+#: class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr "Voorverpakt"
+
+#: class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr "WordPress Archief"
+
+#: class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr "Vereist"
+
+#: class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr "Aanbevolen"
+
+#: class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr "Niet geïnstalleerd"
+
+#: class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr "Geïnstalleerd maar niet geactiveerd"
+
+#: class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Er zijn geen plugins gevonden om te installeren of activeren. <a href=\"%1$s"
+"\" title=\"Ga terug naar het Dashboard\">Ga terug naar het Dashboard</a>"
+
+#: class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr "Plugin"
+
+#: class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr "Oorsprong"
+
+#: class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr "Type"
+
+#: class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr "Status"
+
+#: class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr "Installeer"
+
+#: class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr "Activeer"
+
+#: class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr "Installatiepakket niet beschikbaar."
+
+#: class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"Installatiepakket wordt gedownload van <span class=\"code\">%s</span>&#8230;"
+
+#: class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr "Het pakket wordt uitgepakt&#8230;"
+
+#: class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr "De plugin wordt geïnstalleerd&#8230;"
+
+#: class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr "Plugin installatie mislukt."
+
+#: class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr "Plugin succesvol geïnstalleerd."
+
+#: class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr "Plugin activatie mislukt."
+
+#: class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Het installatie- en activeringsproces is begonnen. Dit proces kan een tijdje "
+"duren afhankelijk van uw webhost, een moment geduld a.u.b."
+
+#: class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s succesvol geïnstalleerd en geactiveerd."
+
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr "Meer Informatie"
+
+#: class-tgm-plugin-activation.php:1950 class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr "Minder Informatie"
+
+#: class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr "Alle installaties en activeringen zijn voltooid."
+
+#: class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s (%2$d/%3$d) wordt geïnstalleerd en geactiveerd."
+
+#: class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Het installatieproces is begonnen. Dit proces kan een tijdje duren "
+"afhankelijk van uw webhost, een moment geduld a.u.b."
+
+#: class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Er is een fout opgetreden tijdens de installatie van %1$s: <strong> %2$s</"
+"strong>."
+
+#: class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "De installatie van %1$s is mislukt."
+
+#: class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s is succesvol geïnstalleerd."
+
+#: class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr "Alle installaties zijn voltooid."
+
+#: class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin  %1$s (%2$d/%3$d) wordt geïnstalleerd"
+
+#: class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr "Ga terug naar het Dashboard"
+
+#: comments.php:14 content-archives.php:22 single.php:26
+#: functions/fe/widget-posts-column.php:114
+#: functions/fe/widget-posts-column.php:132
+#: functions/fe/widget-posts-grid.php:108
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Reactie"
+msgstr[1] "%1$s Reacties"
+
+#: comments.php:23
+msgid "&larr; Older Comments"
+msgstr "&larr; Oudere Reacties"
+
+#: comments.php:24
+msgid "Newer Comments &rarr;"
+msgstr "Nieuwere Reacties &rarr;"
+
+#: comments.php:30
+msgid "Comments are closed."
+msgstr "Geen reacties toegestaan."
+
+#: comments.php:35
+msgid "Your name"
+msgstr "Uw naam"
+
+#: comments.php:36
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:37
+msgid "Comment..."
+msgstr "Reactie..."
+
+#: comments.php:41
+msgid "Leave a Comment"
+msgstr "Laat een reactie achter"
+
+#: content-archives.php:19 single.php:23
+msgid "Author: "
+msgstr "Auteur: "
+
+#: functions.php:133
+msgid "Main Header Menu"
+msgstr "Belangrijkste Header Menu"
+
+#: functions.php:134
+msgid "Top Header Menu"
+msgstr "Bovenste Header Menu"
+
+#: functions.php:146
+msgid "Right Sidebar"
+msgstr "Hoofd Zijbalk"
+
+#: functions.php:148
+msgid "Right sidebar which appears on all posts and pages."
+msgstr "Rechter zijbalk die op berichten en pagina's te zien is."
+
+#: functions.php:155
+msgid "Footer left widget area"
+msgstr "Voettekst linker widget ruimte"
+
+#: functions.php:157
+msgid "Left column with widgets in footer."
+msgstr "Linker kolom met widgets in de voettekst."
+
+#: functions.php:164
+msgid "Footer middle widget area"
+msgstr "Voettekst centrale widget ruimte"
+
+#: functions.php:166
+msgid "Middle column with widgets in footer."
+msgstr "Middelste kolom met widgets in de voettekst."
+
+#: functions.php:173
+msgid "Footer right widget area"
+msgstr "Voettekst rechter widget ruimte"
+
+#: functions.php:175
+msgid "Right column with widgets in footer."
+msgstr "Rechter kolom met widgets in voettekst."
+
+#: functions.php:182
+msgid "Footer notices"
+msgstr "Voettekst mededelingen"
+
+#: functions.php:184
+msgid ""
+"The line for copyright and other notices below the footer widget areas. "
+"Insert here one Text widget. The \"Title\" field at this widget should stay "
+"empty."
+msgstr ""
+"De regel voor copyright en andere mededelingen onder de voettekst widget "
+"ruimte."
+
+#: functions.php:191
+msgid "Latest Posts Homepage widget area"
+msgstr "Laatste Berichten Startpagina widgetgebied"
+
+#: functions.php:193
+msgid ""
+"The area for any StairWay Posts Widgets, which display latest posts from a "
+"specific category below the default Latest Posts area."
+msgstr ""
+"Het gebied voor elke StairWay Posts Widgets, die laatste berichten weergeeft "
+"van een specifieke categorie."
+
+#: functions.php:240
+msgid "Post navigation"
+msgstr "Bericht navigatie"
+
+#: functions.php:242
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Oudere berichten"
+
+#: functions.php:243
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nieuwere berichten <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:257
+msgid "&larr; Previous post"
+msgstr "&larr; Vorig bericht"
+
+#: functions.php:258
+msgid "Next post &rarr;"
+msgstr "Volgend bericht &rarr;"
+
+#: functions.php:275
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:275
+msgid "(Edit)"
+msgstr "(Bewerken)"
+
+#: functions.php:288
+msgid "(Post author)"
+msgstr "(Auteur bericht)"
+
+#: functions.php:294
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s om %2$s"
+
+#: functions.php:300
+msgid "Your comment is awaiting moderation."
+msgstr "Uw reactie wordt vastgehouden voor moderatie."
+
+#: functions.php:306
+msgid "Reply"
+msgstr "Reageren"
+
+#: functions.php:308
+msgid "Edit"
+msgstr "Bewerken"
+
+#: functions.php:396
+#, php-format
+msgid ""
+"The %1$s plugin is required for this theme. Click on the big blue button "
+"below to install and activate %1$s."
+msgstr ""
+"De plugin %1$s is verweist voor dit thema. Klik op de grote blauwe knop "
+"hieronder om %1$ste installeren en activeren."
+
+#: functions.php:397
+#, php-format
+msgid ""
+"The %1$s is installed but currently inactive. Please go to the <a href=\"%2$s"
+"\">plugin administration page</a> page to activate it."
+msgstr ""
+"De plugin %1$s is geïnstalleerd maar is momenteel inactief. Ga naar de <a "
+"href=\"%2$s\">plugin administratie pagina</a> om deze te activeren."
+
+#: functions.php:398
+#, php-format
+msgid "Install %s Now"
+msgstr "Installeer %s Nu"
+
+#: functions.php:400
+msgid "Something went wrong with the plugin API."
+msgstr "Er is iets fout gegaan met de plugin API."
+
+#: functions.php:401
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. <a href=\"%2$s\"><strong>Click here to "
+"begin the installation process</strong></a>. You may be asked for FTP "
+"credentials based on your server setup."
+msgstr ""
+"Dit thema vereist de %1$s plugin. <a href=\"%2$s\"><strong>Klik hier om het "
+"installatieproces te starten</strong></a>. Er kan om FTP gebruikersnaam en "
+"wachtwoord gevraagd worden afhankelijk van uw server instellingen."
+
+#: functions.php:402
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"Sorry, maar u heeft niet de benodigde bevoegdheden om de %s plugin te "
+"installeren. Neem a.u.b. contact op met uw webmaster voor hulp met het "
+"installeren van deze plugin."
+
+#: functions.php:403
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. That plugin is currently inactive, so "
+"please go to the <a href=\"%2$s\">plugin administration page</a> to activate "
+"it."
+msgstr ""
+"Dit thema veresit de %1$s plugin. Deze plugin is momenteel inactief, dus ga "
+"a.u.b. naar de <a href=\"%2$s\">plugin administratie pagina</a> om hem te "
+"activeren."
+
+#: functions.php:404
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"Sorry, maar u heeft niet de benogigde bevoegdheden om de %s plugin te "
+"activeren. Neem a.u.b. contact op met uw webmaster voor hulp met het "
+"activeren van deze plugin."
+
+#: functions.php:416
+msgid "StairWay"
+msgstr "StairWay"
+
+#: functions.php:417
+msgid "StairWay - full screen"
+msgstr "StairWay - volledig scherm"
+
+#: header.php:92 functions/fe/widget-posts-grid.php:111
+#: functions/fe/widget-posts-list.php:111
+msgid "Read more &gt;"
+msgstr "Lees meer &gt;"
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: search.php:20
+msgid "<strong>Number of Results</strong>: "
+msgstr "<strong>Aantal Resultaten:</strong>: "
+
+#: search.php:27
+msgid "Search results navigation"
+msgstr "Zoekresultaten navigatie"
+
+#: search.php:29
+msgid "<span class=\"meta-nav\">&larr;</span> Previous results"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vorige resultaten"
+
+#: search.php:30
+msgid "Next results <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Volgende resultaten <span class=\"meta-nav\">&rarr;</span>"
+
+#: search.php:45
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Sorry, er zijn geen resultaten gevonden voor uw zoekopdracht. Probeer het a."
+"u.b. opnieuw met andere bewoordingen."
+
+#: searchform.php:9
+msgid "Search here..."
+msgstr "Zoeken..."
+
+#: single.php:36
+msgid "Pages:"
+msgstr "Pagina:"
+
+#: tag.php:13
+#, php-format
+msgid "Tag Archive: %s"
+msgstr "Tag Archief: %s"
+
+#: cycloneslider/dark/slider.php:43
+msgid "View Larger Image"
+msgstr "Bekijk grotere afbeelding"
+
+#: cycloneslider/dark/slider.php:46 cycloneslider/dark/slider.php:48
+msgid "Learn More"
+msgstr "Meer info"
+
+#: cycloneslider/dark/slider.php:64 cycloneslider/default/slider.php:62
+#: cycloneslider/default/slider.php:66 cycloneslider/default/slider.php:70
+#: cycloneslider/standard/slider.php:70 cycloneslider/thumbnails/slider.php:70
+msgid "Slide type not supported."
+msgstr "Soort glijbaan niet ondersteund."
+
+#: functions/be/fw-options.php:1344
+msgid "settings reset."
+msgstr "instellingen gereset."
+
+#: functions/be/fw-setup.php:41
+msgid "Theme Options"
+msgstr "Thema Opties"
+
+#: functions/fe/google-map-shortcode.php:100
+msgid "No location found for the entered address."
+msgstr "Geen locatie gevonden voor het ingevoerde adres."
+
+#: functions/fe/google-map-shortcode.php:102
+msgid "Invalid request. Did you enter an address?"
+msgstr "Ongeldig verzoek. Heeft u een adres in te voeren?"
+
+#: functions/fe/google-map-shortcode.php:104
+msgid ""
+"Something went wrong while retrieving your map, please ensure you have "
+"entered the short code correctly."
+msgstr ""
+"Er is iets misgegaan bij het ophalen van je kaart, dan kunt u ervoor zorgen "
+"dat u de korte code correct hebt ingevoerd."
+
+#: functions/fe/google-map-shortcode.php:107
+msgid "Unable to contact Google API service."
+msgstr "Niet in staat om contact met Google API."
+
+#: functions/fe/widget-facebook.php:12
+msgid "Displays Facebook Like Box."
+msgstr "Geeft Facebook Like Box."
+
+#: functions/fe/widget-facebook.php:14
+msgid "StairWay Facebook Like Box Widget"
+msgstr "StairWay Facebook Like Box Widget"
+
+#: functions/fe/widget-facebook.php:56 functions/fe/widget-image-box.php:116
+#: functions/fe/widget-info-box.php:74 functions/fe/widget-posts-column.php:41
+#: functions/fe/widget-posts-default.php:41
+#: functions/fe/widget-posts-grid.php:41 functions/fe/widget-posts-list.php:41
+#: functions/fe/widget-posts-slider.php:41
+#: functions/fe/widget-posts-thumbnail.php:41
+#: functions/fe/widget-presentation-box.php:58
+#: functions/fe/widget-social.php:86 functions/fe/widget-twitter.php:39
+msgid "Title:"
+msgstr "Titel:"
+
+#: functions/fe/widget-facebook.php:63
+msgid "Facebook Page URL:"
+msgstr "Facebook Pagina URL:"
+
+#: functions/fe/widget-facebook.php:67
+msgid ""
+"Insert here the full URL of your Facebook Page that will be liked (example: "
+"http://www.facebook.com/FacebookDevelopers)."
+msgstr ""
+"Voer de volledige URL van uw Facebook pagina (voorbeeld: http://www.facebook."
+"com/FacebookDevelopers)."
+
+#: functions/fe/widget-facebook.php:73
+msgid "Like Box Height: (optional)"
+msgstr "Like Box hoogte: (optioneel)"
+
+#: functions/fe/widget-facebook.php:77
+msgid ""
+"Insert here the height of Like Box. The value is in pixels, but in the field "
+"please write ONLY NUMBERS (without symbol \"px\")!"
+msgstr ""
+"Definieer hier de hoogte van Like Box. De waarde is in pixels, maar in het "
+"veld kunt u schrijven alleen cijfers (zonder symbool \"px\")!"
+
+#: functions/fe/widget-facebook.php:83
+msgid "Show Faces:"
+msgstr "Toon Profiel foto's:"
+
+#: functions/fe/widget-facebook.php:90
+msgid "Specify whether to display profile photos of people who like the page."
+msgstr "Geef aan of het profiel van foto's weer te geven."
+
+#: functions/fe/widget-facebook.php:96
+msgid "Show Stream:"
+msgstr "Toon laatste berichten:"
+
+#: functions/fe/widget-facebook.php:103
+msgid "Specify whether to display a stream of the latest posts by the Page."
+msgstr "Geef op of u de laatste berichten van de pagina weer te geven."
+
+#: functions/fe/widget-image-box.php:12
+msgid ""
+"Displays a full screen box with your custom background image, text and link."
+msgstr ""
+"Geeft een volledig scherm doos met uw aangepaste afbeelding achtergrond, "
+"tekst en link."
+
+#: functions/fe/widget-image-box.php:14
+msgid "StairWay Box-Image"
+msgstr "StairWay Box-Image"
+
+#: functions/fe/widget-image-box.php:76
+#: functions/fe/widget-presentation-box.php:48
+msgid "Image:"
+msgstr "Beeld:"
+
+#: functions/fe/widget-image-box.php:80
+#: functions/fe/widget-presentation-box.php:52
+msgid "Insert here the full URL address of your image."
+msgstr "Voer de volledige URL van uw beeld."
+
+#: functions/fe/widget-image-box.php:86
+msgid "Height:"
+msgstr "Hoogte:"
+
+#: functions/fe/widget-image-box.php:90
+msgid "Set here the height of the image box (in pixels)."
+msgstr "Stel hier de hoogte van het beeld (in pixels)."
+
+#: functions/fe/widget-image-box.php:96
+msgid "Background image size:"
+msgstr "Achtergrondbeeld size:"
+
+#: functions/fe/widget-image-box.php:99
+msgid "Auto"
+msgstr "Automaat"
+
+#: functions/fe/widget-image-box.php:100
+msgid "Cover"
+msgstr "Dekking"
+
+#: functions/fe/widget-image-box.php:106
+msgid "Scrolling:"
+msgstr "Scrollen:"
+
+#: functions/fe/widget-image-box.php:109
+msgid "Fixed"
+msgstr "Vast"
+
+#: functions/fe/widget-image-box.php:110
+msgid "Scrolled"
+msgstr "Gescrolld"
+
+#: functions/fe/widget-image-box.php:123
+#: functions/fe/widget-presentation-box.php:65
+msgid "Subtitle:"
+msgstr "Ondertitel:"
+
+#: functions/fe/widget-image-box.php:130
+msgid "Button link:"
+msgstr "Knop link:"
+
+#: functions/fe/widget-image-box.php:134
+msgid "Insert here the full URL address of your custom link."
+msgstr "Voer de volledige URL van uw link."
+
+#: functions/fe/widget-image-box.php:140
+msgid "Button text:"
+msgstr "Knop tekst:"
+
+#: functions/fe/widget-image-box.php:144
+msgid "Insert here a text which will be displayed in the button."
+msgstr "Steek hier een tekst die wordt weergegeven in de knop."
+
+#: functions/fe/widget-info-box.php:12
+msgid "Displays a box with your custom text and link."
+msgstr "Geeft een doos met uw eigen tekst en pictogram."
+
+#: functions/fe/widget-info-box.php:14
+msgid "StairWay Box-Info"
+msgstr "StairWay Box-Info"
+
+#: functions/fe/widget-info-box.php:48
+msgid "Icon:"
+msgstr "Pictogram:"
+
+#: functions/fe/widget-info-box.php:51
+msgid "Basket"
+msgstr "Winkelwagen"
+
+#: functions/fe/widget-info-box.php:52
+msgid "Book"
+msgstr "Boek"
+
+#: functions/fe/widget-info-box.php:53
+msgid "Calendar"
+msgstr "Kalender"
+
+#: functions/fe/widget-info-box.php:54
+msgid "Comments"
+msgstr "Reacties"
+
+#: functions/fe/widget-info-box.php:55
+msgid "Download"
+msgstr "Downloaden"
+
+#: functions/fe/widget-info-box.php:56
+msgid "Envelope"
+msgstr "Envelop"
+
+#: functions/fe/widget-info-box.php:57
+msgid "Globe"
+msgstr "Aardbol"
+
+#: functions/fe/widget-info-box.php:58
+msgid "Heart"
+msgstr "Hart"
+
+#: functions/fe/widget-info-box.php:59
+msgid "Home"
+msgstr "Huis"
+
+#: functions/fe/widget-info-box.php:60
+msgid "Notepad"
+msgstr "Notitieblok"
+
+#: functions/fe/widget-info-box.php:61
+msgid "Pin"
+msgstr "Speld"
+
+#: functions/fe/widget-info-box.php:62
+msgid "Star"
+msgstr "Ster"
+
+#: functions/fe/widget-info-box.php:63
+msgid "Tick"
+msgstr "Vinkje"
+
+#: functions/fe/widget-info-box.php:64
+msgid "User"
+msgstr "Gebruiker"
+
+#: functions/fe/widget-info-box.php:65
+msgid "none"
+msgstr "geen"
+
+#: functions/fe/widget-info-box.php:68
+msgid "Select an icon which will be displayed beside the title."
+msgstr "Selecteer een pictogram."
+
+#: functions/fe/widget-info-box.php:81
+#: functions/fe/widget-presentation-box.php:72
+msgid "Text:"
+msgstr "Tekst:"
+
+#: functions/fe/widget-info-box.php:88
+msgid "Link:"
+msgstr "Link:"
+
+#: functions/fe/widget-info-box.php:92
+msgid "Insert here the full URL which will be displayed as a link (optional)."
+msgstr "Voer de volledige URL van uw link (optionele)."
+
+#: functions/fe/widget-info-box.php:124
+msgid "Read More &gt;"
+msgstr "Lees meer &gt;"
+
+#: functions/fe/widget-posts-column.php:12
+msgid ""
+"Displays the latest posts from the selected category as a column with "
+"highlighted first post."
+msgstr ""
+"Geeft de laatste berichten uit de geselecteerde categorie als een kolom."
+
+#: functions/fe/widget-posts-column.php:14
+msgid "StairWay Posts-Column"
+msgstr "StairWay Posts-Column"
+
+#: functions/fe/widget-posts-column.php:48
+#: functions/fe/widget-posts-default.php:48
+#: functions/fe/widget-posts-grid.php:48 functions/fe/widget-posts-list.php:48
+#: functions/fe/widget-posts-slider.php:48
+#: functions/fe/widget-posts-thumbnail.php:48
+msgid "Category:"
+msgstr "Categorie:"
+
+#: functions/fe/widget-posts-column.php:58
+#: functions/fe/widget-posts-default.php:58
+#: functions/fe/widget-posts-grid.php:58 functions/fe/widget-posts-list.php:58
+#: functions/fe/widget-posts-slider.php:58
+#: functions/fe/widget-posts-thumbnail.php:58
+msgid "Select a category of posts."
+msgstr "Selecteer een categorie berichten."
+
+#: functions/fe/widget-posts-column.php:64
+#: functions/fe/widget-posts-default.php:64
+#: functions/fe/widget-posts-grid.php:64 functions/fe/widget-posts-list.php:64
+#: functions/fe/widget-posts-slider.php:64
+#: functions/fe/widget-posts-thumbnail.php:64
+msgid "Number of posts:"
+msgstr "Aantal Berichten:"
+
+#: functions/fe/widget-posts-column.php:68
+#: functions/fe/widget-posts-default.php:68
+#: functions/fe/widget-posts-grid.php:68 functions/fe/widget-posts-list.php:68
+#: functions/fe/widget-posts-slider.php:68
+#: functions/fe/widget-posts-thumbnail.php:68
+msgid ""
+"Insert here the number of latest posts from the selected category which you "
+"want to display."
+msgstr ""
+"Vul hier het aantal meest recente berichten uit de geselecteerde categorie "
+"die u wilt weergeven."
+
+#: functions/fe/widget-posts-default.php:12
+msgid ""
+"Displays the latest posts from the selected category in the default manner."
+msgstr ""
+"Geeft de laatste berichten uit de geselecteerde categorie in de standaard "
+"manier."
+
+#: functions/fe/widget-posts-default.php:14
+msgid "StairWay Posts-Default"
+msgstr "StairWay Posts-Default"
+
+#: functions/fe/widget-posts-grid.php:12
+msgid "Displays the latest posts from the selected category as a grid."
+msgstr "Geeft de laatste berichten uit de geselecteerde categorie in rooster."
+
+#: functions/fe/widget-posts-grid.php:14
+msgid "StairWay Posts-Grid"
+msgstr "StairWay Posts-Grid"
+
+#: functions/fe/widget-posts-list.php:12
+msgid ""
+"Displays the latest posts from the selected category as an unordered list "
+"with highlighted first post."
+msgstr ""
+"Geeft de laatste berichten uit de geselecteerde categorie als een "
+"ongeordende lijst."
+
+#: functions/fe/widget-posts-list.php:14
+msgid "StairWay Posts-List"
+msgstr "StairWay Posts-List"
+
+#: functions/fe/widget-posts-slider.php:12
+msgid "Displays the latest posts from the selected category as a slider."
+msgstr ""
+"Geeft de laatste berichten uit de geselecteerde categorie als een schuif."
+
+#: functions/fe/widget-posts-slider.php:14
+msgid "StairWay Posts-Slider"
+msgstr "StairWay Posts-Slider"
+
+#: functions/fe/widget-posts-thumbnail.php:12
+msgid "Displays the latest posts from the selected category as the thumbnails."
+msgstr ""
+"Geeft de laatste berichten uit de geselecteerde categorie als de miniaturen."
+
+#: functions/fe/widget-posts-thumbnail.php:14
+msgid "StairWay Posts-Thumbnail"
+msgstr "StairWay Posts-Thumbnail"
+
+#: functions/fe/widget-presentation-box.php:12
+msgid "Displays a box with your custom image and text."
+msgstr "Geeft een doos met uw eigen tekst en beeld."
+
+#: functions/fe/widget-presentation-box.php:14
+msgid "StairWay Box-Presentation"
+msgstr "StairWay Box-Presentation"
+
+#: functions/fe/widget-section-headline.php:12
+msgid "Displays a headline of a section created with the Page Builder."
+msgstr "Geeft een kop van een sectie gemaakt met de Page Builder."
+
+#: functions/fe/widget-section-headline.php:14
+msgid "StairWay Section-Headline"
+msgstr "StairWay Section-Headline"
+
+#: functions/fe/widget-section-headline.php:28
+msgid "Headline:"
+msgstr "Titel:"
+
+#: functions/fe/widget-social.php:12
+msgid "A Social widget by StairWay"
+msgstr "Een Social Widget door StairWay."
+
+#: functions/fe/widget-social.php:14
+msgid "StairWay Social Widget"
+msgstr "StairWay Social Widget"
+
+#: functions/fe/widget-social.php:93
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: functions/fe/widget-social.php:97
+msgid "Insert the full URL of your Twitter profile."
+msgstr "Voer de volledige URL van uw Twitter profiel in."
+
+#: functions/fe/widget-social.php:103
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: functions/fe/widget-social.php:107
+msgid "Insert the full URL of your Facebook profile, page or group."
+msgstr "Voer de volledige URL van uw Facebook profiel, pagina of groep in."
+
+#: functions/fe/widget-social.php:113
+msgid "RSS:"
+msgstr "RSS:"
+
+#: functions/fe/widget-social.php:117
+msgid "Insert the Url of your RSS. You may include your RSS from Feedburner."
+msgstr ""
+"Voer de URL van uw RSS in. Het is toegestaan om de RSS van Feedburner te "
+"gebruiken."
+
+#: functions/fe/widget-social.php:123
+msgid "Google Plus:"
+msgstr "Google Plus:"
+
+#: functions/fe/widget-social.php:127
+msgid "Insert the full URL of your Google Plus profile"
+msgstr "Voer de volledige URL van uw Google Plus profiel in."
+
+#: functions/fe/widget-social.php:133
+msgid "You Tube:"
+msgstr "YouTube:"
+
+#: functions/fe/widget-social.php:137
+msgid "Insert the full URL of your YouTube profile."
+msgstr "Voer de volledige URL van uw YouTube profiel in."
+
+#: functions/fe/widget-social.php:143
+msgid "Linkedin:"
+msgstr "LinkedIn:"
+
+#: functions/fe/widget-social.php:147
+msgid "Insert the full URL of your Linkedin profile."
+msgstr "Voer de volledige URL van uw LinkedIn profiel in."
+
+#: functions/fe/widget-social.php:153
+msgid "Delicious:"
+msgstr "Delicious:"
+
+#: functions/fe/widget-social.php:157
+msgid "Insert the full URL of your Delicious profile."
+msgstr "Voer de volledige URL van uw Delicious profiel in."
+
+#: functions/fe/widget-social.php:163
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+#: functions/fe/widget-social.php:167
+msgid "Insert the full URL of your Pinterest profile."
+msgstr "Voer de volledige URL van uw Pinterest profiel in."
+
+#: functions/fe/widget-social.php:173
+msgid "Flickr:"
+msgstr "Flickr:"
+
+#: functions/fe/widget-social.php:177
+msgid "Insert the full URL of your Flickr profile."
+msgstr "Voer de volledige URL van uw Flickr profiel in."
+
+#: functions/fe/widget-twitter.php:13
+msgid "Twitter widget by StairWay"
+msgstr "Twitter Widget door StairWay."
+
+#: functions/fe/widget-twitter.php:15
+msgid "StairWay Twitter Widget"
+msgstr "StairWay Twitter Widget"
+
+#: functions/fe/widget-twitter.php:25
+msgid "Join us on Twitter"
+msgstr "Volg ons via Twitter"
+
+#: functions/fe/widget-twitter.php:46
+msgid "Twitter Username:"
+msgstr "Twitter Gebruikersnaam:"
+
+#: functions/fe/widget-twitter.php:50
+msgid "Insert your Twitter username. (ex: stairway)."
+msgstr "Voer uw Twitter gebruikersnaam in. (Bijv: stairway)."
+
+#: functions.php:247 search.php:28
+msgid "&larr; Previous"
+msgstr "&larr; Vorig"
+
+#: functions.php:248 search.php:29
+msgid "Next &rarr;"
+msgstr "Volgend &rarr;"
+
+msgid ""
+"Display popular posts, recent posts, comments and tags in tabbed format."
+msgstr ""
+"Geeft populaire berichten, recente berichten, commentaren en labels in "
+"tabbladen formaat."
+
+msgid "Select Tabs"
+msgstr "Selecteer Tabbladen"
+
+msgid "Popular Tab"
+msgstr "Populaire Tabblad"
+
+msgid "Recent Tab"
+msgstr "Recente Tabblad"
+
+msgid "Comments Tab"
+msgstr "Reacties Tabblad"
+
+msgid "Tags Tab"
+msgstr "Labels Tabblad"
+
+msgid "Tab Order"
+msgstr "Tabbladen Orde"
+
+msgid "Popular"
+msgstr "Populaire"
+
+msgid "Recent"
+msgstr "Recente"
+
+msgid "Tags"
+msgstr "Labels"
+
+msgid "Advanced Options"
+msgstr "Geavanceerde Opties"
+
+msgid "Allow pagination"
+msgstr "Laat paginering"
+
+msgid "Number of posts to show:"
+msgstr "Aantal Berichten om te laten zien:"
+
+msgid "Show post thumbnails"
+msgstr "Toon bericht miniaturen"
+
+msgid "Show post date"
+msgstr "Toon postdatum"
+
+msgid "Show number of comments"
+msgstr "Toon aantal reacties"
+
+msgid "Show post excerpt"
+msgstr "Toon bericht uittreksel"
+
+msgid "Excerpt length (words):"
+msgstr "Uittreksel lengte (woorden):"
+
+msgid "Number of comments on Comments Tab:"
+msgstr "Aantal reacties op Reacties Tabblad:"
+
+msgid "Show avatars on Comments Tab"
+msgstr "Toon avatars op Reacties Tabblad"
+
+msgid "No Comment"
+msgstr "Geen reactie."
+
+msgid "One Comment"
+msgstr "1 Reactie"
+
+msgid "No comments yet."
+msgstr "Nog geen reacties."
+
+msgid "No tags created."
+msgstr "Geen labels aangemaakt."

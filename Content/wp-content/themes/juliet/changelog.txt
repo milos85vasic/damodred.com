@@ -1,0 +1,98 @@
+= 1.4.1
+* 11/18/2017
+* Fix: header.php, menu depth increased to 3
+* Fix: Kirki Switch control data format changed (in 3.0.15), created new function `juliet_kirki_update_3015` to convert previous values 
+* Fix: Kirki Switch control data format changed (in 3.0.15), updated customize/customize.php
+* Fix: Switch styling update
+* Updated: Kirki to 3.0.15
+
+= 1.4 [MAJOR UPDATE]
+* 11/5/2017
+* Fix: Text logo size and tagline on smaller screens
+* Fix: Mobile view was off when sidebar was turned off on blog feed
+* Fix: Undefined variable $juliet_str in parts/entry.php
+* Fix: Removed hentry class from archive pages to prevent structured data errors
+* Fix: Custom CSS field was showing on WP 4.7+
+* Updated: Kirki to 3.0.11
+* Updated: WooCommerce templates to be compatible with latest version 3.2.1
+* Updated: Slick.js
+* Updated: juliet.pot file
+* New: Added new menu options area in the Customizer
+* New: Option to enable main parent node for dropdowns
+* New: Automatically responsive embedded YouTube videos
+* New: image.php template 
+* New: Integrated SmartMenus for on hover, multilevel menus
+* New: Third level menus enabled
+
+= v 1.3.1 
+* 6/8/2017
+* Removed the shortcut for arrays from WooCommerce code
+* Fixed: Horizontal scrollbar
+* Fixed: Logo is not h1 on internal pages
+* Updated: Kirki to 2.3.8
+
+= v 1.3 [MAJOR UPDATE]
+* 5/30/2017 
+* Complete WooCommerce integration added (shop, cart, product, checkout pages)
+* Fixed 4th featured post on home page
+* Caption box on banner is now transparent (Classic)
+* Caption box not displayed if no heading/description is supplied in banner
+
+= v 1.2.4
+* 5/19/2017
+* Fancy scrollbar off by default
+
+= v 1.2.3
+* 5/18/2017
+* juliet_custom_colors defined in theme-defaults.php
+* 4th featured post fixed
+* Updated screenshot
+* Updated wp_bootstrap_navwalker to show item title
+* Fixed missing entry-title, author, updated errors (https://www.wpcub.com/fix-missing-required-field-entry-titleupdatehcard-error-in-wordpress/)
+* ADDED: CSS rules to automatically make Vimeo and YouTube videos responsive
+
+= v 1.2.2
+* 5/13/2017
+* Added juliet_custom_colors_scrollbar
+* Small fix to sidebar (missing div)
+* Reworked juliet_skin variable in function.php
+* add_theme_support( 'woocommerce' );
+
+= v 1.2.1
+* woocommerce.php fixed.
+* '404' is now translatable.
+* Using individual variables for each front page featured post (not global $post)
+
+= v 1.2 [MAJOR UPDATE]
+* 04/25/2017
+* Updated screenshot
+* Moved "Colors" above "Background Image", renamed "Custom Colors"
+* Updated font-awesome to 4.7
+* Fixed escaping throughout all files
+* Updated thumbnail size to 700x600
+* Added non minified versions of JS files
+* Removed theme update checker
+* Updated language file
+* Banner caption allows HTML now
+* Updated sample images
+* Changed structure of off canvas menu 
+* Removed <span>s from widget headings
+* NEW: Added WooCommerce template and styling
+* NEW: Added Contemporary skin
+* NEW: Added banner overlay color selection
+* NEW: Added example content check
+
+= v 1.1
+* 03/12/2017
+* Updated screenshot
+* Custom CSS only shown for WP < 4.7
+* Removed juliet_title() and now using juliet_archive_title() for get_the_archive_title()
+* Removed juliet_get_random_post()
+* Updated frontpage-featured.php to add checks for featured posts variables
+* Font Awesome updated to version 4.7 (?)
+* Added formatting for galleries
+* Theme update checker added
+
+= v 1.0 =
+* 08/13/2016 
+* Initial Release

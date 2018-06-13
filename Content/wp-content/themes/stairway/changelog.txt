@@ -1,0 +1,179 @@
+Changelog Legend:
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(07/08/2015) - Update - Version 1.2.3
+
+[*] Updated the "viewport" meta tag.
+[*] Updated the TGM Plugin Activation to the version 2.4.2.
+[*] Updated including of the TGM_Plugin_Activation class (only the users who are allowed to install plugins can see it now).
+
+----
+
+(03/01/2015) - Update - Version 1.2.2
+
+[+] Mentioned the Text Domain in style.css.
+[*] Set the priority of excerpt_length filter from 999 to 20.
+
+----
+
+(25/11/2014) - Update - Version 1.2.1
+
+[+] Added Polish translation.
+[*] Updated German translation.
+
+----
+
+(05/11/2014) - Update - Version 1.2.0.1
+
+[+] Mentioned license of the Google font Tauri.
+
+----
+
+(05/11/2014) - Update - Version 1.2.0
+
+[+] Added Danish translation.
+[+] Added support for the default Google font Tauri (used for headlines) within the Visual Editor.
+[*] Added Latin Extended character set for the default Google font Tauri.
+
+----
+
+(14/10/2014) - Update - Version 1.1.9
+
+[+] Added Dutch translation.
+[*] Updated theme documentation.
+[x] Removed deprecated function "screen_icon()" from class-tgm-plugin-activation.php.
+
+----
+
+(27/09/2014) - Update - Version 1.1.8
+
+[*] Updated displaying of widgets in the Right Sidebar.
+[*] Updated displaying of sticky posts (uppercase titles).
+
+----
+
+(12/09/2014) - Update - Version 1.1.7
+
+[*] Updated displaying of the footer widget areas.
+
+----
+
+(01/09/2014) - Update - Version 1.1.6
+
+[*] Updated editor-style.css.
+[*] Updated displaying of the comment form.
+[*] Changed position of the scroll-top button.
+
+----
+
+(22/08/2014) - Update - Version 1.1.5
+
+[+] Added Italian translation.
+[x] Removed filter for enabling shortcode use within the Text widgets (plugin territory).
+
+----
+
+(13/08/2014) - Update - Version 1.1.4
+
+[+] Added transition hover effect for the Post Thumbnails.
+[+] Added filter for enabling shortcode use within the Text widgets.
+
+----
+
+(04/08/2014) - Update - Version 1.1.3
+
+[*] Changed function for displaying featured images on archive pages.
+[*] Changed function for displaying the post excerpts.
+
+----
+
+(22/07/2014) - Update - Version 1.1.2
+
+[*] Changed function for dispalying the breadcrumb navigation (hide it on a static front page).
+[!] Fixed possible "Undefined index" debug notices in widget-posts-default.php.
+
+----
+
+(11/07/2014) - Update - Version 1.1.1
+
+[*] Moved $content_width definition inside the Theme setup function.
+[!] Fixed displaying of the drop-down submenus when the text takes up more than 1 line.
+
+----
+
+(30/06/2014) - Update - Version 1.1.0
+
+[+] Added support for WooCommerce plugin.
+
+----
+
+(18/06/2014) - Update - Version 1.0.8
+
+[*] Edited URL address for the Google fonts call (removed http to avoid errors when https is used).
+[*] Edited CSS for "iframe" and "embed" elements.
+[x] Removed definition of unused checkboxes in fw-options.php.
+
+----
+
+(06/06/2014) - Update - Version 1.0.7
+
+[+] Added Greek translation.
+[*] Changed styling of the <pre> tag.
+
+----
+
+(22/05/2014) - Update - Version 1.0.6
+
+[+] Added "edit post" links.
+[+] Added theme-slug prefixes to the enqueued scripts and styles.
+
+----
+
+(13/05/2014) - Update - Version 1.0.5
+
+[+] Added custom Page Template for displaying the Landing Page.
+[*] Changed the navigation to next/previous posts on single posts (added post titles).
+
+----
+
+(01/05/2014) - Update - Version 1.0.4
+
+[*] Changed the navigation to next/previous pages (added page links).
+[*] Updated language localizations.
+
+----
+
+(24/04/2014) - Update - Version 1.0.3
+
+[+] Added custom Page Template for displaying pages without the Comments area.
+[+] Added custom Page Template for displaying pages without the Page Title.
+[*] Changed the name of TGM_Plugin_Activation class to avoid conflicts with some plugins.
+
+----
+
+(18/04/2014) - Update - Version 1.0.2
+
+[+] Added Russian language localization.
+[*] Edited the offer of Google Fonts in Theme Options.
+[*] Edited Theme Description text.
+[*] Changed the functions for Theme Options and TGM-Plugin-Activation output (translatable strings containing PHP variables replaced by esc_attr).
+[x] Removed unused Social Networking options from Theme Options.
+
+----
+
+(03/04/2014) - The initial public release - Version 1.0.1
+
+[*] Changed the default header image.
+[*] Changed the screenshot.png.
+
+----
+
+(31/03/2014) - The initial testing release - Version 1.0.0

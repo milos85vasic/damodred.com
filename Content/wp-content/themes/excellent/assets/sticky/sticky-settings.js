@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){var a=jQuery("#wpadminbar");a.length?jQuery("#sticky-header").sticky({topSpacing:a.height()}):jQuery("#sticky-header").sticky({topSpacing:0})});

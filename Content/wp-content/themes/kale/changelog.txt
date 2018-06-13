@@ -1,0 +1,142 @@
+== Changelog ==
+
+= 1.2.3
+* Fixed padding for social media icons
+* Footer row 3, custom menu inline styling
+* Fixed: Logo is not h1 on internal pages
+* Fixed: Underlined items on static front page
+* Updated: Kirki to 2.3.8
+* Updated: RTL CSS
+
+= 1.2.2
+* 05/16/2017
+* footer-widgets img responsive
+* Updated wp_bootstrap_navwalker to show item title
+* Fixed missing entry-title, author, updated errors (https://www.wpcub.com/fix-missing-required-field-entry-titleupdatehcard-error-in-wordpress/)
+* Updated sample images
+* Not showing two text columns on smaller screens under highlight post
+* Updated credits
+* ADDED: CSS rules to automatically make Vimeo and YouTube videos responsive
+* ADDED: add_theme_support( 'woocommerce' );
+
+= 1.2.1
+* 04/22/2017
+* Added BuddyPress profile styling fix
+* Removed esc_html from get_the_archive_title
+
+= 1.2
+* 04/16/2017
+* Author name, link was missing on single.php
+* Visibility of links in content was bad, added underline
+* Fixed carousel caption on Safari
+* Created better HTML structure for front page sections
+* Added core gallery formatting
+* NEW: Added woocommerce.php
+* NEW: Added WooCommerce styling
+* NEW: Added new option to control sidebar size (1/4 or 1/3) `kale_sidebar_size`
+* NEW: Added new option to control banner/slider overlay and overlay color `kale_frontpage_banner_overlay_color` and `kale_frontpage_banner_overlay_show`
+* NOTE: Not adding H1 to the logo: https://www.youtube.com/watch?v=fBLvn_WkDJ4
+
+= 1.1.8
+* 03/11/2017
+* Fixed blog feed title bug on home page
+* Fixed alignment issues for header widgets when one of the header widgets was blank
+* Added "kale_example_content" check that disables all default/sample images and sample sidebar. Set to "on" by default.
+* Fixed Advanced > Custom CSS display depending on WP version 
+* Added another CSS rule for responsive images in content
+* Added RTL support
+
+= 1.1.7.1
+* Unable to upload prev version.
+
+= 1.1.7
+* 02/22/2017
+* Added example sidebar widgets
+* Special front page layout available for static front pages as well
+
+= 1.1.6.2
+* 02/11/2017
+* Escaped nav search form placeholder value
+* Replaced `stripslashes` with `wp_strip_all_tags` in functions.php (output CSS)
+
+= 1.1.6.1
+* 02/08/2017
+* Removed add_theme_support for 'search-form'
+* Fixed singular placeholders in entry.php and frontpage-banner.php
+
+= 1.1.6
+= 2/5/2017
+* Set all default values to 1 for posts and categories (eliminated get_random_post and get_random_category)
+* Removed kale_title() and replaced with kale_archive_title() for get_the_archive_title
+* Owl carousel CSS tweaked to fix slider (Asep)
+* Advanced > Custom CSS field is only showed if necessary 
+* Migrate current custom css to core custom css field, remove theme custom css field
+* All functions wrapped in function_exists
+* 404 pages formatting
+* Fix recent posts widget formatting (after plugin update)
+
+= 1.1.5.3 =
+= 11/29/2016 =
+* html5shiv.min.js
+
+= 1.1.5.2 =
+= 11/26/2016 =
+* used esc_html_e() instead of _e() and esc_html() instead of ()
+
+= 1.1.5.1 =
+= 11/21/2016 =
+* page-full.php renamed to template-full.php
+* respond.js added.
+* Queuing of respond.min.js, html5shiv.min.js fixed
+
+= 1.1.5 =
+= 11/14/2016 =
+* Font Awesome updated to version 4.7 
+* wp_link_pages() in single.php
+* respond and html5shiv moved to functions.php
+* wp_site_icon() removed from header.php
+* wp_register_style/wp_enqueue_style fixed
+* footer.php credits fixed
+* Text logo size reduced on smaller screens
+* Image logo responsive
+* kale.pot file
+* License for sample images
+* kirki-config.php updated to reference get_template_directory_uri
+* Slider set to auto play
+* Adjusted h3 size
+* Increased contrast for banner, slider items
+* Justified text for excerpts
+* Bordered sidebar padding increased
+* Social menus font-awesome classes fixed
+* Adjusted width of search box for medium width screens
+* Spacing/padding fixes in footer rows
+* 404 page updated
+* style.css description updated
+
+= 1.1.4 =
+= 8/14/2016 =
+* Recent Posts With Thumbnails widget styling fixed
+
+= 1.1.3 =
+= 8/14/2016 =
+* Recent Posts With Thumbnails widget styling fixed
+* Footer wording fixed
+* Upgrade to Pro message in Customizer amended
+
+= 1.1.2 =
+= 7/22/2016 =
+* Dropdown selected menu styling
+* ad.php was being called in grid format feed
+
+= 1.1.1 =
+* Changed background of search field in nav
+* Fixed kirki 'settings' key in each field, was misspelled 'setting'.
+
+= 1.1 = 
+* Banner/posts slider bug (Owl Carousel limitation of a single slide addressed)
+* Focus on search field on click
+* Formatting of comments
+
+= 1.0 =
+* Initial release
+* Released: June 18, 2016

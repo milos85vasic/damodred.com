@@ -1,0 +1,556 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pinterest Pin It Button On Image Hover And In Post\n"
+"POT-Creation-Date: 2016-01-30 13:41+0530\n"
+"PO-Revision-Date: 2016-01-30 13:41+0530\n"
+"Last-Translator: Weblizar <lizarweb@gmail.com>\n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. translators: 1: Plugin name and version.
+#: recommendations.php:107
+msgid "More Details"
+msgstr ""
+
+#. translators: 1: Plugin name and version.
+#: recommendations.php:118
+msgid "Install Now"
+msgstr ""
+
+#. translators: 1: Plugin name and version
+#: recommendations.php:125
+msgid "Update Now"
+msgstr ""
+
+#: recommendations.php:242
+msgid "Last Updated:"
+msgstr ""
+
+#: recommendations.php:256
+msgid "Incompatible with your version of WordPress"
+msgstr ""
+
+#: recommendations.php:258
+msgid "Compatible with your version of WordPress"
+msgstr ""
+
+#: template.php:127
+msgid "Pin It Button Settings"
+msgstr ""
+
+#: template.php:129
+msgid "Configure Plugin Settings Here"
+msgstr ""
+
+#: template.php:134
+msgid "Settings Tab"
+msgstr ""
+
+#: template.php:135
+msgid "Plugin Recommendation"
+msgstr ""
+
+#: template.php:136
+msgid "Need Help"
+msgstr ""
+
+#: template.php:147 template.php:160 template.php:173 template.php:186
+msgid "Show Pin It Button"
+msgstr ""
+
+#: template.php:147
+msgid "In Post"
+msgstr ""
+
+#: template.php:154 template.php:167 template.php:180 template.php:193
+msgid "Yes"
+msgstr "Si"
+
+#: template.php:155 template.php:168 template.php:181 template.php:194
+msgid "No"
+msgstr "No"
+
+#: template.php:160
+msgid "In Page"
+msgstr ""
+
+#: template.php:173
+msgid "On Image Hover"
+msgstr ""
+
+#: template.php:186
+msgid "On Mobile / Portable Devices"
+msgstr ""
+
+#: template.php:214
+msgid "Pin It Button Color (On Image Hover)"
+msgstr ""
+
+#: template.php:230
+msgid "Pin It Button Size (On Image Hover)"
+msgstr ""
+
+#: template.php:238
+msgid "Small"
+msgstr "Piccola"
+
+#: template.php:239
+msgid "Large"
+msgstr "Grande"
+
+#: template.php:244
+msgid "Settings"
+msgstr ""
+
+#~ msgid "Login Settings"
+#~ msgstr "Impostazioni Login"
+
+#~ msgid "Login from Floating"
+#~ msgstr "Posizione Form Login"
+
+#~ msgid "Left"
+#~ msgstr "Sinistra"
+
+#~ msgid "Center"
+#~ msgstr "Centro"
+
+#~ msgid "Right"
+#~ msgstr "Destra"
+
+#~ msgid "Select Background"
+#~ msgstr "Seleziona sfondo"
+
+#~ msgid "Select background"
+#~ msgstr "Seleziona sfondo"
+
+#~ msgid "Static Background Color"
+#~ msgstr "Colore Sfondo"
+
+#~ msgid "Static Background Image"
+#~ msgstr "Immagine di Sfondo"
+
+#~ msgid "Background Color"
+#~ msgstr "Colore Sfondo"
+
+#~ msgid "Background Image"
+#~ msgstr "Immagine Sfondo"
+
+#~ msgid "No media selected!"
+#~ msgstr "Nessuno contenuto selezionato!"
+
+#~ msgid "Upload"
+#~ msgstr "Upload"
+
+#~ msgid "preview"
+#~ msgstr "anteprima"
+
+#~ msgid "Remove"
+#~ msgstr "Rimuovi"
+
+#~ msgid "Login Background Image"
+#~ msgstr "Immagine Sfondo Login"
+
+#~ msgid "Close"
+#~ msgstr "Chiudi"
+
+#~ msgid "Background Repeat"
+#~ msgstr "Ripeti Sfondo"
+
+#~ msgid "No Repeat "
+#~ msgstr "Nessuna Ripetizione "
+
+#~ msgid "Repeat"
+#~ msgstr "Ripeti"
+
+#~ msgid "Repeat Horizontally"
+#~ msgstr "Ripeti Orizzontalmente"
+
+#~ msgid "Repeat Vertically"
+#~ msgstr "Ripeti Verticalmente"
+
+#~ msgid "Background Position "
+#~ msgstr "Posizione Sfondo "
+
+#~ msgid "Left Top"
+#~ msgstr "Alto Sinistra"
+
+#~ msgid "Left Center"
+#~ msgstr "Centro Sinistra"
+
+#~ msgid "Left Bottom"
+#~ msgstr "Basso Sinistra"
+
+#~ msgid "Right Top"
+#~ msgstr "Alto Destra"
+
+#~ msgid "Right Center"
+#~ msgstr "Centro Destra"
+
+#~ msgid "Right Bottom"
+#~ msgstr "Basso Destra"
+
+#~ msgid "Center Top"
+#~ msgstr "Alto in Centro"
+
+#~ msgid "Center Center"
+#~ msgstr "Centro Centro"
+
+#~ msgid "Center Bottom"
+#~ msgstr "Basso Centro"
+
+#~ msgid "Background Effect"
+#~ msgstr "Effetti Sfondo"
+
+#~ msgid "Select overlay effect"
+#~ msgstr "Seleziona effetto rivestimento"
+
+#~ msgid "No Overlay Effect"
+#~ msgstr "Nessuno Effetto Rivestimento"
+
+#~ msgid "Overlay Effect 1"
+#~ msgstr "Effetto Rivestimento 1"
+
+#~ msgid "Overlay Effect 2"
+#~ msgstr "Effetto Rivestimento 2"
+
+#~ msgid "Overlay Effect 3"
+#~ msgstr "Effetto Rivestimento 3"
+
+#~ msgid "Login Form Opacity"
+#~ msgstr "Opacità Form Login"
+
+#~ msgid "Login Form Width"
+#~ msgstr "Larghezza Form Login"
+
+#~ msgid "Border Color"
+#~ msgstr "Colore Bordo"
+
+#~ msgid "Border Radius"
+#~ msgstr "Arrotondamento Bordo"
+
+#~ msgid "Border Style"
+#~ msgstr "Stile Bordo"
+
+#~ msgid "None"
+#~ msgstr "Nessuno"
+
+#~ msgid "Solid"
+#~ msgstr "Continuo"
+
+#~ msgid "Dotted"
+#~ msgstr "Punteggiato"
+
+#~ msgid "Dashed"
+#~ msgstr "Tratteggiato"
+
+#~ msgid "Double"
+#~ msgstr "Doppio"
+
+#~ msgid "Border Thickness"
+#~ msgstr "Spessore Bordo"
+
+#~ msgid "Enable form shadow?"
+#~ msgstr "Abilitare ombre nel form?"
+
+#~ msgid "Form Shadow Color"
+#~ msgstr "Colore Ombra Del Form"
+
+#~ msgid "Login "
+#~ msgstr "Login"
+
+#~ msgid "Setting Save Successfully"
+#~ msgstr "Impostazioni Salvate Correttamente"
+
+#~ msgid "Setting Reset Successfully"
+#~ msgstr "Impostazioni Ripristinate Correttamente"
+
+#~ msgid "Save Changes"
+#~ msgstr "Salva Modifiche"
+
+#~ msgid "Reset Default"
+#~ msgstr "Ripristina Predefinite"
+
+#~ msgid "Admin Custom Login"
+#~ msgstr "Login Custom Admin"
+
+#~ msgid "  Login Preview"
+#~ msgstr " Anteprima Login"
+
+#~ msgid "Powered By"
+#~ msgstr "Realizzato da"
+
+#~ msgid "Weblizar"
+#~ msgstr "Weblizar"
+
+#~ msgid "Dashboard"
+#~ msgstr "Cruscotto"
+
+#~ msgid "Application overview"
+#~ msgstr "Panoramica Applicazione"
+
+#~ msgid "Background Design"
+#~ msgstr "Impostazioni Sfondo"
+
+#~ msgid "Modify Background design here"
+#~ msgstr "Modifica impostazioni sfondo"
+
+#~ msgid "Login form Setting"
+#~ msgstr "Impostazioni Login"
+
+#~ msgid "Modify Login design here"
+#~ msgstr "Modifica impostazioni login "
+
+#~ msgid "Font Setting"
+#~ msgstr "Impostazioni Font"
+
+#~ msgid "Modify Login Form Style here"
+#~ msgstr "Modifica Stile Form Login"
+
+#~ msgid "Logo Settings"
+#~ msgstr "Impostazioni Logo"
+
+#~ msgid "Customize Logo Settings here"
+#~ msgstr "Personalizza Impostazioni Logo"
+
+#~ msgid "Social Settings"
+#~ msgstr "Impostazioni Social"
+
+#~ msgid "Connect with your social profile"
+#~ msgstr "Connettersi con profili Social"
+
+#~ msgid "Admin Custom Login Dashboard"
+#~ msgstr "Amministrazione Login Personalizzato"
+
+#~ msgid "Admin Custom login Status"
+#~ msgstr "Stato Login Amministrazione Personalizzato"
+
+#~ msgid "Disabled"
+#~ msgstr "Disabilitato"
+
+#~ msgid "Enable Custom Login"
+#~ msgstr "Abilita Login Personalizzato"
+
+#~ msgid "View Login Page"
+#~ msgstr "Visualizza Pagina Login"
+
+#~ msgid "Open Your WP Login Page in a New Tab"
+#~ msgstr "Apri Pagina Login WP in un nuovo Tab"
+
+#~ msgid "Dashboard "
+#~ msgstr "Cruscotto"
+
+#~ msgid "Background Settings"
+#~ msgstr "Impostazioni Sfondo"
+
+#~ msgid "No background Selected"
+#~ msgstr "Nessuno sfondo Selezionato"
+
+#~ msgid "Background SlideShow"
+#~ msgstr "Sfondo con Slideshow"
+
+#~ msgid "Preview"
+#~ msgstr "Anteprima"
+
+#~ msgid "Cover or Strech"
+#~ msgstr "Coprire o Distendere"
+
+#~ msgid "Background Attachment"
+#~ msgstr "Sfondo Allegato"
+
+#~ msgid "Fixed"
+#~ msgstr "Fisso"
+
+#~ msgid "Scroll"
+#~ msgstr "Scorrevole"
+
+#~ msgid "Inherit"
+#~ msgstr "Ereditato"
+
+#~ msgid "No. Of Background Slideshow"
+#~ msgstr "Num. Slideshow per lo sfondo"
+
+#~ msgid "Select Number of Slide Show"
+#~ msgstr "Seleziona numero di Slideshow"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "Slider Animation"
+#~ msgstr "Animazione Diapositiva"
+
+#~ msgid "Slider Animation 1"
+#~ msgstr "Animazione Diapositiva 1"
+
+#~ msgid "Slider Animation 2"
+#~ msgstr "Animazione Diapositiva 2"
+
+#~ msgid "Slider Animation 3"
+#~ msgstr "Animazione Diapositiva 3"
+
+#~ msgid "Slider Animation 4"
+#~ msgstr "Animazione Diapositiva 4"
+
+#~ msgid "Top Background "
+#~ msgstr "Sfonto Alto"
+
+#~ msgid "Text And Color Settings"
+#~ msgstr "Impostazioni Testo E Colori"
+
+#~ msgid "Headline Font Color"
+#~ msgstr "Colore Font Titolo"
+
+#~ msgid "Input Font Color"
+#~ msgstr "Colore Font Input"
+
+#~ msgid "Link Color"
+#~ msgstr "Colore Link"
+
+#~ msgid "Button Color"
+#~ msgstr "Colore Tasto"
+
+#~ msgid "Headline Font size"
+#~ msgstr "Dimensione Font Titolo "
+
+#~ msgid "Input Font Size"
+#~ msgstr "Dimensione Font Input"
+
+#~ msgid "Link Font Size"
+#~ msgstr "Dimensione Font Link"
+
+#~ msgid "Button Font Size"
+#~ msgstr "Dimensione Font Tasto"
+
+#~ msgid "Enable Link shadow?"
+#~ msgstr "Abilita Ombra nei Link?"
+
+#~ msgid "Link Shadow Color"
+#~ msgstr "Colore Ombra Nei Link"
+
+#~ msgid "Headline Font Style"
+#~ msgstr "Stile Font Titolo"
+
+#~ msgid "Input Font Style"
+#~ msgstr "Stile Font Input"
+
+#~ msgid "Link Font Style"
+#~ msgstr "Stile Font Link"
+
+#~ msgid "Button Font Style"
+#~ msgstr "Stile Font Tasto"
+
+#~ msgid "Enable Input Box Icon?"
+#~ msgstr "Abilitare icone nelle caselle di testo?"
+
+#~ msgid "Icon For user Input Box"
+#~ msgstr "Icona Per Inserimento Nome Utente"
+
+#~ msgid "Icon For Password Input Box"
+#~ msgstr "Icona Per Inserimento Password"
+
+#~ msgid "Text and Color "
+#~ msgstr "Testo e Colore"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Logo Width"
+#~ msgstr "Ampiezza Logo"
+
+#~ msgid "Logo Height"
+#~ msgstr "Altezza Logo"
+
+#~ msgid "Logo URL"
+#~ msgstr "URL Logo"
+
+#~ msgid "Logo URL Title"
+#~ msgstr "Titolo URL Logo"
+
+#~ msgid "Logo "
+#~ msgstr "Logo "
+
+#~ msgid "Enable Social Icons"
+#~ msgstr "Abilita Icone Social"
+
+#~ msgid "No Icon"
+#~ msgstr "Nessuna Icona"
+
+#~ msgid "Inner"
+#~ msgstr "Interno"
+
+#~ msgid "Outer"
+#~ msgstr "Esterno"
+
+#~ msgid "Both"
+#~ msgstr "Entrambi"
+
+#~ msgid "Social Media Icon Size"
+#~ msgstr "Dimensione Icone per Social"
+
+#~ msgid "Medium"
+#~ msgstr "Media"
+
+#~ msgid "Social Media Icon Layout"
+#~ msgstr "Struttura Icone Social"
+
+#~ msgid "Rectangle"
+#~ msgstr "Rettangolari"
+
+#~ msgid "Circle"
+#~ msgstr "Circolari"
+
+#~ msgid "Social Media Icon Color"
+#~ msgstr "Colore Icone Social"
+
+#~ msgid "Social Media Icon Color On Hover"
+#~ msgstr "Colore Icone Social al Passaggio del mouse"
+
+#~ msgid "Social Media Icon Background Color"
+#~ msgstr "Colore Sfondo Icone Social"
+
+#~ msgid "Social Media Background Color On Hover"
+#~ msgstr "Colore Sfondo Icone al passaggio del mouse"
+
+#~ msgid "Social Profiles"
+#~ msgstr "Profili Social"
+
+#~ msgid "Enter your social profiles complete url here"
+#~ msgstr "Inserisci url completi dei profili social"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Linkedin"
+#~ msgstr "Linkedin"
+
+#~ msgid "google plus"
+#~ msgstr "google plus"
+
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgid "Social "
+#~ msgstr "Social "

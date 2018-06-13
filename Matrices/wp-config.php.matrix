@@ -1,0 +1,29 @@
+<?php
+
+// define('WP_MEMORY_LIMIT', '256MB');
+
+define('DB_NAME', 'CONFIG_MATRIX_DB');
+define('DB_USER', 'CONFIG_MATRIX_DB_USER');
+define('DB_PASSWORD', 'CONFIG_MATRIX_DB_PASSWORD');
+define('DB_HOST', 'CONFIG_MATRIX_DB_HOST');
+define('DB_CHARSET', 'utf8');
+define('DB_COLLATE', '');
+
+define('AUTH_KEY',         'CONFIG_MATRIX_AUTH_KEY');
+define('SECURE_AUTH_KEY',  'CONFIG_MATRIX_SECURE_AUTH_KEY');
+define('LOGGED_IN_KEY',    'CONFIG_MATRIX_LOGGED_IN_KEY');
+define('NONCE_KEY',        'CONFIG_MATRIX_NONCE_KEY');
+define('AUTH_SALT',        'CONFIG_MATRIX_AUTH_SALT');
+define('SECURE_AUTH_SALT', 'CONFIG_MATRIX_SECURE_AUTH_SALT');
+define('LOGGED_IN_SALT',   'CONFIG_MATRIX_LOGGED_IN_SALT');
+define('NONCE_SALT',       'CONFIG_MATRIX_NONCE_SALT');
+
+$table_prefix  = 'maja_';
+
+define('WP_DEBUG', false);
+
+/** Absolute path to the WordPress directory. */
+if ( !defined('ABSPATH') )
+    define('ABSPATH', dirname(__FILE__) . '/');
+
+require_once(ABSPATH . 'wp-settings.php');

@@ -1,0 +1,45 @@
+/* Color scheme Purple
+----------------------------------------------- */
+body .site-title a,
+body .sidebar-widget a {
+  color: #ab71cb;         
+}
+body .social-icon,
+body input[type="submit"],
+body input[type="reset"],
+body .header-image .header-image-text .header-image-link,
+body #searchform .searchform-wrapper .send {
+  background-color: #ab71cb;                  
+}
+body input[type="submit"]:hover,
+body input[type="reset"]:hover,
+body .header-image .header-image-text .header-image-link:hover,
+body #searchform .send:hover {
+  background-color: #83579c;                                                                          
+}
+body a,
+body .post-entry .post-entry-headline a {
+  color: #a36bc2;       
+}
+body .header-description-wrapper,
+body .content-headline-wrapper,
+body .top-navigation ul a:hover,
+body .top-navigation ul :hover > a {
+  background-color: #f6eafc;                          
+}
+body .menu-box ul ul,
+body .top-navigation ul ul {
+  border-color: #a76ec6;                     
+}
+body .menu-box a:hover,
+body .menu-box :hover > a,
+body #wrapper-header .menu-box .current-menu-item > a,
+body #wrapper-header .menu-box .current-menu-ancestor > a,
+body #wrapper-header .menu-box .current_page_item > a,
+body #wrapper-header .menu-box .current-page-ancestor > a {
+  color: #a76ec6;                     
+}
+body #footer a,
+body .footer-signature .footer-signature-content a {
+  color: #d5bbe4;          
+}  
