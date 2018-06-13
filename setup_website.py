@@ -1,6 +1,7 @@
 from configuration import *
+from Tools.system_configuration import *
+from Tools.commands import *
 
-# Clone python toolkit
 # Clone & run SQLs
 # Create and clone uploads
 #

@@ -1,3 +1,4 @@
+from Tools.configuration import *
 
 config_matrix_db = "CONFIG_MATRIX_DB"
 config_matrix_db_user = "CONFIG_MATRIX_DB_USER"
