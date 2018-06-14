@@ -37,10 +37,10 @@ if has_feature(account, feature_mysql):
             if key_credentials in system_configuration[account][key_services]:
                 if feature_mysql in system_configuration[account][key_services][key_credentials]:
                     mysql_password = system_configuration[account][key_services][key_credentials][feature_mysql]
-
+                    # FIXME: We do not set password.
     steps = [
         python(
-            "Tools/" + wipe_script,
+            "Tools/" + wipe_script,  # FIXME: Fix replacements.
             "Matrices/wp-config.php.matrix",
             "Content/wp-config.php",
             config_matrix_db_host, mysql_host_full,
