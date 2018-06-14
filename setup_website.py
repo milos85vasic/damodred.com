@@ -37,8 +37,8 @@ if has_feature(account, feature_mysql):
     steps = [
         python(
             "Tools/" + wipe_script,
-            content_dir_path(home) + "/" + url + "/Matrices/wp-config.php.matrix",
-            content_dir_path(home) + "/" + url + "/Content/wp-config.php",
+            "Matrices/wp-config.php.matrix",
+            "Content/wp-config.php",
             config_matrix_db_host, mysql_host_full,
             config_matrix_db, db_name,
             config_matrix_db_user, account,
