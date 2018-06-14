@@ -21,7 +21,7 @@ if has_feature(account, feature_mysql):
     mysql_password = "undefined"
 
     steps = [
-        get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + mysql_port + " --user=" + account +
+        get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + mysql_port + " --user=root" +
         " --password=" + mysql_password + " < " + content_dir_path(home) + "/" + url + "/SQL/init.sql"
     ]
 
