@@ -19,9 +19,14 @@ if has_feature(account, feature_mysql):
 
     mysql_password = "undefined"
 
+    sql_insert = get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + str(mysql_port) + \
+                 " --user=root" + " --password=" + mysql_password + " < " + "./SQL/init.sql"
+
+    print("- - - - - - - - - - -")
+    print(sql_insert)
+    print("- - - - - - - - - - -")
     steps = [
-        get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + str(mysql_port) + " --user=root" +
-        " --password=" + mysql_password + " < " + "./SQL/init.sql"
+        sql_insert
     ]
 
     run(steps)
