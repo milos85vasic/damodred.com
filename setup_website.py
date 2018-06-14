@@ -6,7 +6,6 @@ from Tools.mysql_common import *
 from configuration import *
 from os.path import expanduser
 
-url = sys.argv[2]
 account = sys.argv[1]
 home = expanduser("~")
 mysql_port = default_port_mysql
@@ -22,7 +21,7 @@ if has_feature(account, feature_mysql):
 
     steps = [
         get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + mysql_port + " --user=root" +
-        " --password=" + mysql_password + " < " + content_dir_path(home) + "/" + url + "/SQL/init.sql"
+        " --password=" + mysql_password + " < " + "./SQL/init.sql"
     ]
 
     run(steps)
