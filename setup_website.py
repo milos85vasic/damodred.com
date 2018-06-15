@@ -28,10 +28,6 @@ if has_feature(account, feature_mysql):
     sql_insert = get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + str(mysql_port)
     sql_insert += " --user=root" + " --password=" + mysql_password + " < " + "./SQL/init.sql"
 
-    print("- - - - - - - - - - -")
-    print(sql_insert)
-    print("- - - - - - - - - - -")
-
     steps = [
         sql_insert,
         python(
