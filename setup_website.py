@@ -20,16 +20,10 @@ if has_feature(account, feature_mysql):
     mysql_password = "undefined"
     mysql_host_full = mysql_host + ":" + str(mysql_port)
     if account in system_configuration:
-        print("------> 1")
         if key_services in system_configuration[account]:
-            print("------> 2")
             if key_credentials in system_configuration[account][key_services]:
-                print("------> 3")
                 if feature_mysql in system_configuration[account][key_services][key_credentials]:
-                    print("------> 4")
                     mysql_password = system_configuration[account][key_services][key_credentials][feature_mysql]
-                    print("------> 5: " + mysql_password)
-                    # FIXME: We do not set password.
 
     sql_insert = get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + str(mysql_port)
     sql_insert += " --user=root" + " --password=" + mysql_password + " < " + "./SQL/init.sql"
