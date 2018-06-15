@@ -35,9 +35,9 @@ if has_feature(account, feature_mysql):
             "Matrices/wp-config.php.matrix",
             "Content/wp-config.php",
             config_matrix_db_host, mysql_host_full,
-            config_matrix_db, db_name,
-            config_matrix_db_user, account,
-            config_matrix_db_password, mysql_password
+            config_matrix_db_password, mysql_password,
+            config_matrix_db_user, "root",
+            config_matrix_db, db_name
         )
     ]
 
