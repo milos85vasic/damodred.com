@@ -18,10 +18,6 @@ if has_feature(account, feature_mysql):
             mysql_port = system_configuration[account][key_configuration_port_mysql]
 
     mysql_password = "undefined"
-
-    sql_insert = get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + str(mysql_port) + \
-                 " --user=root" + " --password=" + mysql_password + " < " + "./SQL/init.sql"
-
     mysql_host_full = mysql_host + ":" + str(mysql_port)
     if account in system_configuration:
         print("------> 1")
@@ -34,6 +30,9 @@ if has_feature(account, feature_mysql):
                     mysql_password = system_configuration[account][key_services][key_credentials][feature_mysql]
                     print("------> 5: " + mysql_password)
                     # FIXME: We do not set password.
+
+    sql_insert = get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + str(mysql_port)
+    sql_insert += " --user=root" + " --password=" + mysql_password + " < " + "./SQL/init.sql"
 
     print("- - - - - - - - - - -")
     print(sql_insert)
