@@ -8,7 +8,8 @@ config_matrix_db_user = "CONFIG_MATRIX_DB_USER"
 config_matrix_db_host = "CONFIG_MATRIX_DB_HOST"
 config_matrix_db_password = "CONFIG_MATRIX_DB_PASSWORD"
 
-config_matrix_auth_key = "CONFIG_MATRIX_AUTH_KEY"  # azaeiiz1kakq5znx2vk6golk0uhusmoxsngc3balwgbbt9ujubrwx0bmukb5djg4
+conf_salt_length = len("azaeiiz1kakq5znx2vk6golk0uhusmoxsngc3balwgbbt9ujubrwx0bmukb5djg4")
+config_matrix_auth_key = "CONFIG_MATRIX_AUTH_KEY"
 config_matrix_secure_auth_key = "CONFIG_MATRIX_SECURE_AUTH_KEY"
 config_matrix_logged_in_key = "CONFIG_MATRIX_LOGGED_IN_KEY"
 config_matrix_nonce_key = "CONFIG_MATRIX_NONCE_KEY"
