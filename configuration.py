@@ -1,3 +1,7 @@
+import random
+
+import alphabet as alphabet
+
 from Tools.configuration import *
 
 db_name = "mvasic_maja"
@@ -19,4 +23,5 @@ config_matrix_logged_in_salt = "CONFIG_MATRIX_LOGGED_IN_SALT"
 config_matrix_nonce_salt = "CONFIG_MATRIX_NONCE_SALT"
 
 
-
+def get_random_string():
+    return ''.join(random.choice(alphabet) for i in range(conf_salt_length))
