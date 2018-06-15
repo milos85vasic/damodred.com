@@ -1,5 +1,5 @@
 import random
-import alphabet
+import string
 
 from Tools.configuration import *
 
@@ -23,4 +23,5 @@ config_matrix_nonce_salt = "CONFIG_MATRIX_NONCE_SALT"
 
 
 def get_random_string():
+    alphabet = string.ascii_letters + string.digits
     return ''.join(random.choice(alphabet) for i in range(conf_salt_length))
