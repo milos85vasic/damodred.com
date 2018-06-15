@@ -1,6 +1,5 @@
 import random
-
-import alphabet as alphabet
+import alphabet
 
 from Tools.configuration import *
 
