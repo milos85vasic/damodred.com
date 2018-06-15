@@ -22,15 +22,6 @@ if has_feature(account, feature_mysql):
     sql_insert = get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + str(mysql_port) + \
                  " --user=root" + " --password=" + mysql_password + " < " + "./SQL/init.sql"
 
-    print("- - - - - - - - - - -")
-    print(sql_insert)
-    print("- - - - - - - - - - -")
-    steps = [
-        sql_insert
-    ]
-
-    run(steps)
-
     mysql_host_full = mysql_host + ":" + str(mysql_port)
     if account in system_configuration:
         print("------> 1")
@@ -43,7 +34,13 @@ if has_feature(account, feature_mysql):
                     mysql_password = system_configuration[account][key_services][key_credentials][feature_mysql]
                     print("------> 5: " + mysql_password)
                     # FIXME: We do not set password.
+
+    print("- - - - - - - - - - -")
+    print(sql_insert)
+    print("- - - - - - - - - - -")
+
     steps = [
+        sql_insert,
         python(
             "Tools/" + wipe_script,  # FIXME: Fix replacements.
             "Matrices/wp-config.php.matrix",
