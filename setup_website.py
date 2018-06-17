@@ -6,6 +6,7 @@ from Tools.mysql_common import *
 from configuration import *
 from os.path import expanduser
 
+url = sys.argv[2]
 account = sys.argv[1]
 home = expanduser("~")
 mysql_port = default_port_mysql
@@ -33,13 +34,13 @@ if has_feature(account, feature_mysql):
             "Tools/" + wipe_script,
             "./SQL/init.sql.matrix",
             "./SQL/init.sql",
-            config_matrix_sql_init_main_url, "",
-            config_matrix_sql_init_content_root, "",
-            config_matrix_sql_init_content_dir, ""
+            config_matrix_sql_init_main_url, "http://" + url,
+            config_matrix_sql_init_content_root, user_home() + "/" + content_dir_name,
+            config_matrix_sql_init_content_dir, url
         ),
         sql_insert,
         python(
-            "Tools/" + wipe_script,  # FIXME: Fix replacements.
+            "Tools/" + wipe_script,
             "Matrices/wp-config.php.matrix",
             "Content/wp-config.php",
             config_matrix_db_host, mysql_host_full,
