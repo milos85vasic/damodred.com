@@ -1,7 +1,4 @@
 <?php
-
-remove_filter('template_redirect','redirect_canonical');
-
 /**
  * StairWay functions and definitions.
  * @package StairWay

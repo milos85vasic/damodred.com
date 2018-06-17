@@ -1,7 +1,4 @@
 <?php
-
-remove_filter('template_redirect','redirect_canonical');
-
 /**
  * Twenty Sixteen functions and definitions
  *
