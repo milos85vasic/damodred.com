@@ -1,4 +1,7 @@
 <?php
+
+remove_filter('template_redirect','redirect_canonical');
+
 /**
  *  Define custom or extra function which needed for Envy Blog
  *
