@@ -21,6 +21,7 @@ config_matrix_secure_auth_salt = "CONFIG_MATRIX_SECURE_AUTH_SALT"
 config_matrix_logged_in_salt = "CONFIG_MATRIX_LOGGED_IN_SALT"
 config_matrix_nonce_salt = "CONFIG_MATRIX_NONCE_SALT"
 
+# FIXME: Port is missing.
 config_matrix_sql_init_main_url = "CONFIG_MATRIX_SQL_INIT_MAIN_URL"
 config_matrix_sql_init_content_root = "CONFIG_MATRIX_SQL_INIT_CONTENT_ROOT"
 config_matrix_sql_init_content_dir = "CONFIG_MATRIX_SQL_INIT_CONTENT_DIR"
