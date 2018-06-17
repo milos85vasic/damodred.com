@@ -29,6 +29,14 @@ if has_feature(account, feature_mysql):
     sql_insert += " --user=root" + " --password=" + mysql_password + " < " + "./SQL/init.sql"
 
     steps = [
+        python(
+            "Tools/" + wipe_script,
+            "./SQL/init.sql.matrix",
+            "./SQL/init.sql",
+            config_matrix_sql_init_main_url, "",
+            config_matrix_sql_init_content_root, "",
+            config_matrix_sql_init_content_dir, ""
+        ),
         sql_insert,
         python(
             "Tools/" + wipe_script,  # FIXME: Fix replacements.
