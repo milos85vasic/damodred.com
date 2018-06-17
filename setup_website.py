@@ -29,12 +29,21 @@ if has_feature(account, feature_mysql):
     sql_insert = get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + str(mysql_port)
     sql_insert += " --user=root" + " --password=" + mysql_password + " < " + "./SQL/init.sql"
 
+    port = 80
+    main_url = "http://" + url
+    if account in system_configuration:
+        if key_configuration_port in system_configuration[account]:
+            port = system_configuration[account][key_configuration_port]
+
+    if port != 80:
+        main_url += ":" + str(port)
+
     steps = [
         python(
             "Tools/" + wipe_script,
             "./SQL/init.sql.matrix",
             "./SQL/init.sql",
-            config_matrix_sql_init_main_url, "http://" + url,
+            config_matrix_sql_init_main_url, main_url,
             config_matrix_sql_init_content_root, user_home() + "/" + content_dir_name,
             config_matrix_sql_init_content_dir, url
         ),
