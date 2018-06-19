@@ -27,7 +27,8 @@ if has_feature(account, feature_mysql):
                     mysql_password = system_configuration[account][key_services][key_credentials][feature_mysql]
 
     sql_insert = get_mysql_bin_directory() + "/mysql --host=" + mysql_host + " --port=" + str(mysql_port)
-    sql_insert += " --user=root" + " --password=" + mysql_password + " < " + "./SQL/init.sql"
+    sql_insert += " --user=root" + " --password=" + mysql_password + " < " + home + "/" + content_dir_name + "/" + \
+                  url + "/SQL/init.sql"
 
     port = 80
     main_url = "http://" + url
