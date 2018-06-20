@@ -1,9 +1,9 @@
-[submodule "Tools"]
-	path = Tools
-	url = https://github.com/milos85vasic/Apache-Factory-Toolkit.git
 [submodule "SQL"]
 	path = SQL
 	url = https://milos85vasic@bitbucket.org/milos85vasic/damodred.com-sqls.git
 [submodule "Content/wp-content/uploads"]
 	path = Content/wp-content/uploads
 	url = https://milos85vasic@bitbucket.org/milos85vasic/damodred.com-statics.git
+[submodule "Setup"]
+	path = Setup
+	url = https://github.com/milos85vasic/Apache-Factory-Website-Installer.git
