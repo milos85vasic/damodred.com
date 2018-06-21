@@ -7,3 +7,6 @@
 [submodule "Content/wp-content/uploads"]
 	path = Content/wp-content/uploads
 	url = https://milos85vasic@bitbucket.org/milos85vasic/damodred.com-statics.git
+[submodule "Matrices"]
+	path = Matrices
+	url = https://github.com/milos85vasic/Apache-Factory-Config-Wordpress.git
