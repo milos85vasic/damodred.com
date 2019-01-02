@@ -73,36 +73,32 @@ wp_head(); ?>
 					echo '</div>'.'<!-- end .header-social-block -->';
 				endif; ?>
 			<!-- Main Nav ============================================= -->
-			<div id="site-branding">
-				<div id="site-detail">
-					<h3 id="site-title">
+					<h3 class="nav-site-title">
 						<a href="<?php echo esc_url(home_url('/'));?>" title="<?php echo esc_html(get_bloginfo('name', 'display'));?>"><?php bloginfo('name');?></a>
 					</h3>
-				</div>
-			</div> <!-- end #site-branding -->
 			<?php
 				if (has_nav_menu('primary')) {
 					$args = array(
 					'theme_location' => 'primary',
 					'container'      => '',
-					'items_wrap'     => '<ul class="menu">%3$s</ul>',
+					'items_wrap'     => '<ul id="primary-menu" class="menu nav-menu">%3$s</ul>',
 					); ?>
 				<nav id="site-navigation" class="main-navigation clearfix">
-					<div class="menu-toggle">			
-						<div class="line-one"></div>
-						<div class="line-two"></div>
-						<div class="line-three"></div>
-					</div><!-- end .menu-toggle -->
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+						<span class="line-one"></span>
+						<span class="line-two"></span>
+						<span class="line-three"></span>
+					</button><!-- end .menu-toggle -->
 					<?php wp_nav_menu($args);//extract the content from apperance-> nav menu ?>
 				</nav> <!-- end #site-navigation -->
 				<?php } else {// extract the content from page menu only ?>
 				<nav id="site-navigation" class="main-navigation clearfix">
-				<div class="menu-toggle">			
-					<div class="line-one"></div>
-					<div class="line-two"></div>
-					<div class="line-three"></div>
-				</div><!-- end .menu-toggle -->
-					<?php	wp_page_menu(array('menu_class' => 'menu')); ?>
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+						<span class="line-one"></span>
+						<span class="line-two"></span>
+						<span class="line-three"></span>
+					</button><!-- end .menu-toggle -->
+					<?php	wp_page_menu(array('menu_class' => 'menu', 'items_wrap'     => '<ul id="primary-menu" class="menu nav-menu">%3$s</ul>')); ?>
 				</nav> <!-- end #site-navigation -->
 				<?php } ?>
 			</div> <!-- end .header-navigation-wrap -->

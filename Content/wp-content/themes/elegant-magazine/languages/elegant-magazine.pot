@@ -1,0 +1,1055 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Elegant Magazine\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-04 11:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. 1: list of categories.
+#: inc/template-tags.php:19
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#: lib/info/class.info.php:121 lib/info/class.info.php:122
+#, php-format
+msgid "%s info"
+msgstr ""
+
+#: lib/info/class.info.php:232
+#, php-format
+msgid "%s() method does not exist."
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:38
+msgid "/"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:247
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:12
+msgid "Add widgets for main sidebar."
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:22
+msgid "Add widgets for off-canvas panel."
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:32
+msgid "Add widgets to front-page contents section."
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:42
+msgid "Add widgets to front-page sidebar section."
+msgstr ""
+
+#: inc/customizer/theme-options.php:202
+msgid "Advanced"
+msgstr ""
+
+#: inc/customizer/theme-options.php:197
+#, php-format
+msgid "Advanced: Requires %1$sBreadcrumb NavXT%2$s plugin"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:30
+msgid "Advertisement"
+msgstr ""
+
+#. Author of the theme
+msgid "afthemes"
+msgstr ""
+
+#: inc/customizer/customizer-control.php:75
+msgid "All"
+msgstr ""
+
+#: inc/widgets/widgets-common-functions.php:55
+msgid "All Categories"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"An elegant and minimalist theme, which is predominantly designed for a web "
+"news portal and magazine with an immense research on contemporary online "
+"newspapers. With the help of available customizer options and widgets, you "
+"can implement layouts as a trending news journals, modern fashion magazine, "
+"travel blogging &amp; magazine, clean and minimal news sites, blogging site "
+"and even more. The theme is SEO friendly with optimized codes and awesome "
+"supports."
+msgstr ""
+
+#: inc/customizer/theme-options.php:261
+msgid "Archive"
+msgstr ""
+
+#: inc/customizer/theme-options.php:279
+msgid "Archive layout"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:248
+msgid "Archives"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:52
+msgid "Banner Section Advertisement"
+msgstr ""
+
+#: inc/customizer/theme-options.php:178
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/customizer/theme-options.php:196
+msgid "Breadcrumb mode"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:244
+msgid "Browse:"
+msgstr ""
+
+#: inc/template-tags.php:33
+msgid "By"
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:82
+msgid "Categorised"
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:142
+msgid "Categorised Posts"
+msgstr ""
+
+#: lib/info/info.php:126
+msgid "Child Theme"
+msgstr ""
+
+#: inc/widgets/widgets-base.php:178
+msgid "Choose Image"
+msgstr ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/info/info.php:108 lib/info/info.php:111
+msgid "Contact Support"
+msgstr ""
+
+#: inc/hooks/hook-meta.php:69
+msgid "Content - Primary Sidebar"
+msgstr ""
+
+#: inc/customizer/theme-options.php:243
+msgid "Content - Primary sidebar"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:272
+msgid "Content - Sidebar"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:267
+#: inc/customizer/theme-options.php:238
+msgid "Content alignment"
+msgstr ""
+
+#: inc/customizer/theme-options.php:325
+msgid "Content view"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:19
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/customizer/customizer-default.php:73
+msgid "Copyright &copy; All rights reserved."
+msgstr ""
+
+#: inc/customizer/theme-options.php:416
+msgid "Copyright Text"
+msgstr ""
+
+#: lib/info/info.php:74
+msgid "Customize"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:760 lib/breadcrumbs/breadcrumbs.php:1190
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/customizer/theme-options.php:370
+msgid "Default (Older / Newer Post)"
+msgstr ""
+
+#: lib/info/info.php:27 lib/info/info.php:87 lib/info/info.php:90
+msgid "Demo Content"
+msgstr ""
+
+#: inc/widgets/widget-author-info.php:127
+msgid "Descriptions"
+msgstr ""
+
+#: inc/customizer/theme-options.php:203
+msgid "Disabled"
+msgstr ""
+
+#: lib/info/class.info.php:126
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/widgets/widget-author-info.php:20
+msgid "Displays author info."
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:52
+msgid "Displays items on footer first column."
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:62
+msgid "Displays items on footer second column."
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:72
+msgid "Displays items on footer third column."
+msgstr ""
+
+#: inc/widgets/widget-posts-carousel.php:20
+msgid "Displays posts carousel from selected category."
+msgstr ""
+
+#: inc/widgets/widget-posts-double-column.php:20
+msgid "Displays posts from selected category in double column."
+msgstr ""
+
+#: inc/widgets/widget-posts-express-column.php:20
+msgid "Displays posts from selected category in express column."
+msgstr ""
+
+#: inc/widgets/widget-posts-single-column.php:20
+msgid "Displays posts from selected category in single column."
+msgstr ""
+
+#: inc/widgets/widget-posts-double-column-double-categories.php:19
+msgid "Displays posts from selected double categories in double column."
+msgstr ""
+
+#: inc/widgets/widget-posts-slider.php:20
+msgid "Displays posts slider from selected category."
+msgstr ""
+
+#: inc/widgets/widget-social-contacts.php:20
+msgid "Displays social contacts lists from selected settings."
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:21
+msgid "Displays tabbed posts lists from selected settings."
+msgstr ""
+
+#: inc/widgets/widget-posts-double-column.php:190
+msgid "Double Column Posts"
+msgstr ""
+
+#: inc/widgets/widget-posts-double-column.php:191
+msgid "Double Column Posts Subtitle"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:93 template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. Name of the theme
+msgid "Elegant Magazine"
+msgstr ""
+
+#: inc/customizer/customizer.php:91
+msgid "Elegant Magazine Pro"
+msgstr ""
+
+#: inc/widgets/widget-author-info.php:24
+msgid "EM Author Info"
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:55
+#: inc/widgets/widget-posts-tabbed.php:145
+msgid "EM Categorised"
+msgstr ""
+
+#: inc/widgets/widget-posts-double-column-double-categories.php:22
+msgid "EM Double Categories Posts "
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:51
+msgid "EM Latest"
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:50
+msgid "EM Popular"
+msgstr ""
+
+#: inc/widgets/widget-posts-double-column.php:24
+msgid "EM Posts - Double Column "
+msgstr ""
+
+#: inc/widgets/widget-posts-express-column.php:24
+msgid "EM Posts - Express Column "
+msgstr ""
+
+#: inc/widgets/widget-posts-single-column.php:24
+msgid "EM Posts - Single Column "
+msgstr ""
+
+#: inc/widgets/widget-posts-carousel.php:24
+msgid "EM Posts Carousel"
+msgstr ""
+
+#: inc/widgets/widget-posts-slider.php:24
+msgid "EM Posts Slider"
+msgstr ""
+
+#: inc/widgets/widget-social-contacts.php:41
+msgid "EM Social"
+msgstr ""
+
+#: inc/widgets/widget-social-contacts.php:24
+msgid "EM Social Contacts"
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:25
+msgid "EM Tabbed Posts"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:175
+msgid "Enable main news section"
+msgstr ""
+
+#: inc/customizer/theme-options.php:44
+msgid "Enable preloader"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:236
+msgid "Enable static page content"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:106
+msgid "Enable Ticker News"
+msgstr ""
+
+#: inc/customizer/customizer-default.php:43
+msgid "Exclusive"
+msgstr ""
+
+#: inc/widgets/widget-author-info.php:128
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:217
+msgid "Featured news category"
+msgstr ""
+
+#: inc/customizer/theme-options.php:380
+msgid "Footer"
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:50
+msgid "Footer First Section"
+msgstr ""
+
+#: functions.php:69
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:60
+msgid "Footer Second Section"
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:70
+msgid "Footer Third Section"
+msgstr ""
+
+#: lib/info/info.php:128
+msgid ""
+"For advanced theme customization, it is recommended to use child theme "
+"rather than modifying the theme file itself. Using this approach, you wont "
+"lose the customization after theme update."
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:30
+msgid "Front-page Content Section"
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:40
+msgid "Front-page Sidebar Section"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:21
+msgid "Frontpage Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:285
+msgid "Full"
+msgstr ""
+
+#: inc/customizer/theme-options.php:331
+msgid "Full Content"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:274
+#: inc/customizer/theme-options.php:245 inc/hooks/hook-meta.php:75
+msgid "Full width content"
+msgstr ""
+
+#: lib/info/class.info.php:126
+#, php-format
+msgid "Get started with %1$s"
+msgstr ""
+
+#: lib/info/info.php:24
+msgid "Getting Started"
+msgstr ""
+
+#: lib/info/info.php:110
+msgid ""
+"Got theme support question or found bug or got some feedbacks? Best place to "
+"ask your query is the dedicated Support forum for the theme."
+msgstr ""
+
+#: inc/customizer/theme-options.php:61
+msgid "Header"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:246
+msgid "Home"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:742
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: lib/info/info.php:20
+#, php-format
+msgid ""
+"Howdy %1$s, we would like to thank you for installing and activating %2$s "
+"theme for your precious site. All of the features provided by the theme are "
+"now ready to use; Here, we have gathered all of the essential details and "
+"helpful links for you and your better experience with %2$s. Once again, "
+"Thanks for using our theme!"
+msgstr ""
+
+#: footer.php:140
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.afthemes.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.afthemes.com/products/elegant-magazine/"
+msgstr ""
+
+#: lib/info/info.php:148
+msgid ""
+"If you want more advanced features then you can upgrade to the premium "
+"version of the theme."
+msgstr ""
+
+#: inc/customizer/theme-options.php:302
+msgid "Image alignment"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:138
+msgid "Latest"
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:137
+msgid "Latest Posts"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Lato, translate this to 'off'. Do not translate into your own language.
+#: functions.php:165
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:248
+#: inc/customizer/theme-options.php:220
+msgid "Layout"
+msgstr ""
+
+#: inc/hooks/hook-meta.php:22
+msgid "Layout Options"
+msgstr ""
+
+#: lib/info/info.php:129
+msgid "Learn More"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:76
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/customizer/theme-options.php:307
+msgid "Left"
+msgstr ""
+
+#: inc/widgets/widget-author-info.php:130
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/customizer/theme-options.php:284
+msgid "List"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:156
+msgid "Main banner news"
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:10
+msgid "Main Sidebar"
+msgstr ""
+
+#: lib/info/class.info.php:341 lib/info/class.info.php:382
+msgid "Manage Plugins"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: lib/breadcrumbs/breadcrumbs.php:254
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:708
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:725
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:759 lib/breadcrumbs/breadcrumbs.php:815
+#: lib/breadcrumbs/breadcrumbs.php:1186
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/widgets/widget-author-info.php:126
+msgid "Name"
+msgstr ""
+
+#: inc/widgets/widget-posts-single-column.php:145
+#: inc/widgets/widget-posts-tabbed.php:127
+msgid "No"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/customizer/theme-options.php:371
+msgid "Numeric"
+msgstr ""
+
+#: inc/widgets/widgets-register-sidebars.php:20
+msgid "Off-canvas Panel"
+msgstr ""
+
+#: inc/hooks/hook-tgm.php:24 lib/info/info.php:89 lib/info/info.php:143
+msgid "One Click Demo Import"
+msgstr ""
+
+#. 1: title.
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. If there are characters in your language that are not supported by Oswald, translate this to 'off'. Do not translate into your own language.
+#: functions.php:160
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr ""
+
+#. %s is the page number.
+#: lib/breadcrumbs/breadcrumbs.php:252
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: template-parts/content-page.php:26 template-parts/content-search.php:61
+#: template-parts/content.php:30 inc/hooks/blocks/block-post-full.php:29
+#: inc/hooks/blocks/block-post-lists.php:68
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer/theme-options.php:349
+msgid "Pagination"
+msgstr ""
+
+#: inc/customizer/theme-options.php:366
+msgid "Pagination Type"
+msgstr ""
+
+#: lib/info/info.php:56 lib/info/info.php:119
+msgid ""
+"Please check our full documentation for detailed information on how to setup "
+"and customize the theme."
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:67
+#: inc/widgets/widget-posts-tabbed.php:135
+msgid "Popular"
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:134
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/customizer/theme-options.php:330
+msgid "Post excerpt"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:59
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/customizer/theme-options.php:26
+msgid "Preloader"
+msgstr ""
+
+#: functions.php:66 header.php:168
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/hooks/hook-meta.php:72
+msgid "Primary Sidebar - Content"
+msgstr ""
+
+#: inc/customizer/theme-options.php:244
+msgid "Primary sidebar - Content"
+msgstr ""
+
+#: inc/widgets/widget-author-info.php:125
+msgid "Profile image"
+msgstr ""
+
+#. %s: CMS name, i.e. WordPress.
+#: footer.php:142
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: lib/info/info.php:46
+msgid "Rate This Theme"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:74
+msgid "Recent"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:53
+#, php-format
+msgid "Recommended Size %1$s px X %2$s px"
+msgstr ""
+
+#: inc/widgets/widgets-base.php:189
+msgctxt "Remove"
+msgid "X"
+msgstr ""
+
+#: inc/customizer/theme-options.php:308
+msgid "Right"
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: lib/breadcrumbs/breadcrumbs.php:250
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#. %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/widgets/widget-posts-carousel.php:133
+#: inc/widgets/widget-posts-double-column.php:192
+#: inc/widgets/widget-posts-express-column.php:178
+#: inc/widgets/widget-posts-single-column.php:157
+#: inc/widgets/widget-posts-slider.php:122
+#: inc/widgets/widget-posts-tabbed.php:144
+#: inc/widgets/widget-posts-tabbed.php:146
+msgid "Select category"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:218
+msgid "Select category to be shown on featured section "
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:196
+msgid "Select category to be shown on slider "
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:142
+msgid "Select category to be shown on ticker "
+msgstr ""
+
+#: inc/customizer/theme-options.php:326
+msgid "Select content view for archive"
+msgstr ""
+
+#: inc/widgets/widget-posts-double-column-double-categories.php:271
+msgid "Select first category"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:268
+msgid "Select frontpage content alignment"
+msgstr ""
+
+#: inc/customizer/theme-options.php:239
+msgid "Select global content alignment"
+msgstr ""
+
+#: inc/widgets/widgets-base.php:177
+msgid "Select Image"
+msgstr ""
+
+#: inc/customizer/theme-options.php:303
+msgid "Select image alignment for archive"
+msgstr ""
+
+#: inc/customizer/theme-options.php:280
+msgid "Select layout for archive"
+msgstr ""
+
+#: inc/widgets/widget-posts-double-column-double-categories.php:272
+msgid "Select second category"
+msgstr ""
+
+#: inc/widgets/widget-posts-tabbed.php:149
+msgid "Settings for all tabs"
+msgstr ""
+
+#: inc/customizer/theme-options.php:145
+msgid "Show date on top header"
+msgstr ""
+
+#: inc/widgets/widget-posts-single-column.php:159
+#: inc/widgets/widget-posts-tabbed.php:150
+msgid "Show excerpt"
+msgstr ""
+
+#: inc/customizer/theme-options.php:398
+msgid "Show latest posts carouser above footer"
+msgstr ""
+
+#: inc/customizer/theme-options.php:166
+msgid "Show social menu on top header"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:273
+msgid "Sidebar - Content"
+msgstr ""
+
+#: inc/customizer/theme-options.php:201
+msgid "Simple"
+msgstr ""
+
+#: header.php:37
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:195
+msgid "Slider news category"
+msgstr ""
+
+#: functions.php:68
+msgid "Social Menu"
+msgstr ""
+
+#: inc/widgets/widget-social-contacts.php:75
+msgid ""
+"Social menu is not set. You need to create menu and assign it to Social Menu "
+"on Menu Settings."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: lib/info/info.php:63 lib/info/info.php:66
+msgid "Static Front Page"
+msgstr ""
+
+#: inc/widgets/widget-author-info.php:124
+#: inc/widgets/widget-posts-double-column.php:191
+msgid "Subtitle"
+msgstr ""
+
+#: lib/info/info.php:25
+msgid "Support"
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: functions.php:131
+msgid "Theme Demo Content"
+msgstr ""
+
+#: lib/info/info.php:34
+msgid "Theme Details"
+msgstr ""
+
+#: lib/info/info.php:54 lib/info/info.php:117
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/customizer/theme-options.php:16 lib/info/info.php:71
+msgid "Theme Options"
+msgstr ""
+
+#: lib/info/info.php:95
+msgid "Theme Preview"
+msgstr ""
+
+#: lib/info/info.php:138
+msgid ""
+"Theme supports some helpful WordPress plugins to enhance your site. But, "
+"please enable only those plugins which you need in your site. For example, "
+"enable WooCommerce only if you are using e-commerce."
+msgstr ""
+
+#: lib/info/info.php:73
+msgid ""
+"Theme uses Customizer API for theme options. Using the Customizer you can "
+"easily customize different aspects of the theme."
+msgstr ""
+
+#: lib/info/info.php:81
+msgid ""
+"Theme uses Wedgets API for widget options. Using the Widgets you can easily "
+"customize different aspects of the theme."
+msgstr ""
+
+#. 1: Theme name, 2: Theme author.
+#: footer.php:147
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:86
+msgid "Ticker news"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:141
+msgid "Ticker News Category"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:123
+msgid "Ticker Title"
+msgstr ""
+
+#: inc/widgets/widget-author-info.php:123
+#: inc/widgets/widget-posts-double-column.php:190
+#: inc/widgets/widget-posts-tabbed.php:135
+#: inc/widgets/widget-posts-tabbed.php:138
+#: inc/widgets/widget-posts-tabbed.php:145
+msgid "Title"
+msgstr ""
+
+#: lib/info/info.php:65
+msgid ""
+"To achieve custom home page other than blog listing, you need to create and "
+"set static front page."
+msgstr ""
+
+#: lib/info/info.php:143
+#, php-format
+msgid ""
+"To import demo content for this theme, %1$s plugin is needed. Please make "
+"sure plugin is installed and activated. After plugin is activated, you will "
+"see Import Demo Data menu under Appearance."
+msgstr ""
+
+#: lib/info/info.php:89
+#, php-format
+msgid ""
+"To import sample demo content, %1$s plugin should be installed and activated."
+" After plugin is activated, visit Import Demo Data menu under Appearance."
+msgstr ""
+
+#: inc/customizer/theme-options.php:81
+msgid "Top header background color"
+msgstr ""
+
+#: inc/customizer/theme-options.php:104
+msgid "Top header texts color"
+msgstr ""
+
+#: functions.php:67
+msgid "Top Menu"
+msgstr ""
+
+#: inc/customizer/theme-options.php:124
+msgid "Transparent top header"
+msgstr ""
+
+#: inc/widgets/widget-author-info.php:129
+msgid "Twitter"
+msgstr ""
+
+#: lib/info/info.php:149
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/customizer/customizer.php:92
+msgid "Upgrade now"
+msgstr ""
+
+#: lib/info/info.php:28
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/widgets/widgets-base.php:176
+msgid "Upload"
+msgstr ""
+
+#: inc/customizer/frontpage-options.php:74
+msgid "URL Link"
+msgstr ""
+
+#: lib/info/info.php:26
+msgid "Useful Plugins"
+msgstr ""
+
+#: lib/info/info.php:38 lib/info/info.php:98
+msgid "View Demo"
+msgstr ""
+
+#: lib/info/info.php:42 lib/info/info.php:57 lib/info/info.php:120
+msgid "View Documentation"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: lib/breadcrumbs/breadcrumbs.php:256
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:788
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: lib/info/class.info.php:126
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s. To fully take advantage of the best "
+"our theme can offer please make sure you visit theme details page."
+msgstr ""
+
+#: lib/info/info.php:79 lib/info/info.php:82
+msgid "Widgets"
+msgstr ""
+
+#: inc/hooks/hook-tgm.php:19
+msgid "WP Post Author"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:758 lib/breadcrumbs/breadcrumbs.php:787
+#: lib/breadcrumbs/breadcrumbs.php:814 lib/breadcrumbs/breadcrumbs.php:841
+#: lib/breadcrumbs/breadcrumbs.php:1182
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/widgets/widget-posts-single-column.php:144
+#: inc/widgets/widget-posts-tabbed.php:126
+msgid "Yes"
+msgstr ""
+
+#: lib/info/info.php:97
+msgid ""
+"You can check out the theme demos for reference to find out what you can "
+"achieve using the theme and how it can be customized."
+msgstr ""
+
+#: inc/hooks/blocks/block-post-related.php:27
+msgid "You may also like"
+msgstr ""

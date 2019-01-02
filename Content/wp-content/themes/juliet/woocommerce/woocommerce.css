@@ -1,4 +1,4 @@
-3/* WOOCOMMERCE
+/* WOOCOMMERCE
 ------------------------------------------------------------------------*/
 
 /*** Misc ***/
@@ -19,6 +19,10 @@
 .woocommerce .juliet-result-count, .woocommerce .juliet-order-by {padding-left:0;padding-right:0;margin-bottom:50px;font-size: 14px;}
 
 .woocommerce ul#shipping_method { clear: both; }
+
+button.button.btn.btn-border-dark.btn-cart:disabled {
+    color: #ccc;
+}
 
 /*** Breadcrumbs ***/
 
@@ -42,8 +46,15 @@
 a.button.wc-backward { color: #fff !important; text-decoration: none !important; }
 
 /*** Loop ***/
-.woocommerce .juliet-products {display: flex;flex-wrap: wrap;width: 100%;}
+/*.woocommerce .juliet-products {display: flex;flex-wrap: wrap;width: 100%;}*/
+
+.woocommerce .juliet-products { clear:both;display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-flow: row wrap; -ms-flex-flow: row wrap;flex-flow: row wrap; justify-content: space-between; align-items: start;}
+
+.woocommerce .juliet-products .juliet-product-item { width: 100%;}
+
+
 .woocommerce.post-type-archive-product .juliet-products {clear:both;}
+.woocommerce .juliet-products .row { width: 100%; }
 
 .post-type-archive-product .juliet-products > li.product-category.product { display: inline-block; width: 25%; vertical-align: top; list-style: none; padding-right: 10px; padding-bottom: 20px; }
 .post-type-archive-product .juliet-products > li.product-category > a > img {	width: 100%; height: auto; display: block;}
@@ -70,6 +81,8 @@ a.button.wc-backward { color: #fff !important; text-decoration: none !important;
 .woocommerce .juliet-loop-product a.added_to_cart:hover{ text-decoration:none; }
 .woocommerce .juliet-loop-product a.added_to_cart:before { display: none; }
 
+
+section.related.products { margin-top: 50px; }
 
 .woocommerce .related.products .juliet-loop-product.product,
 .woocommerce .upsells.products .juliet-loop-product.product{ margin-bottom:0px; }
@@ -98,7 +111,7 @@ a.button.wc-backward { color: #fff !important; text-decoration: none !important;
 .woocommerce.single-product div.product .woocommerce-tabs ul.tabs li {border-radius: 0px;}
 .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary { padding-left:45px; }
 .woocommerce .product_meta {line-height:20px;margin:0 0 5px;font-size:12px;font-style:italic;}
-.woocommerce.single-product h1.product_title {margin: 0 0 15px;} 
+.woocommerce.single-product h1.product_title {margin: 0 0 15px;}
 .woocommerce div.product p.price { color: #333333;font-size: 24px;margin: 0 0 50px; }
 .woocommerce div.product p.price ins { text-decoration: none; }
 .woocommerce div.product .woocommerce-product-rating { color: #666666;font-size: 16px;margin: 0 0 15px; }
@@ -287,3 +300,9 @@ a.about_paypal { font-size: 12px; font-style: italic; }
     .woocommerce.single-product #reviews #comments ol.commentlist li .reviews-avatar img.avatar { width: 50px; }
     .woocommerce.single-product #reviews #comments ol.commentlist li .meta { color:#000;font-size:14px;margin: 0 0 10px; }
 }
+
+@media (min-width:768px) {
+	.woocommerce .juliet-products .juliet-product-item { width: 50%;padding-right: 30px;}
+	.woocommerce .juliet-products {margin-right:-30px;justify-content: start;}
+}
+@media (min-width:992px) { .woocommerce .juliet-products .juliet-product-item { width: 25%; }

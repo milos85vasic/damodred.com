@@ -41,7 +41,8 @@ jQuery( document ).ready(function($) {
 		directionNav: false,
 		smoothHeight: false,
 		slideshowSpeed: 7000,
-		animationSpeed: 2000
+		animationSpeed: 2000,
+		pauseOnHover: true
 	});
 
 	$window.resize(function() {

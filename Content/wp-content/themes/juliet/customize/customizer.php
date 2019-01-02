@@ -24,6 +24,12 @@ function juliet_customizer_panels_sections( $wp_customize ) {
         'priority'    => 10
     ) );
     
+    #juliet_section_layout_settings
+    $wp_customize->add_section( 'juliet_section_layout_settings', array(
+        'title'       => esc_html__( 'Layout Settings', 'juliet' ),
+        'priority'    => 11
+    ) );
+    
     #juliet_panel_frontpage
     $wp_customize->add_panel( 'juliet_panel_frontpage', array(
         'priority'    => 61,
@@ -71,8 +77,9 @@ function juliet_customizer_panels_sections( $wp_customize ) {
     
     #juliet_section_menu
     $wp_customize->add_section( 'juliet_section_menu', array(
-        'title'       => esc_html__( 'Menu Settings', 'juliet' ),
-        'priority'    => 92,
+        'title'       => esc_html__( 'Juliet Menu Settings', 'juliet' ),
+        'priority'    => 30,
+        'panel'       => 'nav_menus',
     ) );
 }
 
@@ -94,38 +101,28 @@ function juliet_customizer_fields( $fields ) {
         'type'        => 'custom',
         'settings'    => 'juliet_theme_info',
         'label'       => esc_html__( 'Upgrade to Pro', 'juliet' ),
-        'description' => wp_kses_post(__( '
-        <h1>Juliet Pro</h1>
-        <p><a class="button" href="https://www.lyrathemes.com/juliet-pro/" target="_blank">Upgrade to Juliet Pro</a></p>
-        <p>Many awesome features included in the pro version of this theme. View the <a href="http://www.lyrathemes.com/preview/?theme=juliet-pro" target="_blank">Juliet Pro Demo</a> to see the additional features and functionality available in your upgrade.</p>
-        <p>Here are some of the features available in the pro version:
-        <ul>
-            <li>&raquo; Slider options: strip slider or default slider</li>
-            <li>&raquo; Slider options: posts slider or custom slider</li>
-            <li>&raquo; Optional sticky header navigation</li>
-            <li>&raquo; Built-in Ads</li>
-            <li>&raquo; Built-in Related Posts</li>
-            <li>&raquo; Lookbook/Index page template</li>
-            <li>&raquo; Additional home page elements</li>
-            <li>&raquo; One on one personal support and continuous theme updates</li>
-        </ul>
-        </p>
-        <hr />
-        <h1>Current Theme: Juliet</h1>
-        <h3>Demo Site</h3>
-        <p>Head on over to the <a href="http://www.lyrathemes.com/preview/?theme=juliet" target="_blank">Juliet demo</a> to see what you can accomplish with this theme!</p>
-        <h3>Documentation</h3>
-        <p>Read how to customize the theme, set up widgets, and learn of all the possible options available to you.</p>
-        <p><a class="button" href="https://www.lyrathemes.com/documentation/juliet.pdf" target="_blank">Juliet Documentation</a></p>
-        <p>You can also review our online documentation here:</p>
-        <p><a class="button" href="https://www.lyrathemes.com/documentation/" target="_blank">Online Documentation</a></p>
-        <h3>Sample Data</h3>
-        <p>You can install the content and settings shown on our demo site by importing this sample data.</p>
-        <p><a class="button" href="https://www.lyrathemes.com/sample-data/juliet-sample-data.zip" target="_blank">Juliet Sample Data</a></p>
-        <h3>Feedback and Support</h3>
-        <p>For feedback and support, please contact us and we would be happy to assist!</p>
-        <p><a class="button" href="https://www.lyrathemes.com/support/" target="_blank">Juliet Support</a></p>
-        ', 'juliet' ) ),
+        'description' => 
+            '<h1>' . esc_html__('Juliet Pro', 'juliet') . '</h1>' .
+            '<p><a class="button" href="https://www.lyrathemes.com/juliet-pro/" target="_blank">Upgrade to Juliet Pro</a></p>' .
+            '<p>' . esc_html__('Upgrade for the many awesome features and expert support included with the pro version of this theme.', 'juliet') . '</p>' .
+            '<p><a class="button" href="http://www.lyrathemes.com/preview/?theme=juliet-pro" target="_blank">Juliet Pro Demo</a></p>' .
+            '<p><a class="button" href="https://www.lyrathemes.com/juliet/#comparison" target="_blank">Free vs. Pro Comparison</a></p>' .
+            '<p><a href="https://www.lyrathemes.com/juliet-pro/" target="_blank"><img src="' . esc_url( get_parent_theme_file_uri( 'customize/images/juliet-pro-1.jpg' ) ) . '" /></a><br />' . 
+            '<p><a href="https://www.lyrathemes.com/juliet-pro/" target="_blank"><img src="' . esc_url( get_parent_theme_file_uri( 'customize/images/juliet-pro-2.jpg' ) ) . '" /></a><br />' . 
+            '<hr />' . 
+            '<h1>' . esc_html__('Current Theme: Juliet', 'juliet') . '</h1>' .
+            '<h3>' . esc_html__('Demo Site', 'juliet') . '</h3>' .
+            '<p>' . esc_html__('Head on over to the Juliet demo to see what you can accomplish with this theme!', 'juliet') . '</p>' .
+            '<p><a class="button" href="http://www.lyrathemes.com/preview/?theme=juliet" target="_blank">Juliet Demo</a></p>' . 
+            '<h3>Documentation</h3>' . 
+            '<p>' . esc_html__('Read how to customize the theme, set up widgets, and learn of all the possible options available to you.', 'juliet') . '</p>' . 
+            '<p><a class="button" href="https://help.lyrathemes.com/#collection-274" target="_blank">Juliet Documentation</a></p>' . 
+            '<h3>' . esc_html__('Sample Data', 'juliet') . '</h3>' .
+            '<p>' . esc_html__('You can install the content and settings shown on our demo site by importing this sample data.', 'juliet') . '</p>' . 
+            '<p><a class="button" href="https://www.lyrathemes.com/sample-data/juliet-sample-data.zip" target="_blank">Juliet Sample Data</a></p>' . 
+            '<h3>' . esc_html__('Feedback and Support', 'juliet') . '</h3>' . 
+            '<p>' . esc_html__('For feedback and support, please contact us and we would be happy to assist!', 'juliet') . '</p>' . 
+            '<p><a class="button" href="https://www.lyrathemes.com/support/" target="_blank">Juliet Support</a></p>',
         'section'     => 'juliet_section_theme_info',
         'priority'    => 1,
 
@@ -134,24 +131,7 @@ function juliet_customizer_fields( $fields ) {
     #juliet_section_general_settings
     #-----------------------------------------
     
-    $fields[] = array(
-        'type'        => 'radio',
-        'settings'    => 'juliet_skin',
-        'label'       => esc_html__( 'Select Skin', 'juliet' ),
-        'section'     => 'juliet_section_general_settings',
-        'priority'    => 1,
-        'default'     => $juliet_defaults['juliet_skin'],
-        'choices'     => array(
-                            'Classic'   => array(
-                                esc_attr__( 'Classic', 'juliet' ),
-                                esc_attr__( 'Serif fonts and pink accent color.', 'juliet' ),
-                            ),
-                            'Contemporary' => array(
-                                esc_attr__( 'Contemporary', 'juliet' ),
-                                esc_attr__( 'Minimalist look, black and white.', 'juliet' ),
-                            ),
-                        ),
-    );
+    
     $fields[] = array(
         'type'        => 'textarea',
         'settings'    => 'juliet_footer_copyright',
@@ -172,15 +152,7 @@ function juliet_customizer_fields( $fields ) {
         'priority'    => 4,
         'default'     => $juliet_defaults['juliet_enable_fancy_scrollbar']
     );
-    $fields[] = array(
-        'type'        => 'image',
-        'settings'     => 'juliet_sticky_post_signature',
-        'label'       => esc_html__( 'Sticky Post Signature', 'juliet' ),
-        'description' => esc_html__( 'Upload an image to include at the end of each sticky post, something like a signature..', 'juliet' ),
-        'section'     => 'juliet_section_general_settings',
-        'priority'    => 5,
-        'default'     => $juliet_defaults['juliet_sticky_post_signature']
-    );
+    
 	$fields[] = array(
         'type'        => 'toggle',
         'settings'    => 'juliet_example_content',
@@ -190,6 +162,39 @@ function juliet_customizer_fields( $fields ) {
         'priority'    => 6,
         'default'     => $juliet_defaults['juliet_example_content']
     );
+    
+    
+    #juliet_section_layout_settings
+    #-----------------------------------------
+    
+    $fields[] = array(
+        'type'        => 'radio',
+        'settings'    => 'juliet_skin',
+        'label'       => esc_html__( 'Select Skin', 'juliet' ),
+        'section'     => 'juliet_section_layout_settings',
+        'priority'    => 1,
+        'default'     => $juliet_defaults['juliet_skin'],
+        'choices'     => array(
+                            'Classic'   => array(
+                                esc_attr__( 'Classic', 'juliet' ),
+                                esc_attr__( 'Serif fonts and pink accent color.', 'juliet' ),
+                            ),
+                            'Contemporary' => array(
+                                esc_attr__( 'Contemporary', 'juliet' ),
+                                esc_attr__( 'Minimalist look, black and white.', 'juliet' ),
+                            ),
+                        ),
+    );
+    $fields[] = array(
+        'type'        => 'image',
+        'settings'     => 'juliet_sticky_post_signature',
+        'label'       => esc_html__( 'Sticky Post Signature', 'juliet' ),
+        'description' => esc_html__( 'Upload an image to include at the end of each sticky post, something like a signature..', 'juliet' ),
+        'section'     => 'juliet_section_layout_settings',
+        'priority'    => 2,
+        'default'     => $juliet_defaults['juliet_sticky_post_signature']
+    );
+    
     
     #title_tagline
     #-----------------------------------------

@@ -1,3 +1,37 @@
+
+= 2.0.1
+* 08/05/2018
+* New: Recommended WPForms via TGMPA
+* New: Styling for navigation menus in Footer - Last
+* Fix: Long post title was seeping into sidebar on blog with sidebar
+* Fix: Select control to be 100% only in sidebar
+* Fix: JS Slick is not a function error
+* Update: WooCommerce templates (checkout/form-coupon.php) updated
+
+= 2.0
+* 07/08/2018
+* New: Added welcome page
+* New: Added GDPR compliance checkbox to comment form
+* New: Added styling for all WordPress default widgets
+* Update: Typography
+* Update: Google fonts enqueue
+* Update: .pot file
+* Fix: Shop page alignment
+
+= 1.5
+* 5/6/2018
+* Fix: Off-canvas panel had logo as h1 on internal pages, fixed
+* Fix: Default gallery was not responsive
+* Update: Bootstrap updated to version 3.3.7
+* Update: Removed embed_oembed_html filter
+* Update: Search results title
+* Update: Documentation link updated to https://help.lyrathemes.com/#collection-274
+* Update: General Settings split into General Settings and Layout Settings
+* Update: Menu Settings moved inside "Menus"
+* Update: WooCommerce templates updated (3.3.0)
+* Update: .pot file 
+* New: Removed bundled Kirki, recommending via TGM-Plugin-Activation, added fallback class and Kirki installation message in Customizer
+
 = 1.4.1
 * 11/18/2017
 * Fix: header.php, menu depth increased to 3

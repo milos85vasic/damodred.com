@@ -1,12 +1,12 @@
 === Pinterest Pin It Button On Image Hover And Post ===
 Contributors: weblizar
-Donate link: http://www.weblizar.com/
+Donate link: https://www.weblizar.com/
 Contributors: weblizar
-Donate link: http://www.weblizar.com/
+Donate link: https://www.weblizar.com/
 Tags: pinterest, pin images, pin photo, pin it button, pin plugin
 Requires at least: 3.8
-Tested up to: 4.8.1
-Stable tag: 2.5
+Tested up to: 4.9.8
+Stable tag: 2.6.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,57 @@ Pinterest pin it button on image hover plugin provides facility to pins your blo
 * Enable / Disable Pin button On Mobile & Portable Devices
 * Multilingual - Translatable in Any Language
 
+### Pinterest Feed Pro Features
+
+* Pinterest Profile
+Show your Pinterest profile as it looks on Pinterest platform
+
+* Pinterest Pins
+Share all your Pinterest pins on your website
+
+* Get All relevant outputs of your Pinterest profile, Pins
+Showcase your Pinterest gallery in the most efficient way to gather more traffic.
+
+* Shortcode and widgets section for your Pinterest profile, Pins
+Many shortcodes and widget options to choose where to display your Pinterest feed.
+
+* Pinterest profile with stat box of total boards, Pins, Following, Followers, Likes and Follow button
+Decide which stats you want to show to your users with beautiful templates.
+
+* Get All Pinterest Pins of single and multiple boards
+Choose how you want to display your pins and boards.
+
+* Responsive dashboard design with Live preview
+Tested with multiple devices and screen sizes by our team of dedicated web developers
+
+* Easy to use user friendly interface
+Easy options to configure Pinterest feed
+
+* User friendly descriptive section designing with helpful tool tips
+Stuck somewhere? Our special tool tips will help you along the way
+
+* Multi Site Support
+Plugin support on WordPress multi sites functionality
+
+* Bootstrap Based Responsive Plugin Settings Panel
+It is compatible with all the latest and top most WordPress websites available.
+
+* Multilingual & Translation Ready
+So that none of our user face difficulty in using our plugin.
+
+#### Check Pinterest Feed Pro Live In Action
+
+* [Pinterest Feed](http://demo.weblizar.com/pinterest-feed-pro/)
+* [Pinterest Profile](http://demo.weblizar.com/pinterest-feed-pro/profile/)
+* [Pinterest Pins](http://demo.weblizar.com/pinterest-feed-pro/pinterest-pins/)
+* [Pinterest Boards](http://demo.weblizar.com/pinterest-feed-pro/pinterest-board/)
+* [Pinterest Feed Pro Docs](https://weblizar.com/documentation/plugins/pinterest-feed-pro/)
+
+#### Check Admin Demo Before Buy
+* Login URL: [Pinterest Feed Pro](http://demo.weblizar.com/pinterest-feed-pro-admin-demo/wp-admin/)
+* Username: userdemo
+* Password: userdemo
+
 == Installation ==
 
 1. Upload the entire **pinterest-pin-it-button-on-image-hover-and-post** folder to the **/wp-content/plugins/** directory.
@@ -40,10 +91,57 @@ Pinterest pin it button on image hover plugin provides facility to pins your blo
 3. Pinterest Pin It Button In Page
 4. Pinterest Pit It Button Settings
 
+== Upgrade Notice ==
+
+= 0.1 =
+Starter version no upgrade is required.
+
+== Features ==
+
+* Enable/Disbale Pinterest Pin It Button On Image Hover
+* Enable/Disbale Pinterest Pin It Button In Post
+* Enable/Disbale Pinterest Pin It Button In Page
+* Pinterest Pin It Button Settings
+
+= Docs & Support =
+
+You can find [docs](http://weblizar.com/blog), [FAQ](http://www.weblizar.com/faq/) and more detailed information about Pinterest Pin It Button On Image Hover And Post on [Weblizar](http://www.weblizar.com). If you were unable to find the answer to your question on the FAQ or in any of the documentation, you should check the [support forum](http://wordpress.org/support/plugin/pinterest-pin-it-button-on-image-hover-and-post) on WordPress.org.
+
+= We Need Your Support =
+
+It is really hard to continue development and support for this free plugin without contributions from users like you. If you are enjoying using our Pinterest Pin It Button On Image Hover And Post plugin and find it useful, then please post a [__Feedback__](http://wordpress.org/support/view/plugin-reviews/pinterest-pin-it-button-on-image-hover-and-post). Your feedback will help us to encourage and support the plugin's continued development and better user support.
+
+= Translators =
+
+Please contribute to translate our plugin.  Contact at lizarweb (at) gmail (dot) com`.
+
+== Frequently Asked Questions ==
+
+Please use WordPress [support forum](http://wordpress.org/support/plugin/pinterest-pin-it-button-on-image-hover-and-post) to ask any query regarding any issue. Always share your site public URL to resolve your issues as sson as possible.
+
 == Changelog ==
 
-For more information, see [Weblizar](http://wwww.weblizar.com/).
+For more information, see [Weblizar](https://wwww.weblizar.com/).
 
+= Version 2.6.5 =
+	- Update setting of pinit button for mobile device
+	- Update product page
+	- Readme file update
+
+= Version 2.6.4 =
+	- Add Exclude page setting for no pin on specific page
+
+= Version 2.6.3 =
+ - Setting Button add in Plugin page
+ - PO files updated
+ - Version Update & WordPress 4.9.8 Compatible
+
+= Version 2.6.2 =
+	- Invalid Argument supplied in foreach loop bug-fixed
+	- Add new product in product page
+	- minor changes applied
+= Version 2.6.1 - minor php error fix
+= Version 2.6 - Update Font-Awesome library + Add Our Product and Recommendation Page + Update Review Link + WordPress 4.9.6 Compatible
 = Version 2.5 - update + WordPress 4.8.1 Compatible
 = Version 2.4.0 - update
 = Version 2.3.9 10/10/2016 =
@@ -132,31 +230,3 @@ For more information, see [Weblizar](http://wwww.weblizar.com/).
 * New: Show Pinterest Pin It Button In Page
 * New: Pinterest Pin It Button Settings
 * New: Customizable Button Size
-
-== Upgrade Notice ==
-
-= 0.1 =
-Starter version no upgrade is required.
-
-== Features ==
-
-* Enable/Disbale Pinterest Pin It Button On Image Hover
-* Enable/Disbale Pinterest Pin It Button In Post
-* Enable/Disbale Pinterest Pin It Button In Page
-* Pinterest Pin It Button Settings
-
-= Docs & Support =
-
-You can find [docs](http://weblizar.com/blog), [FAQ](http://www.weblizar.com/faq/) and more detailed information about Pinterest Pin It Button On Image Hover And Post on [Weblizar](http://www.weblizar.com). If you were unable to find the answer to your question on the FAQ or in any of the documentation, you should check the [support forum](http://wordpress.org/support/plugin/pinterest-pin-it-button-on-image-hover-and-post) on WordPress.org.
-
-= We Need Your Support =
-
-It is really hard to continue development and support for this free plugin without contributions from users like you. If you are enjoying using our Pinterest Pin It Button On Image Hover And Post plugin and find it useful, then please post a [__Feedback__](http://wordpress.org/support/view/plugin-reviews/pinterest-pin-it-button-on-image-hover-and-post). Your feedback will help us to encourage and support the plugin's continued development and better user support.
-
-= Translators =
-
-Please contribute to translate our plugin.  Contact at lizarweb (at) gmail (dot) com`.
-
-== Frequently Asked Questions ==
-
-Please use WordPress [support forum](http://wordpress.org/support/plugin/pinterest-pin-it-button-on-image-hover-and-post) to ask any query regarding any issue. Always share your site public URL to resolve your issues as sson as possible.

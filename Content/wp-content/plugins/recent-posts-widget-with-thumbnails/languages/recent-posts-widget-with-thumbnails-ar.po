@@ -5,25 +5,21 @@ msgstr ""
 "Project-Id-Version: Recent Posts Widget With Thumbnails\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/plugins/recent-posts-widget-with-"
 "thumbnails\n"
-"POT-Creation-Date: 2017-10-23 21:09+0200\n"
-"PO-Revision-Date: 2017-10-23 21:09+0200\n"
+"POT-Creation-Date: 2018-11-29 18:04+0100\n"
+"PO-Revision-Date: 2018-11-29 18:04+0100\n"
 "Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
 "Language-Team: Martin Stehle <m.stehle@gmx.de>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
 "esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "X-Poedit-SearchPath-0: .\n"
-
-#: includes/form.php:1
-msgid "Display Options"
-msgstr "اعرض الخيارات"
 
 #: includes/form.php:10
 msgid "Open post links in new windows?"
@@ -34,18 +30,36 @@ msgid "Show posts in random order?"
 msgstr "عرض المشاركات بترتيب عشوائي؟"
 
 #: includes/form.php:16
-msgid "Do not list the current post?"
+msgid "Do not show the current post?"
 msgstr "لا تقم بإدراج المقالة الحالية؟"
 
-#: includes/form.php:19
+#: includes/form.php:21
+msgid "Show only sticky posts?"
+msgstr "قائمة المشاركات لزجة فقط؟"
+
+#: includes/form.php:22
+msgid ""
+"If activated the options to hide sticky posts and to keep them on top will "
+"be ignored."
+msgstr "إذا تم تفعيل خيارات إخفاء المشاركات اللزجة وسيتم تجاهلها."
+
+#: includes/form.php:25
+msgid "Do not show sticky posts?"
+msgstr "لا تسرد المشاركات اللزجة؟"
+
+#: includes/form.php:26
+msgid "If activated the option to keep sticky posts on top will be ignored."
+msgstr "إذا تم تنشيط خيار الاحتفاظ بالمشاركات اللاصقة في الأعلى سيتم تجاهله."
+
+#: includes/form.php:29
 msgid "Keep sticky posts on top of the list?"
 msgstr "وضع المقالات المثبّتة في أول القائمة؟"
 
-#: includes/form.php:22
+#: includes/form.php:34
 msgid "Do not show post title?"
 msgstr "لا تعرض عنوان المقالة؟"
 
-#: includes/form.php:23
+#: includes/form.php:35
 msgid ""
 "Make sure you set a default thumbnail for posts without a thumbnail, "
 "otherwise there will be no link."
@@ -53,69 +67,86 @@ msgstr ""
 "تأكد من أنك حددت صورة مصغّرة افتراضية للمقالات التي بدون صور مصغّرة، وإلا لن "
 "يكون هناك رابط."
 
-#: includes/form.php:25
+#: includes/form.php:37
 msgid "Maximum length of post title"
-msgstr "Auszugsfeld verwenden, wenn ausgefüllt, sonst Beitragsinhalt"
+msgstr "الحد الأقصى لطول عنوان الوظيفة"
 
-#: includes/form.php:29
+#: includes/form.php:43
 msgid "Show post author?"
 msgstr "تظهر آخر مؤلف؟"
 
-#: includes/form.php:32
+#: includes/form.php:48
 msgid "Show post categories?"
 msgstr "تظهر الفئات المشاركة؟"
 
-#: includes/form.php:35
+#: includes/form.php:51
+msgid "Set post category names as links, pointing to their archives?"
+msgstr "تعيين أسماء الفئات المشاركة كروابط ، والإشارة إلى أرشيفها؟"
+
+#: includes/form.php:53
+msgid "Label for categories:"
+msgstr "وصف للفئات:"
+
+#: includes/form.php:55
+msgid "This field can be empty."
+msgstr "يمكن أن يكون هذا الحقل فارغا."
+
+#: includes/form.php:60
 msgid "Show post date?"
 msgstr "عرض تاريخ المقالة؟"
 
-#: includes/form.php:38
+#: includes/form.php:65
 msgid "Show excerpt?"
 msgstr "عرض المقتطف؟"
 
-#: includes/form.php:40
+#: includes/form.php:67
 msgid "Maximum length of excerpt"
 msgstr "الحد الأعلى لطول المقتطف"
 
-#: includes/form.php:43
+#: includes/form.php:70
 msgid "Signs after excerpt"
 msgstr "علامات بعد المقتطف"
 
-#: includes/form.php:47
+#: includes/form.php:74
 msgid "Set signs after excerpt as a link to the post?"
-msgstr ""
+msgstr "تعيين علامات بعد مقتطفات كحل وصلة لهذا المنصب؟"
 
-#: includes/form.php:50
+#: includes/form.php:77
 msgid "Ignore post excerpt field as excerpt source?"
-msgstr ""
+msgstr "تجاهل حقل مقتطف آخر كمصدر مقتطف؟"
 
-#: includes/form.php:51
+#: includes/form.php:78
 msgid ""
 "Normally the widget takes the excerpt from the text of the excerpt field "
 "unchanged and if there is no text it creates the excerpt from the post "
 "content automatically. If this option is activated the excerpt is created "
 "from the post content only."
 msgstr ""
+"عادةً ما تأخذ القطعة القطعة من نص حقل المقتطف دون تغيير ، وإذا لم يكن هناك "
+"نص ، فإنه ينشئ مقتطفًا من محتوى المشاركة تلقائيًا. إذا تم تنشيط هذا الخيار ، "
+"يتم إنشاء المقتطف من محتوى النشر فقط."
 
-#: includes/form.php:54
+#: includes/form.php:83
 msgid "Show number of comments?"
 msgstr "عرض عدد من التعليقات؟"
 
-#: includes/form.php:57
+#: includes/form.php:88
 msgid "Print slugs of post categories in class attribute of LI elements?"
-msgstr ""
+msgstr "طباعة البزاقات من الفئات بوست في فئة صنف من عناصر LI؟"
 
-#: includes/form.php:58
+#: includes/form.php:89
 msgid ""
 "For developers: If checked you can set CSS rules for each list item on base "
 "of the assigned categories."
 msgstr ""
+"للمطورين: في حالة تحديده ، يمكنك تعيين قواعد CSS لكل عنصر قائمة على أساس "
+"الفئات المعينة."
 
-#: includes/form.php:60
+#: includes/form.php:91
 msgid "Show posts of selected categories only?"
 msgstr "عرض المقالات من التصنيفات المختارة فقط؟"
 
-#: includes/form.php:62
+#: includes/form.php:93
 #, php-format
 msgid ""
 "Click on the categories with pressed CTRL key to select multiple categories. "
@@ -124,23 +155,27 @@ msgstr ""
 "اضغط على التصنيفات واضغط بنفس الوقت زرّ CTRL من الكيبورد لتحدد أكثر من تصنيف. "
 "إذا كان %s محدداً فسيتم تجاهل بقية الاختيارات."
 
-#: includes/form.php:64
-msgid "Thumbnail Options"
-msgstr "خيارات الصورة المصغّرة"
+#: includes/form.php:98
+msgid "Show thumbnail?"
+msgstr "إظهار الصورة المصغرة؟"
 
-#: includes/form.php:67
-msgid "Display post featured image?"
-msgstr "عرض الصورة البارزة للمقالة؟"
+#: includes/form.php:99
+msgid ""
+"By default, the featured image of the post is used as long as the next "
+"checkboxes do not specify anything different."
+msgstr ""
+"بشكل افتراضي ، يتم استخدام الصورة المميزة للنشرة طالما أن مربعات الاختيار "
+"التالية لا تحدد أي شيء مختلف."
 
-#: includes/form.php:69
+#: includes/form.php:101
 msgid "Size of thumbnail"
 msgstr "حجم الصورة المصغّرة"
 
-#: includes/form.php:71
+#: includes/form.php:103
 msgid "Specified width and height"
 msgstr "طول وعرض محددين"
 
-#: includes/form.php:81
+#: includes/form.php:113
 #, php-format
 msgid ""
 "If you use a specified size the following sizes will be taken, otherwise "
@@ -149,76 +184,97 @@ msgstr ""
 "إذا استخدمت حجم معيّن فالأحجام التالية ستؤخذ، غير ذلك سيتم تجاهلهم والأبعاد "
 "المحددة كما هي مخزنة في %s سيتم استخدامها:"
 
-#: includes/form.php:84
+#: includes/form.php:116
 msgid "Width of thumbnail"
 msgstr "عرض الصورة المصغّرة"
 
-#: includes/form.php:87
+#: includes/form.php:119
 msgid "Height of thumbnail"
 msgstr "ارتفاع الصورة المصغّرة"
 
-#: includes/form.php:91
+#: includes/form.php:123
 msgid "Use aspect ratios of original images?"
 msgstr "استخدام نسب العرض والطول للصور الأصلية؟"
 
-#: includes/form.php:92
+#: includes/form.php:124
 msgid ""
-"If checked the given width is used to determine the height of the thumbnail "
-"automatically. This option also supports responsive web design."
+"If activated the given width is used to determine the height of the "
+"thumbnail automatically. This option also supports responsive web design."
 msgstr ""
 "إذا حدّدت الخيار فالعرض المعطى سيستخدم لتحديد ارتفاع الصورة المصغّرة آلياً. هذا "
 "الخيار أيضاً يدعم تصاميم المواقع المتجاوبة."
 
-#: includes/form.php:95
+#: includes/form.php:127
 msgid "Try to use the post's first image if post has no featured image?"
 msgstr "حاول استخدام أول صورة في المقالة إذا لم يكن للمقالة صورة بارزة؟"
 
-#: includes/form.php:98
+#: includes/form.php:130
 msgid "Use first image only, ignore featured image?"
 msgstr "استخدم أول صورة فقط، تجاهل الصورة البارزة؟"
 
-#: includes/form.php:101
+#: includes/form.php:133
 msgid "Use default thumbnail if no image could be determined?"
 msgstr "استخدم الصورة المصغّرة الافتراضية إذا لم تحديد أيّ صورة؟"
 
-#: includes/form.php:103
+#: includes/form.php:135
 msgid "URL of default thumbnail (start with http://)"
 msgstr "رابط URL الصورة المصغّرة الافتراضية (يبدأ بـ http://)"
 
-#: includes/form.php:106
+#: includes/form.php:141
+msgid "Print inline CSS instead of creating a CSS file?"
+msgstr "طباعة مضمنة CSS بدلاً من إنشاء ملف CSS؟"
+
+#: includes/form.php:142 includes/form.php:146
+msgid "If activated this option applies to all instances of this widget."
+msgstr "إذا تم تنشيط هذا الخيار ، فسيتم تطبيقه على جميع حالات هذه الأداة."
+
+#: includes/form.php:145
+msgid "No CSS generation at all, neither inline CSS nor a CSS file?"
+msgstr ""
+
+#: includes/form.php:149
 msgid "Do you like the plugin?"
 msgstr "هل أعجبتك الإضافة؟"
 
-#: includes/form.php:106
+#: includes/form.php:149
 msgid "Please rate it at wordpress.org!"
 msgstr "رجاءً قم بتقييمها في wordpress.org!"
 
-#: includes/form.php:107
+#: includes/form.php:150
 msgid "Do you need more options?"
 msgstr "بحاجة الى مزيد من الإعدادات؟"
 
-#: includes/form.php:107
+#: includes/form.php:150
 msgid "Get Ultimate Post List Pro!"
-msgstr ""
+msgstr "لا تنشئ CSS على الإطلاق ، ولا CSS مضمّنًا ولا ملف CSS؟"
 
-#: recent-posts-widget-with-thumbnails.php:99
+#: recent-posts-widget-with-thumbnails.php:68
+msgctxt "In {categories}"
+msgid "In"
+msgstr "في"
+
+#: recent-posts-widget-with-thumbnails.php:96
 msgid "Recent Posts With Thumbnails"
 msgstr "آخر المقالات مع الصوّر المصغّرة"
 
-#: recent-posts-widget-with-thumbnails.php:100
+#: recent-posts-widget-with-thumbnails.php:97
 msgid ""
 "List of your site&#8217;s most recent posts, with clickable title and "
 "thumbnails."
 msgstr "قائمة موقعك المشاركات الأخيرة، مع عنوان نقر والصور المصغرة."
 
-#: recent-posts-widget-with-thumbnails.php:225
-msgctxt "In {categories}"
-msgid "In"
-msgstr "في"
-
-#: recent-posts-widget-with-thumbnails.php:706
+#: recent-posts-widget-with-thumbnails.php:755
 msgid "Error on listing categories"
 msgstr "خطأ على فئات الإدراج"
+
+#~ msgid "Display post featured image?"
+#~ msgstr "عرض الصورة البارزة للمقالة؟"
+
+#~ msgid "Display Options"
+#~ msgstr "اعرض الخيارات"
+
+#~ msgid "Thumbnail Options"
+#~ msgstr "خيارات الصورة المصغّرة"
 
 #~ msgid ""
 #~ "Small and fast plugin to display in the sidebar a list of linked titles "

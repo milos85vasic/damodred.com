@@ -76,10 +76,10 @@ add_filter( 'body_class', 'bloog_lite_custom_header_tag_abtcont_page' );
 
     // to enque jquery 
 if(! function_exists('bloog_lite_additional_scripts')){
- function bloog_lite_additional_scripts() {
-     wp_enqueue_style( 'font-awesome', get_template_directory_uri().'/css/fawesome/css/font-awesome.css' );
-     wp_enqueue_script( 'jquery-bxslider-js', get_template_directory_uri() . '/js/jquery.bxslider.js', array('jquery') );
- }
+   function bloog_lite_additional_scripts() {
+       wp_enqueue_style( 'font-awesome', get_template_directory_uri().'/css/fawesome/css/font-awesome.css' );
+       wp_enqueue_script( 'jquery-bxslider-js', get_template_directory_uri() . '/js/jquery.bxslider.js', array('jquery') );
+   }
 }
 add_action( 'wp_enqueue_scripts', 'bloog_lite_additional_scripts' );
 
@@ -90,9 +90,19 @@ add_action( 'admin_enqueue_scripts', 'bloog_lite_media_uploader' );
 function bloog_lite_media_uploader( $hook )
 {
     wp_enqueue_style( 'admin-style', get_template_directory_uri().'/inc/admin-panel/css/admin.css' );
+    wp_enqueue_script('bloog-lite-admin-custom-js', get_template_directory_uri().'/inc/admin-panel/js/custom.js', array('jquery'),'1.0',true);
+    wp_localize_script( 'bloog-lite-admin-custom-js', 'bloogWelcomeObject', array(
+        'admin_nonce'   => wp_create_nonce('bloog_plugin_installer_nonce'),
+        'activate_nonce'    => wp_create_nonce('bloog_plugin_activate_nonce'),
+        'ajaxurl'       => esc_url( admin_url( 'admin-ajax.php' ) ),
+        'activate_btn' => __('Activate', 'bloog-lite'),
+        'installed_btn' => __('Activated', 'bloog-lite'),
+        'demo_installing' => __('Installing Demo', 'bloog-lite'),
+        'demo_installed' => __('Demo Installed', 'bloog-lite'),
+        'demo_confirm' => __('Are you sure to import demo content ?', 'bloog-lite'),
+        ) );
     if( 'widgets.php' == $hook || 'customize.php' == $hook ) {
 
-        wp_enqueue_script('bloog-lite-admin-custom-js', get_template_directory_uri().'/inc/admin-panel/js/custom.js', array('jquery'),'1.0',true);
         wp_enqueue_script( 
             'uploader-script', 
             get_template_directory_uri().'/inc/admin-panel/js/media-uploader.js', 

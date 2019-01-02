@@ -57,6 +57,13 @@ Fonts
 
 
 == Changelog ==
+= 1.0.1.20 - September 5 2018 =
+** Revised demo import issues.
+** Added information
+
+= 1.0.1.19 - July 7 2017 =
+** Added Import Demo Feature and content xml files.
+
 = 1.0.1.18 - February 21 2017 =
 ** Added Setup Instructions and recommended plugins in theme embedded themes page.
 

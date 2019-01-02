@@ -1,41 +1,54 @@
 === Recent Posts Widget With Thumbnails ===
 Contributors: Hinjiriyo
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TKZZ3US2R56RY
-Tags: arabic, aspect ratio, author, category, categories, category, current post, excerpt, extended, featured, featured images, first post image, height, image, images, listed posts, post date, post categories, post category, post title, random, recent posts, sticky, thumb, thumbnail, thumbnails, thumbs, widget, widgets, width, persian, farsi, russian, turkish, japanese
+Tags: images, posts list, recent posts, thumbnails, widget
 Requires at least: 2.9
 Requires PHP: 5.2
-Tested up to: 4.9.1
-Stable tag: 5.2.2
+Tested up to: 4.9.8
+Stable tag: 6.4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List of your site&#8217;s most recent posts, with clickable title and thumbnails.
+List the most recent posts with post titles, thumbnails, excerpts, authors, categories, dates and more!
 
 == Description ==
 
+List the most recent posts with post titles, thumbnails, excerpts, authors, categories, dates and more!
+
 The plugin is available in English, German (Deutsch), Persian (فارسی), Arabic (العربية), Polish (Polski) Russian (русский), Turkish (Türkçe), Japanese (日本語) and Greek (Ελληνικά).
+
+The plugin does not collect any personal data, so it is ready for EU General Data Protection Regulation (GDPR) compliance.
 
 = Lightweight, simple and effective =
 
-No huge widget with hundreds of options. This plugin is based on the well-known WordPress default widget 'Recent Posts' and extended to display more informations about the posts like e.g. thumbnails, excerpts and assigned categories.
+No huge widget with hundreds of options. This plugin is based on the well-known WordPress default widget 'Recent Posts' and extended to display more informations about the posts like e.g. thumbnails, excerpts and assigned categories. And it provides more options to build custom-taylored posts lists.
 
 The thumbnails will be built from the featured image of a post or of the first image in the post content. If there is neither a featured image nor a content image then you can define a default thumbnail.
 
 You can set the width and heigth of the thumbnails in the list. The thumbnails appear left-aligned to the post titles in left-to-right languages. In right-to-left languages they appear right-aligned.
 
-= What users said =
+= What users wrote =
 
+* **Number 8** in [14 Plugins para Otimizar seu Site](https://ideiasdig.com/14-plugins-para-otimizar-seu-site/#8Recent_Posts_Widget_With_Thumbnails) by Ideias Dig on November 8, 2018
+* **"Truly EXCELLENT Plugin!"** in the [reviews](https://wordpress.org/support/topic/truly-excellent-plugin/) by dnuttal on October 11, 2018
+* **"BEST of its KIND!!!"** in the [reviews](https://wordpress.org/support/topic/best-of-its-kind-32/) by shirtguy72 on June 3, 2018
 * **"Easier than making an egg, seriously."** in the [reviews](https://wordpress.org/support/topic/easier-than-making-an-egg-seriously/) by djackofall on October 2, 2017
 * **"This plugin is INCREDIBLE"** in the [reviews](https://wordpress.org/support/topic/do-you-also-have-one-for-most-popular-posts/) by lucio7 on August 25, 2017
 * **Number 16** in [20 WordPress Plugins Every Blogger Needs to Increase Engagement](http://nocturnalthrive.com/2017/08/09/20-free-wordpress-plugins-every-blogger-needs/) by Nocturnal Thrive on August 9, 2017
+* **Widgets Users Will Love** in [10 Ultra-Useful Free WordPress Widget Plugins](https://speckyboy.com/free-wordpress-widget-plugins/) by Eric Karkovack on June 16, 2017
+* **listed** in [20 WordPress Plugins that Steals Attention to Engage Visitors of Your Site](https://wpteamsupport.com/wordpress-plugins-engage-visitors/) by WP Team Support on March 6, 2017
+* **listed** in [Most useful  WordPress widget ready plugins](https://themeidol.com/most-useful-wordpress-widget-ready-plugins/) by Themeidol on February 5, 2017
+* **Number 1** in [8 essential WordPress widgets to supercharge your website](https://www.nimbusthemes.com/8-essential-wordpress-widgets-to-supercharge-your-website/) by Rafay Ansari on January 31, 2017
 * **"Excellent (after trying a few)!"** in the [reviews](https://wordpress.org/support/topic/excellent-after-trying-a-few/) by giorgissimo on January 6, 2017
-* **"A first class plugin"** in the [support forum](https://wordpress.org/support/topic/a-first-class-plugin) by lakenjr on August 29, 2016
-* **"&hellip;definitely the best Recent Posts plugin I've found&hellip;"** in the [support forum](https://wordpress.org/support/topic/google-chrome-blurry-thumbnail-85x85) by devintshawn on April 9, 2016
-* **Number 5** in [12 Useful WordPress Sidebar Widgets to Engage Visitors](https://85ideas.com/plugins/best-widgets-wordpress/) by Pawan Kumar on December 8, 2015
-* **Number 1** in [Los 10 widgets de WordPress más prácticos](http://wpdirecto.com/los-10-widgets-de-wordpress-mas-practicos-1860/) by Jorge López on November 13, 2015
-* [How to show recent posts in WordPress blog](http://mayifix.com/how-to-show-recent-posts-in-wordpress-blog.html) by Robin on June 28, 2015
-* **Number 5** in [Best List of Free Recent Posts Widgets for WordPress](http://dotcave.com/wordpress/free-recent-posts-widgets-for-wordpress/) by jerry on November 29, 2014
-* **Number 1** in [25 Most Useful WordPress Widgets for Your Site](http://www.wpbeginner.com/showcase/25-most-useful-wordpress-widgets-for-your-site/) by Editorial Staff on September 18, 2014
+* **Number 3** in [4 Best Sticky Widget Plugins for WordPress Websites](https://www.bloggerhit.com/sticky-widget-plugins-for-wordpress-websites/) by Purushottam Kadam on November 4, 2016
+
+= What users filmed =
+
+Some users published video tutorials on YouTube:
+
+* [Class 09 - Working with Plugins (Recent Posts Widget With Thumbnails)](https://www.youtube.com/watch?v=dKoqcLBHhkM) by WordPress Learning Bangladesh on March 7, 2017
+* [Recent Posts Widget With Thumbnails Setup Tutorial - WordPress Lesson and Tip](https://www.youtube.com/watch?v=qS9WIeaMb6s) by Making a Website on April 17, 2016
+* [Add Recent Posts Widget with Thumbnail - WordPress](https://youtu.be/dqzz8NZc99Q) by eMediaCoach on August 15, 2015
 
 = Options you can set =
 
@@ -44,30 +57,36 @@ You can set the width and heigth of the thumbnails in the list. The thumbnails a
 3. Open post links in new windows
 4. Random order of posts
 5. Hide current post in list
-6. Keep sticky posts on top of the list
-7. Hide post title
-8. Maximum length of post title
-9. Show post author
-10. Show post categories
-11. Show post date
-12. Show post excerpt
-13. Show number of comments
-14. Excerpt length
-15. Signs after excerpt
-16. Ignore post excerpt field as excerpt source (builds excerpts automatically from the post content)
-17. Print slugs of post categories in class attribute of LI elements
-18. Show posts of selected categories (or of all categories)
-19. Show post thumbnail (featured image)
-20. Registered thumbnail dimensions
-21. Thumbnail width in px
-22. Thumbnail height in px
-23. Keep aspect ratio of thumbnails
-24. Try to take the first post image as thumbnail
-25. Only use the first post image as thumbnail
-26. Use default thumbnail if no thumbnail is available
-27. Default thumbnail URL
+6. Show only sticky posts
+7. Hide sticky posts
+8. Keep sticky posts on top of the list if not hidden
+9. Hide post title
+10. Maximum length of post title
+11. Show post author
+12. Show post categories
+13. Show post category names as links to their archives
+14. Label for categories
+15. Show post date
+16. Show post excerpt
+17. Show number of comments
+18. Excerpt length
+19. Signs after excerpt
+20. Ignore post excerpt field as excerpt source (builds excerpts automatically from the post content)
+21. Show posts of selected categories (or of all categories)
+22. Show post thumbnail (featured image)
+23. Registered thumbnail dimensions
+24. Thumbnail width in px
+25. Thumbnail height in px
+26. Keep aspect ratio of thumbnails
+27. Try to take the first post image as thumbnail
+28. Only use the first post image as thumbnail
+29. Use default thumbnail if no thumbnail is available
+30. Default thumbnail URL
+31. Print slugs of post categories in class attribute of LI elements
+32. Print inline CSS instead of creating a CSS file
+33. No CSS generation at all
 
-= Much more options available =
+= Much more options available in the Pro version =
 
 If you want to build your special posts lists with additional options for layout, informations about each post and embedding via shortcode [take a look at the plugin Ultimate Post List Pro](https://shop.stehle-internet.de/downloads/ultimate-post-list-pro/).
 
@@ -77,9 +96,11 @@ The plugin considers the output of actions hooked on:
 
 1. widget_title
 2. rpwwt_widget_posts_args
-3. rpwwt_excerpt_more
-4. rpwwt_excerpt_length
-5. rpwwt_list_cats
+3. rpwwt_the_excerpt (for manual excerpts only)
+4. the_excerpt (for all excerpts, is also applied after 'rpwwt_the_excerpt')
+5. rpwwt_excerpt_more
+6. rpwwt_excerpt_length
+7. rpwwt_list_cats
 
 = Useful hints for developers: Available CSS Selectors =
 
@@ -208,6 +229,55 @@ If you want to contribute a translation of the plugin in your language it would 
 2. The second screenshot shows the widget on the Widget Management Page in the backend.
 
 == Changelog ==
+
+= 6.4.0 =
+* Added option to omit CSS generation
+* Moved option for CSS class names to section "Additional settings"
+* Updated *.pot file and translations
+* Updated screenshot of widget in the backend
+
+= 6.3.1 =
+* Fixed missing "more" links at excerpts from excerpt fields
+* Fixed missing line break in the widget form
+
+= 6.3.0 =
+* Added option to show only sticky posts
+* Added option to print inline CSS instead of writing it in a file
+* Updated *.pot file and translations
+* Updated screenshot of widget in the backend
+* Tested successfully with WordPress 4.9.8
+
+= 6.2.1 =
+* Fixed missing sticky posts in category filtered lists
+* Tested successfully with WordPress 4.9.7
+
+= 6.2 =
+* Added option for category names as links or not
+* Added subheadlines in the widget for a more comprehensive appereance
+* Updated *.pot file and translations
+* Updated screenshot of widget in the backend
+* Tested successfully with WordPress 4.9.5
+
+= 6.1 =
+* Added new filter hook 'rpwwt_the_excerpt' for manual excerpts
+* Removed sanitation of the widget title to allow HTML code as output
+* Tested successfully with WordPress 4.9.4
+
+= 6.0 =
+* Added option for custom category label
+* Improved recognition of first images in post contents (now considers domain relative paths and protocol relative paths)
+* Fixed missing deactivation of thumbnails in version 5.3
+* Revised checks of variables
+* Further refactoring to simplify code management
+* Updated *.pot file and translations
+* Updated screenshot of widget in the backend
+
+= 5.3 =
+* Added option to hide sticky posts
+* Changed excerpt filter from 'the_content' to 'the_excerpt'
+* Thorough refactoring to simplify code management
+* Updated *.pot file and translations
+* Tested successfully with WordPress 4.9.2
 
 = 5.2.2 =
 * Fixed missing feature opening links in excerpts in new windows
@@ -437,6 +507,30 @@ Successfully tested with WordPress 4.0
 * The plugin was released.
 
 == Upgrade Notice ==
+
+= 6.4.0 =
+Added option to omit CSS generation, moved option for CSS class names to section Additional settings
+
+= 6.3.1 =
+Fixed missing "more" links at excerpts from excerpt fields
+
+= 6.3.0 =
+Added options to show only sticky posts and to print inline CSS, tested with WordPress 4.9.8
+
+= 6.2.1 =
+Fixed missing sticky posts in category filtered lists, tested with WordPress 4.9.7
+
+= 6.2 =
+Added option for category names as links, added subheadlines in the widget, tested with WordPress 4.9.5
+
+= 6.1 =
+Added filter hook 'rpwwt_the_excerpt', removed widget title sanitation, tested with WordPress 4.9.4
+
+= 6.0 =
+Added custom category label, refactored, updated translations, updated screenshot
+
+= 5.3 =
+Added option to hide sticky posts, changed excerpt filter, refactored, tested with WordPress 4.9.2
 
 = 5.2.2 =
 Fixed missing feature opening links in excerpts in new windows, revised FAQ

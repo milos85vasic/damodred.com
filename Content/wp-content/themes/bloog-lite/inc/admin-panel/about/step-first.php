@@ -19,6 +19,14 @@ $customizer_url = admin_url() . 'customize.php';
 
 	<div class="cols">
 		<span><?php esc_html_e('Step 2','bloog-lite')?></span>
+		<h3><?php esc_html_e( 'Import Demo Contents', 'bloog-lite' ); ?></h3>
+		<p><?php esc_html_e( 'If you like to have a site as similar like our demo then, go to Import Demo tab and do the needfuls.', 'bloog-lite' ) ?></p>
+		<p><a class="button button-primary" href="<?php echo esc_url( admin_url( 'themes.php?page=bloog-lite-about&tab=demo_import' ) ); ?>"><?php esc_html_e( 'Click Me to import demo contents.', 'bloog-lite' ); ?></a>
+		</p>
+	</div><!--/.col-->
+
+	<div class="cols">
+		<span><?php esc_html_e('Step 3','bloog-lite')?></span>
 		<h3><?php esc_html_e( 'Check our documentation', 'bloog-lite' ); ?></h3>
 		<p><?php esc_html_e( 'Even if you\'re a long-time WordPress user, we still believe you should give our documentation a very quick Read.', 'bloog-lite' ) ?></p>
 		<p>
@@ -27,7 +35,7 @@ $customizer_url = admin_url() . 'customize.php';
 	</div><!--/.col-->
 
 	<div class="cols">
-		<span><?php esc_html_e('Step 3','bloog-lite')?></span>
+		<span><?php esc_html_e('Step 4','bloog-lite')?></span>
 		<h3><?php esc_html_e( 'Customize everything', 'bloog-lite' ); ?></h3>
 		<p><?php esc_html_e( 'Using the WordPress Customizer you can easily customize every aspect of the theme.', 'bloog-lite' ); ?></p>
 		<p><a target="_blank" href="<?php echo esc_url( $customizer_url ); ?>"

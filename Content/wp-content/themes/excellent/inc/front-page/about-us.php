@@ -35,7 +35,7 @@ function excellent_about_us(){
 					<?php }
 					if($excellent_get_about_us_section->have_posts()):$excellent_get_about_us_section->the_post();
 						if ( has_post_thumbnail() ) { ?>
-						<div class="two-column-full-width" data-sr="enter left">
+						<div class="two-column-full-width freesia-animation fadeInLeft" data-wow-delay="0.7s">
 							<div class="about-img">
 							<?php if($excellent_settings['excellent_about_us_remove_link']==0){ ?>
 								<a title="<?php echo the_title_attribute('echo=0'); ?>" href="<?php the_permalink();?>"><?php the_post_thumbnail(); ?></a>
@@ -45,7 +45,7 @@ function excellent_about_us(){
 						   </div>
 						</div><!-- end .two-column-full-width -->
 						<?php	} ?>
-						<div class="two-column-full-width" data-sr="enter right">	
+						<div class="two-column-full-width freesia-animation fadeInRight" data-wow-delay="0.7s">	
 							<div class="about-content">
 								<div class="about-text">
 									<h2 class="about-title">

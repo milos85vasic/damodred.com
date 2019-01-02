@@ -40,8 +40,16 @@ function excellent_front_page_features(){
 				<?php } ?>
 					<div class="column clearfix">
 					<?php
-					while ($excellent_feature_box_get_featured_posts->have_posts()):$excellent_feature_box_get_featured_posts->the_post(); ?>
-						<div class="three-column" data-sr="enter left">
+					$i=1;
+					while ($excellent_feature_box_get_featured_posts->have_posts()):$excellent_feature_box_get_featured_posts->the_post();
+						if($i % 3 ==1 && $i >=0){
+								$blog_class = '0.5s';
+						}elseif($i % 3 ==2 && $i >=0){
+								$blog_class = '0.6s';
+						}else{
+								$blog_class = '0.7s';
+						}  ?>
+						<div class="three-column freesia-animation fadeInLeft" data-wow-delay="<?php echo esc_attr($blog_class); ?>">
 							<div class="feature-content">
 								<?php if (has_post_thumbnail() && $excellent_settings['excellent_disable_features_image']==0) { ?>
 									<a class="feature-icon" href="<?php the_permalink();?>" title="<?php echo the_title_attribute('echo=0'); ?>" alt="<?php echo the_title_attribute('echo=0'); ?>"><?php the_post_thumbnail(); ?></a>
@@ -61,7 +69,9 @@ function excellent_front_page_features(){
 								} ?>
 								</div> <!-- end .feature-content -->
 							</div><!-- end .three-column -->
-						<?php endwhile; ?>
+						<?php 
+						$i++;
+						endwhile; ?>
 						</div><!-- .end column-->
 					</div><!-- end .inner-wrap -->
 				</div><!-- end .wrap -->

@@ -27,8 +27,8 @@ jQuery(document).ready(function($){
         });
         
         $('body').on('click','.search_close',function(){
-         $('.search_form_wrap').removeClass('form-active');
-     });
+           $('.search_form_wrap').removeClass('form-active');
+       });
 
         $(function () {
 

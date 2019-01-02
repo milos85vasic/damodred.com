@@ -1,20 +1,49 @@
 == Excellent ==
-Description: Excellent is Ultra Responsive, Multipurpose, Corporated, SEO optimized multifunction, Business, CV, Ecommerce, Video and Blog WordPress Theme. It is designed for Business but this is competent for every kind of site which is designed and developed by Theme Freesia. With a focus on business sites, it features multiple sections on the front page as well as widgets, multiple navigation and social menus, a logo, Color Options and more. This theme supports popular plugins like Breadcrumb NavXT, WP-PageNavi, Contact Form 7, Jetpack by WordPress.com, Polylang, bbPress, wooCommerce and many more. It is 100% translation ready and you can easily customize with lots of options using Customizer. It consists contact us template, gallery template,Corporate Template, widgets and Sidebar. Get free support at https://tickets.themefreesia.com/ and View demo site at http://demo.themefreesia.com/excellent, http://demo.themefreesia.com/excellent-video, http://demo.themefreesia.com/excellent-cv/, http://demo.themefreesia.com/excellent-shop/.
-
-Contributors: ThemeFreesia Team
-
+Contributors: themefreesia
+Tags: threaded-comments, right-sidebar, four-columns, custom-colors, custom-background, custom-header, custom-menu, editor-style, sticky-post, theme-options, translation-ready, post-formats, custom-logo, e-commerce, photography, portfolio
+Requires at least: 4.0
+Tested up to: 4.8.1
 License: GNU General Public License version 3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Tags: threaded-comments, right-sidebar, four-columns, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, flexible-header, post-formats, footer-widgets, sticky-post, theme-options, translation-ready, e-commerce, education, portfolio
+Description: Excellent is Ultra Responsive, Multipurpose, Corporated, SEO optimized multifunction, Business, CV, Ecommerce, Video and Blog WordPress Theme.
 
-All files, unless otherwise stated, are released under the GNU General Public License
-version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
-Text Domain: excellent
+=================================================================================
+== Frequently Asked Questions ==
+= How many menu does Excellent theme support? =
+There is four Menu registered in this theme. i.e. Top Menu, Main Menu, Social Icons and Footer Menu
+
+= Where can i get instruction about theme? = 
+For detail instructions visit https://themefreesia.com/theme-instruction/excellent/
+
+= Is theme compatible with wpml? =
+wpml-config.xml is used to support multilangual plugins such and wpml, polylang.
+
+== Installation ==
+1. Primary: == Installation ==
+	- In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
+	- Type in Excellent in the search form and press the 'Enter' key on your keyboard.
+	- Click on the 'Activate' button to use your new theme right away.
+	- Go to https://themefreesia.com/theme-instruction/excellent/ for a guide on how to customize this theme.
+	- Navigate to Appearance > Customize in your admin panel and customize to taste.
+
+2. Alternate: Unzip the template file (excellent.zip) that you have downloaded. Via FTP, upload the whole folder (excellent) to your server and place it inside the http://yourdomain.com/wp-content/themes/folder(excellent). Do not change directory name. The template files should thus be here now: http://yourdomain.com/wp-content/themes/excellent/index.php (for example).
+	- Log into your WP admin panel and click on the Appearance -> Theme tab. Now click on the Excellent theme to activate it.
+	- Want to enjoy Excellent feature. Go to  Dashboard -> Appearance -> Customize and play with Excellent Options
+	- The theme is offered free of charge. If someone asked money for it, someone just tricked you.
+
+== Copyright ==
+	Excellent WordPress Theme, Copyright 2016 themefreesia
+	Excellent is distributed under the terms of the GNU GPL
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 2 of the License, or
+	(at your option) any later version.
 
 =================================================================================
 
-==License/Copyright ==
+==Resources ==
 Excellent WordPress Theme, Copyright 2017 WordPress.org
 Excellent is distributed under the terms of the GNU GPL
 
@@ -51,9 +80,13 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 		Copyright: Automattic, automattic.com
 		Licensed: GNU General Public License v3 or later
 
-		ScrollReceal:
-		scrollreveal-settings.js:
-		Licensed under MIT ( http://www.opensource.org/licenses/mit-license.php )
+		wow.js:
+		woo-settings.js:
+		Licensed under the MIT license - http://opensource.org/licenses/MIT
+		https://github.com/graingert/WOW/commit/73c3063c0dd43d78d0519edfac7b952d459ad772
+
+		navigation.js
+		Based on Underscores http://underscores.me/, (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 
 	-Images
 		Screenshot Images:
@@ -77,7 +110,7 @@ All the theme files and other un-specified scripts (customizer-custom-scripts.js
 	https://themefreesia.com/themes/excellent
 
 	- Theme Demo -
-	http://demo.themefreesia.com/excellent
+	https://demo.themefreesia.com/excellent
 
 	- Theme Instruction -
 	https://themefreesia.com/theme-instruction/excellent
@@ -86,38 +119,99 @@ All the theme files and other un-specified scripts (customizer-custom-scripts.js
 	https://tickets.themefreesia.com
 
 =================================================================================
-== Menus ==
-There is four Menu registered in this theme. i.e. Top Menu, Main Menu, Social Icons and Footer Menu
-
-== Installation ==
-1. Primary: Login to your wp-admin area and go to Dashboard -> Appearance -> Themes. Select Install tab and click on Upload link. Select theme .zip and click on Install now button. If you have any errors, use can also use an alternate method.
-
-2. Alternate: Unzip the template file (excellent.zip) that you have downloaded. Via FTP, upload the whole folder (excellent) to your server and place it inside the http://yourdomain.com/wp-content/themes/folder(excellent). Do not change directory name. The template files should thus be here now: http://yourdomain.com/wp-content/themes/excellent/index.php (for example).
-
-3. Log into your WP admin panel and click on the Appearance -> Theme tab. Now click on the Excellent theme to activate it.
-
-4. Want to enjoy Excellent feature. Go to  Dashboard -> Appearance -> Customize and play with Excellent Options
-
-5. The theme is offered free of charge. If someone asked money for it, someone just tricked you.
-
-== Translation ==
-
-Excellent theme is 100% translation ready
-
-=================================================================================
-
-== Change Log ==
-
-Please refer to changelog.txt file
-
-=================================================================================
-
-= Theme Instructions =
-
-For detail instructions visit https://themefreesia.com/theme-instruction/excellent/
-
-=================================================================================
 
 = wpml-config.xml =
 
 wpml-config.xml is used to support multilangual plugins such and wpml, polylang.
+
+=================================================================================
+
+== CHANGE LOG ==
+= 1.2.1 =
+	- Fix - Site title in sticky header display issue fixed
+
+= 1.2.0 =
+	- Fix - Display site logo only issue fixed
+
+= 1.1.9 =
+	- Fix - SEO issue fixed on displaying Logo Only
+			- Single & Page title SEO fixed
+
+= 1.1.8 =
+	- Fix - Device width fixed
+			- monor code fixed
+			- copyright info fixed
+			- blog title fixed
+	- Update - Page Builder css updated
+
+= 1.1.7 =
+	- Fix - Unwanted code removed 
+
+= 1.1.6 =
+	- Update - p tag changed to div for description
+				- Unwanted Code removed
+				- Footer copyright code added to footer.php
+				- h1 tag changed to h2
+
+= 1.1.5 =
+	- Fix - IE image and slider content align issue fixed
+
+= 1.1.4 =
+	- Fix - Search page and post css issue fixed
+			- Widget Title and minor text edited added
+			- Missing li closing tag added in slider
+			- pagination Managed
+			- Jquery Fixed for hover pause
+
+= 1.1.3 =
+	- Fix -  Non-printable characters fixed
+
+= 1.1.2 =
+	- Fix - duplicated code removed
+			- Unwanted conditional code removed
+
+= 1.1.1 =
+	- Fix - Search field issue fixed for safari browser
+			- Undefined index fixed for excerpt text
+			- Replaced scrollReveal plugin with wow plugin and fixed sticky issue
+			- Fixed the Hidden Category title 
+			- html5 enqueued properly
+			- fixed for touch-hover issue on small devices
+	- Update - Jquery Script Updated
+
+= 1.1.0 =
+	- New - Features to display small feature image in single post
+
+= 1.0.9 =
+	- Fix- Footer warning message: date() expects parameter 2 to be long
+
+= 1.0.8 =
+	- New - Compatible with Product Zoom, Gallery Lightbox and Slider
+	- Update - WPML Xml file upated
+				- CSS Updated
+	- Fix - Changed date('Y') to date_i18n(__('Y','excellent')).
+
+
+= 1.0.6 =
+	- Fix - Fixed empty tags while description is left empty
+			- Slider disabled by default
+	- Update - Font awesome version updated
+				- CSS Updated
+
+= 1.0.5 =
+	 - Fix - Fixed an issue recommended by maneshtimilsina
+
+= 1.0.4 =
+	- Fix - CSS for WooCommerce updated with color not displayed while hovering on post format
+
+= 1.0.3 =
+	- Fix - Minor missing issue fixed
+
+= 1.0.2 =
+	- Fix - Fix an issue commented by @joyously. Thanks for helping us.
+
+= 1.0.1 =
+	- Fix - Fixed some issue found on Version 1.0
+
+= 1.0 =
+	- Initial Release

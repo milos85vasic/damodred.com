@@ -28,9 +28,9 @@ get_header(); ?>
 			}
 			else { ?>
 			<h2 class="entry-title"> <?php esc_html_e( 'No Posts Found.', 'excellent' ); ?> </h2>
-			<?php } ?>
+			<?php }
+			get_template_part( 'pagination', 'none' ); ?>
 		</main><!-- end #main -->
-		<?php get_template_part( 'pagination', 'none' ); ?>
 	</div> <!-- #primary -->
 <?php
 get_sidebar();

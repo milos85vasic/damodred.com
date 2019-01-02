@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-11-05 15:19-0600\n"
+"POT-Creation-Date: 2018-07-08 13:08-0500\n"
 "PO-Revision-Date: 2016-06-18 05:56-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -26,32 +26,37 @@ msgstr ""
 msgid "Page Not Found"
 msgstr ""
 
-#: comments.php:14 woocommerce/single-product-reviews.php:114
+#: comments.php:15 woocommerce/single-product-reviews.php:114
 msgid "Name"
 msgstr ""
 
-#: comments.php:16 woocommerce/single-product-reviews.php:119
+#: comments.php:17 woocommerce/single-product-reviews.php:119
 msgid "Email Address"
 msgstr ""
 
-#: comments.php:18
+#: comments.php:19
 msgid "Website"
 msgstr ""
 
-#: comments.php:20
+#: comments.php:21
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: comments.php:24
 msgid "Comment"
 msgstr ""
 
-#: comments.php:71
+#: comments.php:76
 msgid "Comments are closed."
 msgstr ""
 
-#: comments.php:76
+#: comments.php:81
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
 
-#: customize/customizer.php:17 customize/customizer.php:96
+#: customize/customizer.php:17 customize/customizer.php:103
 msgid "Upgrade to Pro"
 msgstr ""
 
@@ -59,298 +64,297 @@ msgstr ""
 msgid "General Settings"
 msgstr ""
 
-#: customize/customizer.php:30
+#: customize/customizer.php:29
+msgid "Layout Settings"
+msgstr ""
+
+#: customize/customizer.php:36
 msgid "Front Page"
 msgstr ""
 
-#: customize/customizer.php:33
+#: customize/customizer.php:39
 msgid "Banner Settings"
 msgstr ""
 
-#: customize/customizer.php:38 customize/theme-defaults.php:33
+#: customize/customizer.php:44 customize/theme-defaults.php:33
 msgid "Featured Posts"
 msgstr ""
 
-#: customize/customizer.php:43 customize/customizer.php:50
+#: customize/customizer.php:49 customize/customizer.php:56
 msgid "Blog Feed"
 msgstr ""
 
-#: customize/customizer.php:56
+#: customize/customizer.php:62
 msgid "Posts"
 msgstr ""
 
-#: customize/customizer.php:62 functions.php:419
+#: customize/customizer.php:68 functions.php:482
 msgid "Pages"
 msgstr ""
 
-#: customize/customizer.php:68
+#: customize/customizer.php:74
 msgid "Advanced"
 msgstr ""
 
-#: customize/customizer.php:74
-msgid "Menu Settings"
+#: customize/customizer.php:80
+msgid "Juliet Menu Settings"
 msgstr ""
 
-#: customize/customizer.php:97
+#: customize/customizer.php:105 welcome-page/welcome-page.php:85
+msgid "Juliet Pro"
+msgstr ""
+
+#: customize/customizer.php:107
 msgid ""
-"\n"
-"        <h1>Juliet Pro</h1>\n"
-"        <p><a class=\"button\" href=\"https://www.lyrathemes.com/juliet-pro/"
-"\" target=\"_blank\">Upgrade to Juliet Pro</a></p>\n"
-"        <p>Many awesome features included in the pro version of this theme. "
-"View the <a href=\"http://www.lyrathemes.com/preview/?theme=juliet-pro\" "
-"target=\"_blank\">Juliet Pro Demo</a> to see the additional features and "
-"functionality available in your upgrade.</p>\n"
-"        <p>Here are some of the features available in the pro version:\n"
-"        <ul>\n"
-"            <li>&raquo; Slider options: strip slider or default slider</li>\n"
-"            <li>&raquo; Slider options: posts slider or custom slider</li>\n"
-"            <li>&raquo; Optional sticky header navigation</li>\n"
-"            <li>&raquo; Built-in Ads</li>\n"
-"            <li>&raquo; Built-in Related Posts</li>\n"
-"            <li>&raquo; Lookbook/Index page template</li>\n"
-"            <li>&raquo; Additional home page elements</li>\n"
-"            <li>&raquo; One on one personal support and continuous theme "
-"updates</li>\n"
-"        </ul>\n"
-"        </p>\n"
-"        <hr />\n"
-"        <h1>Current Theme: Juliet</h1>\n"
-"        <h3>Demo Site</h3>\n"
-"        <p>Head on over to the <a href=\"http://www.lyrathemes.com/preview/?"
-"theme=juliet\" target=\"_blank\">Juliet demo</a> to see what you can "
-"accomplish with this theme!</p>\n"
-"        <h3>Documentation</h3>\n"
-"        <p>Read how to customize the theme, set up widgets, and learn of all "
-"the possible options available to you.</p>\n"
-"        <p><a class=\"button\" href=\"https://www.lyrathemes.com/"
-"documentation/juliet.pdf\" target=\"_blank\">Juliet Documentation</a></p>\n"
-"        <p>You can also review our online documentation here:</p>\n"
-"        <p><a class=\"button\" href=\"https://www.lyrathemes.com/"
-"documentation/\" target=\"_blank\">Online Documentation</a></p>\n"
-"        <h3>Sample Data</h3>\n"
-"        <p>You can install the content and settings shown on our demo site "
-"by importing this sample data.</p>\n"
-"        <p><a class=\"button\" href=\"https://www.lyrathemes.com/sample-data/"
-"juliet-sample-data.zip\" target=\"_blank\">Juliet Sample Data</a></p>\n"
-"        <h3>Feedback and Support</h3>\n"
-"        <p>For feedback and support, please contact us and we would be happy "
-"to assist!</p>\n"
-"        <p><a class=\"button\" href=\"https://www.lyrathemes.com/support/\" "
-"target=\"_blank\">Juliet Support</a></p>\n"
-"        "
+"Upgrade for the many awesome features and expert support included with the "
+"pro version of this theme."
 msgstr ""
 
-#: customize/customizer.php:140
-msgid "Select Skin"
+#: customize/customizer.php:113
+msgid "Current Theme: Juliet"
 msgstr ""
 
-#: customize/customizer.php:158
+#: customize/customizer.php:114
+msgid "Demo Site"
+msgstr ""
+
+#: customize/customizer.php:115
+msgid ""
+"Head on over to the Juliet demo to see what you can accomplish with this "
+"theme!"
+msgstr ""
+
+#: customize/customizer.php:118
+msgid ""
+"Read how to customize the theme, set up widgets, and learn of all the "
+"possible options available to you."
+msgstr ""
+
+#: customize/customizer.php:120
+msgid "Sample Data"
+msgstr ""
+
+#: customize/customizer.php:121
+msgid ""
+"You can install the content and settings shown on our demo site by importing "
+"this sample data."
+msgstr ""
+
+#: customize/customizer.php:123
+msgid "Feedback and Support"
+msgstr ""
+
+#: customize/customizer.php:124
+msgid ""
+"For feedback and support, please contact us and we would be happy to assist!"
+msgstr ""
+
+#: customize/customizer.php:138
 msgid "Copyright Text"
 msgstr ""
 
-#: customize/customizer.php:159
+#: customize/customizer.php:139
 msgid "Accepts HTML."
 msgstr ""
 
-#: customize/customizer.php:169
+#: customize/customizer.php:149
 msgid "Enable Fancy Scrollbar?"
 msgstr ""
 
-#: customize/customizer.php:170
+#: customize/customizer.php:150
 msgid "Whether to replace the default page scrollbar with a fancy scrollbar."
 msgstr ""
 
-#: customize/customizer.php:178
-msgid "Sticky Post Signature"
-msgstr ""
-
-#: customize/customizer.php:179
-msgid ""
-"Upload an image to include at the end of each sticky post, something like a "
-"signature.."
-msgstr ""
-
-#: customize/customizer.php:187
+#: customize/customizer.php:159
 msgid "Show Example Content?"
 msgstr ""
 
-#: customize/customizer.php:188
+#: customize/customizer.php:160
 msgid ""
 "Turning this off will disable all default/sample images for posts. It will "
 "also hide all default widgets in the Default Sidebar."
 msgstr ""
 
-#: customize/customizer.php:200
+#: customize/customizer.php:173
+msgid "Select Skin"
+msgstr ""
+
+#: customize/customizer.php:191
+msgid "Sticky Post Signature"
+msgstr ""
+
+#: customize/customizer.php:192
+msgid ""
+"Upload an image to include at the end of each sticky post, something like a "
+"signature.."
+msgstr ""
+
+#: customize/customizer.php:205
 msgid "Show Image Logo?"
 msgstr ""
 
-#: customize/customizer.php:201
+#: customize/customizer.php:206
 msgid "Choose whether to display the image logo."
 msgstr ""
 
-#: customize/customizer.php:210
+#: customize/customizer.php:215
 msgid "Text Logo"
 msgstr ""
 
-#: customize/customizer.php:211
+#: customize/customizer.php:216
 msgid ""
 "Displayed when `Show Image Logo?` is set to `Show` or if there is no logo "
 "image uploaded."
 msgstr ""
 
-#: customize/customizer.php:233
+#: customize/customizer.php:238
 msgid "Caption Heading"
 msgstr ""
 
-#: customize/customizer.php:242
+#: customize/customizer.php:247
 msgid "Caption Description"
 msgstr ""
 
-#: customize/customizer.php:251
+#: customize/customizer.php:256
 msgid "Caption URL"
 msgstr ""
 
-#: customize/customizer.php:265
+#: customize/customizer.php:270
 msgid "Show Color Overlay/Filter?"
 msgstr ""
 
-#: customize/customizer.php:274
+#: customize/customizer.php:279
 msgid "Select Color"
 msgstr ""
 
-#: customize/customizer.php:288
+#: customize/customizer.php:293
 msgid "Show Featured Posts?"
 msgstr ""
 
-#: customize/customizer.php:289
+#: customize/customizer.php:294
 msgid "Choose whether to display the featured posts."
 msgstr ""
 
-#: customize/customizer.php:298
-msgid "<hr />"
-msgstr ""
-
-#: customize/customizer.php:306
+#: customize/customizer.php:311
 msgid "Heading"
 msgstr ""
 
-#: customize/customizer.php:315
+#: customize/customizer.php:320
 msgid "Post 1"
 msgstr ""
 
-#: customize/customizer.php:325
+#: customize/customizer.php:330
 msgid "Post 2"
 msgstr ""
 
-#: customize/customizer.php:335
+#: customize/customizer.php:340
 msgid "Post 3"
 msgstr ""
 
-#: customize/customizer.php:345
+#: customize/customizer.php:350
 msgid "Post 4"
 msgstr ""
 
-#: customize/customizer.php:359 customize/customizer.php:443
-#: customize/customizer.php:522 customize/customizer.php:547
+#: customize/customizer.php:364 customize/customizer.php:448
+#: customize/customizer.php:527 customize/customizer.php:552
 msgid "Layout"
 msgstr ""
 
-#: customize/customizer.php:360
+#: customize/customizer.php:365
 msgid "Choose whether to display the sidebar on the home page."
 msgstr ""
 
-#: customize/customizer.php:374 customize/customizer.php:469
+#: customize/customizer.php:379 customize/customizer.php:474
 msgid "Show Meta?"
 msgstr ""
 
-#: customize/customizer.php:375
+#: customize/customizer.php:380
 msgid ""
 "Choose whether to display date, category, author, tags for posts in the blog "
 "feed. This applies to all blog feeds on all pages, including the front page."
 msgstr ""
 
-#: customize/customizer.php:384 customize/customizer.php:479
+#: customize/customizer.php:389 customize/customizer.php:484
 msgid "Show Date?"
 msgstr ""
 
-#: customize/customizer.php:393 customize/customizer.php:488
+#: customize/customizer.php:398 customize/customizer.php:493
 msgid "Show Category?"
 msgstr ""
 
-#: customize/customizer.php:402 customize/customizer.php:497
+#: customize/customizer.php:407 customize/customizer.php:502
 msgid "Show Author?"
 msgstr ""
 
-#: customize/customizer.php:411
+#: customize/customizer.php:416
 msgid "Show Comments?"
 msgstr ""
 
-#: customize/customizer.php:427
+#: customize/customizer.php:432
 msgid "Post Display Format"
 msgstr ""
 
-#: customize/customizer.php:444
+#: customize/customizer.php:449
 msgid "Choose whether to display the sidebar on the blog feed pages."
 msgstr ""
 
-#: customize/customizer.php:455
+#: customize/customizer.php:460
 msgid "Heading for Blog Feed"
 msgstr ""
 
-#: customize/customizer.php:456
+#: customize/customizer.php:461
 msgid "The `Recent Posts` label for the blog feed."
 msgstr ""
 
-#: customize/customizer.php:470
+#: customize/customizer.php:475
 msgid ""
 "Choose whether to display date, category, author, tags for posts on the post "
 "page."
 msgstr ""
 
-#: customize/customizer.php:506
+#: customize/customizer.php:511
 msgid "Show Tags?"
 msgstr ""
 
-#: customize/customizer.php:523 customize/customizer.php:548
+#: customize/customizer.php:528 customize/customizer.php:553
 msgid "Choose whether to display the sidebar."
 msgstr ""
 
-#: customize/customizer.php:533 customize/customizer.php:558
+#: customize/customizer.php:538 customize/customizer.php:563
 msgid "Show Featured Image ?"
 msgstr ""
 
-#: customize/customizer.php:534
+#: customize/customizer.php:539
 msgid "Whether to show featured image at the beginning of the post."
 msgstr ""
 
-#: customize/customizer.php:559
+#: customize/customizer.php:564
 msgid "Whether to show featured image at the beginning of the page."
 msgstr ""
 
-#: customize/customizer.php:571
+#: customize/customizer.php:576
 msgid "Custom CSS"
 msgstr ""
 
-#: customize/customizer.php:572
+#: customize/customizer.php:577
 msgid "Custom CSS code to modify styling."
 msgstr ""
 
-#: customize/customizer.php:586
+#: customize/customizer.php:591
 msgid "Enable Off Canvas Menu?"
 msgstr ""
 
-#: customize/customizer.php:587
+#: customize/customizer.php:592
 msgid ""
 "Whether to show an off canvas menu that you can populate with various "
 "widgets."
 msgstr ""
 
-#: customize/customizer.php:595
+#: customize/customizer.php:600
 msgid "Enable Dropdown Menu Parent Nodes"
 msgstr ""
 
-#: customize/customizer.php:596
+#: customize/customizer.php:601
 msgid ""
 "The menu item that is clicked to drop down sub menus is not assigned a URL "
 "by default (it is set to #). If you would like to enable links for the "
@@ -361,7 +365,7 @@ msgstr ""
 msgid "Copyright &copy; "
 msgstr ""
 
-#: customize/theme-defaults.php:48 functions.php:420
+#: customize/theme-defaults.php:48 functions.php:483
 msgid "Recent Posts"
 msgstr ""
 
@@ -377,19 +381,23 @@ msgstr ""
 msgid "Off Canvas Menu"
 msgstr ""
 
-#: functions.php:210
+#: functions.php:254
 msgid "Recent Posts Widget With Thumbnails"
 msgstr ""
 
-#: functions.php:418
+#: functions.php:415
+msgid "Search Results: "
+msgstr ""
+
+#: functions.php:481
 msgid "Search"
 msgstr ""
 
-#: functions.php:421
+#: functions.php:484
 msgid "Archives"
 msgstr ""
 
-#: functions.php:422
+#: functions.php:485
 msgid "Categories"
 msgstr ""
 
@@ -433,12 +441,261 @@ msgstr ""
 msgid "Next Posts"
 msgstr ""
 
-#: sidebar-footer.php:49
+#: sidebar-footer.php:49 welcome-page/welcome-page.php:84
 msgid "Juliet"
 msgstr ""
 
 #: sidebar-footer.php:49
 msgid "by LyraThemes.com"
+msgstr ""
+
+#: welcome-page/class.welcomepage.php:117
+msgid "About %"
+msgstr ""
+
+#: welcome-page/class.welcomepage.php:120
+msgid "Welcome to %"
+msgstr ""
+
+#: welcome-page/class.welcomepage.php:124
+#, php-format
+msgid "Welcome! Thank you for choosing %s! "
+msgstr ""
+
+#: welcome-page/class.welcomepage.php:125
+msgid ""
+"To fully take advantage of the best our theme can offer please make sure you "
+"visit our "
+msgstr ""
+
+#: welcome-page/class.welcomepage.php:126
+msgid "welcome page"
+msgstr ""
+
+#: welcome-page/class.welcomepage.php:127
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: welcome-page/class.welcomepage.php:222
+msgid "More Details"
+msgstr ""
+
+#: welcome-page/class.welcomepage.php:223
+msgid "View Demo"
+msgstr ""
+
+#: welcome-page/class.welcomepage.php:224
+msgid "Pro Version"
+msgstr ""
+
+#: welcome-page/class.welcomepage.php:340
+#: welcome-page/class.welcomepage.php:404
+#, php-format
+msgid "Upgrade to %s"
+msgstr ""
+
+#: welcome-page/class.welcomepage.php:341
+#: welcome-page/class.welcomepage.php:405
+msgid "Review Full Comparison"
+msgstr ""
+
+#: welcome-page/class.welcomepage.php:347
+msgid "Features"
+msgstr ""
+
+#: welcome-page/welcome-page.php:16 welcome-page/welcome-page.php:17
+msgid "Welcome to Juliet"
+msgstr ""
+
+#: welcome-page/welcome-page.php:19
+#, php-format
+msgid "Welcome to %s, version "
+msgstr ""
+
+#: welcome-page/welcome-page.php:25
+msgid "Getting Started"
+msgstr ""
+
+#: welcome-page/welcome-page.php:26
+msgid "Support"
+msgstr ""
+
+#: welcome-page/welcome-page.php:27
+msgid "Free vs Pro"
+msgstr ""
+
+#: welcome-page/welcome-page.php:35
+msgid "Required Actions"
+msgstr ""
+
+#: welcome-page/welcome-page.php:36
+msgid ""
+"Be sure to install and activate the Kirki plugin. It is required to make "
+"full use of the customization features of this theme."
+msgstr ""
+
+#: welcome-page/welcome-page.php:37
+msgid "Install Plugins"
+msgstr ""
+
+#: welcome-page/welcome-page.php:42 welcome-page/welcome-page.php:44
+#: welcome-page/welcome-page.php:71 welcome-page/welcome-page.php:73
+msgid "Documentation"
+msgstr ""
+
+#: welcome-page/welcome-page.php:43 welcome-page/welcome-page.php:72
+msgid ""
+"For more information on how to fully utilize all the features of Juliet, "
+"please check the full documentation."
+msgstr ""
+
+#: welcome-page/welcome-page.php:49
+msgid "Customize and Set Up"
+msgstr ""
+
+#: welcome-page/welcome-page.php:50
+msgid "Use the WordPress Customizer to set up and customize your website."
+msgstr ""
+
+#: welcome-page/welcome-page.php:51
+msgid "Go to the Customizer"
+msgstr ""
+
+#: welcome-page/welcome-page.php:64 welcome-page/welcome-page.php:66
+msgid "Contact Support"
+msgstr ""
+
+#: welcome-page/welcome-page.php:65
+msgid ""
+"If you need any help with theme set up or options, enhancements, or have any "
+"questions about how a feature works, please feel free to reach out to us and "
+"we'd be happy to assist. LyraThemes has a world class support team, and we "
+"try our best to respond to all queries within 24-48 hours."
+msgstr ""
+
+#: welcome-page/welcome-page.php:89
+msgid "Two Header Options"
+msgstr ""
+
+#: welcome-page/welcome-page.php:90
+msgid "Special Lookbook / Index Template"
+msgstr ""
+
+#: welcome-page/welcome-page.php:91
+msgid "Built-in About Me Widget"
+msgstr ""
+
+#: welcome-page/welcome-page.php:92
+msgid "Built-in MailChimp Subscription Form Widget"
+msgstr ""
+
+#: welcome-page/welcome-page.php:93
+msgid "Built-in Ads"
+msgstr ""
+
+#: welcome-page/welcome-page.php:94
+msgid "Sticky Header/Navigation"
+msgstr ""
+
+#: welcome-page/welcome-page.php:95
+msgid "Front Page Posts and Custom Slider"
+msgstr ""
+
+#: welcome-page/welcome-page.php:96
+msgid "YouTube and Vimeo Video Slides"
+msgstr ""
+
+#: welcome-page/welcome-page.php:97
+msgid "Front Page Featured Links/Boxes"
+msgstr ""
+
+#: welcome-page/welcome-page.php:98
+msgid "Front Page Highlight Post"
+msgstr ""
+
+#: welcome-page/welcome-page.php:99
+msgid "Front Page Focus Posts"
+msgstr ""
+
+#: welcome-page/welcome-page.php:100
+msgid "Integration with WP Instagram Widget"
+msgstr ""
+
+#: welcome-page/welcome-page.php:101
+msgid "Built-in Related Posts"
+msgstr ""
+
+#: welcome-page/welcome-page.php:102
+msgid "600+ Google Fonts"
+msgstr ""
+
+#: welcome-page/welcome-page.php:103
+msgid "Custom Fonts and Colors"
+msgstr ""
+
+#: welcome-page/welcome-page.php:104
+msgid "Left Hand Sidebars"
+msgstr ""
+
+#: welcome-page/welcome-page.php:105
+msgid "One-click Demo Import"
+msgstr ""
+
+#: welcome-page/welcome-page.php:108
+msgid "Classic and Contemporary Skins"
+msgstr ""
+
+#: welcome-page/welcome-page.php:109
+msgid "Full WooCommerce Integration"
+msgstr ""
+
+#: welcome-page/welcome-page.php:110
+msgid "Off Canvas Menus"
+msgstr ""
+
+#: welcome-page/welcome-page.php:111
+msgid "Front Page Banner"
+msgstr ""
+
+#: welcome-page/welcome-page.php:112
+msgid "Front Page Featured Posts"
+msgstr ""
+
+#: welcome-page/welcome-page.php:113
+msgid "Special Sticky Posts Format with Signature"
+msgstr ""
+
+#: welcome-page/welcome-page.php:114
+msgid "Full Width Home Page & Blog Feed"
+msgstr ""
+
+#: welcome-page/welcome-page.php:115
+msgid "Optional Full Width Posts and Pages"
+msgstr ""
+
+#: welcome-page/welcome-page.php:116
+msgid "Excerpt or Full Blog Feed Layouts"
+msgstr ""
+
+#: welcome-page/welcome-page.php:117
+msgid "Integration with MailPoet"
+msgstr ""
+
+#: welcome-page/welcome-page.php:118
+msgid "Easy to Create Social Media Icon Menus"
+msgstr ""
+
+#: welcome-page/welcome-page.php:119
+msgid "Header and Footer Area Widgets"
+msgstr ""
+
+#: welcome-page/welcome-page.php:120
+msgid "Post and Front Page Specific Sidebars"
+msgstr ""
+
+#: welcome-page/welcome-page.php:121
+msgid "Footer Widgets"
 msgstr ""
 
 #: widgets/widgets.php:15
@@ -493,20 +750,20 @@ msgstr ""
 msgid "Footer - Last"
 msgstr ""
 
-#: woocommerce/cart/cart-totals.php:31 woocommerce/checkout/review-order.php:59
+#: woocommerce/cart/cart-totals.php:34 woocommerce/checkout/review-order.php:59
 msgid "Subtotal"
 msgstr ""
 
-#: woocommerce/cart/cart-totals.php:53
+#: woocommerce/cart/cart-totals.php:57
 msgid "Shipping"
 msgstr ""
 
-#: woocommerce/cart/cart-totals.php:69
+#: woocommerce/cart/cart-totals.php:75
 #, php-format
 msgid "(estimated for %s)"
 msgstr ""
 
-#: woocommerce/cart/cart-totals.php:90 woocommerce/cart/cart.php:38
+#: woocommerce/cart/cart-totals.php:96 woocommerce/cart/cart.php:38
 #: woocommerce/checkout/review-order.php:27
 #: woocommerce/checkout/review-order.php:106
 msgid "Total"
@@ -525,12 +782,16 @@ msgstr ""
 msgid "Quantity"
 msgstr ""
 
-#: woocommerce/cart/cart.php:59
+#: woocommerce/cart/cart.php:61
 msgid "Remove this item"
 msgstr ""
 
-#: woocommerce/cart/cart.php:91
+#: woocommerce/cart/cart.php:90
 msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:149
+msgid "Update cart"
 msgstr ""
 
 #: woocommerce/cart/proceed-to-checkout-button.php:27
@@ -565,15 +826,31 @@ msgstr ""
 msgid "Click here to enter your code"
 msgstr ""
 
-#: woocommerce/checkout/payment.php:35
+#: woocommerce/checkout/form-coupon.php:40
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:36
 msgid ""
 "Sorry, it seems that there are no available payment methods for your state. "
 "Please contact us if you require assistance or wish to make alternate "
 "arrangements."
 msgstr ""
 
-#: woocommerce/checkout/payment.php:35
+#: woocommerce/checkout/payment.php:36
 msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:43
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:44
+msgid "Update totals"
 msgstr ""
 
 #: woocommerce/functions_woocommerce.php:89
@@ -598,6 +875,10 @@ msgstr ""
 
 #: woocommerce/global/form-login.php:39
 msgid "Password"
+msgstr ""
+
+#: woocommerce/global/form-login.php:48
+msgid "Login"
 msgstr ""
 
 #: woocommerce/global/form-login.php:52
@@ -670,10 +951,6 @@ msgstr ""
 #: woocommerce/single-product-reviews.php:139
 msgid ""
 "Only logged in customers who have purchased this product may leave a review."
-msgstr ""
-
-#: woocommerce/single-product/product-image.php:54
-msgid "Awaiting product image"
 msgstr ""
 
 #: woocommerce/single-product/tabs/description.php:25

@@ -9,7 +9,6 @@
 
 <?php 
 $kale_pages_sidebar = kale_get_option('kale_pages_sidebar'); 
-$kale_pages_featured_image_show = kale_get_option('kale_pages_featured_image_show');
 $kale_sidebar_size = kale_get_option('kale_sidebar_size');
 ?>
 

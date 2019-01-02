@@ -94,6 +94,7 @@ $wp_customize->add_setting( 'excellent_theme_options[excellent_animationSpeed]',
 $wp_customize->add_control( 'excellent_theme_options[excellent_animationSpeed]', array(
 	'priority'=>60,
 	'label' => __(' Set the speed of animations', 'excellent'),
+	'description' => __('This feature will not work on Animation Effect set to fade','excellent'),
 	'section' => 'featured_content',
 	'type' => 'text',
 ));

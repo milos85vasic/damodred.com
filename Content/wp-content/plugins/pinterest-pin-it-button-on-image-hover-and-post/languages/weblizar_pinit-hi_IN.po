@@ -1,32 +1,59 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pinterest Pin It Button On Image Hover And In Post\n"
-"POT-Creation-Date: 2016-01-30 13:41+0530\n"
-"PO-Revision-Date: 2016-01-30 13:41+0530\n"
+"POT-Creation-Date: 2018-08-18 14:08+0530\n"
+"PO-Revision-Date: 2018-08-18 14:09+0530\n"
 "Last-Translator: Weblizar <lizarweb@gmail.com>\n"
 "Language-Team: \n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 2.0.8\n"
 "X-Poedit-KeywordsList: _e;_;__\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#. translators: 1: Plugin name and version.
+#: exclude-images.php:3
+msgid "To Exclude the image(s) from Pin Button On Image Hover. Please add image(s) URL below:"
+msgstr "छवि होवर पर पिन बटन से छवि को बाहर निकालने के लिए। कृपया नीचे छवि (ओं) यूआरएल जोड़ें:"
+
+#: exclude-images.php:4
+msgid "Provide Image SRC URL"
+msgstr "छवि एसआरसी यूआरएल प्रदान करें"
+
+#: exclude-images.php:6
+#, fuzzy
+#| msgid "Address"
+msgid "Add"
+msgstr "पता"
+
+#: exclude-images.php:8
+msgid "Note"
+msgstr "व्याख्या"
+
+#: exclude-images.php:8
+msgid "Refresh the page to see new added URLs."
+msgstr "नए जोड़े गए यूआरएल देखने के लिए पेज को रीफ्रेश करें।"
+
+#: exclude-images.php:8
+msgid "Refesh"
+msgstr "ताज़ा करना"
+
+#: pinterest-pin-It-button.php:205 settings.php:158 settings.php:270
+msgid "Settings"
+msgstr "सेटिंग्स"
+
 #: recommendations.php:107
 msgid "More Details"
 msgstr "अधिक जानकारी"
 
-#. translators: 1: Plugin name and version.
 #: recommendations.php:118
 msgid "Install Now"
 msgstr "अब स्थापित करें"
 
-#. translators: 1: Plugin name and version
 #: recommendations.php:125
 msgid "Update Now"
 msgstr "अभी अद्यतन करें"
@@ -43,73 +70,78 @@ msgstr "वर्डप्रेस के अपने संस्करण �
 msgid "Compatible with your version of WordPress"
 msgstr "वर्डप्रेस के अपने संस्करण के साथ संगत"
 
-#: template.php:127
+#: settings.php:151
 msgid "Pin It Button Settings"
 msgstr "पिन बटन सेटिंग्स"
 
-#: template.php:129
+#: settings.php:153
 msgid "Configure Plugin Settings Here"
 msgstr "यहाँ प्लगइन सेटिंग्स कॉन्फ़िगर"
 
-#: template.php:134
-msgid "Settings Tab"
-msgstr "सेटिंग्स टैब"
+#: settings.php:159
+#, fuzzy
+#| msgid "Background Image"
+msgid "Exclude Images"
+msgstr "पृष्ठभूमि छवि"
 
-#: template.php:135
+#: settings.php:160
 msgid "Plugin Recommendation"
 msgstr "प्लगइन सिफारिश"
 
-#: template.php:136
+#: settings.php:161
+msgid "Our Products"
+msgstr "हमारे उत्पाद"
+
+#: settings.php:162
 msgid "Need Help"
 msgstr "कोई मदद चाहिए"
 
-#: template.php:147 template.php:160 template.php:173 template.php:186
+#: settings.php:173 settings.php:186 settings.php:199 settings.php:212
 msgid "Show Pin It Button"
 msgstr "पिन बटन दिखाएं"
 
-#: template.php:147
+#: settings.php:173
 msgid "In Post"
 msgstr "पोस्ट में"
 
-#: template.php:154 template.php:167 template.php:180 template.php:193
+#: settings.php:180 settings.php:193 settings.php:206 settings.php:219
 msgid "Yes"
 msgstr "हाँ"
 
-#: template.php:155 template.php:168 template.php:181 template.php:194
+#: settings.php:181 settings.php:194 settings.php:207 settings.php:220
 msgid "No"
 msgstr "नहीं"
 
-#: template.php:160
+#: settings.php:186
 msgid "In Page"
 msgstr "पृष्ठ में"
 
-#: template.php:173
+#: settings.php:199
 msgid "On Image Hover"
 msgstr "छवि मंडराना पर"
 
-#: template.php:186
+#: settings.php:212
 msgid "On Mobile / Portable Devices"
 msgstr "मोबाइल / पोर्टेबल उपकरणों पर"
 
-#: template.php:214
+#: settings.php:240
 msgid "Pin It Button Color (On Image Hover)"
 msgstr "पिन बटन रंग (छवि मंडराना पर)"
 
-#: template.php:230
+#: settings.php:256
 msgid "Pin It Button Size (On Image Hover)"
 msgstr "पिन बटन आकार (छवि मंडराना पर)"
 
-#: template.php:238
+#: settings.php:264
 msgid "Small"
 msgstr "छोटा"
 
-#: template.php:239
+#: settings.php:265
 msgid "Large"
 msgstr "बडा"
 
-#: template.php:244
-msgid "Settings"
-msgstr "सेटिंग्स"
+#~ msgid "Settings Tab"
+#~ msgstr "सेटिंग्स टैब"
 
 #~ msgid "Pinterest PinIt Button Settings"
 #~ msgstr "Pinterest पिन बटन सेटिंग्स"
@@ -161,9 +193,6 @@ msgstr "सेटिंग्स"
 
 #~ msgid "Login Form Opacity"
 #~ msgstr "पर्चा अपारदर्शिता लॉगिन"
-
-#~ msgid "Background Image"
-#~ msgstr "पृष्ठभूमि छवि"
 
 #~ msgid "No media selected!"
 #~ msgstr "कोई मीडिया चयनित नहीं"
@@ -612,9 +641,6 @@ msgstr "सेटिंग्स"
 #~ msgid "Top video url"
 #~ msgstr "शीर्ष वीडियो URL"
 
-#~ msgid "Our Products"
-#~ msgstr "हमारे उत्पाद"
-
 #~ msgid "Display Facebook Page Live Stream & Fans"
 #~ msgstr "फेसबुक पेज लाइव स्ट्रीम और प्रशंसक प्रदर्शित"
 
@@ -661,13 +687,18 @@ msgstr "सेटिंग्स"
 #~ msgstr "अपनी खुद फेसबुक एपीपी आईडी प्राप्त करें"
 
 #~ msgid "Settings successfully saved. Reloading page for generating preview below."
-#~ msgstr "सेटिंग्स सफलतापूर्वक बना दी गई है। नीचे पूर्वावलोकन पैदा करने के लिए पेज को पुन: लोड किया जा रहा है।"
+#~ msgstr ""
+#~ "सेटिंग्स सफलतापूर्वक बना दी गई है। नीचे पूर्वावलोकन पैदा करने के लिए पेज को पुन: लोड किया जा रहा है।"
 
 #~ msgid "Select any time."
 #~ msgstr "कोइ समय चुनें"
 
-#~ msgid "Thank you for scheduling appointment with us.<br>A confirmation mail will be forward to you soon after admin approval."
-#~ msgstr "हमारे साथ नियुक्ति का समय निर्धारण करने के लिए धन्यवाद। एक संपुष्टि मेल व्यवस्थापक अनुमोदन के बाद जल्द ही आपको भेजा जाएगा।"
+#~ msgid ""
+#~ "Thank you for scheduling appointment with us.<br>A confirmation mail will be forward to "
+#~ "you soon after admin approval."
+#~ msgstr ""
+#~ "हमारे साथ नियुक्ति का समय निर्धारण करने के लिए धन्यवाद। एक संपुष्टि मेल व्यवस्थापक अनुमोदन के बाद जल्द "
+#~ "ही आपको भेजा जाएगा।"
 
 #~ msgid "Select any service."
 #~ msgstr "कोइ सेवा चुनें"
@@ -690,8 +721,12 @@ msgstr "सेटिंग्स"
 #~ msgid "Schedule New Appointment"
 #~ msgstr "नई नियुक्ति बनायें"
 
-#~ msgid "Thank you for scheduling appointment with us. A confirmation mail will be sent to you soon after admin approval."
-#~ msgstr "हमारे साथ नियुक्ति का समय निर्धारण करने के लिए धन्यवाद। एक संपुष्टि मेल व्यवस्थापक अनुमोदन के बाद जल्द ही आपको भेजा जाएगा।"
+#~ msgid ""
+#~ "Thank you for scheduling appointment with us. A confirmation mail will be sent to you "
+#~ "soon after admin approval."
+#~ msgstr ""
+#~ "हमारे साथ नियुक्ति का समय निर्धारण करने के लिए धन्यवाद। एक संपुष्टि मेल व्यवस्थापक अनुमोदन के बाद जल्द "
+#~ "ही आपको भेजा जाएगा।"
 
 #~ msgid "Click Here"
 #~ msgstr "यहाँ क्लिक करें"
@@ -801,8 +836,12 @@ msgstr "सेटिंग्स"
 #~ msgid "Invalid Email"
 #~ msgstr "अमान्य ईमेल"
 
-#~ msgid "Thank you for scheduling appointment with us. A confirmation mail will be forward to you soon after admin approval."
-#~ msgstr "हमारे साथ नियुक्ति का समय निर्धारण करने के लिए धन्यवाद। एक संपुष्टि मेल व्यवस्थापक अनुमोदन के बाद जल्द ही आपको भेजा जाएगा।"
+#~ msgid ""
+#~ "Thank you for scheduling appointment with us. A confirmation mail will be forward to you "
+#~ "soon after admin approval."
+#~ msgstr ""
+#~ "हमारे साथ नियुक्ति का समय निर्धारण करने के लिए धन्यवाद। एक संपुष्टि मेल व्यवस्थापक अनुमोदन के बाद जल्द "
+#~ "ही आपको भेजा जाएगा।"
 
 #~ msgid "Sorry! Today's all appointments has been booked."
 #~ msgstr "क्षमा करें! आज सभी नियुक्तियों को बुक किया जा चुका है।"
@@ -831,7 +870,9 @@ msgstr "सेटिंग्स"
 #~ msgid "Help & Support"
 #~ msgstr "मदद और समर्थन"
 
-#~ msgid "Appointment Calendar Plugin has been successfully removed. It can be re-activated from the "
+#~ msgid ""
+#~ "Appointment Calendar Plugin has been successfully removed. It can be re-activated from "
+#~ "the "
 #~ msgstr "नियुक्ति कैलेंडर प्लगइन सफलतापूर्वक हटा दिया गया है। आप इसे फिर से सक्रिय कर सकते हैं"
 
 #~ msgid "Plugins Page"
@@ -840,11 +881,19 @@ msgstr "सेटिंग्स"
 #~ msgid "Remove Appointment Calendar Plugin"
 #~ msgstr "नियुक्ति कैलेंडर प्लगइन हटायें।"
 
-#~ msgid "This operation wiil delete all Appointment Calendar data & settings. If you continue, You will not be able to retrieve or restore your appointments entries."
-#~ msgstr "यह कार्यवाही नियुक्ति कैलेंडर डेटा की नियुक्ति प्रविष्टियों सहित सेटिंग्स, नष्ट कर देगी. यह पूर्ववत प्राप्त नहीं किया जा सकता है।"
+#~ msgid ""
+#~ "This operation wiil delete all Appointment Calendar data & settings. If you continue, "
+#~ "You will not be able to retrieve or restore your appointments entries."
+#~ msgstr ""
+#~ "यह कार्यवाही नियुक्ति कैलेंडर डेटा की नियुक्ति प्रविष्टियों सहित सेटिंग्स, नष्ट कर देगी. यह पूर्ववत प्राप्त "
+#~ "नहीं किया जा सकता है।"
 
-#~ msgid "Warning! Appointment Calendar data & settings, including appointment entries will be deleted. This cannot be undone. OK to delete, CANCEL to stop"
-#~ msgstr "चेतावनी! नियुक्ति कैलेंडर डेटा और नियुक्ति प्रविष्टियों सहित सेटिंग्स, नष्ट कर दिया जाएगा. यह पूर्ववत प्राप्त नहीं किया जा सकता है. इसको रोकने के लिए रद्द करें।"
+#~ msgid ""
+#~ "Warning! Appointment Calendar data & settings, including appointment entries will be "
+#~ "deleted. This cannot be undone. OK to delete, CANCEL to stop"
+#~ msgstr ""
+#~ "चेतावनी! नियुक्ति कैलेंडर डेटा और नियुक्ति प्रविष्टियों सहित सेटिंग्स, नष्ट कर दिया जाएगा. यह पूर्ववत "
+#~ "प्राप्त नहीं किया जा सकता है. इसको रोकने के लिए रद्द करें।"
 
 #~ msgid "REMOVE PLUGIN"
 #~ msgstr "प्लगइन हटायें"
@@ -1368,9 +1417,6 @@ msgstr "सेटिंग्स"
 #~ msgid "End Date"
 #~ msgstr "अंतिम दिनांक"
 
-#~ msgid "Note"
-#~ msgstr "व्याख्या"
-
 #~ msgid "Create Time Off"
 #~ msgstr "टाईम आफ बनायें"
 
@@ -1509,14 +1555,25 @@ msgstr "सेटिंग्स"
 #~ msgid "Done"
 #~ msgstr "नियुक्त हो चुकी"
 
-#~ msgid "<strong>Appointment Calendar Lite</strong> is a simple but effective plugin which enables you to take appointments on your wordpress blog."
-#~ msgstr "<strong>नियुक्ति कैलेंडर एक सरल लेकिन प्रभावी प्लगइन जो आपको अपने वर्डप्रैस ब्लॉग पर नियुक्तियों को लेने के लिए सक्षम बनाता है। </strong>"
+#~ msgid ""
+#~ "<strong>Appointment Calendar Lite</strong> is a simple but effective plugin which "
+#~ "enables you to take appointments on your wordpress blog."
+#~ msgstr ""
+#~ "<strong>नियुक्ति कैलेंडर एक सरल लेकिन प्रभावी प्लगइन जो आपको अपने वर्डप्रैस ब्लॉग पर नियुक्तियों को लेने के "
+#~ "लिए सक्षम बनाता है। </strong>"
 
-#~ msgid "If you are a consultant/doctor/lawyer etc, you can harness the power of appointment calendar."
-#~ msgstr "यदि आप एक परामर्शदाता चिकित्सक, वकील आदि हैं, तो आप नियुक्ति कैलेंडर की शक्ति का दोहन कर सकते हैं।"
+#~ msgid ""
+#~ "If you are a consultant/doctor/lawyer etc, you can harness the power of appointment "
+#~ "calendar."
+#~ msgstr ""
+#~ "यदि आप एक परामर्शदाता चिकित्सक, वकील आदि हैं, तो आप नियुक्ति कैलेंडर की शक्ति का दोहन कर सकते हैं।"
 
-#~ msgid "Simply unzip and upload appointment-calendar directory to /wp-content/plugins/ directory and activate the plugin."
-#~ msgstr "बस खोलें और नियुक्ति कैलेंडर प्रीमियम प्लगइन को /wp-content/plugins/ डयरेक्ट्री में अपलोड करें और प्लगइन को सक्रिय करें।"
+#~ msgid ""
+#~ "Simply unzip and upload appointment-calendar directory to /wp-content/plugins/ directory "
+#~ "and activate the plugin."
+#~ msgstr ""
+#~ "बस खोलें और नियुक्ति कैलेंडर प्रीमियम प्लगइन को /wp-content/plugins/ डयरेक्ट्री में अपलोड करें और प्लगइन "
+#~ "को सक्रिय करें।"
 
 #~ msgid "To insert Appointment Calendar into any post or page, use the shortcode:"
 #~ msgstr "किसी भी पोस्ट या पृष्ठ में नियुक्ति कैलेंडर डालने के लिए इस शोर्टकोड का उपयोग करें:"
@@ -1919,9 +1976,6 @@ msgstr "सेटिंग्स"
 #~ msgid "Staff Group Name."
 #~ msgstr "कर्मचारी की समूह का नाम"
 
-#~ msgid "Address"
-#~ msgstr "पता"
-
 #~ msgid "Staff Address."
 #~ msgstr "कर्मचारी का पता"
 
@@ -2118,7 +2172,8 @@ msgstr "सेटिंग्स"
 #~ msgid "Appointment Calendar Premium"
 #~ msgstr "नियुक्ति कैलेंडर प्रीमियम"
 
-#~ msgid "To insert Appointment Calendar Premium Button into any post or page, use the shortcode:"
+#~ msgid ""
+#~ "To insert Appointment Calendar Premium Button into any post or page, use the shortcode:"
 #~ msgstr "किसी भी पोस्ट या पृष्ठ में नियुक्ति कैलेंडर प्रीमियम बटन डालने के लिए इस शोर्टकोड का उपयोग करें:"
 
 #, fuzzy

@@ -33,7 +33,7 @@ function excellent_customize_register_frontpage_options( $wp_customize ) {
 		'priority' => 7,
 		'capability' => 'edit_theme_options',
 		'theme_supports' => '',
-		'title' => __( 'Fronpage Template', 'excellent' ),
+		'title' => __( 'Frontpage Template', 'excellent' ),
 		'description' => '',
 	) );
 }

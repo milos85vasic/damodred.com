@@ -17,8 +17,12 @@ if($juliet_enable_off_canvas_menu == 1) {
                 if ( function_exists( 'the_custom_logo' ) ) the_custom_logo();  
             } 
             else { 
-                $juliet_text_logo = juliet_get_option('juliet_text_logo'); if($juliet_text_logo == '') $juliet_text_logo = get_bloginfo('name'); ?>
+                $juliet_text_logo = juliet_get_option('juliet_text_logo'); if($juliet_text_logo == '') $juliet_text_logo = get_bloginfo('name'); 
+                if ( is_front_page() ) { ?>
                 <h1 class="header-logo-text"><?php echo esc_html($juliet_text_logo); ?></h1>
+                <?php } else { ?>
+                <div class="header-logo-text"><?php echo esc_html($juliet_text_logo); ?></div>
+                <?php } ?>
             <?php } ?>
 		</div>
         <!-- /Logo -->

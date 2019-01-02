@@ -44,13 +44,13 @@ function excellent_latest_from_blog_box(){
 					$i=1;
 					while ($get_latest_from_blog_posts->have_posts()):$get_latest_from_blog_posts->the_post();
 						if($i % 3 ==1 && $i >=0){
-							$blog_class = 'left';
+							$blog_class = 'fadeInLeft';
 						}elseif($i % 3 ==2 && $i >=0){
-							$blog_class = 'bottom';
+							$blog_class = 'fadeInUp';
 						}else{
-							$blog_class = 'right';
+							$blog_class = 'fadeInRight';
 							} ?>
-						<div class="three-column" data-sr="enter <?php echo esc_attr($blog_class); ?>">
+						<div class="three-column freesia-animation <?php echo esc_attr($blog_class); ?>" data-wow-delay="0.8s">
 						<div class="latest-blog-content">
 						<article id="post-<?php the_ID(); ?>" <?php post_class();?>>
 							<?php if (has_post_thumbnail()) { ?>

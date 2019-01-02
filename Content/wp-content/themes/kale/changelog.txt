@@ -1,6 +1,93 @@
+
 == Changelog ==
 
+* 2.4.2
+* 09/29/2018
+* Updated: Sample images - according to new wordpress.org requirements
+* New: Search widget in Header - Left
+
+* 2.4.1
+* 08/04/2018
+* Update: Welcome page, added recommended plugins
+* Update: Theme defaults changed to banner, hide featured posts, hide highlight post
+* Update: style-rtl.css
+* Update: kale.pot
+* Added: Recommendation for WPForms
+* New: Search widget in Header - Right
+
+* 2.4
+* 07/08/2018
+* New: Welcome page
+* New: Added styling for default WordPress widgets
+* New: Added GDPR compliance checkbox to comment form
+* New: Added styling for all WordPress default widgets
+* Update: Google fonts enqueue
+* Update: Meta box clean up 
+* Update: Typography
+* Update: style-rtl.css
+* Update: Added `rtl-language-support` tag in style.css
+* Update: .pot file
+
+* 2.3
+* 05/13/2018
+* New: Added option (page meta box) to display featured image as a banner on pages 
+* New: MailPoet 3 support
+* Fix: Replaced get_parent_theme_file_path() with get_template_directory()
+
+* 2.2
+* 3/11/2018
+* Fix: Adjusted formatting of header-row-1 widgets
+* Update: Bootstrap updated to version 3.3.7
+* Update: Search results title
+* Update: Removed embed_oembed_html filter
+* Update: Documentation link updated to https://help.lyrathemes.com/#collection-181
+* Update: Sidebar Size option moved to "General Settings" section
+* Update: Menu Settings moved inside "Menus"
+* Update: .pot file
+* New: Added option to show/hide next/prev posts nav "kale_posts_posts_nav_show"
+* New: Removed bundled Kirki, recommending via TGM-Plugin-Activation, added fallback class and Kirki installation message in Customizer
+
+= 2.1.1
+* 11/17/2017
+* Fix: Kirki switches data format changed (in 3.0.15), created new function `kale_kirki_update_3015` to convert previous values 
+* Fix: Kirki switches data format changed (in 3.0.15), updated customize/customize.php
+* Fix: Switch styling update
+
+= 2.1
+* 11/17/2017
+* Fix: Default gallery was not responsive
+* Updated: Kirki to 3.0.15
+
+= 2.0
+* 10/28/2017
+* Fix: Undefined variable $kale_str in parts/entry.php
+* Fix: Removed hentry class from archive pages to prevent structured data errors
+* Updated: image.php template to include image caption and added some styling
+* Updated: Owl Carousel to 2.2.1
+* Updated: Kirki to 3.0.11
+* Updated: style-rtl.css file
+* Updated: kale.pot file
+* New: Added new menu options area in the Customizer
+
+= 1.3
+* 10/1/2017
+* Fix: Admin name/link color in comments
+* New: Automatically responsive embedded YouTube videos
+* New: Integrated SmartMenus for on hover, multilevel menus
+* New: Third level menus enabled
+* New: Option to enable main parent node for dropdowns
+* New: Added image.php template
+
+= 1.2.4
+* Fixed overlay for slider 
+* ADDED: Option to link slider images directly and hide the captions
+
+= 1.2.3.1
+* 06/16/2017
+* Fix for slider on IE
+
 = 1.2.3
+* 06/11/2017
 * Fixed padding for social media icons
 * Footer row 3, custom menu inline styling
 * Fixed: Logo is not h1 on internal pages

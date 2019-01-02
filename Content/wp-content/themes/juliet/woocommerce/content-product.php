@@ -13,45 +13,28 @@
  * @see     https://docs.woocommerce.com/document/template-structure/
  * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 3.0.0
+ * @version 3.4.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
+    exit; // Exit if accessed directly
 }
 
 global $product;
 
 // Ensure visibility
 if ( empty( $product ) || ! $product->is_visible() ) {
-	return;
+    return;
 }
 
 if( is_shop()|| is_product_category() || is_product_tag() ) {
-	$current_post = $wp_query->current_post;
-	if($current_post % 4 == 0) {
-		$row_open = '<div class="row">';
-		$row_close = '';
-	} else if ( ($current_post+1) % 4 == 0 ){
-		$row_open = '';
-		$row_close = '</div>';
-	} else {
-		$row_open = '';
-        $row_close = '';
-    }
-	if($wp_query->post_count == ($current_post)+1){
-		$row_close = '</div>';
-	}
-    $block_class = 'col-sm-6 col-md-3';
+    $block_class = 'juliet-product-item';
 } else {
-    $row_open = '';
-    $row_close = '';
     $block_class = 'juliet-product-slick-item';
 }
 ?>
-<?php echo $row_open; ?>
 <div class="<?php echo $block_class; ?>">
-    <div <?php post_class('juliet-loop-product'); ?>>
+    <div <?php post_class( 'juliet-loop-product' ); ?>>
         <?php
         /**
          * woocommerce_before_shop_loop_item hook.
@@ -92,4 +75,3 @@ if( is_shop()|| is_product_category() || is_product_tag() ) {
         ?>
     </div>
 </div>
-<?php echo $row_close; ?>

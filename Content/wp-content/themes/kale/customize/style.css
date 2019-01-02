@@ -1,19 +1,13 @@
-/*** Kirki - Custom Styles ***/
-.customize-control-kirki-toggle .switch {
-    margin-top: 5px !important;
-}
-.customize-control-kirki .description {
-    font-style: normal !important;
-    font-size: 13px !important;
-    font-weight: normal !important;
-}
-
-.customize-control-kirki-radio label .option-description {
-    color: #999 !important;
-    font-size: 12px !important;
-    font-style:italic !important;
-}
-
 #accordion-section-kale_section_theme_info .accordion-section-title{background-color:#BEA5D0; color:#fff}
 #accordion-section-kale_section_theme_info .customize-control-description a{color:#6f26ac; text-decoration:underline;}
 #accordion-section-kale_section_theme_info .customize-control-description .button{background-color:#BEA5D0; color:#fff; text-decoration:none;}
+
+#customize-theme-controls #accordion-section-kale_section_theme_info .accordion-section-title { border-left: 4px solid red; }
+#customize-theme-controls #accordion-section-kale_section_theme_info .accordion-section-title:after { color: #ffffff; }
+
+#customize-control-kale_theme_info .form-wrap p, 
+#customize-control-kale_theme_info p.description, 
+#customize-control-kale_theme_info p.help, 
+#customize-control-kale_theme_info span.description{ font-style: normal; }
+
+#customize-control-kale_theme_info .button { color: #ffffff; background: #976bb7; box-shadow: none; }

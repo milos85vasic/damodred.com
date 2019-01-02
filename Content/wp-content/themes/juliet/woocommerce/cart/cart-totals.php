@@ -21,83 +21,92 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
+<div class="cart_totals <?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
+
 <div class="row">
     <div class="col-sm-5 col-sm-offset-7 text-right">
+    
+	<?php do_action( 'woocommerce_before_cart_totals' ); ?>
+    
+    <ul class="list-total">
+    
+        <li class="cart-subtotal">
+            <label><?php _e( 'Subtotal', 'juliet' ); ?></label>
+            <?php wc_cart_totals_subtotal_html(); ?>
+        </li>
+        
+        <?php foreach ( WC()->cart->get_coupons() as $code => $coupon ) : ?>
+        <li class="cart-discount coupon-<?php echo esc_attr( sanitize_title( $code ) ); ?>">
+            <label><?php wc_cart_totals_coupon_label( $coupon ); ?></label>
+            <?php wc_cart_totals_coupon_html( $coupon ); ?>
+        </li>
+        <?php endforeach; ?>
+        
+        
+        <?php if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
 
-        <?php do_action( 'woocommerce_before_cart_totals' ); ?>
+			<?php do_action( 'woocommerce_cart_totals_before_shipping' ); ?>
 
-            <ul class="list-total">
-                <li>
-                    <label><?php _e( 'Subtotal', 'juliet' ); ?></label>
-                    <?php wc_cart_totals_subtotal_html(); ?>
-                </li>
+			<?php wc_cart_totals_shipping_html(); ?>
 
-                <?php foreach ( WC()->cart->get_coupons() as $code => $coupon ) : ?>
-                    <li>
-                        <label><?php wc_cart_totals_coupon_label( $coupon ); ?></label>
-                        <?php wc_cart_totals_coupon_html( $coupon ); ?>
-                    </li>
-                <?php endforeach; ?>
+			<?php do_action( 'woocommerce_cart_totals_after_shipping' ); ?>
 
-                <?php if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
+		<?php elseif ( WC()->cart->needs_shipping() && 'yes' === get_option( 'woocommerce_enable_shipping_calc' ) ) : ?>
 
-                    <?php do_action( 'woocommerce_cart_totals_before_shipping' ); ?>
+        <li class="shipping">
+            <label><?php _e( 'Shipping', 'juliet' ); ?></label>
+            <?php woocommerce_shipping_calculator(); ?>
+        </li>
 
-                    <?php wc_cart_totals_shipping_html(); ?>
+		<?php endif; ?>
+        
+        
+        <?php foreach ( WC()->cart->get_fees() as $fee ) : ?>
+		<li class="fee">
+            <label><?php echo esc_html( $fee->name ); ?></label>
+            <?php wc_cart_totals_fee_html( $fee ); ?>
+		</li>
+		<?php endforeach; ?>
+        
+        
+        <?php if ( wc_tax_enabled() && ! WC()->cart->display_prices_including_tax() ) :
+			$taxable_address = WC()->customer->get_taxable_address();
+			$estimated_text  = WC()->customer->is_customer_outside_base() && ! WC()->customer->has_calculated_shipping()
+					? sprintf( ' <small>' . __( '(estimated for %s)', 'juliet' ) . '</small>', WC()->countries->estimated_for_prefix( $taxable_address[0] ) . WC()->countries->countries[ $taxable_address[0] ] )
+					: '';
 
-                    <?php do_action( 'woocommerce_cart_totals_after_shipping' ); ?>
+			if ( 'itemized' === get_option( 'woocommerce_tax_total_display' ) ) : ?>
+				<?php foreach ( WC()->cart->get_tax_totals() as $code => $tax ) : ?>
+					<li class="tax-rate tax-rate-<?php echo sanitize_title( $code ); ?>">
+						<label><?php echo esc_html( $tax->label ) . $estimated_text; ?></label>
+						<?php echo wp_kses_post( $tax->formatted_amount ); ?>
+					</li>
+				<?php endforeach; ?>
+			<?php else : ?>
+				<li class="tax-total">
+					<label><?php echo esc_html( WC()->countries->tax_or_vat() ) . $estimated_text; ?></label>
+					<?php wc_cart_totals_taxes_total_html(); ?>
+				</li>
+			<?php endif; ?>
+		<?php endif; ?>
+        
+        <?php do_action( 'woocommerce_cart_totals_before_order_total' ); ?>
 
-                <?php elseif ( WC()->cart->needs_shipping() && 'yes' === get_option( 'woocommerce_enable_shipping_calc' ) ) : ?>
+		<li class="order-total">
+			<label><?php _e( 'Total', 'juliet' ); ?></label>
+			<?php wc_cart_totals_order_total_html(); ?>
+		</li>
 
-                    <li class="shipping">
-                        <label><?php _e( 'Shipping', 'juliet' ); ?></label>
-                       <?php woocommerce_shipping_calculator(); ?>
-                    </li>
+		<?php do_action( 'woocommerce_cart_totals_after_order_total' ); ?>
 
-                <?php endif; ?>
+	</ul>
 
-                <?php foreach ( WC()->cart->get_fees() as $fee ) : ?>
-                    <li class="fee">
-                        <label><?php echo esc_html( $fee->name ); ?></label>
-                        <?php wc_cart_totals_fee_html( $fee ); ?>
-                    </li>
-                <?php endforeach; ?>
+	<div class="wc-proceed-to-checkout">
+		<?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
+	</div>
 
-                <?php if ( wc_tax_enabled() && 'excl' === WC()->cart->tax_display_cart ) :
-                    $taxable_address = WC()->customer->get_taxable_address();
-                    $estimated_text  = WC()->customer->is_customer_outside_base() && ! WC()->customer->has_calculated_shipping()
-                            ? sprintf( ' <small>' . __( '(estimated for %s)', 'juliet' ) . '</small>', WC()->countries->estimated_for_prefix( $taxable_address[0] ) . WC()->countries->countries[ $taxable_address[0] ] )
-                            : '';
-
-                    if ( 'itemized' === get_option( 'woocommerce_tax_total_display' ) ) : ?>
-                        <?php foreach ( WC()->cart->get_tax_totals() as $code => $tax ) : ?>
-                            <li class="tax-rate tax-rate-<?php echo sanitize_title( $code ); ?>">
-                                <label><?php echo esc_html( $tax->label ) . $estimated_text; ?></label>
-                                <?php echo wp_kses_post( $tax->formatted_amount ); ?>
-                            </li>
-                        <?php endforeach; ?>
-                    <?php else : ?>
-                        <li class="tax-total">
-                            <label><?php echo esc_html( WC()->countries->tax_or_vat() ) . $estimated_text; ?></label>
-                            <?php wc_cart_totals_taxes_total_html(); ?>
-                        </li>
-                    <?php endif; ?>
-                <?php endif; ?>
-
-                <?php do_action( 'woocommerce_cart_totals_before_order_total' ); ?>
-
-                <li class="order-total">
-                    <label><?php _e( 'Total', 'juliet' ); ?></label>
-                    <?php wc_cart_totals_order_total_html(); ?>
-                </li>
-
-                <?php do_action( 'woocommerce_cart_totals_after_order_total' ); ?>
-
-            </ul>
-
-            <?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
-
-        <?php do_action( 'woocommerce_after_cart_totals' ); ?>
+	<?php do_action( 'woocommerce_after_cart_totals' ); ?>
 
     </div>
+</div>
 </div>

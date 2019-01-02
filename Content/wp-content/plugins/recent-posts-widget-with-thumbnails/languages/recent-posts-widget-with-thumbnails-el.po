@@ -3,24 +3,20 @@ msgstr ""
 "Project-Id-Version: Recent Posts Widget With Thumbnails\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/plugins/recent-posts-widget-with-"
 "thumbnails\n"
-"POT-Creation-Date: 2017-11-10 16:57+0100\n"
-"PO-Revision-Date: 2017-11-10 16:57+0100\n"
+"POT-Creation-Date: 2018-11-29 18:04+0100\n"
+"PO-Revision-Date: 2018-11-29 18:04+0100\n"
 "Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
 "Language-Team: Greek\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
 "esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: .\n"
-
-#: includes/form.php:1
-msgid "Display Options"
-msgstr "Επιλογές εμφάνισης"
 
 #: includes/form.php:10
 msgid "Open post links in new windows?"
@@ -31,18 +27,40 @@ msgid "Show posts in random order?"
 msgstr "Εμφάνιση άρθρων με τυχαία σειρά;"
 
 #: includes/form.php:16
-msgid "Do not list the current post?"
+msgid "Do not show the current post?"
 msgstr "Να μη συμπεριληφθεί το παρόν άρθρο;"
 
-#: includes/form.php:19
+#: includes/form.php:21
+msgid "Show only sticky posts?"
+msgstr "Κατάλογος μόνο κολλώδεις θέσεις;"
+
+#: includes/form.php:22
+msgid ""
+"If activated the options to hide sticky posts and to keep them on top will "
+"be ignored."
+msgstr ""
+"Εάν ενεργοποιηθούν οι επιλογές για να κρύψετε τις κολλώδεις θέσεις και να "
+"τις διατηρήσετε στην κορυφή, θα αγνοηθούν."
+
+#: includes/form.php:25
+msgid "Do not show sticky posts?"
+msgstr "Να μην εμφανίζονται άρθρα που πρέπει να φυλάσσονται παραπάνω;"
+
+#: includes/form.php:26
+msgid "If activated the option to keep sticky posts on top will be ignored."
+msgstr ""
+"Αν ενεργοποιηθεί η επιλογή να κρατηθούν κολλώδεις θέσεις στην κορυφή, θα "
+"αγνοηθεί."
+
+#: includes/form.php:29
 msgid "Keep sticky posts on top of the list?"
 msgstr "Διατήρηση προβεβλημένων άρθρων στη κορυφή της λίστας;"
 
-#: includes/form.php:22
+#: includes/form.php:34
 msgid "Do not show post title?"
 msgstr "Απόκρυψη τίτλου του άρθρου;"
 
-#: includes/form.php:23
+#: includes/form.php:35
 msgid ""
 "Make sure you set a default thumbnail for posts without a thumbnail, "
 "otherwise there will be no link."
@@ -50,43 +68,57 @@ msgstr ""
 "Βεβαιωθείτε ότι ορίσατε μια προεπιλεγμένη μικρογραφία για τα άρθρα χωρίς "
 "μικρογραφία, αλλιώς δεν θα υπάρχει σύνδεσμος."
 
-#: includes/form.php:25
+#: includes/form.php:37
 msgid "Maximum length of post title"
 msgstr "Μέγιστο μέγεθος τίτλου άρθρου"
 
-#: includes/form.php:29
+#: includes/form.php:43
 msgid "Show post author?"
 msgstr "Εμφάνιση συντάκτη άρθρου;"
 
-#: includes/form.php:32
+#: includes/form.php:48
 msgid "Show post categories?"
 msgstr "Εμφάνιση κατηγορίας άρθρου;"
 
-#: includes/form.php:35
+#: includes/form.php:51
+msgid "Set post category names as links, pointing to their archives?"
+msgstr ""
+"Ορίστε τα ονόματα των κατηγοριών μετά ως συνδέσμους, δείχνοντας τα αρχεία "
+"τους;"
+
+#: includes/form.php:53
+msgid "Label for categories:"
+msgstr "Ετικέτα για τις κατηγορίες:"
+
+#: includes/form.php:55
+msgid "This field can be empty."
+msgstr "Αυτό το πεδίο δεν χρειάζεται να περιέχει τίποτα."
+
+#: includes/form.php:60
 msgid "Show post date?"
 msgstr "Εμφάνιση ημερομηνίας άρθρου;"
 
-#: includes/form.php:38
+#: includes/form.php:65
 msgid "Show excerpt?"
 msgstr "Εμφάνιση αποσπάσματος;"
 
-#: includes/form.php:40
+#: includes/form.php:67
 msgid "Maximum length of excerpt"
 msgstr "Μέγιστο μέγεθος αποσπάσματος"
 
-#: includes/form.php:43
+#: includes/form.php:70
 msgid "Signs after excerpt"
 msgstr "Εικονίδια μετά το απόσμασμα"
 
-#: includes/form.php:47
+#: includes/form.php:74
 msgid "Set signs after excerpt as a link to the post?"
 msgstr "Να οριστεί εικονίδιο μετά το απόσπασμα ως σύνδεσμος στο άρθρο;"
 
-#: includes/form.php:50
+#: includes/form.php:77
 msgid "Ignore post excerpt field as excerpt source?"
 msgstr "Να αγνοηθεί το πεδίο αποσπάσματος του άρθρου ως πηγή;"
 
-#: includes/form.php:51
+#: includes/form.php:78
 msgid ""
 "Normally the widget takes the excerpt from the text of the excerpt field "
 "unchanged and if there is no text it creates the excerpt from the post "
@@ -98,17 +130,17 @@ msgstr ""
 "του άρθρου αυτόματα. Αν αυτή η επιλογή είναι ενεργοποιημένη, το απόσπασμα "
 "δημιουργείται μόνο από το περιεχόμενο του άρθρου."
 
-#: includes/form.php:54
+#: includes/form.php:83
 msgid "Show number of comments?"
 msgstr "Να εμφανιστεί ο αριθμός σχολίων;"
 
-#: includes/form.php:57
+#: includes/form.php:88
 msgid "Print slugs of post categories in class attribute of LI elements?"
 msgstr ""
 "Εκτύπωση των slugs των κατηγοριών των άρθρων στην χαρακτηριστικό class του "
 "LI στοιχείου;"
 
-#: includes/form.php:58
+#: includes/form.php:89
 msgid ""
 "For developers: If checked you can set CSS rules for each list item on base "
 "of the assigned categories."
@@ -116,11 +148,11 @@ msgstr ""
 "Για προγραμματιστές: Αν επιλεγεί θα μπορείτε να ορίσετε CSS κανόνες για κάθε "
 "στοιχείο λίστας βάσει των ανατεθειμένων κατηγοριών."
 
-#: includes/form.php:60
+#: includes/form.php:91
 msgid "Show posts of selected categories only?"
 msgstr "Εμφάνιση άρθρων μόνο των επιλεγμένων κατηγοριών;"
 
-#: includes/form.php:62
+#: includes/form.php:93
 #, php-format
 msgid ""
 "Click on the categories with pressed CTRL key to select multiple categories. "
@@ -129,23 +161,27 @@ msgstr ""
 "Κάντε κλικ σε πολλαπλές κατηγορίες κρατώντας πατημένο το CTRL. Αν &#8220;"
 "%s&#8221; επιλεχθούν, τότε οι άλλες επιλογές θα αγνοηθούν."
 
-#: includes/form.php:64
-msgid "Thumbnail Options"
-msgstr "Επιλογές μικρογραφίας"
+#: includes/form.php:98
+msgid "Show thumbnail?"
+msgstr "Εμφάνιση μικρογραφίας;"
 
-#: includes/form.php:67
-msgid "Display post featured image?"
-msgstr "Εμφάνιση προβεβλημένης εικόνας άρθρου;"
+#: includes/form.php:99
+msgid ""
+"By default, the featured image of the post is used as long as the next "
+"checkboxes do not specify anything different."
+msgstr ""
+"Από προεπιλογή, χρησιμοποιείται η εμφανιζόμενη εικόνα της ανάρτησης, εφόσον "
+"τα επόμενα πλαίσια ελέγχου δεν ορίζουν κάτι διαφορετικό."
 
-#: includes/form.php:69
+#: includes/form.php:101
 msgid "Size of thumbnail"
 msgstr "Μέγεθος μικρογραφίας"
 
-#: includes/form.php:71
+#: includes/form.php:103
 msgid "Specified width and height"
 msgstr "Προσαρμοσμένο πλάτος και ύψος"
 
-#: includes/form.php:81
+#: includes/form.php:113
 #, php-format
 msgid ""
 "If you use a specified size the following sizes will be taken, otherwise "
@@ -155,68 +191,87 @@ msgstr ""
 "χρησιμοποιηθούν, αλλιώς θα αγνοηθούν και η επιλεγμένη διάσταση όπως "
 "επιλέχθηκε στο %s θα χρησιμοποιηθεί:"
 
-#: includes/form.php:84
+#: includes/form.php:116
 msgid "Width of thumbnail"
 msgstr "Πλάτος μικρογραφίας"
 
-#: includes/form.php:87
+#: includes/form.php:119
 msgid "Height of thumbnail"
 msgstr "Ύψος μικρογραφίας"
 
-#: includes/form.php:91
+#: includes/form.php:123
 msgid "Use aspect ratios of original images?"
 msgstr "Να χρησιμοποιηθεί η αναλογία της αρχικής εικόνας;"
 
-#: includes/form.php:92
+#: includes/form.php:124
 msgid ""
-"If checked the given width is used to determine the height of the thumbnail "
-"automatically. This option also supports responsive web design."
+"If activated the given width is used to determine the height of the "
+"thumbnail automatically. This option also supports responsive web design."
 msgstr ""
 "Αν επιλεχθεί, το δοσμένο πλάτος θα χρησιμοποιηθεί για να ορίσει το ύψος της "
 "μικρογραφίας, αυτόματα. Αυτή η επιλογή υποστηρίζει επίσης και "
 "ανταποκρινόμενο σχεδιασμό ιστοσελίδας."
 
-#: includes/form.php:95
+#: includes/form.php:127
 msgid "Try to use the post's first image if post has no featured image?"
 msgstr ""
 "Να χρησιμοποιηθεί η πρώτη εικόνα του άρθρου, αν το άρθρο δεν έχει "
 "προβεβλημένη εικόνα;"
 
-#: includes/form.php:98
+#: includes/form.php:130
 msgid "Use first image only, ignore featured image?"
 msgstr "Να γίνει χρήση μόνο της πρώτης εικόνας και να αγνοηθεί η προβεβλημένη;"
 
-#: includes/form.php:101
+#: includes/form.php:133
 msgid "Use default thumbnail if no image could be determined?"
 msgstr ""
 "Να γίνει χρήση της προεπιλεγμένης μικρογραφίας εάν δεν μπορεί να καθοριστεί "
 "εικόνα;"
 
-#: includes/form.php:103
+#: includes/form.php:135
 msgid "URL of default thumbnail (start with http://)"
 msgstr "URL της προεπιλεγμένης μικρογραφίας (αρχίζοντας με http://)"
 
-#: includes/form.php:106
+#: includes/form.php:141
+msgid "Print inline CSS instead of creating a CSS file?"
+msgstr "Εκτυπώστε inline CSS αντί να δημιουργήσετε ένα αρχείο CSS;"
+
+#: includes/form.php:142 includes/form.php:146
+msgid "If activated this option applies to all instances of this widget."
+msgstr ""
+"Εάν ενεργοποιηθεί, αυτή η επιλογή ισχύει για όλες τις εμφανίσεις αυτού του "
+"γραφικού στοιχείου."
+
+#: includes/form.php:145
+msgid "No CSS generation at all, neither inline CSS nor a CSS file?"
+msgstr "Μην δημιουργείτε καθόλου CSS, ούτε CSS inline ούτε ένα αρχείο CSS;"
+
+#: includes/form.php:149
 msgid "Do you like the plugin?"
 msgstr "Σας αρέσει το πρόσθετο;"
 
-#: includes/form.php:106
+#: includes/form.php:149
 msgid "Please rate it at wordpress.org!"
 msgstr "Παρακαλούμε αξιολογήστε το στο wordpress.org!"
 
-#: includes/form.php:107
+#: includes/form.php:150
 msgid "Do you need more options?"
 msgstr "Θέλετε περισσότερες επιλογές;"
 
-#: includes/form.php:107
+#: includes/form.php:150
 msgid "Get Ultimate Post List Pro!"
 msgstr "Αγοράστε το Ultimate Post List Pro!"
 
-#: recent-posts-widget-with-thumbnails.php:99
+#: recent-posts-widget-with-thumbnails.php:68
+msgctxt "In {categories}"
+msgid "In"
+msgstr "Σε"
+
+#: recent-posts-widget-with-thumbnails.php:96
 msgid "Recent Posts With Thumbnails"
 msgstr "Recent Posts With Thumbnails"
 
-#: recent-posts-widget-with-thumbnails.php:100
+#: recent-posts-widget-with-thumbnails.php:97
 msgid ""
 "List of your site&#8217;s most recent posts, with clickable title and "
 "thumbnails."
@@ -224,11 +279,15 @@ msgstr ""
 "Απαριθμείστε τα πιο πρόσφατα άρθρα σας, με δυνατότητα συνδέσμων στους "
 "τίτλους και στις μικρογραφίες. "
 
-#: recent-posts-widget-with-thumbnails.php:225
-msgctxt "In {categories}"
-msgid "In"
-msgstr "Σε"
-
-#: recent-posts-widget-with-thumbnails.php:706
+#: recent-posts-widget-with-thumbnails.php:755
 msgid "Error on listing categories"
 msgstr "Σφάλμα κατά την δημιουργία λίστας κατηγοριών"
+
+#~ msgid "Display post featured image?"
+#~ msgstr "Εμφάνιση προβεβλημένης εικόνας άρθρου;"
+
+#~ msgid "Display Options"
+#~ msgstr "Επιλογές εμφάνισης"
+
+#~ msgid "Thumbnail Options"
+#~ msgstr "Επιλογές μικρογραφίας"

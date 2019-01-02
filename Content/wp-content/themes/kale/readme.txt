@@ -1,9 +1,9 @@
 === Kale ===
 
 Author: LyraThemes www.lyrathemes.com
-Requires at least: WordPress 4.7+
-Tested up to: WordPress 4.5.2
-Version: 1.2.3
+Requires at least: WordPress 4.5+
+Tested up to: WordPress 4.9.8
+Version: 2.4.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: one-column, two-columns, three-columns, right-sidebar, grid-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-images,footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, food-and-drink
@@ -53,13 +53,14 @@ The theme uses the following third-party resources:
 
 * HTML5 Shiv v3.7.0 (c) Alexander Farkas. MIT/GPL2. https://github.com/aFarkas/html5shiv
 * Respond.js v1.3.0 (c) Scott Jehl. MIT/GPLv2. https://github.com/scottjehl/Respond
-* Bootstrap v3.3.5 (c) Twitter Inc. MIT. http://getbootstrap.com
+* Bootstrap v3.3.7 (c) Twitter Inc. MIT. http://getbootstrap.com
 * bootstrap-select v1.5.4 (c) caseyjhol, t0xicCode. MIT. http://silviomoreto.github.io/bootstrap-select/
 * Owl Carousel v1.3.2. MIT. http://owlgraphic.com/owlcarousel/
 * Kirki v. GPLv2 or later
 * TGM-Plugin-Activation v2.6.1 (c) Thomas Griffin. GPL-2.0+. http://tgmpluginactivation.com/
 * Font Awesome 4.7 by Dave Gandy. MIT. http://fontawesome.io
-* wp-bootstrap-navwalker (c) Edward McIntyre. GPL-2.0. https://github.com/twittem/wp-bootstrap-navwalker
+* wp-bootstrap-navwalker (c) Edward McIntyre. GPL-2.0. https://github.com/twittem/wp-bootstrap-navwalker (modified)
+* SmartMenus jQuery Plugin - v1.1.0 - (c) Vasil Dinkov, Vadikom Web Ltd. MIT http://www.smartmenus.org/ 
 * Sample preview images in kale/sample/images are Creative Commons CC0. https://pixabay.com/en/service/terms/#usage https://unsplash.com/license https://picjumbo.com/faq-and-terms/
 
 full1.jpg   https://unsplash.com/photos/tJWUHtIDzWs

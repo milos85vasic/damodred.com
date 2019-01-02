@@ -63,7 +63,16 @@ $footer_column = $excellent_settings['excellent_footer_column_section'];
 			do_action('excellent_social_links');
 		endif;
 		do_action('excellent_footer_menu');
-		do_action('excellent_sitegenerator_footer'); ?>
+		
+		if ( is_active_sidebar( 'excellent_footer_options' ) ) :
+		dynamic_sidebar( 'excellent_footer_options' );
+		else:
+			echo '<div class="copyright">' .'&copy; ' . date_i18n(__('Y','excellent')) .' '; ?>
+			<a title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" target="_blank" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo get_bloginfo( 'name', 'display' ); ?></a> | 
+							<?php esc_html_e('Designed by:','excellent'); ?> <a title="<?php echo esc_html__( 'Theme Freesia', 'excellent' ); ?>" target="_blank" href="<?php echo esc_url( 'https://themefreesia.com' ); ?>"><?php esc_html_e('Theme Freesia','excellent');?></a> | 
+							<?php esc_html_e('Powered by:','excellent'); ?> <a title="<?php echo esc_html__( 'WordPress', 'excellent' );?>" target="_blank" href="<?php echo esc_url( 'https://wordpress.org' );?>"><?php esc_html_e('WordPress','excellent'); ?></a>
+						</div>
+		<?php endif; ?>
 			<div style="clear:both;"></div>
 		</div> <!-- end .wrap -->
 	</div> <!-- end .site-info -->

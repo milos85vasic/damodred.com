@@ -33,11 +33,11 @@ function excellent_portfolio_box(){
 					while ($excellent_portfolio_box_get_featured_posts->have_posts()):$excellent_portfolio_box_get_featured_posts->the_post();
 					$i=1; ?>
 					<div class="four-column-full-width">
-						<div class="portfolio-title-wrap" data-sr="enter right">
+						<div class="portfolio-title-wrap freesia-animation fadeInRight" data-wow-delay="0.6s">
 							<h2 class="portfolio-title"><a title="<?php echo the_title_attribute('echo=0'); ?>" href="<?php the_permalink(); ?>"><?php the_title();?></a></h2>
 						</div>
 						<?php if (has_post_thumbnail()) { ?>
-							<div class="portfolio-img" data-sr="enter left">
+							<div class="portfolio-img freesia-animation fadeInLeft" data-wow-delay="0.6s">
 								<a title="<?php echo the_title_attribute('echo=0'); ?>" href="<?php the_permalink(); ?>"><?php the_post_thumbnail();?></a>
 							</div>
 						<?php } ?>

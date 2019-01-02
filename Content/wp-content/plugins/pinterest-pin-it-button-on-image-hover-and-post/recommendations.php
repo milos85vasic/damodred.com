@@ -10,7 +10,7 @@
 							global $tabs, $tab, $paged, $type, $term;
 							$tabs = array();
 							$tab = "search";
-							$per_page = 20;
+							$per_page = 50;
 							$args = array (
 								"author"=> "weblizar",
 								"page" => $paged,

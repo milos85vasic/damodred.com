@@ -54,7 +54,7 @@ function bloog_customizer( $wp_customize ) {
             'priority' => 20,
             'capability' => 'edit_theme_options',
             'theme_supports' => '',
-            'title' => __('Home Slider And Home Posts', 'bloog-lite')
+            'title' => __('Home Slider', 'bloog-lite')
             )
         ); 
     
@@ -325,6 +325,45 @@ function bloog_customizer( $wp_customize ) {
         )
     ); 
 
+    // No of comments in slider
+   $wp_customize -> add_section(
+    'comment_number_slider_section',
+    array(
+        'title' => __('Comment Numbers (Show/Hide)','bloog-lite'),
+        'priority' => 20,
+        'panel' => 'home_slider_panel'
+        )
+    );
+
+   $wp_customize -> add_setting(
+    'comment_number_slider_setting',
+    array(
+        'default' => '1',
+        'sanitize_callback' => 'bloog_lite_sanitize_checkbox'
+        )
+    );
+
+   $wp_customize -> add_control(
+    'comment_number_slider_setting',
+    array(
+        'label' => __('Show Numbers of Comments','bloog-lite'),
+        'description' => __('check to display in numbers of Comments in slider', 'bloog-lite'),
+        'section' => 'comment_number_slider_section',
+        'type' => 'checkbox'
+        )
+    ); 
+/** Slider part ends**/
+
+    $wp_customize -> add_panel(
+        'home_posts_panel',
+        array(
+            'priority' => 20,
+            'capability' => 'edit_theme_options',
+            'theme_supports' => '',
+            'title' => __('Home Posts', 'bloog-lite')
+            )
+        ); 
+
 
     // Display post in home page Option
    $wp_customize -> add_section(
@@ -333,7 +372,7 @@ function bloog_customizer( $wp_customize ) {
         'title' => __('Choose Categories','bloog-lite'),
         'description' => __('Choose Categories to display posts in Home Page','bloog-lite'),
         'priority' => 20,
-        'panel' => 'home_slider_panel'
+        'panel' => 'home_posts_panel'
         )
     );
 
@@ -398,40 +437,7 @@ function bloog_customizer( $wp_customize ) {
     ) );
 
 
-    // Number of views and message in slider
-
-
-    // No of comments in slider
-   $wp_customize -> add_section(
-    'comment_number_slider_section',
-    array(
-        'title' => __('Comment Numbers (Show/Hide)','bloog-lite'),
-        'priority' => 20,
-        'panel' => 'home_slider_panel'
-        )
-    );
-
-   $wp_customize -> add_setting(
-    'comment_number_slider_setting',
-    array(
-        'default' => '1',
-        'sanitize_callback' => 'bloog_lite_sanitize_checkbox'
-        )
-    );
-
-   $wp_customize -> add_control(
-    'comment_number_slider_setting',
-    array(
-        'label' => __('Show Numbers of Comments','bloog-lite'),
-        'description' => __('check to display in numbers of Comments in slider', 'bloog-lite'),
-        'section' => 'comment_number_slider_section',
-        'type' => 'checkbox'
-        )
-    ); 
-
-
-
-    // Design setting 
+// Design setting 
    $wp_customize -> add_panel(
     'desig_setting_panel',
     array(

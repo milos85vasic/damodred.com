@@ -44,12 +44,12 @@ class Kirki_Control_MultiCheck extends Kirki_Control_Base {
 		?>
 		<# if ( ! data.choices ) { return; } #>
 
-		<# if ( data.label ) { #><span class="customize-control-title">{{ data.label }}</span><# } #>
+		<# if ( data.label ) { #><span class="customize-control-title">{{{ data.label }}}</span><# } #>
 		<# if ( data.description ) { #><span class="description customize-control-description">{{{ data.description }}}</span><# } #>
 
 		<ul>
 			<# for ( key in data.choices ) { #>
-				<li><label><input {{{ data.inputAttrs }}} type="checkbox" value="{{ key }}"<# if ( _.contains( data.value, key ) ) { #> checked<# } #> />{{ data.choices[ key ] }}</label></li>
+				<li><label<# if ( _.contains( data.value, key ) ) { #> class="checked"<# } #>><input {{{ data.inputAttrs }}} type="checkbox" value="{{ key }}"<# if ( _.contains( data.value, key ) ) { #> checked<# } #> />{{ data.choices[ key ] }}</label></li>
 			<# } #>
 		</ul>
 		<?php

@@ -1,0 +1,1197 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Blogg\n"
+"POT-Creation-Date: 2018-10-01 13:35-0700\n"
+"PO-Revision-Date: 2018-09-22 17:07-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:28
+msgid "404"
+msgstr ""
+
+#: 404.php:29
+msgid "Our Apologies. The page requested cannot be found."
+msgstr ""
+
+#: 404.php:30
+msgid ""
+"It appears we messed up somewhere with a broken link or the page has been "
+"removed from our website."
+msgstr ""
+
+#: 404.php:33
+msgid "Return Home"
+msgstr ""
+
+#: comments.php:41
+msgctxt "comments title"
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:46
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:72
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:73
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:84
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:94
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:95
+msgid "Write a Comment"
+msgstr ""
+
+#: comments.php:99
+msgid "* Message"
+msgstr ""
+
+#: comments.php:104
+msgid "* Name)"
+msgstr ""
+
+#: comments.php:108
+msgid "* Email"
+msgstr ""
+
+#: comments.php:112
+msgid "Website"
+msgstr ""
+
+#: comments.php:115
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: footer.php:56
+msgid "Copyright &copy;"
+msgstr ""
+
+#: footer.php:57
+msgid "Y"
+msgstr ""
+
+#: footer.php:59
+msgid "All rights reserved."
+msgstr ""
+
+#: footer.php:66
+msgid "Blogg theme designed by "
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: footer.php:67
+msgid "https://www.bloggingthemestyles.com"
+msgstr ""
+
+#. Author of the plugin/theme
+#: footer.php:67
+msgid "Blogging Theme Styles"
+msgstr ""
+
+#: functions.php:72
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:73
+msgid "Social Icon Menu"
+msgstr ""
+
+#: functions.php:74
+msgid "Footer Menu"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Abril Fatface, translate this to 'off'. Do not translate into your own language.
+#: functions.php:151
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Molle, translate this to 'off'. Do not translate into your own language.
+#: functions.php:156
+msgctxt "Molle font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:209
+msgid "Menu"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:48
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:51
+msgid "Next Image"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/back-compat.php:29 inc/back-compat.php:40 inc/back-compat.php:54
+#, php-format
+msgid ""
+"Blogg requires at least WordPress version 4.7. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:34
+#: inc/theme-info/blogg-info.php:113
+msgid "Blogg Pro"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:35
+msgid ""
+"Opt in for the pro version of Blogg and enjoy many additional features that "
+"will add more options. Here is a sample of some of the premium features with "
+"the Pro version of Blogg:"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:36
+msgid "Pro Features:"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:38
+msgid "&bull; 8 Blog Styles"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:39
+msgid "&bull; 16 Dynamic Sidebar Positions"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:40
+msgid "&bull; 2 Header Styles"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:41
+msgid "&bull; Custom Logo Letter Feature"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:42
+msgid "&bull; Adjustable Content Widths"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:43
+msgid "&bull; Thumbnail Creation for the Blogs"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:44
+msgid "&bull; An Author Info Widget"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:45
+msgid "&bull; Full Post Featured Image with Title Overlay"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:46
+msgid "&bull; 1 Click Demo Content Import"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:47
+msgid "&bull; Related Posts with Thumbnails"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:48
+msgid "&bull; Basic Typography Options"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:49
+msgid "&bull; Featured Image Captions for Posts"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:50
+msgid "&bull; Customize the Read More Button Text"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:51
+msgid "&bull; Add an Extra Wide Image to Content"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:52
+msgid "&bull; Premium Support"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:55
+msgid "Get the Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:19 inc/theme-info/blogg-info.php:230
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:24
+msgid "Page Background"
+msgstr ""
+
+#: inc/customizer/customizer.php:48
+msgid "Show Site Title"
+msgstr ""
+
+#: inc/customizer/customizer.php:61
+msgid "Show Tagline"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:19
+msgid "Basic Settings"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:27
+msgid "Basic Options"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:39
+msgid "Copyright Name"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:52
+msgid "Show the Design By Credit Line"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:60
+msgid "WP Gallery Options"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:74
+msgid "Enable Gallery View Comments"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:82
+msgid "Default Google Fonts"
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:91
+msgid ""
+"This theme has a couple Google Fonts included. If you choose to use a plugin "
+"for different fonts, you can disable them."
+msgstr ""
+
+#: inc/customizer/sections/customizer-basic.php:96
+msgid "Enable the Default Google Fonts"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:19
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:27
+msgid "Customize Archive Titles"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:39
+msgid ""
+"Show or hide the archive heading labels like Category:  or Tags: that show "
+"just before the names. Default is enabled to hide the label."
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:50
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:55
+msgid "Default Right Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:56
+msgid "Default Left Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:57
+msgid "Grid Full Width"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:69
+msgid "Blog Excerpts"
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:70
+msgid ""
+"This will let you choose to use excerpts for your blog summaries. This is "
+"for the Large and Standard default blog layouts."
+msgstr ""
+
+#: inc/customizer/sections/customizer-blog.php:83
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:25
+msgid "Site Title Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:37
+msgid "Site Tagline Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:48
+msgid "First Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:49
+msgid "This is the orange colour."
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:60
+msgid "Second Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:61
+msgid "This is the dark grey colour."
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:72
+msgid "Third Colour"
+msgstr ""
+
+#: inc/customizer/sections/customizer-colours.php:73
+msgid ""
+"This is a very light grey colour; used mostly for borders and lines in the "
+"page."
+msgstr ""
+
+#: inc/customizer/sections/customizer-featured.php:33
+msgid " -- Choose -- "
+msgstr ""
+
+#: inc/customizer/sections/customizer-featured.php:47
+msgid "Featured Box Settings"
+msgstr ""
+
+#: inc/customizer/sections/customizer-featured.php:60
+msgid "Display Featured Boxes"
+msgstr ""
+
+#: inc/customizer/sections/customizer-featured.php:73
+msgid "Featured Content One"
+msgstr ""
+
+#: inc/customizer/sections/customizer-featured.php:88
+msgid "Featured Content Two"
+msgstr ""
+
+#: inc/customizer/sections/customizer-featured.php:103
+msgid "Featured Content Three"
+msgstr ""
+
+#: inc/customizer/sections/customizer-featured.php:120
+msgid "Featured Box Section Width"
+msgstr ""
+
+#: inc/customizer/sections/customizer-featured.php:121
+msgid ""
+"Adjust the featured box section to the width you want. Min width is 960px "
+"while the max width is 2560px."
+msgstr ""
+
+#: inc/customizer/sections/customizer-layout.php:20
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/customizer/sections/customizer-layout.php:35
+msgid "Page Width"
+msgstr ""
+
+#: inc/customizer/sections/customizer-layout.php:36
+msgid ""
+"Adjust the overall page width to give a boxed layout that shows the page "
+"background. Min width is 960px while the max width is 2560px."
+msgstr ""
+
+#: inc/customizer/sections/customizer-layout.php:55
+msgid "Header Width"
+msgstr ""
+
+#: inc/customizer/sections/customizer-layout.php:56
+msgid ""
+"Adjust the width of the top header area. This only gets applied in desktop "
+"viewing. Min width is 960px while the max width is 2560px."
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:19
+msgid "Post Settings"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:27
+msgid "Post Layout"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:40
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:41
+msgid "This will let you choose your full post layout."
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:45
+msgid "Post No Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:46
+msgid "Post Left Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:47
+msgid "Post Right Sidebar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:54
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:68
+msgid "Display categories"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:81
+msgid "Display All Meta Info"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:94
+msgid "Display Author Avatar"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:107
+msgid "Display tags"
+msgstr ""
+
+#: inc/customizer/sections/customizer-post.php:120
+msgid "Display previous/next post navigation"
+msgstr ""
+
+#: inc/customizer/sections/customizer-pro-upgrade.php:19
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/customizer/sections/customizer-pro-upgrade.php:29
+msgid "Get The Pro Version:"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:19
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:28
+msgid "Display Slider"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:41
+msgid "Display the Slider"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:56
+msgid "Choose a category"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:57
+msgid ""
+"Choose your category to load slides from. Make sure your posts have featured "
+"images and we recommend also that you create a special category just for "
+"featured slide posts."
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:72
+msgid "Number of Slides"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:73
+msgid ""
+"Choose the number of slides you want to display when showing the Latest "
+"Posts option."
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:91
+msgid "Slider Excerpt Size"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:92
+msgid ""
+"This lets you choose how many words to show in your slide excerpt from 4 to "
+"20 words. Default is 10."
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:104
+msgid "Display Slider Elements"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:118
+msgid "Display the Slide Excerpt"
+msgstr ""
+
+#: inc/customizer/sections/customizer-slider.php:132
+msgid "Display the Slide Read More"
+msgstr ""
+
+#: inc/customizer/sections/customizer-thumbnails.php:19
+msgid "Thumbnail Settings"
+msgstr ""
+
+#: inc/customizer/sections/customizer-thumbnails.php:27
+msgid "Crop Blog Featured Images"
+msgstr ""
+
+#: inc/customizer/sections/customizer-thumbnails.php:41
+msgid "Crop featured images for the standard (default) blog Layout"
+msgstr ""
+
+#: inc/customizer/sections/customizer-thumbnails.php:53
+msgid "Crop featured images for the Grid Blog Layout"
+msgstr ""
+
+#: inc/post-slider.php:92 inc/template-functions.php:22
+#: inc/template-tags.php:199
+msgid "Read More"
+msgstr ""
+
+#: inc/post-slider.php:102
+msgid "Previous"
+msgstr ""
+
+#: inc/post-slider.php:103
+msgid "Next"
+msgstr ""
+
+#: inc/recent-posts-widget.php:23 inc/recent-posts-widget.php:29
+msgid "Blogg Recent Posts"
+msgstr ""
+
+#: inc/recent-posts-widget.php:31
+msgid ""
+"A widget that displays your recent posts from all categories or a category "
+"with thumbnails."
+msgstr ""
+
+#: inc/recent-posts-widget.php:72
+msgid "No Image"
+msgstr ""
+
+#: inc/recent-posts-widget.php:120
+msgid "Title:"
+msgstr ""
+
+#: inc/recent-posts-widget.php:124
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/sidebars.php:14
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:16
+msgid "Sidebar for your blog and archives."
+msgstr ""
+
+#: inc/sidebars.php:23
+msgid "Page Right Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:25
+msgid "Right sidebar for your pages."
+msgstr ""
+
+#: inc/sidebars.php:32
+msgid "Page Left Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:34
+msgid "Left sidebar for your pages."
+msgstr ""
+
+#: inc/sidebars.php:42
+msgid "Banner"
+msgstr ""
+
+#: inc/sidebars.php:44
+msgid "For Images and Sliders."
+msgstr ""
+
+#: inc/sidebars.php:51
+msgid "Top"
+msgstr ""
+
+#: inc/sidebars.php:53
+msgid "Provide attention getting content to get user action."
+msgstr ""
+
+#: inc/sidebars.php:61
+msgid "Content Bottom 1"
+msgstr ""
+
+#: inc/sidebars.php:63
+msgid "Content Bottom 1 position"
+msgstr ""
+
+#: inc/sidebars.php:70
+msgid "Content Bottom 2"
+msgstr ""
+
+#: inc/sidebars.php:72
+msgid "Content Bottom 2 position"
+msgstr ""
+
+#: inc/sidebars.php:79
+msgid "Content Bottom 3"
+msgstr ""
+
+#: inc/sidebars.php:81
+msgid "Content Bottom 3 position"
+msgstr ""
+
+#: inc/sidebars.php:88
+msgid "Content Bottom 4"
+msgstr ""
+
+#: inc/sidebars.php:90
+msgid "Content Bottom 4 position"
+msgstr ""
+
+#: inc/sidebars.php:98
+msgid "Bottom"
+msgstr ""
+
+#: inc/sidebars.php:100
+msgid ""
+"Bottom position. Many use this to load a set of instagram photos or even "
+"newsletter sign-ups."
+msgstr ""
+
+#: inc/sidebars.php:108
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/sidebars.php:110
+msgid ""
+"For adding breadcrumb navigation if using a plugin, or you can add content "
+"here."
+msgstr ""
+
+#: inc/sidebars.php:118
+msgid "Footer"
+msgstr ""
+
+#: inc/sidebars.php:120
+msgid "Footer position"
+msgstr ""
+
+#: inc/template-tags.php:72
+msgid "Featured"
+msgstr ""
+
+#: inc/template-tags.php:85
+msgctxt "Used before post format."
+msgid "Format"
+msgstr ""
+
+#. translators: %s: post date
+#: inc/template-tags.php:113
+#, php-format
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr ""
+
+#: inc/template-tags.php:128
+msgctxt "Used before post author name."
+msgid "Written by"
+msgstr ""
+
+#: inc/template-tags.php:145
+msgid "Comment"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:176
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:345
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:356
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: %s: Name of tag
+#: inc/template-tags.php:377
+#, php-format
+msgid "Articles with %s"
+msgstr ""
+
+#. translators: %s: Name of author
+#: inc/template-tags.php:381
+#, php-format
+msgid "Articles by %s"
+msgstr ""
+
+#. translators: %s: Name of year
+#: inc/template-tags.php:385
+#, php-format
+msgid "Articles from: %s"
+msgstr ""
+
+#: inc/template-tags.php:385
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#. translators: %s: Name of month
+#. translators: %s: Name of day
+#: inc/template-tags.php:389 inc/template-tags.php:393
+#, php-format
+msgid "Articles from %s"
+msgstr ""
+
+#: inc/template-tags.php:389
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:393
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#. translators: %s: Name of archive title
+#: inc/template-tags.php:397
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: %s: Name of title
+#: inc/template-tags.php:403
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:405
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:430
+msgctxt "pagination"
+msgid "Previous Posts"
+msgstr ""
+
+#: inc/template-tags.php:431
+msgctxt "pagination"
+msgid "Next Posts"
+msgstr ""
+
+#: inc/template-tags.php:446
+msgctxt "post navigation"
+msgid "Previous Post"
+msgstr ""
+
+#: inc/template-tags.php:447
+msgctxt "post navigation"
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-tags.php:460
+msgid "Pages:"
+msgstr ""
+
+#: inc/theme-info/blogg-info-class-about.php:155
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/theme-info/blogg-info-class-about.php:480
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/theme-info/blogg-info-class-about.php:483
+msgid "You do not have the necessary permission to perform this action."
+msgstr ""
+
+#. translators: %1$s: menu title under appearance
+#. translators: %1$s: page name
+#: inc/theme-info/blogg-info.php:23 inc/theme-info/blogg-info.php:25
+#, php-format
+msgid "About %1$s"
+msgstr ""
+
+#. translators: %1$s: welcome title
+#: inc/theme-info/blogg-info.php:27
+#, php-format
+msgid "Welcome to %1$s - v"
+msgstr ""
+
+#. translators: %1$s: welcome content
+#: inc/theme-info/blogg-info.php:29
+#, php-format
+msgid ""
+"%1$s is a unique design concept where retro and modern merged into a vibrant "
+"and dynamic theme designed for bloggers that love to tell stories and "
+"express words to capture attention. With a choice of   many blog layouts, "
+"full post layouts, dynamic width sidebars, a flexible featured post slider, "
+"unlimited colours, and a ton of customization settings; Blogg provides all "
+"you need to quickly and easily create a stunning blog that you and your "
+"readers will love."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:39
+msgid "Getting Started"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:40 inc/theme-info/blogg-info.php:239
+msgid "Support"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:41 inc/theme-info/blogg-info.php:80
+msgid "Changelog"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:42
+msgid "Free VS PRO"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:47
+msgid "Setup Documentation"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:48
+msgid ""
+"To help you get started with the initial setup of this theme and to learn "
+"about the various features, you can check out detailed setup documentation."
+msgstr ""
+
+#. translators: %1$s: theme name
+#: inc/theme-info/blogg-info.php:50
+#, php-format
+msgid "View %1$s Tutorials"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:57 inc/theme-info/blogg-info.php:59
+msgid "Go to Customizer"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:58
+msgid ""
+"Using the WordPress Customizer you can easily customize every aspect of the "
+"theme."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:67
+msgid "Using a Child Theme"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:68
+msgid ""
+"If you plan to customize this theme, I recommend looking into using a child "
+"theme. To learn more about child themes and why it's important to use one, "
+"check out the WordPress documentation."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:69
+msgid "Child Themes"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:81
+msgid ""
+"I generally recommend you always read the CHANGELOG before updating so that "
+"you can see what was fixed, changed, deleted, or added to the theme."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:91
+msgid "Free Support"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:93
+msgid ""
+"If you experience any problems, please post your questions to support and we "
+"will be more than happy to help you out."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:94
+msgid "Get Free Support"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:100
+msgid "Common Problems"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:102
+msgid ""
+"For quick answers to the most common problems, you can check out the "
+"tutorials which can provide instant solutions and answers."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:103
+msgid "Get Answers"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:115
+msgid "Get Blogg Pro"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:118
+msgid "Mobile Friendly"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:127
+msgid "Change Accent Colours"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:136
+msgid "Featured Post Slider"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:137
+msgid "Showcase posts from your category of choice."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:145
+msgid "Adjustable Page Width"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:146
+msgid ""
+"If you prefer a boxed layout instead of full width, you can adjust the page "
+"width."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:155
+msgid "Page Background Image"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:164
+msgid "Built-In Social Menu"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:173
+msgid "Show or Hide Elements"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:182
+msgid "Custom Error Page"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:192
+msgid "Blog Styles"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:201
+msgid "Sidebar Positions"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:210
+msgid "Page Templates"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:220
+msgid "Recent Posts Widget with Thumbnails"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:248
+msgid "Related Posts with Thumbnails"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:257
+msgid "Multiple Header Styles"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:258
+msgid ""
+"In addition to the current header style, additional options for your site "
+"header area."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:266
+msgid "Adjust Section Widths"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:267
+msgid ""
+"You can adjust the width of your header, banner area, main content, page "
+"content, footer, and more."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:275
+msgid "Custom Blog Title &amp; Introduction"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:276
+msgid ""
+"WordPress does not have this, but we have added a customizable blog title "
+"and intro option."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:284
+msgid "Blog Thumbnail Creation"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:285
+msgid ""
+"Automatically have post featured images cropped when uploading. You get a "
+"couple with the free version but more with the Pro."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:293
+msgid "Extra Wide Image in Content"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:294
+msgid ""
+"To prepare for the new WordPress Gutenberg editor, we included an option to "
+"give you an extra wide image in your page content."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:302
+msgid "Author About Widget"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:303
+msgid "We included a custom widget for an author photo plus social links."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:311
+msgid "Customizable Read More Text"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:312
+msgid "You can change the Read More text to display what you want."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:321
+msgid "Custom Logo Letter"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:322
+msgid ""
+"Take advantage of a logo letter option that lets you add the first letter of "
+"your site name if you do not have a logo."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:330
+msgid "1-Click Demo Content Import Compatible"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:331
+msgid "We included the ability to let you import the demo site content."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:339
+msgid "Typography Options"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:340
+msgid ""
+"Includes a few basic typography options, such as adding a dropcap to your "
+"full post."
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:348
+msgid "Custom Styled Archive Titles"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:349
+msgid "We customized the style of archive titles for tags, categories, etc."
+msgstr ""
+
+#. translators: %s: for the search keyword
+#: search.php:27
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:12 searchform.php:16
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:20
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: template-parts/posts/content-none.php:21
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/posts/content-none.php:33
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/posts/content-none.php:46
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/posts/content-none.php:52
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: template-parts/posts/content.php:49
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Blogg"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.bloggingthemestyles.com/free-wordpress-themes/blogg/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Introducing Blogg -  a clean and modern WordPress theme with an elegant, "
+"carefully crafted design with clean lines and visual impact that will grab "
+"the attention of anyone coming to your website. This powerful, responsive "
+"blog theme is ideal for your personal or business blog, whether your passion "
+"is lifestyle, home, travel, beauty, fashion, and the list goes on! Let's "
+"begin with mentioning about the multiple blog layouts, full post layouts, "
+"post slider to showcase articles, or how about the special featured boxes on "
+"the front page to give more attention to any page you choose, show or hide "
+"various page elements, and even a built-in Recent Posts widget with "
+"thumbnails! Give Blogg a try and see how it works for you. We are also open "
+"to any suggestions as well with your reviews. Be sure to check out the About "
+"Blogg under the Appearance admin menu for more information."
+msgstr ""

@@ -8,9 +8,9 @@
 <?php
 
 function kale_widgets_init() {
-    
+
     /* Sidebar Widgets */
-    
+
     register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar - Default', 'kale' ),
 		'id'            => 'sidebar-default',
@@ -19,7 +19,7 @@ function kale_widgets_init() {
 		'before_title'  => '<h3 class="widget-title"><span>',
 		'after_title'   => '</span></h3>',
 	) );
-    
+
     register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar - Default - Bordered', 'kale' ),
 		'id'            => 'sidebar-default-bordered',
@@ -28,16 +28,16 @@ function kale_widgets_init() {
 		'before_title'  => '<h3 class="widget-title"><span>',
 		'after_title'   => '</span></h3>',
 	) );
-    
+
     /* Header Widgets */
-    
+
 	register_sidebar( array(
 		'name'          => esc_html__( 'Header - Left', 'kale' ),
 		'id'            => 'header-row-1-left',
 		'description'   => esc_html__( 'Add widgets here to appear in the top left area.', 'kale' ),
 		'before_widget' => '<div id="%1$s" class="header-widget widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h3 class="header-widget-title">',
+		'before_title'  => '<h3 class="screen-reader-text">',
 		'after_title'   => '</h3>',
 	) );
     register_sidebar( array(
@@ -46,12 +46,12 @@ function kale_widgets_init() {
 		'description'   => esc_html__( 'Add widgets here to appear in the top right area.', 'kale' ),
 		'before_widget' => '<div id="%1$s" class="header-widget widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h3 class="header-widget-title">',
+		'before_title'  => '<h3 class="screen-reader-text">',
 		'after_title'   => '</h3>',
 	) );
-    
+
     /* Footer Widgets */
-        
+
     register_sidebar( array(
 		'name'          => esc_html__( 'Footer Secondary - Col 1', 'kale' ),
 		'id'            => 'footer-row-2-col-1',
@@ -92,7 +92,7 @@ function kale_widgets_init() {
 		'before_title'  => '<h3 class="widget-title">',
 		'after_title'   => '</h3>',
 	) );
-    
+
     register_sidebar( array(
 		'name'          => esc_html__( 'Footer - Last', 'kale' ),
 		'id'            => 'footer-row-3-center',
@@ -101,8 +101,8 @@ function kale_widgets_init() {
 		'before_title'  => '<h3 class="widget-title">',
 		'after_title'   => '</h3>',
 	) );
-    
-    
+
+
 }
 add_action( 'widgets_init', 'kale_widgets_init' );
 

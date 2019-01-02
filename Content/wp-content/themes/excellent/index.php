@@ -13,7 +13,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<header class="page-header">
-				<h1 class="page-title"><?php the_title();?></h1>
+				<h2 class="page-title"><?php single_post_title();?></h2>
 				<!-- .page-title -->
 				<?php excellent_breadcrumb(); ?><!-- .breadcrumb -->
 			</header><!-- .page-header -->
@@ -26,9 +26,9 @@ get_header(); ?>
 			}
 			else { ?>
 			<h2 class="entry-title"> <?php esc_html_e( 'No Posts Found.', 'excellent' ); ?> </h2>
-			<?php } ?>
+			<?php }
+			get_template_part( 'pagination', 'none' ); ?>
 		</main><!-- end #main -->
-		<?php get_template_part( 'pagination', 'none' ); ?>
 	</div> <!-- #primary -->
 <?php
 get_sidebar();

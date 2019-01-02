@@ -24,6 +24,8 @@ function excellent_widgets_init() {
 			'description' => __('Shows widgets on all page.', 'excellent'),
 			'before_widget' => '<aside id="%1$s" class="widget widget_contact">',
 			'after_widget' => '</aside>',
+			'before_title' => '<h3 class="widget-title">',
+			'after_title' => '</h3>',
 		));
 	register_sidebar(array(
 			'name' => __('Contact Page Sidebar', 'excellent'),
@@ -38,7 +40,7 @@ function excellent_widgets_init() {
 			'name' => __('Iframe Code For Google Maps', 'excellent'),
 			'id' => 'excellent_form_for_contact_page',
 			'description' => __('Add Iframe Code using text widgets', 'excellent'),
-			'before_widget' => '<div id="A%1$s" class="widget %2$s">',
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget' => '</div>',
 			'before_title' => '<h2 class="widget-title">',
 			'after_title' => '</h2>',
@@ -47,7 +49,7 @@ function excellent_widgets_init() {
 			'name' => __('WooCommerce Sidebar', 'excellent'),
 			'id' => 'excellent_woocommerce_sidebar',
 			'description' => __('Add WooCommerce Widgets Only', 'excellent'),
-			'before_widget' => '<div id="A%1$s" class="widget %2$s">',
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget' => '</div>',
 			'before_title' => '<h2 class="widget-title">',
 			'after_title' => '</h2>',

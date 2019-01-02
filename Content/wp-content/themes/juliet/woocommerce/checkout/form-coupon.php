@@ -10,34 +10,32 @@
  * happen. When this occurs the version of the template file will be bumped and
  * the readme will list any important changes.
  *
- * @see     https://docs.woocommerce.com/document/template-structure/
- * @author  WooThemes
+ * @see https://docs.woocommerce.com/document/template-structure/
  * @package WooCommerce/Templates
- * @version 2.2
+ * @version 3.4.4
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
+defined( 'ABSPATH' ) || exit;
 
-if ( ! wc_coupons_enabled() ) {
+if ( ! wc_coupons_enabled() ) { // @codingStandardsIgnoreLine.
 	return;
 }
 
-if ( empty( WC()->cart->applied_coupons ) ) {
-	$info_message = apply_filters( 'woocommerce_checkout_coupon_message', __( 'Have a coupon?', 'juliet' ) . ' <a href="#" class="showcoupon">' . __( 'Click here to enter your code', 'juliet' ) . '</a>' );
-	wc_print_notice( $info_message, 'notice' );
-}
 ?>
+<div class="woocommerce-form-coupon-toggle">
+	<?php wc_print_notice( apply_filters( 'woocommerce_checkout_coupon_message', __( 'Have a coupon?', 'juliet' ) . ' <a href="#" class="showcoupon">' . __( 'Click here to enter your code', 'juliet' ) . '</a>' ), 'notice' ); ?>
+</div>
 
-<form class="checkout_coupon" method="post" style="display:none">
-
-	<p class="form-row form-row-first">
+<form class="checkout_coupon woocommerce-form-coupon" method="post" style="display:none">
+    
+    <p><?php esc_html_e( 'If you have a coupon code, please apply it below.', 'juliet' ); ?></p>
+    
+    <p class="form-row form-row-first">
 		<input type="text" name="coupon_code" class="form-control" placeholder="<?php esc_attr_e( 'Coupon code', 'juliet' ); ?>" id="coupon_code" value="" />
 	</p>
 
-	<p class="form-row form-row-last">
-		<input type="submit" class="btn btn-dark btn-lg btn-block form-control" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'juliet' ); ?>" />
+    <p class="form-row form-row-last">
+		<button type="submit" class="button btn btn-dark btn-lg btn-block" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'juliet' ); ?>"><?php esc_html_e( 'Apply coupon', 'juliet' ); ?></button>
 	</p>
 
 	<div class="clear"></div>

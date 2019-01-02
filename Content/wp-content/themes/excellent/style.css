@@ -3,8 +3,8 @@ Theme Name:Excellent
 Theme URI: https://themefreesia.com/themes/excellent
 Author: Theme Freesia
 Author URI: https://themefreesia.com
-Description: Excellent is Ultra Responsive, Multipurpose, Corporated, SEO optimized multifunction, Business, CV, Ecommerce, Video and Blog WordPress Theme. It is designed for Business but this is competent for every kind of site which is designed and developed by Theme Freesia. With a focus on business sites, it features multiple sections on the front page as well as widgets, multiple navigation and social menus, a logo, Color Options and more. This theme supports popular plugins like Breadcrumb NavXT, WP-PageNavi, Contact Form 7, Jetpack by WordPress.com, Polylang, bbPress, wooCommerce and many more. It is 100% translation ready and you can easily customize with lots of options using Customizer. It consists contact us template, gallery template,Corporate Template, widgets and Sidebar. Get free support at https://tickets.themefreesia.com/ and View demo site at http://demo.themefreesia.com/excellent, http://demo.themefreesia.com/excellent-video/, http://demo.themefreesia.com/excellent-cv/, http://demo.themefreesia.com/excellent-shop/.
-Version: 1.1.0
+Description: Excellent is Ultra Responsive, Multipurpose, Corporated, SEO optimized multifunction, Business, CV, Ecommerce, Video and Blog WordPress Theme. It is designed for Business but this is competent for every kind of site which is designed and developed by Theme Freesia. With a focus on business sites, it features multiple sections on the front page as well as widgets, multiple navigation and social menus, a logo, Color Options and more. This theme supports popular plugins like Breadcrumb NavXT, WP-PageNavi, Contact Form 7, Jetpack by WordPress.com, Polylang, bbPress, wooCommerce and many more. It is 100% translation ready and you can easily customize with lots of options using Customizer. It consists contact us template, gallery template,Corporate Template, widgets and Sidebar. Get free support at https://tickets.themefreesia.com/ and View demo site at https://demo.themefreesia.com/excellent, https://demo.themefreesia.com/excellent-video/, https://demo.themefreesia.com/excellent-cv/, https://demo.themefreesia.com/excellent-shop/.
+Version: 1.2.1
 Text Domain: excellent
 License: GNU General Public License version 3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -435,6 +435,12 @@ a:hover {
 }
 
 #primary .wrap {
+	max-width: 100%;
+}
+
+.elementor-template-full-width #content > .wrap,
+.elementor-page #content > .wrap {
+	width: 100%;
 	max-width: 100%;
 }
 
@@ -883,6 +889,10 @@ input[type="radio"] {
 	padding: 0; /* Addresses excess padding in IE8/9 */
 }
 
+input[type=search] {
+  -webkit-appearance: none;
+}
+
 /* #Search Form 
 ================================================== */
 .header-search, 
@@ -989,11 +999,11 @@ input[type="radio"] {
 	text-transform: uppercase;
 }
 
-#sticky-header #site-branding {
+#sticky-header .nav-site-title {
 	display: none;
 }
 
-#sticky-header #site-branding #site-title a {
+#sticky-header .nav-site-title a {
 	font-size: 18px;
 }
 
@@ -1547,17 +1557,14 @@ video#wp-custom-header-video {
 	z-index: 9999;
 }
 
-.main-navigation > ul > li:hover > ul {
+.main-navigation > ul > li:hover > ul,
+.main-navigation > ul > li.focus > ul {
 	display: block;
 	opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);	
   	visibility:visible;
   	top: 46px;
-}
-
-.is-sticky .main-navigation > ul > li:hover > ul {
-	top: 60px;
 }
 
 .main-navigation ul li ul li {
@@ -1618,7 +1625,9 @@ video#wp-custom-header-video {
 }
 
 .main-navigation ul ul li:hover ul,
-.main-navigation ul ul ul li:hover ul {
+.main-navigation ul ul li.focus ul,
+.main-navigation ul ul ul li:hover ul,
+.main-navigation ul ul ul li.focus ul {
 	top: 0;
 	display: block;
 	opacity: 1;
@@ -1676,6 +1685,12 @@ video#wp-custom-header-video {
 
 .blog #content {
 	padding: 60px 0 0;
+}
+
+.elementor-template-full-width #content,
+.elementor-page #content,
+.siteorigin-panels.full-width-layout #content {
+	padding: 0;
 }
 
 #main ul {
@@ -2494,8 +2509,13 @@ label ~ span.required {
 	overflow: hidden;
 }
 
-.blog .page-header,
-.category .page-header {
+.elementor-template-full-width .page-header,
+.elementor-page .page-header,
+.siteorigin-panels.full-width-layout .page-header {
+	display: none;
+}
+
+.blog .page-header {
 	display: none;
 }
 
@@ -2550,7 +2570,7 @@ input[type="checkbox"] {
 
 /* 14.0 Layouts
 ================================================== */
-.excellent-corporate #content,
+.excellent-corporate                                         ,
 .page-template-front-page-feature-template #content,
 .page-template-latest-blog-template #content,
 .page-template-portfolio-template #content {
@@ -2647,6 +2667,13 @@ body:not(.boxed-layout):not(.boxed-layout-small) .inner-wrap {
 
 .small-image-blog .latest-blog-image .post-featured-image {
 	width: 100%;
+}
+
+.search-results.small-image-blog #primary .page,
+.search-results.two-column-blog #primary .page {
+	display: block;
+	float: left;
+	margin-bottom: 60px;
 }
 
 /* 25.0 Widgets
@@ -2815,7 +2842,6 @@ input.search-field {
 }
 
 .latest-blog-content .post {
-	display: inline-block;
 	margin-bottom: 0;
 }
 
@@ -2825,6 +2851,7 @@ input.search-field {
 	margin-bottom: 30px;
 	overflow: hidden;
 	position: relative;
+	width: 100%;
 }
 
 .latest-blog-image .post-featured-image a:before {
@@ -3666,7 +3693,7 @@ html[xmlns] .layer-slider .slides {
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	margin: 0 auto;
-	max-width: 50%;
+	width: 50%;
 }
 
 .slider-content .slider-title,

@@ -31,7 +31,8 @@ class Kirki_Helper {
 	 */
 	public static function array_replace_recursive( $array, $array1 ) {
 		if ( function_exists( 'array_replace_recursive' ) ) {
-			return array_replace_recursive( $array, $array1 );
+			// @codingStandardsIgnoreLine PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound
+			return array_replace_recursive( $array, $array1 ); // phpcs:ignore PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound
 		}
 
 		// Handle the arguments, merge one by one.
@@ -76,13 +77,55 @@ class Kirki_Helper {
 
 	/**
 	 * Initialize the WP_Filesystem
+	 *
+	 * @static
+	 * @access public
+	 * @return object WP_Filesystem
 	 */
 	public static function init_filesystem() {
-		global $wp_filesystem;
-		if ( empty( $wp_filesystem ) ) {
-			require_once( ABSPATH . '/wp-admin/includes/file.php' );
-			WP_Filesystem();
+		$credentials = array();
+
+		if ( ! defined( 'FS_METHOD' ) ) {
+			define( 'FS_METHOD', 'direct' );
 		}
+
+		$method = defined( 'FS_METHOD' ) ? FS_METHOD : false;
+
+		if ( 'ftpext' === $method ) {
+			// If defined, set it to that, Else, set to NULL.
+			$credentials['hostname'] = defined( 'FTP_HOST' ) ? preg_replace( '|\w+://|', '', FTP_HOST ) : null;
+			$credentials['username'] = defined( 'FTP_USER' ) ? FTP_USER : null;
+			$credentials['password'] = defined( 'FTP_PASS' ) ? FTP_PASS : null;
+
+			// Set FTP port.
+			if ( strpos( $credentials['hostname'], ':' ) && null !== $credentials['hostname'] ) {
+				list( $credentials['hostname'], $credentials['port'] ) = explode( ':', $credentials['hostname'], 2 );
+				if ( ! is_numeric( $credentials['port'] ) ) {
+					unset( $credentials['port'] );
+				}
+			} else {
+				unset( $credentials['port'] );
+			}
+
+			// Set connection type.
+			if ( ( defined( 'FTP_SSL' ) && FTP_SSL ) && 'ftpext' === $method ) {
+				$credentials['connection_type'] = 'ftps';
+			} elseif ( ! array_filter( $credentials ) ) {
+				$credentials['connection_type'] = null;
+			} else {
+				$credentials['connection_type'] = 'ftp';
+			}
+		}
+
+		// The WordPress filesystem.
+		global $wp_filesystem;
+
+		if ( empty( $wp_filesystem ) ) {
+			require_once wp_normalize_path( ABSPATH . '/wp-admin/includes/file.php' );
+			WP_Filesystem( $credentials );
+		}
+
+		return $wp_filesystem;
 	}
 
 	/**
@@ -102,7 +145,8 @@ class Kirki_Helper {
 
 		$attachment = wp_cache_get( 'kirki_image_id_' . md5( $url ), null );
 		if ( false === $attachment ) {
-			$attachment = $wpdb->get_col( $wpdb->prepare( "SELECT ID FROM $wpdb->posts WHERE guid = %s;", $url ) );
+			// @codingStandardsIgnoreLine WordPress.VIP.DirectDatabaseQuery.DirectQuery
+			$attachment = $wpdb->get_col( $wpdb->prepare( "SELECT ID FROM $wpdb->posts WHERE guid = %s;", $url ) ); // phpcs:ignore WordPress.VIP.DirectDatabaseQuery.DirectQuery
 			wp_cache_add( 'kirki_image_id_' . md5( $url ), $attachment, null );
 		}
 
@@ -153,6 +197,7 @@ class Kirki_Helper {
 		}
 
 		// Get the posts.
+		// TODO: WordPress.VIP.RestrictedFunctions.get_posts_get_posts.
 		$posts = get_posts( $args );
 
 		// Properly format the array.
@@ -264,7 +309,7 @@ class Kirki_Helper {
 			'deep-purple' => array( '#EDE7F6', '#D1C4E9', '#B39DDB', '#9575CD', '#7E57C2', '#673AB7', '#5E35B1', '#512DA8', '#4527A0', '#311B92', '#B388FF', '#7C4DFF', '#651FFF', '#6200EA' ),
 			'indigo'      => array( '#E8EAF6', '#C5CAE9', '#9FA8DA', '#7986CB', '#5C6BC0', '#3F51B5', '#3949AB', '#303F9F', '#283593', '#1A237E', '#8C9EFF', '#536DFE', '#3D5AFE', '#304FFE' ),
 			'blue'        => array( '#E3F2FD', '#BBDEFB', '#90CAF9', '#64B5F6', '#42A5F5', '#2196F3', '#1E88E5', '#1976D2', '#1565C0', '#0D47A1', '#82B1FF', '#448AFF', '#2979FF', '#2962FF' ),
-			'light_blue'  => array( '#E1F5FE', '#B3E5FC', '#81D4fA', '#4fC3F7', '#29B6FC', '#03A9F4', '#039BE5', '#0288D1', '#0277BD', '#01579B', '#80D8FF', '#40C4FF', '#00B0FF', '#0091EA' ),
+			'light-blue'  => array( '#E1F5FE', '#B3E5FC', '#81D4fA', '#4fC3F7', '#29B6FC', '#03A9F4', '#039BE5', '#0288D1', '#0277BD', '#01579B', '#80D8FF', '#40C4FF', '#00B0FF', '#0091EA' ),
 			'cyan'        => array( '#E0F7FA', '#B2EBF2', '#80DEEA', '#4DD0E1', '#26C6DA', '#00BCD4', '#00ACC1', '#0097A7', '#00838F', '#006064', '#84FFFF', '#18FFFF', '#00E5FF', '#00B8D4' ),
 			'teal'        => array( '#E0F2F1', '#B2DFDB', '#80CBC4', '#4DB6AC', '#26A69A', '#009688', '#00897B', '#00796B', '#00695C', '#004D40', '#A7FFEB', '#64FFDA', '#1DE9B6', '#00BFA5' ),
 			'green'       => array( '#E8F5E9', '#C8E6C9', '#A5D6A7', '#81C784', '#66BB6A', '#4CAF50', '#43A047', '#388E3C', '#2E7D32', '#1B5E20', '#B9F6CA', '#69F0AE', '#00E676', '#00C853' ),
@@ -363,5 +408,55 @@ class Kirki_Helper {
 			'misc'           => array( 'location', 'location-alt', 'vault', 'shield', 'shield-alt', 'sos', 'search', 'slides', 'analytics', 'chart-pie', 'chart-bar', 'chart-line', 'chart-area', 'groups', 'businessman', 'id', 'id-alt', 'products', 'awards', 'forms', 'testimonial', 'portfolio', 'book', 'book-alt', 'download', 'upload', 'backup', 'clock', 'lightbulb', 'microphone', 'desktop', 'tablet', 'smartphone', 'phone', 'index-card', 'carrot', 'building', 'store', 'album', 'palmtree', 'tickets-alt', 'money', 'smiley', 'thumbs-up', 'thumbs-down', 'layout' ),
 		);
 
+	}
+
+	/**
+	 * Compares the 2 values given the condition
+	 *
+	 * @param mixed  $value1   The 1st value in the comparison.
+	 * @param mixed  $value2   The 2nd value in the comparison.
+	 * @param string $operator The operator we'll use for the comparison.
+	 * @return boolean whether The comparison has succeded (true) or failed (false).
+	 */
+	public static function compare_values( $value1, $value2, $operator ) {
+		if ( '===' === $operator ) {
+			return $value1 === $value2;
+		}
+		if ( '!==' === $operator ) {
+			return $value1 !== $value2;
+		}
+		if ( ( '!=' === $operator || 'not equal' === $operator ) ) {
+			return $value1 != $value2;
+		}
+		if ( ( '>=' === $operator || 'greater or equal' === $operator || 'equal or greater' === $operator ) ) {
+			return $value2 >= $value1;
+		}
+		if ( ( '<=' === $operator || 'smaller or equal' === $operator || 'equal or smaller' === $operator ) ) {
+			return $value2 <= $value1;
+		}
+		if ( ( '>' === $operator || 'greater' === $operator ) ) {
+			return $value2 > $value1;
+		}
+		if ( ( '<' === $operator || 'smaller' === $operator ) ) {
+			return $value2 < $value1;
+		}
+		if ( 'contains' === $operator || 'in' === $operator ) {
+			if ( is_array( $value1 ) && is_array( $value2 ) ) {
+				foreach ( $value2 as $val ) {
+					if ( in_array( $val, $value1 ) ) {
+						return true;
+					}
+				}
+				return false;
+			}
+			if ( is_array( $value1 ) && ! is_array( $value2 ) ) {
+				return in_array( $value2, $value1 );
+			}
+			if ( is_array( $value2 ) && ! is_array( $value1 ) ) {
+				return in_array( $value1, $value2 );
+			}
+			return ( false !== strrpos( $value1, $value2 ) || false !== strpos( $value2, $value1 ) );
+		}
+		return $value1 == $value2;
 	}
 }

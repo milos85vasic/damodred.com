@@ -63,17 +63,18 @@ function kale_customizer_panels_sections( $wp_customize ) {
         'title'       => esc_html__( 'Pages', 'kale' ),
         'priority'    => 72,
     ) );
-	
-	#kale_section_sidebar
-    $wp_customize->add_section( 'kale_section_sidebar', array(
-        'title'       => esc_html__( 'Sidebar', 'kale' ),
-        'priority'    => 73,
-    ) );
     
     #kale_section_advanced
     $wp_customize->add_section( 'kale_section_advanced', array(
         'title'       => esc_html__( 'Advanced', 'kale' ),
         'priority'    => 90,
+    ) );
+    
+    #kale_section_menu
+    $wp_customize->add_section( 'kale_section_menu', array(
+        'title'       => esc_html__( 'Kale Menu Settings', 'kale' ),
+        'priority'    => 30,
+        'panel'       => 'nav_menus',
     ) );
 }
 
@@ -95,36 +96,31 @@ function kale_customizer_fields( $fields ) {
         'type'        => 'custom',
         'settings'    => 'kale_theme_info',
         'label'       => esc_html__( 'KALE', 'kale' ),
-        'description' => wp_kses_post(__( '
-        <h1>Kale Pro</h1>
-        <p><a class="button" href="https://www.lyrathemes.com/kale-pro/" target="_blank">Upgrade to Kale Pro</a></p>
-        <p>Upgrade for the many awesome features and expert support included with the pro version of this theme. View the <a href="http://www.lyrathemes.com/preview/?theme=kale-pro" target="_blank">Kale Pro Demo</a> to see the additional features and functionality available in your upgrade.</p>
-        <p>Pro Features:
-        <ul>
-            <li>&raquo; Slider options: custom slider</li>
-            <li>&raquo; Built-in Ads</li>
-            <li>&raquo; Built-in Related Posts</li>
-            <li>&raquo; Built-in Recipe Shortcode</li>
-            <li>&raquo; Recipe Index page template</li>
-            <li>&raquo; Additional home page elements</li>
-            <li>&raquo; Built-in social media sharing</li>
-            <li>&raquo; One on one personal support and continuous theme updates</li>
-        </ul>
-        </p>
-        <hr />
-        <h1>Current Theme: Kale</h1>
-        <h3>Demo Site</h3>
-        <p>Head on over to the <a  href="http://www.lyrathemes.com/preview/?theme=kale" target="_blank">Kale demo</a> to see what you can accomplish with this theme!</p>
-        <h3>Documentation</h3>
-        <p>Read how to customize the theme, set up widgets, and learn of all the possible options available to you.</p>
-        <p><a class="button" href="https://www.lyrathemes.com/documentation/kale/" target="_blank">Kale Documentation</a></p>
-        <h3>Sample Data</h3>
-        <p>You can install the content and settings shown on our demo site by importing this sample data.</p>
-        <p><a class="button" href="https://www.lyrathemes.com/sample-data/kale-sample-data.zip" target="_blank">Kale Sample Data</a></p>
-        <h3>Feedback and Support</h3>
-        <p>For feedback and support, please contact us and we would be happy to assist!</p>
-        <p><a class="button" href="https://www.lyrathemes.com/support" target="_blank">Kale Support</a></p>
-        ', 'kale' ) ),
+        'description' => 
+            '<h1>' . esc_html__('Kale Pro', 'kale') . '</h1>' .
+            '<p><a class="button" href="https://www.lyrathemes.com/kale-pro/" target="_blank">Upgrade to Kale Pro</a></p>' .
+            '<p>' . esc_html__('Upgrade for the many awesome features and expert support included with the pro version of this theme.', 'kale') . '</p>' .
+            '<p><a class="button" href="http://www.lyrathemes.com/preview/?theme=kale-pro" target="_blank">Kale Pro Demo</a></p>' .
+            '<p><a class="button" href="https://www.lyrathemes.com/kale/#comparison" target="_blank">Free vs. Pro Comparison</a></p>' .
+            '<p><a href="https://www.lyrathemes.com/kale-pro/" target="_blank"><img src="' . esc_url( get_parent_theme_file_uri( 'customize/images/kale-pro-1.jpg' ) ) . '" /></a><br />' . 
+            '<p><a href="https://www.lyrathemes.com/kale-pro/" target="_blank"><img src="' . esc_url( get_parent_theme_file_uri( 'customize/images/kale-pro-2.jpg' ) ) . '" /></a><br />' . 
+            '<p><a href="https://www.lyrathemes.com/kale-pro/" target="_blank"><img src="' . esc_url( get_parent_theme_file_uri( 'customize/images/kale-pro-3.jpg' ) ) . '" /></a><br />' . 
+            '<p><a href="https://www.lyrathemes.com/kale-pro/" target="_blank"><img src="' . esc_url( get_parent_theme_file_uri( 'customize/images/kale-pro-4.jpg' ) ) . '" /></a><br />' . 
+            '<hr />' . 
+            '<h1>' . esc_html__('Current Theme: Kale', 'kale') . '</h1>' .
+            '<h3>' . esc_html__('Demo Site', 'kale') . '</h3>' .
+            '<p>' . esc_html__('Head on over to the Kale demo to see what you can accomplish with this theme!', 'kale') . '</p>' .
+            '<p><a class="button" href="http://www.lyrathemes.com/preview/?theme=kale" target="_blank">Kale demo</a></p>' . 
+            '<h3>Documentation</h3>' . 
+            '<p>' . esc_html__('Read how to customize the theme, set up widgets, and learn of all the possible options available to you.', 'kale') . '</p>' . 
+            '<p><a class="button" href="https://help.lyrathemes.com/#collection-181" target="_blank">Kale Documentation</a></p>' . 
+            '<h3>' . esc_html__('Sample Data', 'kale') . '</h3>' .
+            '<p>' . esc_html__('You can install the content and settings shown on our demo site by importing this sample data.', 'kale') . '</p>' . 
+            '<p><a class="button" href="https://www.lyrathemes.com/sample-data/kale-sample-data.zip" target="_blank">Kale Sample Data</a></p>' . 
+            '<h3>' . esc_html__('Feedback and Support', 'kale') . '</h3>' . 
+            '<p>' . esc_html__('For feedback and support, please contact us and we would be happy to assist!', 'kale') . '</p>' . 
+            '<p><a class="button" href="https://www.lyrathemes.com/support" target="_blank">Kale Support</a></p>'
+            ,
         'section'     => 'kale_section_theme_info',
         'priority'    => 1,
 
@@ -143,15 +139,7 @@ function kale_customizer_fields( $fields ) {
         'default'     => $kale_defaults['kale_footer_copyright'],
         'sanitize_callback' => 'force_balance_tags',
     );
-    $fields[] = array(
-        'type'        => 'toggle',
-        'settings'    => 'kale_nav_search_icon',
-        'label'       => esc_html__( 'Search Icon in Main Nav?', 'kale' ),
-        'description' => esc_html__( 'Add the search icon in the main top navigation.', 'kale' ),
-        'section'     => 'kale_section_general_settings',
-        'priority'    => 3,
-        'default'     => $kale_defaults['kale_nav_search_icon']
-    );
+    
 	$fields[] = array(
         'type'        => 'toggle',
         'settings'    => 'kale_example_content',
@@ -160,6 +148,16 @@ function kale_customizer_fields( $fields ) {
         'section'     => 'kale_section_general_settings',
         'priority'    => 4,
         'default'     => $kale_defaults['kale_example_content']
+    );
+    $fields[] = array(
+        'type'        => 'switch',
+        'settings'    => 'kale_sidebar_size',
+        'label'       => esc_html__( 'Choose the sidebar size.', 'kale' ),
+        'description' => esc_html__( 'Default is 1/3. For a more compact (1/4) size, choose COMPACT.', 'kale' ),
+        'section'     => 'kale_section_general_settings',
+        'priority'    => 5,
+        'default'     => $kale_defaults['kale_sidebar_size'],
+        'choices'     => array( 'on'  => esc_attr__( 'COMPACT', 'kale' ), 'off' => esc_attr__( 'DEFAULT', 'kale' ) ),
     );
     
     #title_tagline
@@ -183,7 +181,7 @@ function kale_customizer_fields( $fields ) {
         'section'     => 'title_tagline',
         'priority'    => 2,
         'default'     => $kale_defaults['kale_text_logo'],
-        'active_callback'  => array( array( 'setting'  => 'kale_image_logo_show', 'operator' => '==', 'value'    => '0' ) ),
+        'active_callback'  => array( array( 'setting'  => 'kale_image_logo_show', 'operator' => '==', 'value'    => false ) ),
         'sanitize_callback'=> 'sanitize_text_field'
     );
     
@@ -290,11 +288,22 @@ function kale_customizer_fields( $fields ) {
 	
 	$fields[] = array(
         'type'        => 'toggle',
+        'settings'    => 'kale_frontpage_banner_link_images',
+        'label'       => esc_html__('Hide Captions, Link Images?', 'kale' ),
+		'description' => esc_html__('If this option is turned on, the headings, descriptions, and icons for the slides will be hidden and the image will be linked directly to the URLs provided.', 'kale'),
+        'section'     => 'kale_section_frontpage_banner',
+        'priority'    => 6,
+        'default'     => $kale_defaults['kale_frontpage_banner_link_images'],
+    );
+	
+	$fields[] = array(
+        'type'        => 'toggle',
         'settings'    => 'kale_frontpage_banner_overlay_show',
         'label'       => esc_html__('Show Color Overlay/Filter?', 'kale' ),
         'section'     => 'kale_section_frontpage_banner',
-        'priority'    => 6,
+        'priority'    => 7,
         'default'     => $kale_defaults['kale_frontpage_banner_overlay_show'],
+		'active_callback'  => array( array( 'setting'  => 'kale_frontpage_banner_link_images', 'operator' => '==', 'value'    => '0', ),)
     );
 	
 	$fields[] = array(
@@ -302,10 +311,11 @@ function kale_customizer_fields( $fields ) {
         'settings'    => 'kale_frontpage_banner_overlay_color',
         'label'       => esc_html__( 'Select Color', 'kale' ),
         'section'     => 'kale_section_frontpage_banner',
-        'priority'    => 7,
+        'priority'    => 8,
         'default'     => $kale_defaults['kale_frontpage_banner_overlay_color'],
         'sanitize_callback' => 'sanitize_hex_color',
-		'active_callback'  => array( array( 'setting'  => 'kale_frontpage_banner_overlay_show', 'operator' => '==', 'value'    => '1', ),)
+		'active_callback'  => array( array( 'setting'  => 'kale_frontpage_banner_overlay_show', 'operator' => '==', 'value'    => '1', ),
+									 array( 'setting'  => 'kale_frontpage_banner_link_images', 'operator' => '==', 'value'    => '0', ),)
     );
     
     #kale_section_frontpage_featured_posts
@@ -327,7 +337,7 @@ function kale_customizer_fields( $fields ) {
         'label'       => '<hr />', 
         'section'     => 'kale_section_frontpage_featured_posts',
         'priority'    => 2,
-        'active_callback'  => array( array( 'setting'  => 'kale_frontpage_featured_posts_show', 'operator' => '==', 'value'    => '1', ), )
+        'active_callback'  => array( array( 'setting'  => 'kale_frontpage_featured_posts_show', 'operator' => '==', 'value'    => true, ), )
     );
     $fields[] = array(
         'type'        => 'text',
@@ -388,7 +398,7 @@ function kale_customizer_fields( $fields ) {
         'label'       => '<hr />', 
         'section'     => 'kale_section_frontpage_large_post',
         'priority'    => 2,
-        'active_callback'  => array( array( 'setting'  => 'kale_frontpage_large_post_show', 'operator' => '==', 'value'    => '1', ), )
+        'active_callback'  => array( array( 'setting'  => 'kale_frontpage_large_post_show', 'operator' => '==', 'value'    => true, ), )
     );
     $fields[] = array(
         'type'        => 'text',
@@ -397,7 +407,7 @@ function kale_customizer_fields( $fields ) {
         'section'     => 'kale_section_frontpage_large_post',
         'priority'    => 3,
         'default'     => $kale_defaults['kale_frontpage_large_post_heading'],
-        'active_callback'  => array( array( 'setting'  => 'kale_frontpage_large_post_show', 'operator' => '==', 'value'    => '1', ), )
+        'active_callback'  => array( array( 'setting'  => 'kale_frontpage_large_post_show', 'operator' => '==', 'value'    => true, ), )
     );
     $fields[] = array(
         'type'        => 'select',
@@ -407,7 +417,7 @@ function kale_customizer_fields( $fields ) {
         'priority'    => 4,
         'default'     => $kale_defaults['kale_frontpage_large_post'],
         'choices'     => Kirki_Helper::get_posts( array( 'numberposts' => -1 ) ),
-        'active_callback'  => array( array( 'setting'  => 'kale_frontpage_large_post_show', 'operator' => '==', 'value'    => '1', ), )
+        'active_callback'  => array( array( 'setting'  => 'kale_frontpage_large_post_show', 'operator' => '==', 'value'    => true, ), )
     );
     
     /* kale_section_blog_feed */
@@ -430,7 +440,7 @@ function kale_customizer_fields( $fields ) {
         'section'     => 'kale_section_blog_feed',
         'priority'    => 2,
         'default'     => $kale_defaults['kale_blog_feed_date_show'],
-        'active_callback'  => array( array( 'setting'  => 'kale_blog_feed_meta_show', 'operator' => '==', 'value'    => '1', ),)
+        'active_callback'  => array( array( 'setting'  => 'kale_blog_feed_meta_show', 'operator' => '==', 'value'    => true, ),)
     );
     $fields[] = array(
         'type'        => 'toggle',
@@ -439,7 +449,7 @@ function kale_customizer_fields( $fields ) {
         'section'     => 'kale_section_blog_feed',
         'priority'    => 3,
         'default'     => $kale_defaults['kale_blog_feed_category_show'],
-        'active_callback'  => array( array( 'setting'  => 'kale_blog_feed_meta_show', 'operator' => '==', 'value'    => '1', ),)
+        'active_callback'  => array( array( 'setting'  => 'kale_blog_feed_meta_show', 'operator' => '==', 'value'    => true, ),)
     );
     $fields[] = array(
         'type'        => 'toggle',
@@ -448,7 +458,7 @@ function kale_customizer_fields( $fields ) {
         'section'     => 'kale_section_blog_feed',
         'priority'    => 4,
         'default'     => $kale_defaults['kale_blog_feed_author_show'],
-        'active_callback'  => array( array( 'setting'  => 'kale_blog_feed_meta_show', 'operator' => '==', 'value'    => '1', ),)
+        'active_callback'  => array( array( 'setting'  => 'kale_blog_feed_meta_show', 'operator' => '==', 'value'    => true, ),)
     );
     $fields[] = array(
         'type'        => 'toggle',
@@ -457,7 +467,7 @@ function kale_customizer_fields( $fields ) {
         'section'     => 'kale_section_blog_feed',
         'priority'    => 5,
         'default'     => $kale_defaults['kale_blog_feed_comments_show'],
-        'active_callback'  => array( array( 'setting'  => 'kale_blog_feed_meta_show', 'operator' => '==', 'value'    => '1', ),)
+        'active_callback'  => array( array( 'setting'  => 'kale_blog_feed_meta_show', 'operator' => '==', 'value'    => true, ),)
     );
     $fields[] = array(
         'type'        => 'custom',
@@ -513,7 +523,7 @@ function kale_customizer_fields( $fields ) {
         'section'     => 'kale_section_posts',
         'priority'    => 2,
         'default'     => $kale_defaults['kale_posts_date_show'],
-        'active_callback'  => array( array( 'setting'  => 'kale_posts_meta_show', 'operator' => '==', 'value'    => '1', ), )
+        'active_callback'  => array( array( 'setting'  => 'kale_posts_meta_show', 'operator' => '==', 'value'    => true, ), )
     );
     $fields[] = array(
         'type'        => 'toggle',
@@ -522,7 +532,7 @@ function kale_customizer_fields( $fields ) {
         'section'     => 'kale_section_posts',
         'priority'    => 3,
         'default'     => $kale_defaults['kale_posts_category_show'],
-        'active_callback'  => array( array( 'setting'  => 'kale_posts_meta_show', 'operator' => '==', 'value'    => '1', ), )
+        'active_callback'  => array( array( 'setting'  => 'kale_posts_meta_show', 'operator' => '==', 'value'    => true, ), )
     );
     $fields[] = array(
         'type'        => 'toggle',
@@ -531,7 +541,7 @@ function kale_customizer_fields( $fields ) {
         'section'     => 'kale_section_posts',
         'priority'    => 4,
         'default'     => $kale_defaults['kale_posts_author_show'],
-        'active_callback'  => array( array( 'setting'  => 'kale_posts_meta_show', 'operator' => '==', 'value'    => '1', ), )
+        'active_callback'  => array( array( 'setting'  => 'kale_posts_meta_show', 'operator' => '==', 'value'    => true, ), )
     );
     $fields[] = array(
         'type'        => 'toggle',
@@ -540,7 +550,7 @@ function kale_customizer_fields( $fields ) {
         'section'     => 'kale_section_posts',
         'priority'    => 5,
         'default'     => $kale_defaults['kale_posts_tags_show'],
-        'active_callback'  => array( array( 'setting'  => 'kale_posts_meta_show', 'operator' => '==', 'value'    => '1', ), )
+        'active_callback'  => array( array( 'setting'  => 'kale_posts_meta_show', 'operator' => '==', 'value'    => true, ), )
     );
     $fields[] = array(
         'type'        => 'custom',
@@ -569,6 +579,15 @@ function kale_customizer_fields( $fields ) {
         'priority'    => 8,
         'default'     => $kale_defaults['kale_posts_featured_image_show']
     );
+    $fields[] = array(
+        'type'        => 'toggle',
+        'settings'    => 'kale_posts_posts_nav_show',
+        'label'       => esc_html__( 'Show Prev/Next Posts?', 'kale' ),
+        'description' => esc_html__( 'Whether to show the previous and next post links after the post content.', 'kale' ),
+        'section'     => 'kale_section_posts',
+        'priority'    => 9,
+        'default'     => $kale_defaults['kale_posts_posts_nav_show']
+    );
     
     /* kale_section_pages */
     #-----------------------------------------
@@ -583,29 +602,6 @@ function kale_customizer_fields( $fields ) {
         'priority'    => 1,
         'choices'     => array( '0' => trailingslashit( get_template_directory_uri() ) . 'customize/images/full.png',
                                 '1' => trailingslashit( get_template_directory_uri() ) . 'customize/images/sidebar.png', ),
-    );
-    $fields[] = array(
-        'type'        => 'toggle',
-        'settings'    => 'kale_pages_featured_image_show',
-        'label'       => esc_html__( 'Show Featured Image ?', 'kale' ),
-        'description' => esc_html__( 'Whether to show featured image at the beginning of the page.', 'kale' ),
-        'section'     => 'kale_section_pages',
-        'priority'    => 2,
-        'default'     => $kale_defaults['kale_pages_featured_image_show']
-    );
-	
-	/* kale_section_sidebar */
-    #-----------------------------------------
-    
-   $fields[] = array(
-        'type'        => 'switch',
-        'settings'    => 'kale_sidebar_size',
-        'label'       => esc_html__( 'Choose the sidebar size.', 'kale' ),
-        'description' => esc_html__( 'Default is 1/3. For a more compact (1/4) size, choose COMPACT.', 'kale' ),
-        'section'     => 'kale_section_sidebar',
-        'priority'    => 1,
-        'default'     => $kale_defaults['kale_sidebar_size'],
-        'choices'     => array( 'on'  => esc_attr__( 'COMPACT', 'kale' ), 'off' => esc_attr__( 'DEFAULT', 'kale' ) ),
     );
     
     /* kale_section_advanced */
@@ -623,6 +619,27 @@ function kale_customizer_fields( $fields ) {
         'sanitize_callback' => 'wp_filter_nohtml_kses'
     );
     }
+    
+    /* kale_section_menu */
+    #-----------------------------------------
+    $fields[] = array(
+        'type'        => 'toggle',
+        'settings'    => 'kale_nav_search_icon',
+        'label'       => esc_html__( 'Search Icon in Main Nav?', 'kale' ),
+        'description' => esc_html__( 'Add the search icon in the main top navigation.', 'kale' ),
+        'section'     => 'kale_section_menu',
+        'priority'    => 1,
+        'default'     => $kale_defaults['kale_nav_search_icon']
+    );
+    $fields[] = array(
+        'type'        => 'toggle',
+        'settings'    => 'kale_dropdown_node_enable',
+        'label'       => esc_html__( 'Enable Dropdown Menu Parent Nodes', 'kale' ),
+        'description' => esc_html__( 'The menu item that is clicked to drop down sub menus is not assigned a URL by default (it is set to #). If you would like to enable links for the parent nodes, you can do so here.', 'kale' ),
+        'section'     => 'kale_section_menu',
+        'priority'    => 2,
+        'default'     => $kale_defaults['kale_dropdown_node_enable']
+    );
 	
     return $fields;
 }

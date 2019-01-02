@@ -13,11 +13,11 @@
  * @see 	    https://docs.woocommerce.com/document/template-structure/
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     2.1.0
+ * @version     3.3.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
+	exit; // Exit if accessed directly.
 }
 
 if ( is_user_logged_in() ) {
@@ -25,36 +25,36 @@ if ( is_user_logged_in() ) {
 }
 
 ?>
-<form class="woocomerce-form woocommerce-form-login login" method="post" <?php echo ( $hidden ) ? 'style="display:none;"' : ''; ?>>
+<form class="woocommerce-form woocommerce-form-login login" method="post" <?php echo ( $hidden ) ? 'style="display:none;"' : ''; ?>>
 
 	<?php do_action( 'woocommerce_login_form_start' ); ?>
 
-	<?php echo ( $message ) ? wpautop( wptexturize( $message ) ) : ''; ?>
+	<?php echo ( $message ) ? wpautop( wptexturize( $message ) ) : ''; // @codingStandardsIgnoreLine ?>
 
 	<p class="form-row form-row-first">
-		<label for="username"><?php _e( 'Username or email', 'juliet' ); ?> <span class="required">*</span></label>
-		<input type="text" class="input-text form-control " name="username" id="username" />
+		<label for="username"><?php esc_html_e( 'Username or email', 'juliet' ); ?> <span class="required">*</span></label>
+		<input type="text" class="input-text form-control" name="username" id="username" />
 	</p>
 	<p class="form-row form-row-last">
-		<label for="password"><?php _e( 'Password', 'juliet' ); ?> <span class="required">*</span></label>
-		<input class="input-text form-control " type="password" name="password" id="password" />
+		<label for="password"><?php esc_html_e( 'Password', 'juliet' ); ?> <span class="required">*</span></label>
+		<input class="input-text form-control" type="password" name="password" id="password" />
 	</p>
 	<div class="clear"></div>
 
 	<?php do_action( 'woocommerce_login_form' ); ?>
 
 	<p class="form-row">
-		<?php wp_nonce_field( 'woocommerce-login' ); ?>
-		<input type="submit" class="button" name="login" value="<?php esc_attr_e( 'Login', 'juliet' ); ?>" />
+		<?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>
+		<button type="submit" class="button" name="login" value="<?php esc_attr_e( 'Login', 'juliet' ); ?>"><?php esc_html_e( 'Login', 'juliet' ); ?></button>
 		<input type="hidden" name="redirect" value="<?php echo esc_url( $redirect ) ?>" />
 		<div class="checkbox">
-			<label class="woocommerce-form__label woocommerce-form__label-for-checkbox">
-				<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span><?php _e( 'Remember me', 'juliet' ); ?></span>
-			</label>
-		</div>
+            <label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline">
+                <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span><?php esc_html_e( 'Remember me', 'juliet' ); ?></span>
+            </label>
+        </div>
 	</p>
 	<p class="lost_password">
-		<a href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php _e( 'Lost your password?', 'juliet' ); ?></a>
+		<a href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php esc_html_e( 'Lost your password?', 'juliet' ); ?></a>
 	</p>
 
 	<div class="clear"></div>

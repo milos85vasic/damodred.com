@@ -49,7 +49,7 @@ get_header();
 						<?php	} ?>
 					</div>
 					<?php } ?>
-					<h2 class="entry-title"><?php the_title();?></h2> <!-- end.entry-title -->
+					<h1 class="entry-title"><?php the_title();?></h1> <!-- end.entry-title -->
 					<?php if($excellent_entry_meta_single=='show'){ ?>
 					<div class="entry-meta">
 						<span class="author vcard"><span><?php esc_html_e('by','excellent');?></span><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" title="<?php the_author(); ?>">

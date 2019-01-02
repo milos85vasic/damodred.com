@@ -127,7 +127,7 @@ $excellent_settings = excellent_get_theme_options();
 	));
 	$wp_customize->add_control( 'excellent_theme_options[excellent_scrollreveal_effect]', array(
 		'priority'=>45,
-		'label' => __('Disable Scroll Reveal Effect', 'excellent'),
+		'label' => __('Disable WOW Effect', 'excellent'),
 		'section' => 'excellent_custom_header',
 		'type' => 'checkbox',
 	));

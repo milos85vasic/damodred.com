@@ -91,7 +91,7 @@
                     <!-- Navigation -->
                     <?php if ( has_nav_menu( 'header' ) ) {
                         $args = array('theme_location'    => 'header', 
-                                      'depth'             => 2,
+                                      'depth'             => 3,
                                       'container'         => 'div',
                                       'container_class'   => 'navbar-collapse collapse',
                                       'menu_class'        => 'nav navbar-nav',

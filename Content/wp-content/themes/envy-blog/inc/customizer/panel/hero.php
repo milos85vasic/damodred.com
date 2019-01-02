@@ -32,7 +32,6 @@ Kirki::add_field( 'envy-blog_config', array(
     'label'       => esc_html__( 'Homepage', 'envy-blog' ),
     'description' =>  esc_html__( 'Enable it to display hero section on Homepage of the site.', 'envy-blog' ),
     'section'     => 'envy-blog_hero_section',
-    'default'     => '1',
 ) );
 
 /*------------------------------------------------------
@@ -66,8 +65,8 @@ Kirki::add_field( 'envy-blog_config', array(
     'section'     => 'envy-blog_hero_layout_section',
     'default'     => 'hero-layout-1',
     'choices'     => array(
-        'hero-layout-1'  => THEME_URI . '/inc/assets/images/hero/hero-layout-1.svg',
-        'hero-layout-2'  => THEME_URI . '/inc/assets/images/hero/hero-layout-2.svg',
+        'hero-layout-1'  => ENVY_BLOG_THEME_URI . '/inc/assets/images/hero/hero-layout-1.svg',
+        'hero-layout-2'  => ENVY_BLOG_THEME_URI . '/inc/assets/images/hero/hero-layout-2.svg',
     ),
 ) );
 
@@ -106,11 +105,11 @@ Kirki::add_field( 'envy-blog_config', array(
     'settings'    => 'envy-blog_hero_title_text',
     'label'       => esc_html__( 'Title', 'envy-blog' ),
     'section'     => 'envy-blog_hero_content_section',
-    'default'     => esc_html__( 'Hero Header Title', 'envy-blog' ),
+    'default'     => '',
     'transport'     => 'postMessage',
     'js_vars'       => array(
         array(
-            'element'  => '.hero-section .hero-content .entry-title h1',
+            'element'  => '.hero-section .hero-content .entry-title h2',
             'function' => 'html',
         ),
     ),
@@ -124,7 +123,7 @@ Kirki::add_field( 'envy-blog_config', array(
     'settings'    => 'envy-blog_hero_subtitle_text',
     'label'       => esc_html__( 'Subtitle', 'envy-blog' ),
     'section'     => 'envy-blog_hero_content_section',
-    'default'     => esc_html__( 'Hero Header Subtitle', 'envy-blog' ),
+    'default'     => '',
     'transport'     => 'postMessage',
     'js_vars'       => array(
         array(
@@ -142,7 +141,7 @@ Kirki::add_field( 'envy-blog_config', array(
     'settings'    => 'envy-blog_hero_description_text',
     'label'       => esc_html__( 'Description', 'envy-blog' ),
     'section'     => 'envy-blog_hero_content_section',
-    'default'     => esc_html__( 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat', 'envy-blog' ),
+    'default'     => '',
     'transport'     => 'postMessage',
     'js_vars'       => array(
         array(
@@ -232,6 +231,21 @@ Kirki::add_field( 'envy-blog_config', array(
     'label'       => esc_html__( 'URL', 'envy-blog' ),
     'section'     => 'envy-blog_hero_settings_section',
     'default'     => '#',
+) );
+
+/*------------------------------------------------------
+# Hero Button Target Control
+-------------------------------------------------------*/
+Kirki::add_field( 'envy-blog_config', array(
+    'type'        => 'select',
+    'settings'    => 'envy-blog_hero_settings_button_link_target',
+    'label'       => esc_html__( 'Link Open', 'envy-blog' ),
+    'section'     => 'envy-blog_hero_settings_section',
+    'default'     => '_self',
+    'choices'     => array(
+        '_self'          => esc_attr__( 'Same Tab', 'envy-blog' ),
+        '_blank'        => esc_attr__( 'New Tab', 'envy-blog' ),
+    ),
 ) );
 
 

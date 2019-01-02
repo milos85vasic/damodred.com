@@ -13,26 +13,29 @@
  * @see 	    https://docs.woocommerce.com/document/template-structure/
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     2.2.0
+ * @version     3.3.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
+	exit;
 }
 
 ?>
 <div class="col-sm-6 juliet-order-by">
+    
     <form class="woocommerce-ordering hidden" method="get">
         <select name="orderby" class="orderby">
             <?php foreach ( $catalog_orderby_options as $id => $name ) : ?>
                 <option value="<?php echo esc_attr( $id ); ?>" <?php selected( $orderby, $id ); ?>><?php echo esc_html( $name ); ?></option>
             <?php endforeach; ?>
         </select>
-        <?php wc_query_string_form_fields( null, array( 'orderby', 'submit' ) ); ?>
+        <input type="hidden" name="paged" value="1" />
+        <?php wc_query_string_form_fields( null, array( 'orderby', 'submit', 'paged', 'product-page' ) ); ?>
     </form>
+
     <div class="shop-filter-sortby">
         <div class="dropdown dropdown-select">
-            <a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown">Sort By</a>
+            <a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown"><?php echo esc_html('Sort By', 'juliet'); ?></a>
             <ul class="dropdown-menu right">
                 <?php foreach ( $catalog_orderby_options as $id => $name ) : ?>
                     <li><a data-id="<?php echo esc_attr( $id ); ?>" href="#"><?php echo esc_html( $name ); ?></a></li>
@@ -40,4 +43,5 @@ if ( ! defined( 'ABSPATH' ) ) {
             </ul>
         </div>
     </div>
+    
 </div>

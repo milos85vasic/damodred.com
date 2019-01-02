@@ -63,6 +63,7 @@ if(!isset($kale_frontpage_large_post)) $kale_frontpage_large_post = 'no';
                                                     $kale_temp[] = '<br /><div class="entry-date date updated">' . get_the_date() . '</div>';
             if ( ! post_password_required() && comments_open() && $kale_blog_feed_comments_show == 1)  
                                                     $kale_temp[] = '<div class="entry-comments"><a href="'.esc_url(get_comments_link()).'">'. sprintf( _nx( '%1$s Comment', '%1$s Comments', get_comments_number(), 'comments title', 'kale' ), number_format_i18n( get_comments_number() ) ) .'</a></div>';
+            $kale_str = '';
             if($kale_temp) $kale_str = implode('<span class="sep"> - </span>', $kale_temp);
             echo $kale_str;
             ?>

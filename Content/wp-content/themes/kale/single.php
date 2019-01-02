@@ -16,6 +16,8 @@ $kale_posts_tags_show = kale_get_option('kale_posts_tags_show');
 $kale_posts_sidebar = kale_get_option('kale_posts_sidebar');
 $kale_posts_featured_image_show = kale_get_option('kale_posts_featured_image_show');
 $kale_sidebar_size = kale_get_option('kale_sidebar_size');
+$kale_posts_posts_nav_show = kale_get_option('kale_posts_posts_nav_show');
+
 ?>
 <?php while ( have_posts() ) : the_post(); ?>
 <!-- Two Columns -->
@@ -53,10 +55,7 @@ $kale_sidebar_size = kale_get_option('kale_sidebar_size');
                 <div class="entry-thumb"><?php the_post_thumbnail( 'full', array( 'alt' => get_the_title(), 'class'=>'img-responsive' ) ); ?></div><?php } 
             } ?>
             
-            <div class="entry-content">
-                <?php the_content(); ?>
-                <?php wp_link_pages(); ?>
-            </div>
+            <div class="single-content"><?php the_content(); wp_link_pages(); ?></div>
             
             <?php if(  ( $kale_posts_meta_show == 1 && ($kale_posts_category_show == 1 || $kale_posts_tags_show == 1 || $kale_posts_author_show == 1) )  ) { ?>
             <div class="entry-footer">
@@ -71,12 +70,13 @@ $kale_sidebar_size = kale_get_option('kale_sidebar_size');
         </div>
         <!-- /Post Content -->
         
+        <?php if($kale_posts_posts_nav_show == 1) { ?>
         <hr />
-        
         <div class="pagination-post">
             <div class="previous_post"><?php previous_post_link('%link','%title',true); ?></div>
             <div class="next_post"><?php next_post_link('%link','%title',true); ?></div>
         </div>
+        <?php } ?>
         
         <!-- Post Comments -->
         <?php if ( comments_open() ) : ?>

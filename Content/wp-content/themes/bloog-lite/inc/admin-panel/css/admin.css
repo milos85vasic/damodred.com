@@ -448,7 +448,7 @@ label.row-element.more-detail{
 
 
 /** New Tab About Us */
-*, *:before, *:after {
+.bloog-lite-wrap *, .bloog-lite-wrap *:before, .bloog-lite-wrap *:after {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
@@ -643,6 +643,18 @@ ul.bloog-lite-tab-wrapper {
 .featured-section.changelog {
     margin-top: -15px;
 }
+.demo > img {
+    max-width: 100%;
+}
+.warning-msg {
+    background: #f5f5f5;
+    padding: 20px;
+    border-top: 3px solid #ff9c08;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-style: italic;
+}
 @media screen and (max-width:1083px) {
 	.bloog-lite-content-wrapper {
 		width: 69%;
@@ -670,6 +682,9 @@ ul.bloog-lite-tab-wrapper {
 	.bloog-lite-content-wrapper .col.plugin_box {
 		width: 47%;
 	}
+	.bloog-lite-content-wrapper .all-demo-wrapper .demo {
+	    width: 50%;
+	}
 }
 @media screen and (max-width:800px) {
 	ul.bloog-lite-tab-wrapper {
@@ -695,6 +710,11 @@ ul.bloog-lite-tab-wrapper {
 	}
 	.text-wrap .about-description, .text-wrap .about-text {
 		font-size: 14px;
+	}
+}
+@media screen and (max-width:768px) {
+	.bloog-lite-wrap .top-wrap > div, .bloog-lite-content-wrapper .all-demo-wrapper .demo {
+	    width: 100%;
 	}
 }
 @media screen and (max-width:480px) {

@@ -12,9 +12,14 @@ get_header();?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<header class="page-header">
-				<h1 class="page-title"><?php the_title();?></h1>
-				<!-- .page-title -->
-				<?php excellent_breadcrumb(); ?><!-- .breadcrumb -->
+				<?php if ( is_front_page()) : ?>
+					<h2 class="page-title"><?php the_title();?></h2>
+					<!-- .page-title -->
+				<?php else : ?>
+					<h1 class="page-title"><?php the_title();?></h1>
+					<!-- .page-title -->
+				<?php endif;
+				excellent_breadcrumb(); ?><!-- .breadcrumb -->
 			</header><!-- .page-header -->
 			<?php
 			if( have_posts() ) {

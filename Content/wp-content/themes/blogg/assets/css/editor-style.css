@@ -1,0 +1,332 @@
+/*
+Styles for the classic editor
+*/
+
+body {
+  font-family: Lato, "Helvetica Neue", "Segoe UI", sans-serif;
+  font-size: 1.125rem;
+    line-height: 1.7;
+    color: #474c52; 
+	max-width: 1110px;
+	margin: 30px auto;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 1.25rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2.125rem;
+}
+
+h3 {
+    font-size: 1.875rem;
+}
+
+h4 {
+    font-size: 1.688rem;
+}
+
+h5 {
+    font-size: 1.438rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+p {
+	font-size: 1.125rem;
+    line-height: 1.7;
+	margin: 0 0 1.6rem;
+}
+
+.highlight {
+    background: #fff198;
+    padding: 0 6px;
+}
+
+a {
+    color: #ab7946;
+}
+
+/* Lists */
+ul,
+ol {
+	margin: 0 0 1.5rem 2.5rem;
+	padding: 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+/* Blockquotes */
+blockquote {
+	margin: 30px auto;
+	width: 90%;
+}
+blockquote {
+    font-style: italic;
+    font-size: 1.125rem;
+}
+
+blockquote cite {
+	color: #9a9a9a;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+blockquote cite:before { 
+	content: "\2014"; 
+}
+
+blockquote cite {
+	display: block;
+	font-style: normal;
+	font-size: 0.75rem;
+	margin-top: 16px;
+}
+
+blockquote.alignleft {
+    border-right: 2px solid #e6e6e6;
+	padding: 0 20px 0 0;
+}
+blockquote,
+blockquote.alignright {
+    border-left: 2px solid #e6e6e6;
+	padding: 0 0 0 20px;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* separators */
+hr {
+	background-color: #e6e6e6;
+	border: 0;
+	height: 2px;
+	margin: 40px auto;
+}
+
+/* code */
+var {
+	font-family: Monaco, Consolas;
+}
+code {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 1rem;
+	font-size: 0.9375rem;
+    padding: 0 0.5rem;	
+}
+code,
+pre {
+    background-color: #f7f7f7;
+}
+pre { 
+	font-size: 0.938rem;
+	margin: 30px auto;
+    position: relative;
+    padding: 30px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+pre code {
+	padding: 0;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+/* tables */
+table {
+    margin: 40px 0;
+    padding: 0;
+    width: 100%;
+}
+
+table thead {
+    background: #888;
+    color: #fff;
+}
+table thead th {
+  font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 15px;
+    border: 1px solid transparent;
+    border-color: rgba(0,0,0,0.075);
+}
+
+table td {
+  border-bottom: solid 1px #f2f2f2;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* Alignments */
+.pull-right,
+.alignright {
+    float: right;
+    max-width: 40%;
+    margin: 0 0 10px 30px;
+}
+
+.pull-left,
+.alignleft {
+    float: left;
+    max-width: 40%;
+    margin: 10px 30px 10px 0;
+}
+
+.alignnone {
+	float:none;
+	margin: 30px 0;
+}
+.aligncenter {
+	float: none;
+	margin: 30px auto;
+}
+
+.alignwide {
+    max-width: none;
+}
+.alignfull img, 
+.alignwide img {
+    width: 100%;
+    display: block;
+}
+.wp-block-image.alignfull img, 
+.wp-block-image.alignwide img {
+    width: 100%;
+}
+
+
+
+/* Media */
+img,
+video {
+	height: auto; 
+	max-width: 100%; 
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+figcaption {
+	margin: 15px 0 0;
+	text-align: center;
+    font-size: 1.125rem;
+    font-style: italic;
+    color: #161616;
+	margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+Default  WP Galleries
+--------------------------------------------------------------*/
+.gallery {
+    margin: 3rem -20px 0;
+}
+.entry-content .gallery {
+    margin: 3rem -20px 2rem;
+}
+.gallery-item {
+	display: inline-block;
+	margin: 5px 0 2rem;
+	padding: 0 20px;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+.gallery-icon {
+	padding: 4px 4px 0;
+    text-align: center;
+}
+.gallery-icon img {
+    display: block;
+    margin: auto;
+}
+
+.gallery-caption {
+    letter-spacing: 1px;
+    padding: 10px;
+    position: relative;
+}
+	.gallery-columns-2 .gallery-item {
+		max-width: 50%;
+	}
+	.gallery-columns-3 .gallery-item {
+		max-width: 33.33%;
+	}
+	.gallery-columns-4 .gallery-item {
+		max-width: 25%;
+	}
+	.gallery-columns-5 .gallery-item {
+		max-width: 20%;
+	}
+	.gallery-columns-6 .gallery-item {
+		max-width: 16.66%;
+	}
+	.gallery-columns-7 .gallery-item {
+		max-width: 14.28%;
+	}
+	.gallery-columns-8 .gallery-item {
+		max-width: 12.5%;
+	}
+	.gallery-columns-9 .gallery-item {
+		max-width: 11.11%;
+	}	
+	
+/* For small thumbnails that leaves very little caption space */
+.gallery-columns-5 .gallery-caption,
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}

@@ -12,7 +12,7 @@ $excellent_settings = excellent_get_theme_options(); ?>
 		if( has_post_thumbnail() && $excellent_blog_post_image == 'on') { ?>
 			<div class="post-image-content">
 				<figure class="post-featured-image">
-					<a href="<?php the_permalink();?>" title="<?php echo the_title_attribute('echo=0'); ?>">
+					<a href="<?php echo esc_url(get_the_permalink());?>" title="<?php echo the_title_attribute('echo=0'); ?>">
 					<?php the_post_thumbnail(); ?>
 					</a>
 				</figure><!-- end.post-featured-image  -->
