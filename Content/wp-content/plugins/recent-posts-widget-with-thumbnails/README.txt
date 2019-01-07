@@ -4,8 +4,8 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: images, posts list, recent posts, thumbnails, widget
 Requires at least: 2.9
 Requires PHP: 5.2
-Tested up to: 4.9.8
-Stable tag: 6.4.0
+Tested up to: 5.0.2
+Stable tag: 6.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -229,6 +229,12 @@ If you want to contribute a translation of the plugin in your language it would 
 2. The second screenshot shows the widget on the Widget Management Page in the backend.
 
 == Changelog ==
+
+= 6.4.1 =
+* Revised image size selection if a registered image size name is used
+* Changed variable names in get_first_content_image_id()
+* Changed initalization of variables site_protocol and site_url
+* Tested successfully with WordPress 5.0.2
 
 = 6.4.0 =
 * Added option to omit CSS generation
@@ -507,6 +513,9 @@ Successfully tested with WordPress 4.0
 * The plugin was released.
 
 == Upgrade Notice ==
+
+= 6.4.1 =
+Revised image size selection if a registered image size name is used, small changes, tested with WordPress 5.0.2
 
 = 6.4.0 =
 Added option to omit CSS generation, moved option for CSS class names to section Additional settings
