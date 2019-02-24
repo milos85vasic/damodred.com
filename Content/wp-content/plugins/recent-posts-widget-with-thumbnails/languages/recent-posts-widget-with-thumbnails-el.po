@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: Recent Posts Widget With Thumbnails\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/plugins/recent-posts-widget-with-"
 "thumbnails\n"
-"POT-Creation-Date: 2018-11-29 18:04+0100\n"
-"PO-Revision-Date: 2018-11-29 18:04+0100\n"
+"POT-Creation-Date: 2019-02-12 17:09+0100\n"
+"PO-Revision-Date: 2019-02-12 17:10+0100\n"
 "Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
 "Language-Team: Greek\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
 "esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
 "X-Poedit-Basepath: ..\n"
@@ -130,23 +130,22 @@ msgstr ""
 "του άρθρου αυτόματα. Αν αυτή η επιλογή είναι ενεργοποιημένη, το απόσπασμα "
 "δημιουργείται μόνο από το περιεχόμενο του άρθρου."
 
-#: includes/form.php:83
+#: includes/form.php:81
+msgid "Ignore post content as excerpt source?"
+msgstr "Αγνοήστε το περιεχόμενο δημοσίευσης ως προέλευση αποσπάσματος."
+
+#: includes/form.php:82
+msgid ""
+"If activated, the excerpts are created only by the excerpt fields. If both "
+"Ignore checkboxes are activated no excerpts are displayed in the list."
+msgstr ""
+"Εάν ενεργοποιηθεί, τα αποσπάσματα δημιουργούνται μόνο από τα πεδία "
+"αποσπάσματος. Εάν είναι ενεργοποιημένα και τα δύο πλαίσια ελέγχου Παράβλεψη "
+"δεν εμφανίζονται αποσπάσματα στη λίστα."
+
+#: includes/form.php:87
 msgid "Show number of comments?"
 msgstr "Να εμφανιστεί ο αριθμός σχολίων;"
-
-#: includes/form.php:88
-msgid "Print slugs of post categories in class attribute of LI elements?"
-msgstr ""
-"Εκτύπωση των slugs των κατηγοριών των άρθρων στην χαρακτηριστικό class του "
-"LI στοιχείου;"
-
-#: includes/form.php:89
-msgid ""
-"For developers: If checked you can set CSS rules for each list item on base "
-"of the assigned categories."
-msgstr ""
-"Για προγραμματιστές: Αν επιλεγεί θα μπορείτε να ορίσετε CSS κανόνες για κάθε "
-"στοιχείο λίστας βάσει των ανατεθειμένων κατηγοριών."
 
 #: includes/form.php:91
 msgid "Show posts of selected categories only?"
@@ -233,45 +232,59 @@ msgid "URL of default thumbnail (start with http://)"
 msgstr "URL της προεπιλεγμένης μικρογραφίας (αρχίζοντας με http://)"
 
 #: includes/form.php:141
+msgid "Print slugs of post categories in class attribute of LI elements?"
+msgstr ""
+"Εκτύπωση των slugs των κατηγοριών των άρθρων στην χαρακτηριστικό class του "
+"LI στοιχείου;"
+
+#: includes/form.php:142
+msgid ""
+"For developers: If checked you can set CSS rules for each list item on base "
+"of the assigned categories."
+msgstr ""
+"Για προγραμματιστές: Αν επιλεγεί θα μπορείτε να ορίσετε CSS κανόνες για κάθε "
+"στοιχείο λίστας βάσει των ανατεθειμένων κατηγοριών."
+
+#: includes/form.php:145
 msgid "Print inline CSS instead of creating a CSS file?"
 msgstr "Εκτυπώστε inline CSS αντί να δημιουργήσετε ένα αρχείο CSS;"
 
-#: includes/form.php:142 includes/form.php:146
+#: includes/form.php:146 includes/form.php:150
 msgid "If activated this option applies to all instances of this widget."
 msgstr ""
 "Εάν ενεργοποιηθεί, αυτή η επιλογή ισχύει για όλες τις εμφανίσεις αυτού του "
 "γραφικού στοιχείου."
 
-#: includes/form.php:145
+#: includes/form.php:149
 msgid "No CSS generation at all, neither inline CSS nor a CSS file?"
 msgstr "Μην δημιουργείτε καθόλου CSS, ούτε CSS inline ούτε ένα αρχείο CSS;"
 
-#: includes/form.php:149
+#: includes/form.php:153
 msgid "Do you like the plugin?"
 msgstr "Σας αρέσει το πρόσθετο;"
 
-#: includes/form.php:149
+#: includes/form.php:153
 msgid "Please rate it at wordpress.org!"
 msgstr "Παρακαλούμε αξιολογήστε το στο wordpress.org!"
 
-#: includes/form.php:150
+#: includes/form.php:154
 msgid "Do you need more options?"
 msgstr "Θέλετε περισσότερες επιλογές;"
 
-#: includes/form.php:150
+#: includes/form.php:154
 msgid "Get Ultimate Post List Pro!"
 msgstr "Αγοράστε το Ultimate Post List Pro!"
 
-#: recent-posts-widget-with-thumbnails.php:68
+#: recent-posts-widget-with-thumbnails.php:66
 msgctxt "In {categories}"
 msgid "In"
 msgstr "Σε"
 
-#: recent-posts-widget-with-thumbnails.php:96
+#: recent-posts-widget-with-thumbnails.php:100
 msgid "Recent Posts With Thumbnails"
 msgstr "Recent Posts With Thumbnails"
 
-#: recent-posts-widget-with-thumbnails.php:97
+#: recent-posts-widget-with-thumbnails.php:101
 msgid ""
 "List of your site&#8217;s most recent posts, with clickable title and "
 "thumbnails."
@@ -279,7 +292,7 @@ msgstr ""
 "Απαριθμείστε τα πιο πρόσφατα άρθρα σας, με δυνατότητα συνδέσμων στους "
 "τίτλους και στις μικρογραφίες. "
 
-#: recent-posts-widget-with-thumbnails.php:755
+#: recent-posts-widget-with-thumbnails.php:765
 msgid "Error on listing categories"
 msgstr "Σφάλμα κατά την δημιουργία λίστας κατηγοριών"
 

@@ -95,7 +95,7 @@ $wp_customize->add_control('excellent_theme_options[excellent_about_title]', arr
 ));
 $wp_customize->add_setting('excellent_theme_options[excellent_about_description]', array(
 	'default' =>$excellent_settings['excellent_about_description'],
-	'sanitize_callback' => 'esc_textarea',
+	'sanitize_callback' => 'sanitize_textarea_field',
 	'type' => 'option',
 	'capability' => 'manage_options'
 ));
@@ -168,7 +168,7 @@ $wp_customize->add_control( 'excellent_theme_options[excellent_features_title]',
 );
 $wp_customize->add_setting( 'excellent_theme_options[excellent_features_description]', array(
 	'default' => $excellent_settings['excellent_features_description'],
-	'sanitize_callback' => 'esc_textarea',
+	'sanitize_callback' => 'sanitize_textarea_field',
 	'type' => 'option',
 	'capability' => 'manage_options'
 	)
@@ -236,7 +236,7 @@ $wp_customize->add_control( 'excellent_theme_options[excellent_latest_blog_title
 );
 $wp_customize->add_setting( 'excellent_theme_options[excellent_latest_blog_description]', array(
 	'default' => $excellent_settings['excellent_latest_blog_description'],
-	'sanitize_callback' => 'esc_textarea',
+	'sanitize_callback' => 'sanitize_textarea_field',
 	'type' => 'option',
 	'capability' => 'manage_options'
 	)

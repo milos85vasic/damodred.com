@@ -5,15 +5,15 @@ msgstr ""
 "Project-Id-Version: Recent Posts Widget With Thumbnails\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/plugins/recent-posts-widget-with-"
 "thumbnails\n"
-"POT-Creation-Date: 2018-11-29 18:07+0100\n"
-"PO-Revision-Date: 2018-11-29 18:07+0100\n"
+"POT-Creation-Date: 2019-02-12 17:15+0100\n"
+"PO-Revision-Date: 2019-02-12 17:16+0100\n"
 "Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
 "Language-Team: Martin Stehle <m.stehle@gmx.de>\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
 "esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
 "X-Poedit-Basepath: ..\n"
@@ -130,21 +130,22 @@ msgstr ""
 "yoksa içerikten otomatik olarak oluşturur. Bu seçenek etkinleştirilirse "
 "sadece sonrası içerikten oluşturulur."
 
-#: includes/form.php:83
+#: includes/form.php:81
+msgid "Ignore post content as excerpt source?"
+msgstr "Gönderilen içeriği alıntı kaynağı olarak yoksay?"
+
+#: includes/form.php:82
+msgid ""
+"If activated, the excerpts are created only by the excerpt fields. If both "
+"Ignore checkboxes are activated no excerpts are displayed in the list."
+msgstr ""
+"Etkinleştirilirse, alıntılar yalnızca alıntı alanları tarafından "
+"oluşturulur. Her iki Yoksay onay kutusu etkinleştirilmişse, listede hiçbir "
+"alıntı görüntülenmez."
+
+#: includes/form.php:87
 msgid "Show number of comments?"
 msgstr "Yorumların sayısını göster?"
-
-#: includes/form.php:88
-msgid "Print slugs of post categories in class attribute of LI elements?"
-msgstr "Sınıf özniteliği LI öğelerin yazı kategorilerin slug yazdırılsın mı?"
-
-#: includes/form.php:89
-msgid ""
-"For developers: If checked you can set CSS rules for each list item on base "
-"of the assigned categories."
-msgstr ""
-"Geliştiriciler için: İşaretlenirseniz, atanmış kategorilerin tabanında her "
-"liste öğesi için CSS kuralları belirleyebilirsiniz."
 
 #: includes/form.php:91
 msgid "Show posts of selected categories only?"
@@ -227,44 +228,56 @@ msgid "URL of default thumbnail (start with http://)"
 msgstr "Varsayılan küçük resmin URL'si (http:// ile başla)"
 
 #: includes/form.php:141
+msgid "Print slugs of post categories in class attribute of LI elements?"
+msgstr "Sınıf özniteliği LI öğelerin yazı kategorilerin slug yazdırılsın mı?"
+
+#: includes/form.php:142
+msgid ""
+"For developers: If checked you can set CSS rules for each list item on base "
+"of the assigned categories."
+msgstr ""
+"Geliştiriciler için: İşaretlenirseniz, atanmış kategorilerin tabanında her "
+"liste öğesi için CSS kuralları belirleyebilirsiniz."
+
+#: includes/form.php:145
 msgid "Print inline CSS instead of creating a CSS file?"
 msgstr "CSS inline oluşturmak yerine satır içi CSS yazdırılsın mı?"
 
-#: includes/form.php:142 includes/form.php:146
+#: includes/form.php:146 includes/form.php:150
 msgid "If activated this option applies to all instances of this widget."
 msgstr ""
 "Etkinleştirilirse, bu seçenek bu widget'ın tüm örnekleri için geçerlidir."
 
-#: includes/form.php:145
+#: includes/form.php:149
 msgid "No CSS generation at all, neither inline CSS nor a CSS file?"
 msgstr "Hiçbir CSS nesli, ne inline CSS ne de CSS dosyası yok mu?"
 
-#: includes/form.php:149
+#: includes/form.php:153
 msgid "Do you like the plugin?"
 msgstr "Eklentiyi beğendiniz mi?"
 
-#: includes/form.php:149
+#: includes/form.php:153
 msgid "Please rate it at wordpress.org!"
 msgstr "Lütfen wordpress.org'da puan verin!"
 
-#: includes/form.php:150
+#: includes/form.php:154
 msgid "Do you need more options?"
 msgstr "Daha fazla seçeneğe mi ihtiyacınız var?"
 
-#: includes/form.php:150
+#: includes/form.php:154
 msgid "Get Ultimate Post List Pro!"
 msgstr "Ultimate Post List Proyu satın alın!"
 
-#: recent-posts-widget-with-thumbnails.php:68
+#: recent-posts-widget-with-thumbnails.php:66
 msgctxt "In {categories}"
 msgid "In"
 msgstr "Şu kategoride "
 
-#: recent-posts-widget-with-thumbnails.php:96
+#: recent-posts-widget-with-thumbnails.php:100
 msgid "Recent Posts With Thumbnails"
 msgstr "Küçük Resimlerle Son Yazılar"
 
-#: recent-posts-widget-with-thumbnails.php:97
+#: recent-posts-widget-with-thumbnails.php:101
 msgid ""
 "List of your site&#8217;s most recent posts, with clickable title and "
 "thumbnails."
@@ -272,7 +285,7 @@ msgstr ""
 "Başlık ve küçük resimleri tıklanabilir olan sitenizin en son yazıların "
 "listesi."
 
-#: recent-posts-widget-with-thumbnails.php:755
+#: recent-posts-widget-with-thumbnails.php:765
 msgid "Error on listing categories"
 msgstr "Kategorileri listeleme hatası"
 

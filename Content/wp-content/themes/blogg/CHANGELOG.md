@@ -5,6 +5,17 @@
 3. An increment in the patch version indicates that minor features have been changed or bugs have been fixed.
 
 
+
+### 1.0.2 - February 6, 2019
+
+**Changes:** 
+
+- Updated URLs to Blogging Theme Styles
+- Added a $5 discount for upgrade to pro
+- Updated the Customizer and About page upgrade/upsell information
+- Updated the language .pot translation file
+
+
 ### 1.0.1 - October 1, 2018
 
 **Changes:** 

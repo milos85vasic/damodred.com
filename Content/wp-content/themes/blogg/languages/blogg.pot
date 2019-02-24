@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Blogg\n"
-"POT-Creation-Date: 2018-10-01 13:35-0700\n"
+"POT-Creation-Date: 2019-02-06 02:08-0800\n"
 "PO-Revision-Date: 2018-09-22 17:07-0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -172,86 +172,98 @@ msgid ""
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:34
-#: inc/theme-info/blogg-info.php:113
+#: inc/theme-info/blogg-info.php:119
 msgid "Blogg Pro"
 msgstr ""
 
-#: inc/customizer/controls/upgrade-control.php:35
+#: inc/customizer/controls/upgrade-control.php:36
 msgid ""
-"Opt in for the pro version of Blogg and enjoy many additional features that "
-"will add more options. Here is a sample of some of the premium features with "
-"the Pro version of Blogg:"
+"If you decide to upgrade to the pro version of this theme, use this discount "
+"code on checkout."
 msgstr ""
 
-#: inc/customizer/controls/upgrade-control.php:36
-msgid "Pro Features:"
+#: inc/customizer/controls/upgrade-control.php:37
+msgid "Upgrade to Pro (Save $5)"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:37
+msgid "Use Code:"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:37
+#: inc/theme-info/blogg-info.php:41
+msgid "SAVEFIVE"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:38
-msgid "&bull; 8 Blog Styles"
-msgstr ""
-
-#: inc/customizer/controls/upgrade-control.php:39
-msgid "&bull; 16 Dynamic Sidebar Positions"
+msgid "Get the Pro - Save $5"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:40
-msgid "&bull; 2 Header Styles"
-msgstr ""
-
-#: inc/customizer/controls/upgrade-control.php:41
-msgid "&bull; Custom Logo Letter Feature"
+msgid "Pro Features:"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:42
-msgid "&bull; Adjustable Content Widths"
+msgid "&bull; 8 Blog Styles"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:43
-msgid "&bull; Thumbnail Creation for the Blogs"
+msgid "&bull; 16 Dynamic Sidebar Positions"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:44
-msgid "&bull; An Author Info Widget"
+msgid "&bull; 2 Header Styles"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:45
-msgid "&bull; Full Post Featured Image with Title Overlay"
+msgid "&bull; Custom Logo Letter Feature"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:46
-msgid "&bull; 1 Click Demo Content Import"
+msgid "&bull; Adjustable Content Widths"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:47
-msgid "&bull; Related Posts with Thumbnails"
+msgid "&bull; Thumbnail Creation for the Blogs"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:48
-msgid "&bull; Basic Typography Options"
+msgid "&bull; An Author Info Widget"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:49
-msgid "&bull; Featured Image Captions for Posts"
+msgid "&bull; Full Post Featured Image with Title Overlay"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:50
-msgid "&bull; Customize the Read More Button Text"
+msgid "&bull; 1 Click Demo Content Import"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:51
-msgid "&bull; Add an Extra Wide Image to Content"
+msgid "&bull; Related Posts with Thumbnails"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:52
-msgid "&bull; Premium Support"
+msgid "&bull; Basic Typography Options"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:53
+msgid "&bull; Featured Image Captions for Posts"
+msgstr ""
+
+#: inc/customizer/controls/upgrade-control.php:54
+msgid "&bull; Customize the Read More Button Text"
 msgstr ""
 
 #: inc/customizer/controls/upgrade-control.php:55
-msgid "Get the Pro"
+msgid "&bull; Add an Extra Wide Image to Content"
 msgstr ""
 
-#: inc/customizer/customizer.php:19 inc/theme-info/blogg-info.php:230
+#: inc/customizer/controls/upgrade-control.php:56
+msgid "&bull; Premium Support"
+msgstr ""
+
+#: inc/customizer/customizer.php:19 inc/theme-info/blogg-info.php:236
 msgid "Theme Options"
 msgstr ""
 
@@ -829,11 +841,11 @@ msgstr ""
 msgid "Dismiss this notice."
 msgstr ""
 
-#: inc/theme-info/blogg-info-class-about.php:480
+#: inc/theme-info/blogg-info-class-about.php:497
 msgid "Action failed. Please refresh the page and retry."
 msgstr ""
 
-#: inc/theme-info/blogg-info-class-about.php:483
+#: inc/theme-info/blogg-info-class-about.php:500
 msgid "You do not have the necessary permission to perform this action."
 msgstr ""
 
@@ -864,261 +876,273 @@ msgid ""
 msgstr ""
 
 #: inc/theme-info/blogg-info.php:39
-msgid "Getting Started"
+msgid "Upgrade and Save $5"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:40 inc/theme-info/blogg-info.php:239
-msgid "Support"
-msgstr ""
-
-#: inc/theme-info/blogg-info.php:41 inc/theme-info/blogg-info.php:80
-msgid "Changelog"
+#: inc/theme-info/blogg-info.php:40
+msgid "Use coupon at checkout."
 msgstr ""
 
 #: inc/theme-info/blogg-info.php:42
-msgid "Free VS PRO"
+msgid "Get the Pro"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:47
-msgid "Setup Documentation"
+#: inc/theme-info/blogg-info.php:45
+msgid "Getting Started"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:46 inc/theme-info/blogg-info.php:245
+msgid "Support"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:47 inc/theme-info/blogg-info.php:86
+msgid "Changelog"
 msgstr ""
 
 #: inc/theme-info/blogg-info.php:48
+msgid "Free VS PRO"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:53
+msgid "Setup Documentation"
+msgstr ""
+
+#: inc/theme-info/blogg-info.php:54
 msgid ""
 "To help you get started with the initial setup of this theme and to learn "
 "about the various features, you can check out detailed setup documentation."
 msgstr ""
 
 #. translators: %1$s: theme name
-#: inc/theme-info/blogg-info.php:50
+#: inc/theme-info/blogg-info.php:56
 #, php-format
 msgid "View %1$s Tutorials"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:57 inc/theme-info/blogg-info.php:59
+#: inc/theme-info/blogg-info.php:63 inc/theme-info/blogg-info.php:65
 msgid "Go to Customizer"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:58
+#: inc/theme-info/blogg-info.php:64
 msgid ""
 "Using the WordPress Customizer you can easily customize every aspect of the "
 "theme."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:67
+#: inc/theme-info/blogg-info.php:73
 msgid "Using a Child Theme"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:68
+#: inc/theme-info/blogg-info.php:74
 msgid ""
 "If you plan to customize this theme, I recommend looking into using a child "
 "theme. To learn more about child themes and why it's important to use one, "
 "check out the WordPress documentation."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:69
+#: inc/theme-info/blogg-info.php:75
 msgid "Child Themes"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:81
+#: inc/theme-info/blogg-info.php:87
 msgid ""
 "I generally recommend you always read the CHANGELOG before updating so that "
 "you can see what was fixed, changed, deleted, or added to the theme."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:91
+#: inc/theme-info/blogg-info.php:97
 msgid "Free Support"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:93
+#: inc/theme-info/blogg-info.php:99
 msgid ""
 "If you experience any problems, please post your questions to support and we "
 "will be more than happy to help you out."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:94
+#: inc/theme-info/blogg-info.php:100
 msgid "Get Free Support"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:100
+#: inc/theme-info/blogg-info.php:106
 msgid "Common Problems"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:102
+#: inc/theme-info/blogg-info.php:108
 msgid ""
 "For quick answers to the most common problems, you can check out the "
 "tutorials which can provide instant solutions and answers."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:103
+#: inc/theme-info/blogg-info.php:109
 msgid "Get Answers"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:115
+#: inc/theme-info/blogg-info.php:121
 msgid "Get Blogg Pro"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:118
+#: inc/theme-info/blogg-info.php:124
 msgid "Mobile Friendly"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:127
+#: inc/theme-info/blogg-info.php:133
 msgid "Change Accent Colours"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:136
+#: inc/theme-info/blogg-info.php:142
 msgid "Featured Post Slider"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:137
+#: inc/theme-info/blogg-info.php:143
 msgid "Showcase posts from your category of choice."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:145
+#: inc/theme-info/blogg-info.php:151
 msgid "Adjustable Page Width"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:146
+#: inc/theme-info/blogg-info.php:152
 msgid ""
 "If you prefer a boxed layout instead of full width, you can adjust the page "
 "width."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:155
+#: inc/theme-info/blogg-info.php:161
 msgid "Page Background Image"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:164
+#: inc/theme-info/blogg-info.php:170
 msgid "Built-In Social Menu"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:173
+#: inc/theme-info/blogg-info.php:179
 msgid "Show or Hide Elements"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:182
+#: inc/theme-info/blogg-info.php:188
 msgid "Custom Error Page"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:192
+#: inc/theme-info/blogg-info.php:198
 msgid "Blog Styles"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:201
+#: inc/theme-info/blogg-info.php:207
 msgid "Sidebar Positions"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:210
+#: inc/theme-info/blogg-info.php:216
 msgid "Page Templates"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:220
+#: inc/theme-info/blogg-info.php:226
 msgid "Recent Posts Widget with Thumbnails"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:248
+#: inc/theme-info/blogg-info.php:254
 msgid "Related Posts with Thumbnails"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:257
+#: inc/theme-info/blogg-info.php:263
 msgid "Multiple Header Styles"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:258
+#: inc/theme-info/blogg-info.php:264
 msgid ""
 "In addition to the current header style, additional options for your site "
 "header area."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:266
+#: inc/theme-info/blogg-info.php:272
 msgid "Adjust Section Widths"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:267
+#: inc/theme-info/blogg-info.php:273
 msgid ""
 "You can adjust the width of your header, banner area, main content, page "
 "content, footer, and more."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:275
+#: inc/theme-info/blogg-info.php:281
 msgid "Custom Blog Title &amp; Introduction"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:276
+#: inc/theme-info/blogg-info.php:282
 msgid ""
 "WordPress does not have this, but we have added a customizable blog title "
 "and intro option."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:284
+#: inc/theme-info/blogg-info.php:290
 msgid "Blog Thumbnail Creation"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:285
+#: inc/theme-info/blogg-info.php:291
 msgid ""
 "Automatically have post featured images cropped when uploading. You get a "
 "couple with the free version but more with the Pro."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:293
+#: inc/theme-info/blogg-info.php:299
 msgid "Extra Wide Image in Content"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:294
+#: inc/theme-info/blogg-info.php:300
 msgid ""
 "To prepare for the new WordPress Gutenberg editor, we included an option to "
 "give you an extra wide image in your page content."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:302
+#: inc/theme-info/blogg-info.php:308
 msgid "Author About Widget"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:303
+#: inc/theme-info/blogg-info.php:309
 msgid "We included a custom widget for an author photo plus social links."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:311
+#: inc/theme-info/blogg-info.php:317
 msgid "Customizable Read More Text"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:312
+#: inc/theme-info/blogg-info.php:318
 msgid "You can change the Read More text to display what you want."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:321
+#: inc/theme-info/blogg-info.php:327
 msgid "Custom Logo Letter"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:322
+#: inc/theme-info/blogg-info.php:328
 msgid ""
 "Take advantage of a logo letter option that lets you add the first letter of "
 "your site name if you do not have a logo."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:330
+#: inc/theme-info/blogg-info.php:336
 msgid "1-Click Demo Content Import Compatible"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:331
+#: inc/theme-info/blogg-info.php:337
 msgid "We included the ability to let you import the demo site content."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:339
+#: inc/theme-info/blogg-info.php:345
 msgid "Typography Options"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:340
+#: inc/theme-info/blogg-info.php:346
 msgid ""
 "Includes a few basic typography options, such as adding a dropcap to your "
 "full post."
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:348
+#: inc/theme-info/blogg-info.php:354
 msgid "Custom Styled Archive Titles"
 msgstr ""
 
-#: inc/theme-info/blogg-info.php:349
+#: inc/theme-info/blogg-info.php:355
 msgid "We customized the style of archive titles for tags, categories, etc."
 msgstr ""
 

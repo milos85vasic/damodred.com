@@ -89,7 +89,7 @@ wp_reset_postdata();
 				
 				
 					<?php if ( esc_attr(get_theme_mod( 'blogg_display_slide_readmore', true ) ) ) { ?>
-					<p class="slide-readmore"><a href="<?php echo esc_attr($link); ?>"><?php esc_html_e( 'Read More','blogg-pro' ); ?></a></p>
+					<p class="slide-readmore"><a href="<?php echo esc_attr($link); ?>"><?php esc_html_e( 'Read More','blogg' ); ?></a></p>
 					<?php } ?>
 					
 			</div>
@@ -99,8 +99,8 @@ wp_reset_postdata();
         <?php $i++; } ?>
     </div>
 
-    <a class="carousel-control-prev" href="#bootstrap-carousel" role="button" data-slide="prev"><?php echo blogg_get_svg( 'collapse' ); ?><span class="screen-reader-text"><?php esc_html_e( 'Previous', 'blogg-pro' ); ?></span></a>
-    <a class="carousel-control-next" href="#bootstrap-carousel" role="button" data-slide="next"><?php echo blogg_get_svg( 'expand' ); ?><span class="screen-reader-text"><?php esc_html_e( 'Next', 'blogg-pro' ); ?></span></a>
+    <a class="carousel-control-prev" href="#bootstrap-carousel" role="button" data-slide="prev"><?php echo blogg_get_svg( 'collapse' ); ?><span class="screen-reader-text"><?php esc_html_e( 'Previous', 'blogg' ); ?></span></a>
+    <a class="carousel-control-next" href="#bootstrap-carousel" role="button" data-slide="next"><?php echo blogg_get_svg( 'expand' ); ?><span class="screen-reader-text"><?php esc_html_e( 'Next', 'blogg' ); ?></span></a>
 
 </div>
 

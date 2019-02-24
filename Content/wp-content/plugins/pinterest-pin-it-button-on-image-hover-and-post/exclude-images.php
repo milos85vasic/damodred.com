@@ -57,7 +57,7 @@ $all_exclude_images = get_option('exclude_pin_it_images');
 	<tr>
 		<th>&nbsp;</th>
 		<th>&nbsp;</th>
-		<th class="text-center"><button type="button" id="delete-all" name="delete-all" title="Delte All" onclick="return DeleteAll();"><i class="fa fa-trash"></i></button></th>
+		<th class="text-center"><button type="button" id="delete-all" name="delete-all" title="Delte All" onclick="return DeleteAllImg();"><i class="fa fa-trash"></i></button></th>
 	</tr>
 
 </table>
@@ -70,7 +70,7 @@ jQuery("#select-all").click(function(){
 });
 
 // delete checked urls
-function DeleteAll(){
+function DeleteAllImg(){
 	var img_ids = [];
 	jQuery(':checkbox:checked').each(function(i){
 	  img_ids[i] = jQuery(this).val();

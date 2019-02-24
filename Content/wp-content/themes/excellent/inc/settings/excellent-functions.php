@@ -147,7 +147,7 @@ function excellent_category_sliders() {
 							if($excerpt_text == '' || $excerpt_text == 'Continue Reading') :
 								$excellent_category_sliders_display 	.= '<a title='.'"'.the_title_attribute('echo=0'). '"'. ' '.'href="'.esc_url(get_permalink()).'"'.' class="btn-default dark">'.esc_html__('Continue reading', 'excellent').'</a>';
 							else:
-								$excellent_category_sliders_display 	.= '<a title='.'"'.the_title_attribute('echo=0'). '"'. ' '.'href="'.esc_url(get_permalink()).'"'.' class="btn-default dark">'.$excellent_settings[ 'excellent_tag_text' ].'</a>';
+								$excellent_category_sliders_display 	.= '<a title='.'"'.the_title_attribute('echo=0'). '"'. ' '.'href="'.esc_url(get_permalink()).'"'.' class="btn-default dark">'.esc_attr($excellent_settings[ 'excellent_tag_text' ]).'</a>';
 							endif;
 						}
 						$excellent_category_sliders_display 	.= '</div><!-- end .slider-buttons -->';

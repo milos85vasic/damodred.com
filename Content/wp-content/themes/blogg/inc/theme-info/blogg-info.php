@@ -34,7 +34,13 @@ function blogg_info() {
 		 * The key needs to be ONLY consisted from letters and underscores. If we want to define outside the class a function to render the tab,
 		 * the will be the name of the function which will be used to render the tab content.
 		 */
-		
+		'upgrade'             => array(
+			'upgrade_url'     => 'https://www.bloggingthemestyles.com/wordpress-themes/blogg-pro/',
+			'price_discount'  => __( 'Upgrade and Save $5', 'blogg' ),
+			'price_normal'	  => __( 'Use coupon at checkout.', 'blogg' ),
+			'coupon'	      =>  __( 'SAVEFIVE', 'blogg' ),
+			'button'	      => __( 'Get the Pro', 'blogg' ),
+		),		
 		'tabs'                 => array(
 			'getting_started'  => esc_html__( 'Getting Started', 'blogg' ),
 			'support_content'  => esc_html__( 'Support', 'blogg' ),
@@ -48,7 +54,7 @@ function blogg_info() {
 				'text'                => sprintf( esc_html__( 'To help you get started with the initial setup of this theme and to learn about the various features, you can check out detailed setup documentation.', 'blogg' ) ),
 				// translators: %1$s: theme name 
 				'button_label'        => sprintf( esc_html__( 'View %1$s Tutorials', 'blogg' ), ucfirst( $theme_name ) ),
-				'button_link'         => esc_url( '//www.bloggingthemestyles.com/setup-blogg' ),
+				'button_link'         => esc_url( '//www.bloggingthemestyles.com/documentation/' ),
 				'is_button'           => true,
 				'recommended_actions' => false,
                 'is_new_tab'          => true,
@@ -101,7 +107,7 @@ function blogg_info() {
 				'icon'         => 'dashicons dashicons-editor-help',
 				'text'         => esc_html__( 'For quick answers to the most common problems, you can check out the tutorials which can provide instant solutions and answers.', 'blogg' ),
 				'button_label' => sprintf( esc_html__( 'Get Answers', 'blogg' ) ),
-				'button_link'  => '//www.bloggingthemestyles.com/support/common-problems',
+				'button_link'  => '//www.bloggingthemestyles.com/common-problems',
 				'is_button'    => true,
 				'is_new_tab'   => true,
 			),

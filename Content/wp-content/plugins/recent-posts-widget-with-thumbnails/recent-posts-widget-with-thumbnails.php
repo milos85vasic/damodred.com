@@ -3,7 +3,7 @@
 Plugin Name: Recent Posts Widget With Thumbnails
 Plugin URI:  http://wordpress.org/plugins/recent-posts-widget-with-thumbnails/
 Description: Small and fast plugin to display in the sidebar a list of linked titles and thumbnails of the most recent postings
-Version:     6.4.1
+Version:     6.5.0
 Author:      Martin Stehle
 Author URI:  http://stehle-internet.de
 Text Domain: recent-posts-widget-with-thumbnails
@@ -69,7 +69,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 		$this->defaults[ 'excerpt_more' ]		= apply_filters( 'rpwwt_excerpt_more', ' ' . '[&hellip;]' ); // set ellipses as default 'more'
 		$this->defaults[ 'number_posts' ]		= 5; // number of posts to show in the widget
 		$this->defaults[ 'plugin_slug' ]		= 'recent-posts-widget-with-thumbnails'; // identifier of this plugin for WP
-		$this->defaults[ 'plugin_version' ]		= '6.4.0'; // number of current plugin version
+		$this->defaults[ 'plugin_version' ]		= '6.5.0'; // number of current plugin version
 		$this->defaults[ 'post_title_length' ] 	= 1000; // default length: 1000 characters
 		$this->defaults[ 'thumb_dimensions' ]	= 'custom'; // dimensions of the thumbnail
 		$this->defaults[ 'thumb_height' ] 		= absint( round( get_option( 'thumbnail_size_h', 110 ) / 2 ) ); // custom height of the thumbnail
@@ -82,7 +82,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 		$this->defaults[ 'site_url' ]			= $parsed_url[ 'scheme' ];
 		unset( $parsed_url );
 		// other vars
-		$this->bools_false						= array( 'hide_current_post', 'only_sticky_posts', 'hide_sticky_posts', 'hide_title', 'keep_aspect_ratio', 'keep_sticky', 'only_1st_img', 'random_order', 'show_author', 'show_categories', 'show_comments_number', 'show_date', 'show_excerpt', 'ignore_excerpt', 'set_more_as_link', 'try_1st_img', 'use_default', 'open_new_window', 'print_post_categories', 'set_cats_as_links', 'use_inline_css', 'use_no_css' );
+		$this->bools_false						= array( 'hide_current_post', 'only_sticky_posts', 'hide_sticky_posts', 'hide_title', 'keep_aspect_ratio', 'keep_sticky', 'only_1st_img', 'random_order', 'show_author', 'show_categories', 'show_comments_number', 'show_date', 'show_excerpt', 'ignore_excerpt', 'ignore_post_content_excerpt', 'set_more_as_link', 'try_1st_img', 'use_default', 'open_new_window', 'print_post_categories', 'set_cats_as_links', 'use_inline_css', 'use_no_css' );
 		$this->bools_true						= array( 'show_thumb' );
 		$this->ints 							= array( 'excerpt_length', 'number_posts', 'post_title_length', 'thumb_height', 'thumb_width' );
 		$this->valid_excerpt_sources			= array( 'post_content', 'excerpt_field' );
@@ -217,15 +217,15 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 		
 		if ( $r->have_posts()) :
 		
-			// take custom size if desired
-			if ( $thumb_dimensions != 'custom' ) {
+			// set the desired image dimensions
+			if ( 'custom' == $thumb_dimensions ) {
+				// set dimensions with specified size array
+				$this->customs[ 'thumb_dimensions' ] = array( $ints[ 'thumb_width' ], $ints[ 'thumb_height' ] );
+			} else {
 				// overwrite thumb_width and thumb_height with closest size
 				list( $ints[ 'thumb_width' ], $ints[ 'thumb_height' ] ) = $this->get_image_dimensions( $thumb_dimensions );
 				// set dimensions with specified size name
 				$this->customs[ 'thumb_dimensions' ] = $thumb_dimensions;
-			} else {
-				// set dimensions with specified size array
-				$this->customs[ 'thumb_dimensions' ] = array( $ints[ 'thumb_width' ], $ints[ 'thumb_height' ] );
 			}
 
 			// let there be an empty 'more' label if desired
@@ -251,6 +251,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 
 			// set other global vars
 			$this->customs[ 'ignore_excerpt' ]		= $bools[ 'ignore_excerpt' ]; // whether to ignore post excerpt field or not
+			$this->customs[ 'ignore_post_content_excerpt' ]		= $bools[ 'ignore_post_content_excerpt' ]; // whether to ignore post content or not
 			$this->customs[ 'set_more_as_link' ]	= $bools[ 'set_more_as_link' ]; // whether to set 'more' signs as link or not
 			$this->customs[ 'set_cats_as_links' ]	= $bools[ 'set_cats_as_links' ]; // whether to set category names as links or not
 			$this->customs[ 'excerpt_length' ]		= $ints[ 'excerpt_length' ]; // number of characters of excerpt
@@ -843,7 +844,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 			$ints[ 'thumb_width' ] = $this->defaults[ 'thumb_width' ];
 			$ints[ 'thumb_height' ] = $this->defaults[ 'thumb_height' ];
 			$thumb_dimensions = isset( $settings[ 'thumb_dimensions' ] ) ? $settings[ 'thumb_dimensions' ] : $this->defaults[ 'thumb_dimensions' ];
-			if ( $thumb_dimensions == 'custom' ) {
+			if ( 'custom' == $thumb_dimensions ) {
 				if ( isset( $settings[ 'thumb_width' ] ) ) {
 					$ints[ 'thumb_width' ]  = absint( $settings[ 'thumb_width' ]  );
 				}
@@ -915,7 +916,7 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 		}
 		
 		// text processings if no manual excerpt is available
-		if ( empty( $excerpt ) ) {
+		if ( empty( $excerpt ) and ! $this->customs[ 'ignore_post_content_excerpt' ] ) {
 
 			// get excerpt from post content
 			$excerpt = strip_shortcodes( get_the_content( '' ) );
@@ -942,11 +943,13 @@ class Recent_Posts_Widget_With_Thumbnails extends WP_Widget {
 			} // if ( mb_strlen( $excerpt ) > $this->customs[ 'excerpt_length' ] )
 		} // if ( empty( $excerpt ) )
 		
-		// append 'more' text, set 'more' signs as link if desired
-		if ( $this->customs[ 'set_more_as_link' ] ) {
-			$excerpt .= sprintf( '<a href="%s"%s>%s</a>', get_the_permalink( $post ), $this->customs[ 'link_target' ], $this->customs[ 'excerpt_more' ] );
-		} else {
-			$excerpt .= $this->customs[ 'excerpt_more' ];
+		if ( $excerpt ) {
+			// append 'more' text, set 'more' signs as link if desired
+			if ( $this->customs[ 'set_more_as_link' ] ) {
+				$excerpt .= sprintf( '<a href="%s"%s>%s</a>', get_the_permalink( $post ), $this->customs[ 'link_target' ], $this->customs[ 'excerpt_more' ] );
+			} else {
+				$excerpt .= $this->customs[ 'excerpt_more' ];
+			}
 		}
 		
 		// return text

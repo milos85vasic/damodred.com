@@ -16,7 +16,6 @@ function excellent_about_us(){
 		$excellent_about_us	= array();
 		$excellent_about_us	=	array_merge( $excellent_about_us, array( $excellent_settings['excellent_about_us'] ) );
 		$excellent_get_about_us_section 		= new WP_Query(array(
-								'posts_per_page'      	=> intval($excellent_settings['excellent_about_us']),
 								'post_type'           	=> array('page'),
 								'post__in'            	=> array_values($excellent_about_us),
 								'orderby'             	=> 'post__in',

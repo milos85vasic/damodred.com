@@ -9,9 +9,9 @@ Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.1
-Tested up to: 5.0
-Stable tag: 20180828
-Version: 20180828
+Tested up to: 5.1
+Stable tag: 20190220
+Version: 20190220
 Requires PHP: 5.2
 Text Domain: ga-google-analytics
 Domain Path: /languages
@@ -208,6 +208,11 @@ Links, tweets and likes also appreciated. Thanks! :)
 == Changelog ==
 
 *Thank you to everyone who shares feedback for GA Google Analytics!*
+
+**20190220**
+
+* Just a version bump for compat with WP 5.1
+* Full update coming soon :)
 
 **20180828**
 

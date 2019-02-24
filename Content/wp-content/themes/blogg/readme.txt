@@ -29,7 +29,7 @@ Introducing Blogg -  a clean and modern WordPress theme with an elegant, careful
 Blogg offers you detailed documentation to help you get started with this theme. With step-by-step guidance, including screenshots, every feature
 of Blogg is included in our tutorials found on our website:
 
-https://www.bloggingthemestyles.com/setup-tutorials-for-free-themes/setup-blogg/
+https://www.bloggingthemestyles.com/documentation/
 
 
 == Credits ==
@@ -86,3 +86,22 @@ License: Creative Commons CC0 - Free for commercial use.
 https://pixabay.com/en/service/terms/#usage
 
 
+== Changelog ==
+
+= 1.0.2 =
+
+- Updated URLs to Blogging Theme Styles
+- Added a $5 discount for upgrade to pro
+- Updated the Customizer and About page upgrade/upsell information
+- Updated the language .pot translation file
+
+
+= 1.0.1 =
+
+- Fixed an issue with the slide excerpt staying the same on all slides
+- Fixed an issue where the featured boxes did not show on front page with static pages.
+
+
+= 1.0.0 =
+
+- Theme release as first version

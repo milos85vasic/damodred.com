@@ -19,13 +19,13 @@ $all_excluded_pages = get_option('excluded_pint_it_pages');
 	<tr>
 		<th scope="col">#</th>
 		<th scope="col">Page</th>
-		<th scope="col" class="text-center"><input type="checkbox" id="select-page-all" name="select-page-all[]" value="-1" /></th>
+		<th scope="col" class="text-center"><input type="checkbox" id="select-page-all" name="select-page-all[]" value="1" /></th>
 	</tr>
 	</thead>
 	<tbody>
 		<?php 
 			if ( is_array( $all_excluded_pages ) && count( $all_excluded_pages ) ) { 
-				$count = 1;
+				$count = 0;
 				foreach ($all_excluded_pages as $exclude_key => $exclude_page) {
 					if( $exclude_page ) {
 						?>
@@ -47,7 +47,7 @@ $all_excluded_pages = get_option('excluded_pint_it_pages');
 	<thead class="thead-dark">
 		<tr>
 			<th scope="col">#</th>
-			<th scope="col">URL</th>
+			<th scope="col">Page</th>
 			<th scope="col" class="text-center"><input type="checkbox" id="select-page-all" name="select-page-all[]" value="-1" /></th>
 		</tr>
 	</thead>

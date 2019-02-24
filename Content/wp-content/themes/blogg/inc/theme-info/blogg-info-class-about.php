@@ -189,7 +189,24 @@ if ( ! class_exists( 'blogg_info_page' ) ) {
 					echo '<div class="about-text">' . wp_kses_post( $welcome_content ) . '</div>';
 				}
 
+				/* Add upgrade box*/
+				$upgrade = $this->config['upgrade'];
 
+				echo	'<div id="bts-promotion-field-header">';
+				
+					echo	'<div id="promotion-table">';
+					echo	'<div id="promotion-header">';
+					echo	'<p class="main-title">' . esc_html( $upgrade['price_discount'] ) . '</p>';
+					echo	'<a href="' . esc_url( $upgrade['upgrade_url'] ) . '" target="_blank" class="button button-primary">' . esc_html( $upgrade['button'] ) . '</a>';
+					echo	'</div>';
+
+					echo	'<div id="promotion-coupon">';
+					echo	'<a href="' . esc_url( $upgrade['upgrade_url'] ) . '" target="_blank">' . esc_html( $upgrade['coupon'] ) . '<span>' . esc_html( $upgrade['price_normal'] ) . '</span></a>';
+					echo	'</div>';
+					echo	'</div>';
+
+				echo	'</div>'; 
+				
 				/* Display tabs */
 				if ( ! empty( $this->tabs ) ) {
 					//$active_tab = isset( $_GET['tab'] ) ? wp_unslash( $_GET['tab'] ) : 'getting_started';

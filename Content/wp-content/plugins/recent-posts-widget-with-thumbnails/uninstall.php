@@ -3,7 +3,7 @@
  * Fired when the plugin is uninstalled.
  *
  * @package   Purify_WordPress_Menus
- * @author    Martin Stehle <m.stehle@gmx.de>
+ * @author    Martin Stehle <shop@stehle-internet.de>
  * @license   GPL-2.0+
  * @link      http://wordpress.org/plugins/purify-wp-menues/
  * @copyright 2014 

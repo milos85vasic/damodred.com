@@ -5,15 +5,15 @@ msgstr ""
 "Project-Id-Version: Recent Posts Widget With Thumbnails\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/plugins/recent-posts-widget-with-"
 "thumbnails\n"
-"POT-Creation-Date: 2018-11-29 18:01+0100\n"
-"PO-Revision-Date: 2018-11-29 18:10+0100\n"
+"POT-Creation-Date: 2019-02-12 17:08+0100\n"
+"PO-Revision-Date: 2019-02-12 17:09+0100\n"
 "Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
 "Language-Team: Martin Stehle <m.stehle@gmx.de>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
 "esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
 "X-Poedit-Basepath: ..\n"
@@ -128,23 +128,22 @@ msgstr ""
 "aus dem Beitragsinhalt. Wenn diese Option aktiviert ist, wird der Auszug nur "
 "aus dem Beitragsinhalt erstellt."
 
-#: includes/form.php:83
+#: includes/form.php:81
+msgid "Ignore post content as excerpt source?"
+msgstr "Inhalt des Beitrags als Auszugsquelle ignorieren?"
+
+#: includes/form.php:82
+msgid ""
+"If activated, the excerpts are created only by the excerpt fields. If both "
+"Ignore checkboxes are activated no excerpts are displayed in the list."
+msgstr ""
+"Wenn aktiviert, werden die Auszüge nur durch die Auszugsfelder der Beiträge "
+"erzeugt. Wenn beide Ignorieren-Checkboxen aktiviert sind, werden in der "
+"Liste keine Auszüge angezeigt."
+
+#: includes/form.php:87
 msgid "Show number of comments?"
 msgstr "Anzahl der Kommentare anzeigen?"
-
-#: includes/form.php:88
-msgid "Print slugs of post categories in class attribute of LI elements?"
-msgstr ""
-"Gebe die Titelformen der Beitragskategorien im class-Attribut der LI-"
-"Elemente an?"
-
-#: includes/form.php:89
-msgid ""
-"For developers: If checked you can set CSS rules for each list item on base "
-"of the assigned categories."
-msgstr ""
-"Für Entwickler: Wenn aktiviert, kannst du CSS-Regeln für jeden Listenpunkt "
-"auf Basis der zugewiesenen Kategorien erstellen."
 
 #: includes/form.php:91
 msgid "Show posts of selected categories only?"
@@ -231,43 +230,57 @@ msgid "URL of default thumbnail (start with http://)"
 msgstr "URL des Standardvorschaubilds (beginnt mit http://)"
 
 #: includes/form.php:141
+msgid "Print slugs of post categories in class attribute of LI elements?"
+msgstr ""
+"Gebe die Titelformen der Beitragskategorien im class-Attribut der LI-"
+"Elemente an?"
+
+#: includes/form.php:142
+msgid ""
+"For developers: If checked you can set CSS rules for each list item on base "
+"of the assigned categories."
+msgstr ""
+"Für Entwickler: Wenn aktiviert, kannst du CSS-Regeln für jeden Listenpunkt "
+"auf Basis der zugewiesenen Kategorien erstellen."
+
+#: includes/form.php:145
 msgid "Print inline CSS instead of creating a CSS file?"
 msgstr "Inline CSS ausgeben anstelle dem Anlegen einer CSS-Datei?"
 
-#: includes/form.php:142 includes/form.php:146
+#: includes/form.php:146 includes/form.php:150
 msgid "If activated this option applies to all instances of this widget."
-msgstr "Wenn aktiviert, gilt die Option für alle Instanzen dieses Widget."
+msgstr "Wenn aktiviert, gilt die Option für alle Instanzen dieses Widgets."
 
-#: includes/form.php:145
+#: includes/form.php:149
 msgid "No CSS generation at all, neither inline CSS nor a CSS file?"
 msgstr "Keine CSS-Ausgabe, weder Inline CSS noch CSS-Datei?"
 
-#: includes/form.php:149
+#: includes/form.php:153
 msgid "Do you like the plugin?"
 msgstr "Gefällt dir das Plugin?"
 
-#: includes/form.php:149
+#: includes/form.php:153
 msgid "Please rate it at wordpress.org!"
 msgstr "Bewerte es auf wordpress.org!"
 
-#: includes/form.php:150
+#: includes/form.php:154
 msgid "Do you need more options?"
 msgstr "Brauchst du mehr Einstellmöglichkeiten?"
 
-#: includes/form.php:150
+#: includes/form.php:154
 msgid "Get Ultimate Post List Pro!"
 msgstr "Zu Ultimate Post List Pro!"
 
-#: recent-posts-widget-with-thumbnails.php:68
+#: recent-posts-widget-with-thumbnails.php:66
 msgctxt "In {categories}"
 msgid "In"
 msgstr "In"
 
-#: recent-posts-widget-with-thumbnails.php:96
+#: recent-posts-widget-with-thumbnails.php:100
 msgid "Recent Posts With Thumbnails"
 msgstr "Letzte Beiträge mit Vorschaubildern"
 
-#: recent-posts-widget-with-thumbnails.php:97
+#: recent-posts-widget-with-thumbnails.php:101
 msgid ""
 "List of your site&#8217;s most recent posts, with clickable title and "
 "thumbnails."
@@ -275,7 +288,7 @@ msgstr ""
 "Liste deiner neuesten Beiträge, mit klickbaren Überschriften und "
 "Vorschaubildern."
 
-#: recent-posts-widget-with-thumbnails.php:755
+#: recent-posts-widget-with-thumbnails.php:765
 msgid "Error on listing categories"
 msgstr "Fehler beim Auflisten der Kategorien"
 

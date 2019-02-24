@@ -4,8 +4,8 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: images, posts list, recent posts, thumbnails, widget
 Requires at least: 2.9
 Requires PHP: 5.2
-Tested up to: 5.0.2
-Stable tag: 6.4.1
+Tested up to: 5.0.3
+Stable tag: 6.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,6 +16,8 @@ List the most recent posts with post titles, thumbnails, excerpts, authors, cate
 List the most recent posts with post titles, thumbnails, excerpts, authors, categories, dates and more!
 
 The plugin is available in English, German (Deutsch), Persian (فارسی), Arabic (العربية), Polish (Polski) Russian (русский), Turkish (Türkçe), Japanese (日本語) and Greek (Ελληνικά).
+
+Although the plugin is build only for widget areas users reported that it **works also in Elementor**. Whether it runs in other page builders is unknown. Please let me know in which **page builder** you were able to use the plugin successfully.
 
 The plugin does not collect any personal data, so it is ready for EU General Data Protection Regulation (GDPR) compliance.
 
@@ -71,20 +73,21 @@ Some users published video tutorials on YouTube:
 17. Show number of comments
 18. Excerpt length
 19. Signs after excerpt
-20. Ignore post excerpt field as excerpt source (builds excerpts automatically from the post content)
-21. Show posts of selected categories (or of all categories)
-22. Show post thumbnail (featured image)
-23. Registered thumbnail dimensions
-24. Thumbnail width in px
-25. Thumbnail height in px
-26. Keep aspect ratio of thumbnails
-27. Try to take the first post image as thumbnail
-28. Only use the first post image as thumbnail
-29. Use default thumbnail if no thumbnail is available
-30. Default thumbnail URL
-31. Print slugs of post categories in class attribute of LI elements
-32. Print inline CSS instead of creating a CSS file
-33. No CSS generation at all
+20. Ignore post excerpt field as excerpt source (builds excerpts only from the post content)
+21. Ignore post content as excerpt source (builds excerpts only from the excerpt fields)
+22. Show posts of selected categories (or of all categories)
+23. Show post thumbnail (featured image)
+24. Registered thumbnail dimensions
+25. Thumbnail width in px
+26. Thumbnail height in px
+27. Keep aspect ratio of thumbnails
+28. Try to take the first post image as thumbnail
+29. Only use the first post image as thumbnail
+30. Use default thumbnail if no thumbnail is available
+31. Default thumbnail URL
+32. Print slugs of post categories in class attribute of LI elements
+33. Print inline CSS instead of creating a CSS file
+34. No CSS generation at all
 
 = Much more options available in the Pro version =
 
@@ -229,6 +232,12 @@ If you want to contribute a translation of the plugin in your language it would 
 2. The second screenshot shows the widget on the Widget Management Page in the backend.
 
 == Changelog ==
+
+= 6.5.0 =
+* Added option to use only except fields as the source for excerpts
+* Updated *.pot file and translations
+* Tested successfully with WordPress 5.0.3
+* Updated screenshot of widget in the backend
 
 = 6.4.1 =
 * Revised image size selection if a registered image size name is used
@@ -513,6 +522,9 @@ Successfully tested with WordPress 4.0
 * The plugin was released.
 
 == Upgrade Notice ==
+
+= 6.5.0 =
+Added option to use only except fields as the source for excerpts, updated translations, tested with WordPress 5.0.3
 
 = 6.4.1 =
 Revised image size selection if a registered image size name is used, small changes, tested with WordPress 5.0.2

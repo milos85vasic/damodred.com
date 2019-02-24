@@ -1554,6 +1554,9 @@ margin-bottom: 12px;
 padding-bottom: 10px;
 display: block;
 font-size:15px;
+margin-top: 10px;
+font-size: 20px;
+ color: #fff;
 }
 
 .img-wrapper{
@@ -1853,4 +1856,38 @@ a.pint-btn{
   display: block;
     max-width: 250px;
     margin: 0 auto;
+}
+
+/*add-custom-css in new update*/
+
+.text-muted {
+    color: #e4e4e4!important;
+}
+
+.panel-default > .panel-heading {
+     color: #fff;
+    background-color: #ef4238!important;
+}
+.text-center button {
+    background-color: #e02121;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 1px #ccc;
+}
+#poststuff .stuffbox>h3, #poststuff h2, #poststuff h3.hndle {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    background-color: #ef4238!important;
+}
+
+.col-sm-12 h2, .h2 {
+    font-size: 30px;
+    background-color: #ef4238;
+    padding: 10px;
+    color: #fff;
 }

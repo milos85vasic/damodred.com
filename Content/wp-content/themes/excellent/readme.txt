@@ -1,8 +1,10 @@
 == Excellent ==
 Contributors: themefreesia
 Tags: threaded-comments, right-sidebar, four-columns, custom-colors, custom-background, custom-header, custom-menu, editor-style, sticky-post, theme-options, translation-ready, post-formats, custom-logo, e-commerce, photography, portfolio
-Requires at least: 4.0
-Tested up to: 4.8.1
+Requires at least: 5.0
+Tested up to: 5.0.3
+Requires PHP: 7.0
+Stable tag: 1.2.2
 License: GNU General Public License version 3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -98,6 +100,11 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 	- Google Fonts - Apache License, version 2.0
 
+	- TRT Customize Pro -
+		https://github.com/justintadlock/trt-customizer-pro#copyright-and-license
+		Copyright: Justin Tadlock.
+		Licensed: GNU GPL, version 2 or later.
+
 
 
 All the theme files and other un-specified scripts (customizer-custom-scripts.js, excellent-main.js and color-scheme-control.js) are licensed under GNU General Public License Version 3 or later and can be used or modify for both commercial and personal use.
@@ -127,6 +134,11 @@ wpml-config.xml is used to support multilangual plugins such and wpml, polylang.
 =================================================================================
 
 == CHANGE LOG ==
+= 1.2.2 =
+	- Update - Requires PHP field added
+				- missing license added
+	- Fix - Sanitization and Escaping issue fixed
+
 = 1.2.1 =
 	- Fix - Site title in sticky header display issue fixed
 

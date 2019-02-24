@@ -5,8 +5,8 @@ Contributors: weblizar
 Donate link: https://www.weblizar.com/
 Tags: pinterest, pin images, pin photo, pin it button, pin plugin
 Requires at least: 3.8
-Tested up to: 4.9.8
-Stable tag: 2.6.5
+Tested up to: 5.0.2
+Stable tag: 2.6.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,41 +30,29 @@ Pinterest pin it button on image hover plugin provides facility to pins your blo
 
 ### Pinterest Feed Pro Features
 
-* Pinterest Profile
-Show your Pinterest profile as it looks on Pinterest platform
+* **Pinterest Profile** - Show your Pinterest profile as it looks on Pinterest platform
 
-* Pinterest Pins
-Share all your Pinterest pins on your website
+* **Pinterest Pins** - Share all your Pinterest pins on your website
 
-* Get All relevant outputs of your Pinterest profile, Pins
-Showcase your Pinterest gallery in the most efficient way to gather more traffic.
+* **Get All relevant outputs of your Pinterest profile, Pins** - Showcase your Pinterest gallery in the most efficient way to gather more traffic.
 
-* Shortcode and widgets section for your Pinterest profile, Pins
-Many shortcodes and widget options to choose where to display your Pinterest feed.
+* **Shortcode and widgets section for your Pinterest profile, Pins** - Many shortcodes and widget options to choose where to display your Pinterest feed.
 
-* Pinterest profile with stat box of total boards, Pins, Following, Followers, Likes and Follow button
-Decide which stats you want to show to your users with beautiful templates.
+* **Pinterest profile with stat box of total boards, Pins, Following, Followers, Likes and Follow button** - Decide which stats you want to show to your users with beautiful templates.
 
-* Get All Pinterest Pins of single and multiple boards
-Choose how you want to display your pins and boards.
+* **Get All Pinterest Pins of single and multiple boards** - Choose how you want to display your pins and boards.
 
-* Responsive dashboard design with Live preview
-Tested with multiple devices and screen sizes by our team of dedicated web developers
+* **Responsive dashboard design with Live preview** -Tested with multiple devices and screen sizes by our team of dedicated web developers
 
-* Easy to use user friendly interface
-Easy options to configure Pinterest feed
+* **Easy to use user friendly interface** Easy options to configure Pinterest feed
 
-* User friendly descriptive section designing with helpful tool tips
-Stuck somewhere? Our special tool tips will help you along the way
+* **User friendly descriptive section designing with helpful tool tips** - Stuck somewhere? Our special tool tips will help you along the way
 
-* Multi Site Support
-Plugin support on WordPress multi sites functionality
+* **Multi Site Support** - Plugin support on WordPress multi sites functionality
 
-* Bootstrap Based Responsive Plugin Settings Panel
-It is compatible with all the latest and top most WordPress websites available.
+* **Bootstrap Based Responsive Plugin Settings Panel** - It is compatible with all the latest and top most WordPress websites available.
 
-* Multilingual & Translation Ready
-So that none of our user face difficulty in using our plugin.
+* **Multilingual & Translation Ready** - So that none of our user face difficulty in using our plugin.
 
 #### Check Pinterest Feed Pro Live In Action
 
@@ -122,6 +110,10 @@ Please use WordPress [support forum](http://wordpress.org/support/plugin/pintere
 == Changelog ==
 
 For more information, see [Weblizar](https://wwww.weblizar.com/).
+
+= Version 2.6.7 =
+	- Bug Fix Option Panel ( Excluding function ) 
+	- Update back-end panel css issue fixed. 
 
 = Version 2.6.5 =
 	- Update setting of pinit button for mobile device

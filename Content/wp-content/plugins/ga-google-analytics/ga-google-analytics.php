@@ -9,9 +9,9 @@
 	Donate link: https://monzillamedia.com/donate.html
 	Contributors: specialk
 	Requires at least: 4.1
-	Tested up to: 5.0
-	Stable tag: 20180828
-	Version: 20180828
+	Tested up to: 5.1
+	Stable tag: 20190220
+	Version: 20190220
 	Requires PHP: 5.2
 	Text Domain: ga-google-analytics
 	Domain Path: /languages
@@ -60,7 +60,7 @@ if (!class_exists('GA_Google_Analytics')) {
 		
 		function constants() {
 			
-			if (!defined('GAP_VERSION')) define('GAP_VERSION', '20180828');
+			if (!defined('GAP_VERSION')) define('GAP_VERSION', '20190220');
 			if (!defined('GAP_REQUIRE')) define('GAP_REQUIRE', '4.1');
 			if (!defined('GAP_AUTHOR'))  define('GAP_AUTHOR',  'Jeff Starr');
 			if (!defined('GAP_NAME'))    define('GAP_NAME',    __('GA Google Analytics', 'ga-google-analytics'));

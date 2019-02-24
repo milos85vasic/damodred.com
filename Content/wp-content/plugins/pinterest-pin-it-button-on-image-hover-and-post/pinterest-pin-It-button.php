@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Pinterest Pin It Button On Image Hover And After Post & Page Content
- * Version: 2.6.5
+ * Version: 2.6.7
  * Description: Pinterest pin it button on image hover plugin provides facility to pins your blog posts, pages and images into your Pinterest account boards.
  * Author: Weblizar
  * Author URI: https://weblizar.com/plugins/
@@ -42,6 +42,12 @@ function PiniIt_DefaultSettings(){
 	add_option("WL_Pinit_Btn_Size", "small");	
 }
 
+
+function front_jquery() {
+	wp_enqueue_script( 'jquery' );
+} 
+add_action( 'wp_enqueue_scripts', 'front_jquery' );
+
 //Load saved pin it button settings
 $PinItOnHover 	= get_option("WL_Pinit_Btn_On_Hover");
 
@@ -56,19 +62,23 @@ function wl_pinit_js() {
 	$PinItSize		   = get_option("WL_Pinit_Btn_Size");
 	$PinItStatus 	   = get_option("WL_Mobile_Status");
 	$all_exclude_pages = get_option('excluded_pint_it_pages', array());	
+
+
+
 	//don't show on mobile
-	if(wp_is_mobile() && $PinItStatus == 0) {
+	if(wp_is_mobile() && $PinItStatus == 0) { 
 		// do nothing - hide pinit button
 		?>
 		<script type="text/javascript" async defer data-pin-color="<?php echo $PinItColor; ?>" <?php if($PinItSize == "large") { ?>data-pin-height="28"<?php }?> data-pin-hover="false" src="<?php echo WEBLIZAR_PINIT_PLUGIN_URL."js/pinit.js"; ?>"></script>
 		<?php
 	}
-	if( is_page($all_exclude_pages) ) {
+	if( ! empty ( $all_exclude_pages ) && is_page($all_exclude_pages) ) {
+
 		?>
 		<script type="text/javascript" async defer data-pin-color="<?php echo $PinItColor; ?>" <?php if($PinItSize == "large") { ?>data-pin-height="28"<?php }?> data-pin-hover="false" src="<?php echo WEBLIZAR_PINIT_PLUGIN_URL."js/pinit.js"; ?>"></script>
 		<?php
 	}
-	else {
+	else { 
 		?><script type="text/javascript" async defer data-pin-color="<?php echo $PinItColor; ?>" <?php if($PinItSize == "large") { ?>data-pin-height="28"<?php }?> data-pin-hover="<?php echo $PinItOnHover; ?>" src="<?php echo WEBLIZAR_PINIT_PLUGIN_URL."js/pinit.js"; ?>"></script><?php
 	}
 	
@@ -116,7 +126,7 @@ function Load_pin_it_button_after_page_content($content){
 		$PinItPage 		   = get_option("WL_Enable_Pinit_Page");
 		$PinItStatus 	   = get_option("WL_Mobile_Status");
 		$all_exclude_pages = get_option('excluded_pint_it_pages', array());
-		if(get_option("WL_Enable_Pinit_Page") && ! is_page($all_exclude_pages) ) {
+		if(get_option("WL_Enable_Pinit_Page")) {
 			if(wp_is_mobile() && $PinItStatus == 0) {
 				// do nothing //don't show on mobile
 			} else {
@@ -178,6 +188,7 @@ function PinItSaveSettings() {
 	}
 }
 
+
 /*Save Exclude Images*/
 add_action( 'wp_ajax_exclude_image', 'exclude_image_save' );
 function exclude_image_save() {
@@ -197,7 +208,7 @@ function exclude_image_save() {
 /* Save exclude pages */
 add_action( 'wp_ajax_exclude_page', 'exclude_save_page' );
 function exclude_save_page(){
-	$all_exclude_pages = [];
+	//$all_exclude_pages = [];
 	if ( isset( $_POST['pinit_exclude_page_nonce_field'] ) || wp_verify_nonce( $_POST['pinit_exclude_page_nonce_field'], 'pinit_exclude_page_nonce_action' ) ) {
 		$all_exclude_pages = get_option('excluded_pint_it_pages');
 		$page_name = sanitize_text_field( $_POST['page_name'] );		

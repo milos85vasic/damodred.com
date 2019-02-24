@@ -32,7 +32,11 @@ if ( ! class_exists( 'Blogg_Customize_Static_Text_Control' ) ) {
 				?>
 							
 			<h1><?php esc_html_e('Blogg Pro', 'blogg') ?></h1>
-			<p><?php esc_html_e('Opt in for the pro version of Blogg and enjoy many additional features that will add more options. Here is a sample of some of the premium features with the Pro version of Blogg:','blogg'); ?></p>
+			
+			<p><?php esc_html_e('If you decide to upgrade to the pro version of this theme, use this discount code on checkout.','blogg'); ?></p>	
+			<div id="promotion-header"><p class="main-title"><?php esc_html_e('Upgrade to Pro (Save $5)', 'blogg') ?><br><?php esc_html_e('Use Code:', 'blogg') ?> <strong><?php esc_html_e('SAVEFIVE', 'blogg') ?></strong></p>
+			<p><a href="https://www.bloggingthemestyles.com/wordpress-themes/blogg-pro/" target="_blank" class="button button-primary"><?php esc_html_e('Get the Pro - Save $5', 'blogg') ?></a></p></div>
+			
 			<p style="font-weight: 700;"><?php esc_html_e('Pro Features:', 'blogg') ?></p>
 			<ul>
 				<li><?php esc_html_e('&bull; 8 Blog Styles', 'blogg')?></li>
@@ -51,8 +55,7 @@ if ( ! class_exists( 'Blogg_Customize_Static_Text_Control' ) ) {
 				<li><?php esc_html_e('&bull; Add an Extra Wide Image to Content', 'blogg')?></li>
 				<li><?php esc_html_e('&bull; Premium Support', 'blogg')?></li>
 			</ul>
-			
-			<p><a class="button" href="<?php echo esc_url('https://www.bloggingthemestyles.com/wordpress-themes/blogg-pro'); ?>" target="_blank"><?php esc_html_e( 'Get the Pro', 'blogg' ); ?></a></p>				
+							
 			<?php
 			endif;
 		}

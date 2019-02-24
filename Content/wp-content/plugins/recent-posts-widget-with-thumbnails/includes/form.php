@@ -77,6 +77,10 @@
 <label for="<?php echo $field_ids[ 'ignore_excerpt' ]; ?>"><?php esc_html_e( 'Ignore post excerpt field as excerpt source?', 'recent-posts-widget-with-thumbnails' ); ?></label><br />
 <em><?php esc_html_e( 'Normally the widget takes the excerpt from the text of the excerpt field unchanged and if there is no text it creates the excerpt from the post content automatically. If this option is activated the excerpt is created from the post content only.', 'recent-posts-widget-with-thumbnails' );?></em></p>
 
+<p><input class="checkbox" type="checkbox" <?php checked( $bools[ 'ignore_post_content_excerpt' ] ); ?> id="<?php echo $field_ids[ 'ignore_post_content_excerpt' ]; ?>" name="<?php echo $this->get_field_name( 'ignore_post_content_excerpt' ); ?>" />
+<label for="<?php echo $field_ids[ 'ignore_post_content_excerpt' ]; ?>"><?php esc_html_e( 'Ignore post content as excerpt source?', 'recent-posts-widget-with-thumbnails' ); ?></label><br />
+<em><?php esc_html_e( 'If activated, the excerpts are created only by the excerpt fields. If both Ignore checkboxes are activated no excerpts are displayed in the list.', 'recent-posts-widget-with-thumbnails' );?></em></p>
+
 <h4><?php $text = 'Comments'; esc_html_e( $text ); ?></h4>
 
 <p><input class="checkbox" type="checkbox" <?php checked( $bools[ 'show_comments_number' ] ); ?> id="<?php echo $field_ids[ 'show_comments_number' ]; ?>" name="<?php echo $this->get_field_name( 'show_comments_number' ); ?>" />

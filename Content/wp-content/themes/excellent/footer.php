@@ -19,32 +19,32 @@ $footer_column = $excellent_settings['excellent_footer_column_section'];
 			<div class="widget-area">
 			<?php
 				if($footer_column == '1' || $footer_column == '2' ||  $footer_column == '3' || $footer_column == '4'){
-				echo '<div class="column-'.$footer_column.'">';
+				echo '<div class="column-'.absint($footer_column).'">';
 					if ( is_active_sidebar( 'excellent_footer_1' ) ) :
 						dynamic_sidebar( 'excellent_footer_1' );
 					endif;
-				echo '</div><!-- end .column'.$footer_column. '  -->';
+				echo '</div><!-- end .column'.absint($footer_column). '  -->';
 				}
 				if($footer_column == '2' ||  $footer_column == '3' || $footer_column == '4'){
-				echo '<div class="column-'.$footer_column.'">';
+				echo '<div class="column-'.absint($footer_column).'">';
 					if ( is_active_sidebar( 'excellent_footer_2' ) ) :
 						dynamic_sidebar( 'excellent_footer_2' );
 					endif;
-				echo '</div><!--end .column'.$footer_column.'  -->';
+				echo '</div><!--end .column'.absint($footer_column).'  -->';
 				}
 				if($footer_column == '3' || $footer_column == '4'){
-				echo '<div class="column-'.$footer_column.'">';
+				echo '<div class="column-'.absint($footer_column).'">';
 					if ( is_active_sidebar( 'excellent_footer_3' ) ) :
 						dynamic_sidebar( 'excellent_footer_3' );
 					endif;
-				echo '</div><!--end .column'.$footer_column.'  -->';
+				echo '</div><!--end .column'.absint($footer_column).'  -->';
 				}
 				if($footer_column == '4'){
-				echo '<div class="column-'.$footer_column.'">';
+				echo '<div class="column-'.absint($footer_column).'">';
 					if ( is_active_sidebar( 'excellent_footer_4' ) ) :
 						dynamic_sidebar( 'excellent_footer_4' );
 					endif;
-				echo '</div><!--end .column'.$footer_column.  '-->';
+				echo '</div><!--end .column'.absint($footer_column).  '-->';
 				}
 				?>
 			</div> <!-- end .widget-area -->
