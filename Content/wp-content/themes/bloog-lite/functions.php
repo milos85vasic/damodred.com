@@ -111,6 +111,10 @@ function bloog_lite_scripts() {
 	wp_enqueue_style( 'bloog-lite-style', get_stylesheet_uri() );
     wp_enqueue_style( 'bloog-lite-respond', get_template_directory_uri() . '/css/responsive.css', array() );
 
+    if(is_rtl()){
+		wp_enqueue_style( 'bloog-lite-rtl', get_template_directory_uri() . '/css/rtl.css', array() );    	
+    }
+
 	wp_enqueue_script( 'bloog-lite-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
     wp_enqueue_script( 'bloog-lite-customjs', get_template_directory_uri() . '/js/custom.js', array('jquery'), '4.2.2', true );
     

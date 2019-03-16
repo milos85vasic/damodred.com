@@ -306,3 +306,7 @@ a.about_paypal { font-size: 12px; font-style: italic; }
 	.woocommerce .juliet-products {margin-right:-30px;justify-content: start;}
 }
 @media (min-width:992px) { .woocommerce .juliet-products .juliet-product-item { width: 25%; }
+	.woocommerce .juliet-products .juliet-product-item.juliet-product-item-2 {width: 50%;}
+	.woocommerce .juliet-products .juliet-product-item.juliet-product-item-3 {width: 33.33%;}
+	.woocommerce .juliet-products .juliet-product-item.juliet-product-item-5 {width: 20%;}
+}

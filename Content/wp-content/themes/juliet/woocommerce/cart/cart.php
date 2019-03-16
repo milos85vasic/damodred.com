@@ -13,14 +13,12 @@
  * @see     https://docs.woocommerce.com/document/template-structure/
  * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 3.4.0
+ * @version 3.5.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
-wc_print_notices();
 
 do_action( 'woocommerce_before_cart' ); ?>
 
@@ -31,11 +29,11 @@ do_action( 'woocommerce_before_cart' ); ?>
             <thead>
                 <tr>
                     <th class="product-remove">&nbsp;</th>
-                    <th class="product-thumbnail"><?php _e( 'Product', 'juliet' ); ?></th>
-                    <th class="product-name"><?php _e( 'Product', 'juliet' ); ?></th>
-                    <th class="product-price"><?php _e( 'Price', 'juliet' ); ?></th>
-                    <th class="product-quantity"><?php _e( 'Quantity', 'juliet' ); ?></th>
-                    <th class="text-right"><?php _e( 'Total', 'juliet' ); ?></th>
+                    <th class="product-thumbnail"><?php esc_html_e( 'Product', 'juliet' ); ?></th>
+                    <th class="product-name"><?php esc_html_e( 'Product', 'juliet' ); ?></th>
+                    <th class="product-price"><?php esc_html_e( 'Price', 'juliet' ); ?></th>
+                    <th class="product-quantity"><?php esc_html_e( 'Quantity', 'juliet' ); ?></th>
+                    <th class="text-right"><?php esc_html_e( 'Total', 'juliet' ); ?></th>
                 </tr>
             </thead>
             <tbody>
@@ -77,23 +75,24 @@ do_action( 'woocommerce_before_cart' ); ?>
 
                         <td class="table-cart-name product-name" data-title="<?php esc_attr_e( 'Product', 'juliet' ); ?>"><?php
 						if ( ! $product_permalink ) {
-							echo apply_filters( 'woocommerce_cart_item_name', $_product->get_name(), $cart_item, $cart_item_key ) . '&nbsp;';
+							echo wp_kses_post( apply_filters( 'woocommerce_cart_item_name', $_product->get_name(), $cart_item, $cart_item_key ) . '&nbsp;' );
 						} else {
-							echo apply_filters( 'woocommerce_cart_item_name', sprintf( '<a href="%s">%s</a>', esc_url( $product_permalink ), $_product->get_name() ), $cart_item, $cart_item_key );
+							echo wp_kses_post( apply_filters( 'woocommerce_cart_item_name', sprintf( '<a href="%s">%s</a>', esc_url( $product_permalink ), $_product->get_name() ), $cart_item, $cart_item_key ) );
 						}
 
+						do_action( 'woocommerce_after_cart_item_name', $cart_item, $cart_item_key );
 						// Meta data.
 						echo wc_get_formatted_cart_item_data( $cart_item );
 
 						// Backorder notification.
 						if ( $_product->backorders_require_notification() && $_product->is_on_backorder( $cart_item['quantity'] ) ) {
-							echo '<p class="backorder_notification">' . esc_html__( 'Available on backorder', 'juliet' ) . '</p>';
+							echo wp_kses_post( apply_filters( 'woocommerce_cart_item_backorder_notification', '<p class="backorder_notification">' . esc_html__( 'Available on backorder', 'juliet' ) . '</p>', $product_id ) );
 						}
 						?></td>
 
                         <td class="table-cart-price product-price" data-title="<?php esc_attr_e( 'Price', 'juliet' ); ?>">
 							<?php
-								echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key );
+								echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key ); // PHPCS: XSS ok.
 							?>
 						</td>
 
@@ -110,7 +109,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 							), $_product, false );
 						}
 
-						echo apply_filters( 'woocommerce_cart_item_quantity', $product_quantity, $cart_item_key, $cart_item );
+						echo apply_filters( 'woocommerce_cart_item_quantity', $product_quantity, $cart_item_key, $cart_item ); // PHPCS: XSS ok.
 						?></td>
 
                         <td class="table-cart-total product-subtotal" data-title="<?php esc_attr_e( 'Total', 'juliet' ); ?>">
@@ -151,7 +150,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 		</div>
 		<?php do_action( 'woocommerce_cart_actions' ); ?>
 
-		<?php wp_nonce_field( 'woocommerce-cart' ); ?>
+		<?php wp_nonce_field( 'woocommerce-cart', 'woocommerce-cart-nonce' ); ?>
 	</div>
     <?php do_action( 'woocommerce_after_cart_contents' ); ?>
     <?php do_action( 'woocommerce_after_cart_table' ); ?>
@@ -169,4 +168,4 @@ do_action( 'woocommerce_before_cart' ); ?>
 	?>
 </div>
 
-<?php do_action( 'woocommerce_after_cart' ); ?>
+<?php do_action( 'woocommerce_after_cart' );

@@ -13,7 +13,7 @@
  * @see 	    https://docs.woocommerce.com/document/template-structure/
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     3.2.0
+ * @version     3.5.0
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
@@ -55,10 +55,6 @@ if ( ! comments_open() ) {
 				echo '</nav>';
 			endif; ?>
 
-		<?php else : ?>
-
-			<!-- <p class="woocommerce-noreviews"><?php _e( 'There are no reviews yet.', 'juliet' ); ?></p> -->
-
 		<?php endif; ?>
 	</div>
 
@@ -69,7 +65,7 @@ if ( ! comments_open() ) {
 				<?php
 					$commenter = wp_get_current_commenter();
                     if ( get_option( 'woocommerce_enable_review_rating' ) === 'yes' ) {
-                        $comment_field = 
+                        $comment_field =
                             '<div class="row form-group comment-form-rating">
                                 <div class="col-md-2 form-label">' . esc_html__( 'Your rating', 'juliet' ) . ' <span class="asterisk">*</span></div>
                                 <div class="col-md-8"><select name="rating" id="rating" aria-required="true" required>
@@ -88,7 +84,7 @@ if ( ! comments_open() ) {
                     $comment_textarea = '
                         <div class="row form-group comment-form-comment">
                             <div class="col-md-2 form-label">' . esc_html__( 'Your review', 'juliet' ) . ' <span class="asterisk">*</span></div>
-                            <div class="col-md-8"><textarea id="comment" class="form-control" name="comment" rows="8" aria-required="true" required></textarea></div>
+                            <div class="col-md-8"><textarea id="comment" class="form-control" name="comment" cols="45" rows="8" aria-required="true" required></textarea></div>
                         </div>';
 
                     $commend_field = $comment_field . $comment_textarea;
@@ -106,19 +102,16 @@ if ( ! comments_open() ) {
 						'title_reply_before'   => '<h2 id="reply-title" class="comment-reply-title">',
 						'title_reply_after'    => '</h2>',
                         'comment_field'        => $commend_field,
-                        'comment_notes_before'  => '<p class="form-desc">Your email address will not be published. Required fields are marked <span class="asterisk">*</span></p>',
 						'comment_notes_after'  => '',
 						'fields'               => array(
-                                                    'author' => 
-                                                        '<div class="row form-group comment-form-author">
-                                                            <div class="col-md-2 form-label">' . esc_html__( 'Name', 'juliet' ) . ' <span class="asterisk">*</span></div>' .
-                                                            '<div class="col-md-8"><input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30" class="form-control" aria-required="true" required /></div>
-                                                        </div>',
-                                                    'email'  => 
-                                                        '<div class="row form-group comment-form-author">
-                                                            <div class="col-md-2 form-label">' . esc_html__( 'Email Address', 'juliet' ) . ' <span class="asterisk">*</span></div>' .
-                                                            '<div class="col-md-8"><input id="email" name="email" type="email" value="' . esc_attr( $commenter['comment_author_email'] ) . '" size="30" class="form-control" aria-required="true" required /></div>
-                                                        </div>',
+                            'author' => '<div class="row form-group comment-form-author">
+		                                    <div class="col-md-2 form-label">' . esc_html__( 'Name', 'juliet' ) . ' <span class="asterisk">*</span></div>' .
+		                                    '<div class="col-md-8"><input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30" class="form-control" aria-required="true" required /></div>
+		                                </div>',
+                            'email'  => '<div class="row form-group comment-form-author">
+		                                    <div class="col-md-2 form-label">' . esc_html__( 'Email Address', 'juliet' ) . ' <span class="asterisk">*</span></div>' .
+		                                    '<div class="col-md-8"><input id="email" name="email" type="email" value="' . esc_attr( $commenter['comment_author_email'] ) . '" size="30" class="form-control" aria-required="true" required /></div>
+		                                </div>',
 						),
 						'label_submit'  => __( 'Submit', 'juliet' ),
 						'class_submit' => 'btn btn-dark btn-block',

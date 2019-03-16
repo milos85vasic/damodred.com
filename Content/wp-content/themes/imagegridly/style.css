@@ -4,7 +4,7 @@ Theme URI: https://superbthemes.com/imagegridly/image-gridly-info/
 Author: themeeverest
 Author URI: https://superbthemes.com/
 Description: Image Gridly is your seo friendly & responsive theme made for photography portfolio, blogging, newspapers or journalist writing. The code is clean so your website will be quick and load fast with great page speed. The theme is simple to setup but has a lot of features for both affiliate marketing, i.e. lots of advertisement space for affiliate programs such as Google AdSense - of course this kind of website requires a SEO optimized, creative & modern theme which Image Gridly is. Writers is a true multi purpose theme, Beaver Pagebuilder is implemented so you can create your corporate business landing page, an elegant agency one page or a simply photography portfolio. Authors & bloggers can easily create a simple and minimalistic blog and customize it to a niche with the header, so you can write about anything from food, travel, fashion, lifestyle, reviews, products or other entertainment niches. To sum it up the theme is SEO optimised, responsive so it works on tablets, desktop, mobile phones, on every device, such as an Apple or Android. The theme allows you to create a news paper or 1 page / single page, coach, school or education conference website with very low amount of effort required since the design looks beautiful out of box.
-Version: 1.3
+Version: 1.4
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: imagegridly
@@ -2054,7 +2054,7 @@ object {
 }
 .main-navigation ul li a {
 	color: #000;
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 15px;
 	padding: 15px 1rem; 
 	text-decoration: none;
@@ -2914,7 +2914,7 @@ aside#secondary section:first-of-type {
 }
 .single .post-data-text * {
 	color: #afafaf;
-	font-weight: 400;
+	font-weight: 600;
 	text-align: left;
 	font-size: 15px;
 	margin-top: 0px;
@@ -2931,6 +2931,9 @@ aside#secondary section:first-of-type {
 	bottom: 0;
 	right: 0;
 }
+.post-data-text {
+	margin-top:10px;
+}
 .featured-img-box {
 	float: left;
 	width: 100%;
@@ -2946,7 +2949,7 @@ aside#secondary section:first-of-type {
 	color:#fff;
 }
 .featured-img-box .entry-date {
-	font-weight: 400;
+	font-weight: 700;
 	color:#fab526;
 	font-size: 15px;
 } 
@@ -2964,5 +2967,13 @@ aside#secondary section:first-of-type {
 	margin:0 0 5px;
 	line-height: 135%;
 }
+.all-blog-articles header { 
+	float: left; 
+	width: 100%; 
+	display: inline-block; 
+}
 
-.all-blog-articles header { float: left; width: 100%; display: inline-block; }
+body * {
+	 -webkit-font-smoothing: antialiased; 
+	 -moz-osx-font-smoothing: grayscale
+}

@@ -364,4 +364,21 @@ function juliet_is_active_woocommerce_sidebar(){
 		if(is_active_sidebar('sidebar-woocommerce-checkout')) return true;
 	}
 }
+
+/**
+ * Add classes to order button.
+ *
+ * This function is attached to 'woocommerce_order_button_html'
+ * filter hook.
+ *
+ * @param  string $button Order button markup.
+ * @return string         Returns filtered order button markup.
+ */
+function lyrathemes_woocommerce_order_button_html( $button ) {
+    // The text of the button
+    $order_button_text = esc_html__( 'Place order', 'juliet' );
+
+    return '<button type="submit" class="btn btn-dark btn-xlg btn-block button alt" name="woocommerce_checkout_place_order" id="place_order" value="' . esc_attr( $order_button_text ) . '" data-value="' . esc_attr( $order_button_text ) . '">' . esc_html( $order_button_text ) . '</button>';
+}
+add_filter( 'woocommerce_order_button_html', 'lyrathemes_woocommerce_order_button_html' );
 ?>

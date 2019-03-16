@@ -57,6 +57,9 @@ Fonts
 
 
 == Changelog ==
+= 1.0.21 - February 26 2019 =
+** Added RTL Language support for designs.
+
 = 1.0.1.20 - September 5 2018 =
 ** Revised demo import issues.
 ** Added information

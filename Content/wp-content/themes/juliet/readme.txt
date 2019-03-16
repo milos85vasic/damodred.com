@@ -2,8 +2,8 @@
 
 Author: LyraThemes www.lyrathemes.com
 Requires at least: WordPress 4.5
-Tested up to: WordPress 4.9.8
-Version: 2.0.1
+Tested up to: WordPress 5.1
+Version: 2.0.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, featured-images, footer-widgets, sticky-post, theme-options, threaded-comments, translation-ready, blog, food-and-drink, entertainment, photography
@@ -86,15 +86,5 @@ The theme uses the following third-party resources:
 * slick 1.6.0 (c) Ken Wheeler. MIT. https://github.com/kenwheeler/slick
 
 == Sample Images ==
-
-featured1.jpg	https://pixabay.com/en/desk-office-desk-interior-notebook-1082044/
-featured2.jpg	https://unsplash.com/photos/GwNsgnSAfQM
-featured3.jpg	https://pixabay.com/en/book-read-abstract-literature-2208046/
-featured4.jpg	https://unsplash.com/photos/RTXwyy3ctXE
-
-thumb1.jpg	https://unsplash.com/photos/BmsmOjGQegU 
-thumb2.jpg	https://unsplash.com/photos/4BHcRGCDXQI
-thumb3.jpg	https://unsplash.com/new?photo=9Jq5UvyXr8A 
-thumb4.jpg	https://unsplash.com/new?photo=9Jq5UvyXr8A 
 
 header.jpg	https://unsplash.com/photos/GJMlSBS0FhU

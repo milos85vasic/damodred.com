@@ -32,6 +32,18 @@ if( is_shop()|| is_product_category() || is_product_tag() ) {
 } else {
     $block_class = 'juliet-product-slick-item';
 }
+$columns    = wc_get_loop_prop( 'columns', wc_get_default_products_per_row() );
+switch ($columns) {
+    case 2:
+        $block_class .= " juliet-product-item-2";
+        break;
+    case 3:
+        $block_class .= " juliet-product-item-3";
+        break;
+    case 5:
+        $block_class .= " juliet-product-item-5";
+        break;
+}
 ?>
 <div class="<?php echo $block_class; ?>">
     <div <?php post_class( 'juliet-loop-product' ); ?>>

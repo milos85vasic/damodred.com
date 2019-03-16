@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Pinterest Pin It Button On Image Hover And After Post & Page Content
- * Version: 2.6.7
+ * Version: 2.6.9
  * Description: Pinterest pin it button on image hover plugin provides facility to pins your blog posts, pages and images into your Pinterest account boards.
  * Author: Weblizar
  * Author URI: https://weblizar.com/plugins/
@@ -92,7 +92,7 @@ function wl_pinit_js() {
 			var nopin_img_src = "<?php echo $imags_url; ?>";
 			jQuery("img").each(function(){
 				if(jQuery(this).attr("src") == nopin_img_src){
-					jQuery(this).attr("nopin", "nopin");
+					jQuery(this).attr("data-pin-nopin", "true");
 				}
 			});
 		});	

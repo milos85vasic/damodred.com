@@ -1,4 +1,10 @@
 
+= 2.0.2
+* 02/24/2019
+* Update: WooCommerce templates updated
+* Update: Sample images - according to new wordpress.org requirements
+* Fix: WooCommerce - Products per row was not working
+
 = 2.0.1
 * 08/05/2018
 * New: Recommended WPForms via TGMPA
